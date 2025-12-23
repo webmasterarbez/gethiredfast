@@ -1,0 +1,324 @@
+# Course OS - Market Positioning
+# Course: Get Hired Fast for Community College Students
+# Phase 3: Audience & Market Discovery
+# Generated: 2025-12-22
+
+# =============================================================================
+# POSITIONING STATEMENT
+# =============================================================================
+
+positioning:
+
+  statement: |
+    For community college students who feel overwhelmed, under-qualified, and
+    uncertain about how to launch their careers, Get Hired Fast is the only
+    comprehensive job search course that combines a recruiter's insider playbook
+    with psychological support and step-by-step guidance, helping students find
+    jobs 55% faster while building lasting career confidence.
+
+  tagline: "From Overwhelmed to Employed — Your Step-by-Step Career Launchpad"
+
+  elevator_pitch: |
+    64% of community college students never visit their career center. They're
+    working, studying, and don't have time for appointments. Get Hired Fast
+    gives them everything a career counselor would — resume help, interview
+    prep, networking scripts, salary negotiation — in a self-paced format
+    with built-in accountability. Created by a recruiter with 22 years of
+    hiring experience, it's the course she wishes every candidate had taken.
+
+# =============================================================================
+# TARGET MARKET
+# =============================================================================
+
+target_market:
+
+  primary:
+    segment: "Community college students (18-30)"
+    size: "5.5 million students enrolled in US community colleges"
+    characteristics:
+      - "First-generation college students (~50%)"
+      - "Working while studying"
+      - "Limited professional experience"
+      - "Time-constrained"
+      - "Mobile-first learners"
+    pain_points:
+      - "Don't know where to start"
+      - "Feel unqualified for 'real' jobs"
+      - "No professional network"
+      - "Resume feels empty"
+      - "Networking seems fake/scary"
+
+  secondary:
+    segment: "Career changers at community college"
+    characteristics:
+      - "Returning to school for new career"
+      - "Have experience but in 'wrong' field"
+      - "Time-constrained (working full-time)"
+      - "May face ageism concerns"
+    pain_points:
+      - "How to translate existing experience"
+      - "Competing with younger candidates"
+      - "Can't afford pay cut for entry-level"
+
+  institutional:
+    segment: "Community college career services"
+    pain_points:
+      - "2,000:1 student-to-counselor ratio"
+      - "64% of students never use services"
+      - "Need scalable content"
+      - "Budget constraints"
+      - "Need to demonstrate outcomes"
+
+# =============================================================================
+# UNIQUE VALUE PROPOSITION
+# =============================================================================
+
+unique_value_proposition:
+
+  core_promise: "Find jobs 55% faster than average"
+
+  supporting_claims:
+    - claim: "Comprehensive in one place"
+      proof: "145 videos covering entire job search journey"
+      vs_alternatives: "No searching through scattered YouTube or LinkedIn Learning"
+
+    - claim: "Insider recruiter perspective"
+      proof: "Created by 22-year recruiting veteran"
+      vs_alternatives: "Not generic career advice — actual hiring manager insights"
+
+    - claim: "Works for limited experience"
+      proof: "Designed specifically for CC students with thin resumes"
+      vs_alternatives: "Not repackaged professional content"
+
+    - claim: "Addresses the psychology"
+      proof: "16 videos on mindset, barriers, imposter syndrome"
+      vs_alternatives: "No competitor combines tactical + psychological"
+
+    - claim: "Built-in accountability"
+      proof: "Daily Action Tracker system"
+      vs_alternatives: "Not just content — a system that keeps you on track"
+
+  transformation:
+    before:
+      - "Overwhelmed, don't know where to start"
+      - "Resume feels empty"
+      - "Networking seems impossible"
+      - "Imposter syndrome and self-doubt"
+      - "Applying randomly, getting nowhere"
+    after:
+      - "Clear step-by-step action plan"
+      - "Resume that highlights real strengths"
+      - "Networking scripts and confidence"
+      - "Knows how to tell their story"
+      - "Targeted approach, faster results"
+
+# =============================================================================
+# KEY DIFFERENTIATORS
+# =============================================================================
+
+differentiators:
+
+  - id: diff-001
+    name: "Community College Focus"
+    importance: critical
+    description: |
+      The only career course designed specifically for CC students,
+      addressing first-gen challenges, limited experience, and the
+      real constraints of working while studying.
+    proof_points:
+      - "Examples and scenarios use student-relevant situations"
+      - "Resume content for part-time jobs and projects"
+      - "First-gen specific guidance"
+      - "Handshake platform integration"
+
+  - id: diff-002
+    name: "Recruiter Insider Access"
+    importance: high
+    description: |
+      Cat Breet brings 22+ years on the hiring side — not academic
+      theory but real knowledge of what gets candidates hired.
+    proof_points:
+      - "Knows what resumes get thrown out and why"
+      - "Understands recruiter screening process"
+      - "Reveals hidden job market strategies"
+      - "Shares actual negotiation tactics that work"
+
+  - id: diff-003
+    name: "Unmatched Negotiation Depth"
+    importance: high
+    description: |
+      13 videos dedicated to salary negotiation and offer evaluation —
+      no competitor comes close. Critical because 84% of employers
+      will negotiate, but only 38% of grads try.
+    proof_points:
+      - "Salary research methodology"
+      - "Total compensation framework"
+      - "Scripts for asking and countering"
+      - "When/how to negotiate at entry-level"
+
+  - id: diff-004
+    name: "Mindset & Barrier Content"
+    importance: high
+    description: |
+      16 videos addressing the psychological side: imposter syndrome,
+      confidence, fear of rejection, perfectionism paralysis. No
+      competitor addresses the mental game of job searching.
+    proof_points:
+      - "Daily Action Tracker for accountability"
+      - "Gratitude and mindset exercises"
+      - "Barrier-breaking strategies"
+      - "Real talk on discrimination and ageism"
+
+  - id: diff-005
+    name: "Comprehensive Interview Prep"
+    importance: high
+    description: |
+      32 videos on interview preparation — the most comprehensive
+      available. Covers recruiter screens, hiring manager interviews,
+      behavioral questions, video interviews, and follow-up.
+    proof_points:
+      - "STAR method mastery"
+      - "Question bank with answer strategies"
+      - "AI video interview preparation (HireVue)"
+      - "Mock interview guidance"
+
+  - id: diff-006
+    name: "Scripts and Templates"
+    importance: medium
+    description: |
+      Reduces activation energy for scary tasks by providing exactly
+      what to say in networking, interviews, negotiation, and follow-up.
+    proof_points:
+      - "Networking outreach scripts"
+      - "Informational interview questions"
+      - "Negotiation talking points"
+      - "Thank you note templates"
+
+  - id: diff-007
+    name: "Accountability System"
+    importance: medium
+    description: |
+      Daily Action Tracker provides built-in accountability without
+      requiring a cohort or coach. Students know what to do each day
+      and can track their progress.
+    proof_points:
+      - "Activity scoring system"
+      - "Progress tracking"
+      - "What's working / what's not analysis"
+      - "Built-in celebration of wins"
+
+# =============================================================================
+# COMPETITIVE ADVANTAGES
+# =============================================================================
+
+competitive_advantages:
+
+  vs_big_interview:
+    they_win: "AI practice and feedback, larger question bank"
+    we_win: "Broader coverage, negotiation depth, mindset content, CC focus"
+    positioning: "Complete job search curriculum, not just interview prep"
+
+  vs_linkedin_learning:
+    they_win: "Massive library, already at most colleges, LinkedIn integration"
+    we_win: "Curated curriculum, no decision paralysis, accountability system"
+    positioning: "Focused path vs. overwhelming options"
+
+  vs_forage:
+    they_win: "Free, real company simulations, portfolio building"
+    we_win: "Actually teaches how to get hired, interviews, negotiation"
+    positioning: "Complementary — use Forage for experience, us for job search"
+
+  vs_career_centers:
+    they_win: "Free for students, personalized advice, institutional support"
+    we_win: "Available 24/7, reaches 64% who don't visit, comprehensive"
+    positioning: "Extension of career center, not replacement"
+
+  vs_youtube_tiktok:
+    they_win: "Free, massive content, entertaining"
+    we_win: "Curated quality, structured curriculum, proven methodology"
+    positioning: "The depth behind the quick tips"
+
+# =============================================================================
+# MESSAGING FRAMEWORK
+# =============================================================================
+
+messaging:
+
+  primary_message: |
+    You have more to offer than you think. Learn how to show employers
+    what you're really capable of — and land a job you're excited about.
+
+  supporting_messages:
+    for_first_gen: |
+      No family career guidance? No problem. This course teaches you
+      everything you need to know about the professional world — from
+      networking to negotiation — so you can compete with anyone.
+
+    for_limited_experience: |
+      Think you don't have enough experience? Think again. Learn how
+      to turn your class projects, part-time jobs, and activities into
+      resume gold that gets you interviews.
+
+    for_anxious_achievers: |
+      Perfectionism keeping you stuck? This course gives you permission
+      to be imperfect and a step-by-step system to start applying —
+      even when you don't feel "ready."
+
+    for_career_changers: |
+      Switching fields? Your experience still counts. Learn how to
+      translate your transferable skills and tell a career change
+      story that gets employers excited.
+
+  objection_handlers:
+
+    - objection: "I can't afford it"
+      response: |
+        Your college may provide access as part of career services.
+        If not, consider the ROI: just one salary negotiation tip
+        can pay for the course many times over.
+
+    - objection: "I don't have time"
+      response: |
+        The course is self-paced, with 10-15 minute video lessons.
+        Watch during lunch, on your commute, or between classes.
+        Investing 5 hours now saves months of unfocused job searching.
+
+    - objection: "I can find this on YouTube"
+      response: |
+        You can, but will you? And will it be current, quality, and
+        organized in a way that actually works? Our proven system
+        has helped thousands find jobs 55% faster.
+
+    - objection: "I'll just use my career center"
+      response: |
+        Please do! Career centers are great. But with 2,000 students
+        per counselor, this course ensures you never have to wait
+        for an appointment to keep your job search moving.
+
+# =============================================================================
+# SUCCESS METRICS
+# =============================================================================
+
+success_metrics:
+
+  primary:
+    - metric: "Time to employment"
+      target: "55% faster than national average"
+      baseline: "22 weeks average → 10 weeks or less"
+
+    - metric: "Course completion rate"
+      target: "75%+"
+      industry_average: "~15% for self-paced courses"
+
+  secondary:
+    - metric: "Student NPS"
+      target: "50+"
+
+    - metric: "Interview rate"
+      target: "Students get 2+ interviews within 60 days"
+
+    - metric: "Offer rate"
+      target: "60%+ receive offer within 90 days of completion"
+
+    - metric: "Salary satisfaction"
+      target: "70%+ at or above target salary"

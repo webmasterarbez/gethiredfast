@@ -1,0 +1,392 @@
+# Course OS - Competitor Analysis
+# Course: Get Hired Fast for Community College Students
+# Phase 3: Audience & Market Discovery
+# Generated: 2025-12-22
+
+# =============================================================================
+# DIRECT COMPETITORS
+# =============================================================================
+
+direct_competitors:
+
+  - id: comp-001
+    name: "Big Interview"
+    website: "biginterview.com"
+    type: "Interview preparation platform"
+    target_audience: "Job seekers, career changers, students"
+
+    pricing:
+      model: "Subscription"
+      individual:
+        monthly: "$39"
+        quarterly: "$99"
+        lifetime: "$299"
+      institutional: "Custom pricing (700+ universities)"
+      free_tier: false
+      money_back: "30-day guarantee"
+
+    features:
+      strengths:
+        - "90+ video lessons"
+        - "AI feedback on practice answers"
+        - "10,000+ question library"
+        - "Resume builder included"
+        - "Industry-specific question sets"
+        - "Interview Roulette (randomized practice)"
+        - "Used by Yale, Stanford, Columbia"
+      weaknesses:
+        - "AI feedback can be generic"
+        - "Focused primarily on interviews"
+        - "Less networking content"
+        - "No job search strategy coverage"
+        - "No mindset/barrier content"
+
+    content_depth:
+      interview_prep: "Excellent (core focus)"
+      resume: "Good"
+      linkedin: "Limited"
+      networking: "Minimal"
+      negotiation: "Limited"
+      mindset: "None"
+      ai_tools: "AI feedback built in"
+
+    competitive_position:
+      market_share: "Leading interview prep platform"
+      brand_recognition: "High in academia"
+      user_base: "1M+ job seekers, 700+ institutions"
+
+    comparison_to_our_course:
+      advantages_they_have:
+        - "AI-powered practice and feedback"
+        - "Larger question bank (10,000+)"
+        - "Interactive practice mode"
+        - "Institutional brand recognition"
+      advantages_we_have:
+        - "Broader job search coverage"
+        - "Unique negotiation depth (13 videos)"
+        - "Mindset and barrier content"
+        - "Networking scripts and strategies"
+        - "Daily Action Tracker accountability"
+        - "Designed for CC students specifically"
+
+  # ---------------------------------------------------------------------------
+
+  - id: comp-002
+    name: "LinkedIn Learning (Job Search Collection)"
+    website: "linkedin.com/learning"
+    type: "Video learning platform"
+    target_audience: "Professionals, students, career changers"
+
+    pricing:
+      model: "Subscription or institutional license"
+      individual:
+        monthly: "$29.99"
+        annual: "$239.88 ($19.99/mo)"
+      institutional: "Often free through universities/libraries"
+      free_tier: "1-month trial, free with Premium"
+
+    features:
+      strengths:
+        - "24,900+ courses total"
+        - "Expert instructors from industry"
+        - "Certificates of completion"
+        - "LinkedIn profile integration"
+        - "Wide topic variety"
+        - "35+ role-based learning paths"
+        - "Available at most universities"
+      weaknesses:
+        - "Content scattered across many courses"
+        - "No cohesive job search curriculum"
+        - "No personalized guidance"
+        - "No practice tools or AI feedback"
+        - "Generic content, not student-specific"
+        - "Easy to get lost in options"
+
+    content_depth:
+      interview_prep: "Good (many courses, fragmented)"
+      resume: "Good (multiple courses)"
+      linkedin: "Excellent (owned by LinkedIn)"
+      networking: "Good (but generic)"
+      negotiation: "Moderate"
+      mindset: "Some courses exist"
+      ai_tools: "Courses on AI tools exist"
+
+    competitive_position:
+      market_share: "Dominant professional learning platform"
+      brand_recognition: "Very high"
+      user_base: "16,000+ organizations"
+
+    comparison_to_our_course:
+      advantages_they_have:
+        - "Massive content library"
+        - "Already available at most colleges"
+        - "LinkedIn platform integration"
+        - "Recognized certificates"
+      advantages_we_have:
+        - "Curated, cohesive curriculum"
+        - "CC student-specific focus"
+        - "Scripts and templates included"
+        - "Accountability system (Daily Action Tracker)"
+        - "Recruiter insider perspective"
+        - "Deeper negotiation content"
+        - "No decision paralysis from options"
+
+  # ---------------------------------------------------------------------------
+
+  - id: comp-003
+    name: "Forage"
+    website: "theforage.com"
+    type: "Virtual job simulations"
+    target_audience: "Students seeking practical experience"
+
+    pricing:
+      model: "Free"
+      individual: "Completely free"
+      institutional: "Free for students"
+      free_tier: true
+
+    features:
+      strengths:
+        - "100% free"
+        - "Real company simulations (JPMorgan, Deloitte, etc.)"
+        - "Practical skill building"
+        - "Certificates for resume"
+        - "6-8 hour experiences"
+        - "Industry exposure without application barriers"
+        - "Used by top universities (Berkeley, Yale, etc.)"
+      weaknesses:
+        - "Not a job search course"
+        - "No interview prep"
+        - "No resume/LinkedIn help"
+        - "No negotiation content"
+        - "Company-specific, not universal skills"
+        - "Simulation ≠ actual job search"
+
+    content_depth:
+      interview_prep: "None"
+      resume: "Provides content to add"
+      linkedin: "None"
+      networking: "None"
+      negotiation: "None"
+      mindset: "None"
+      ai_tools: "Some simulations use AI"
+
+    competitive_position:
+      market_share: "Growing in virtual experience space"
+      brand_recognition: "High among students"
+      user_base: "Large student base globally"
+
+    comparison_to_our_course:
+      advantages_they_have:
+        - "Completely free"
+        - "Real company names"
+        - "Tangible portfolio piece"
+        - "Industry exploration"
+      advantages_we_have:
+        - "Complete job search curriculum"
+        - "Interview, resume, negotiation coverage"
+        - "Actually teaches HOW to get hired"
+        - "Mindset and confidence building"
+        - "Networking strategies"
+      potential_partnership: |
+        Forage complements our course. Students could complete Forage
+        simulations to build experience, then use our course to land jobs.
+
+# =============================================================================
+# INDIRECT COMPETITORS
+# =============================================================================
+
+indirect_competitors:
+
+  - id: comp-004
+    name: "College Career Centers"
+    type: "In-house institutional services"
+
+    services:
+      - "Resume reviews (often appointment-based)"
+      - "Mock interviews"
+      - "Career fairs"
+      - "Job boards (Handshake)"
+      - "Career counseling"
+      - "Workshops"
+
+    limitations:
+      - "2,000:1 student-to-counselor ratio"
+      - "64% of students never use services"
+      - "Appointment-based, not on-demand"
+      - "Quality varies by institution"
+      - "Limited evening/weekend availability"
+      - "No comprehensive curriculum"
+
+    comparison_to_our_course:
+      complementary: true
+      notes: |
+        Career centers are partners, not competitors. Our course
+        extends their reach to the 64% who never visit. It provides
+        on-demand, comprehensive content that frees counselors
+        for high-value coaching conversations.
+
+  # ---------------------------------------------------------------------------
+
+  - id: comp-005
+    name: "Free YouTube Career Content"
+    type: "User-generated content"
+
+    characteristics:
+      - "Massive amount of content"
+      - "Variable quality"
+      - "No structured curriculum"
+      - "Ad-supported (interruptions)"
+      - "Some excellent creators, much mediocre"
+      - "No accountability or tracking"
+
+    limitations:
+      - "No curation — students must find quality content"
+      - "No cohesive learning path"
+      - "No worksheets or tools"
+      - "No practice opportunities"
+      - "Outdated content mixed with current"
+
+    comparison_to_our_course:
+      advantages_they_have:
+        - "Free"
+        - "Massive variety"
+        - "Some specialized niche content"
+      advantages_we_have:
+        - "Curated, quality-assured content"
+        - "Cohesive curriculum with progression"
+        - "Downloadable tools and templates"
+        - "Accountability system"
+        - "Proven methodology (22+ years)"
+
+  # ---------------------------------------------------------------------------
+
+  - id: comp-006
+    name: "CareerTok (TikTok Career Content)"
+    type: "Social media content"
+
+    characteristics:
+      - "46% of Gen Z secured jobs through TikTok"
+      - "#CareerTok has 2B+ views"
+      - "Short-form, entertaining format"
+      - "Trend-driven content"
+      - "Mixed quality and accuracy"
+      - "55% admit following misleading advice"
+
+    limitations:
+      - "No structured learning"
+      - "Quality highly variable"
+      - "Creates unrealistic expectations (48%)"
+      - "Entertainment focus over education"
+      - "No depth on complex topics"
+
+    comparison_to_our_course:
+      relationship: "Complement, not compete"
+      notes: |
+        TikTok is where students ARE. We should acknowledge it,
+        potentially reference good creators, and position our
+        course as the structured depth behind the quick tips.
+
+# =============================================================================
+# AI-POWERED TOOLS
+# =============================================================================
+
+ai_tools_landscape:
+
+  - id: tool-001
+    name: "Teal"
+    focus: "Resume builder + job tracking"
+    pricing: "Freemium"
+    strengths:
+      - "AI resume optimization"
+      - "Job application tracking"
+      - "ATS score checking"
+    relevance: "Tool to recommend, not competitor"
+
+  - id: tool-002
+    name: "Jobscan"
+    focus: "ATS optimization"
+    pricing: "Freemium"
+    strengths:
+      - "Resume-to-job matching"
+      - "ATS score checker"
+      - "Keyword analysis"
+    relevance: "Tool to recommend, not competitor"
+
+  - id: tool-003
+    name: "VMock / Resume Worded"
+    focus: "AI resume scoring"
+    pricing: "Often free through universities"
+    strengths:
+      - "Instant feedback"
+      - "Specific improvement suggestions"
+    relevance: "Tool to recommend, not competitor"
+
+  - id: tool-004
+    name: "ChatGPT / Claude"
+    focus: "General AI assistance"
+    pricing: "Free tiers available"
+    strengths:
+      - "Flexible prompting"
+      - "Resume help, interview prep, research"
+    relevance: "Teach students how to use effectively"
+
+# =============================================================================
+# COMPETITIVE POSITIONING SUMMARY
+# =============================================================================
+
+competitive_summary:
+
+  our_unique_position: |
+    The only comprehensive, community-college-specific job search curriculum
+    that combines recruiter insider knowledge with psychological support,
+    delivered in a structured on-demand format with built-in accountability.
+
+  key_differentiators:
+    - differentiator: "CC Student Focus"
+      description: "Designed for first-gen, limited experience, time-constrained students"
+      competitors_lacking: "All"
+
+    - differentiator: "Recruiter Perspective"
+      description: "22+ years insider knowledge from hiring side"
+      competitors_lacking: "Most (LinkedIn has some)"
+
+    - differentiator: "Negotiation Depth"
+      description: "13 videos on salary/offer negotiation"
+      competitors_lacking: "Big Interview, LinkedIn (scattered)"
+
+    - differentiator: "Mindset/Barrier Content"
+      description: "Imposter syndrome, confidence, psychological support"
+      competitors_lacking: "Big Interview, Forage"
+
+    - differentiator: "Daily Action Tracker"
+      description: "Built-in accountability system"
+      competitors_lacking: "All"
+
+    - differentiator: "Scripts for Everything"
+      description: "Networking, negotiation, follow-up templates"
+      competitors_lacking: "LinkedIn Learning"
+
+    - differentiator: "Comprehensive Curriculum"
+      description: "Single cohesive course vs. fragmented content"
+      competitors_lacking: "LinkedIn Learning, YouTube"
+
+  market_gaps_we_fill:
+    - "Community college-specific content (vs. generic professional)"
+    - "First-gen student guidance (no competitors address)"
+    - "Mindset + tactical in one curriculum (usually separate)"
+    - "On-demand comprehensive program (vs. career center appointments)"
+    - "Accountability without cohort (vs. self-paced abandonment)"
+
+  competitive_threats:
+    - threat: "AI tools becoming more sophisticated"
+      mitigation: "Teach AI as tool, add AI content to curriculum"
+
+    - threat: "Big Interview adding more content areas"
+      mitigation: "Double down on CC focus and mindset differentiation"
+
+    - threat: "LinkedIn Learning bundled free at colleges"
+      mitigation: "Position as curated, focused alternative to overwhelming library"
+
+    - threat: "Free YouTube/TikTok content improving"
+      mitigation: "Emphasize structure, accountability, proven methodology"

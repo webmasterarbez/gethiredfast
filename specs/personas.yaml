@@ -1,0 +1,325 @@
+# Course OS - Learner Personas
+# Course: Get Hired Fast for Community College Students
+# Phase 3: Audience & Market Discovery
+# Generated: 2025-12-22
+
+# =============================================================================
+# PERSONA 1: THE TRADITIONAL STUDENT
+# =============================================================================
+
+personas:
+
+  - id: persona-001
+    name: "Maya"
+    archetype: "The First-Gen Striver"
+    tagline: "I want a real career, not just a job"
+
+    demographics:
+      age: 20
+      gender: Female
+      location: "Urban/Suburban"
+      education: "Associate degree in Business Administration (graduating)"
+      work_status: "Part-time retail (20 hrs/week)"
+      living_situation: "Lives with family"
+      first_generation: true
+
+    background:
+      story: |
+        Maya is the first in her family to attend college. Her parents immigrated
+        when she was young and work in service jobs. They're incredibly proud of
+        her but can't offer guidance on professional careers. She's been working
+        at a clothing store since high school and is ready for something more.
+      prior_experience:
+        - "Part-time retail for 3 years"
+        - "Student government treasurer"
+        - "Group projects in business classes"
+        - "No formal internship"
+      career_clarity: "Interested in marketing or HR but not certain"
+
+    psychographics:
+      motivations:
+        - "Make her family proud"
+        - "Financial independence"
+        - "Have a career she's excited about"
+        - "Help support her family eventually"
+      fears:
+        - "Not being taken seriously due to lack of experience"
+        - "Not knowing the 'unwritten rules' of professional world"
+        - "Rejection and feeling like a fraud"
+        - "Choosing the wrong career path"
+      frustrations:
+        - "Doesn't know where to start"
+        - "Resume feels empty"
+        - "Networking feels fake and scary"
+        - "Everyone else seems to know what they're doing"
+      goals:
+        - "Land first professional job within 3 months of graduation"
+        - "Earn at least $45K to start"
+        - "Find a company with growth opportunities"
+
+    learning_context:
+      available_time: "5-7 hours/week"
+      preferred_time: "Evenings after work, weekend mornings"
+      device_preference: "Phone for videos, laptop for worksheets"
+      learning_style: "Visual learner, prefers video with examples"
+      attention_span: "10-15 minute videos ideal"
+      environment: "Shared bedroom, needs headphones"
+
+    barriers:
+      - "No professional network beyond professors"
+      - "Imposter syndrome (severe)"
+      - "Limited professional wardrobe budget"
+      - "No car — limits interview locations"
+      - "Family doesn't understand job search process"
+
+    needs_from_course:
+      must_have:
+        - "Step-by-step guidance (what to do first, second, etc.)"
+        - "Resume help for limited experience"
+        - "Networking scripts (exactly what to say)"
+        - "Interview practice and examples"
+        - "Confidence building"
+      nice_to_have:
+        - "AI tools to speed up applications"
+        - "First-gen specific guidance"
+        - "Professional etiquette basics"
+
+    quotes:
+      - "I know I'm capable, but how do I prove that to employers?"
+      - "Everyone says 'just network' but I don't know anyone"
+      - "My resume is basically blank — what do I even put?"
+      - "What if I get an interview and totally freeze?"
+
+    success_metrics:
+      - "Completes polished resume she's proud of"
+      - "Conducts 3+ informational interviews"
+      - "Lands at least 2 job interviews"
+      - "Receives job offer within 90 days of course completion"
+
+  # ===========================================================================
+  # PERSONA 2: THE CAREER CHANGER
+  # ===========================================================================
+
+  - id: persona-002
+    name: "Marcus"
+    archetype: "The Seasoned Starter"
+    tagline: "I have experience, just not the right kind"
+
+    demographics:
+      age: 28
+      gender: Male
+      location: "Suburban"
+      education: "Associate degree in IT (current student, 1 semester left)"
+      work_status: "Full-time warehouse supervisor"
+      living_situation: "Renting apartment with roommate"
+      first_generation: false
+
+    background:
+      story: |
+        Marcus has worked in warehouse and logistics since graduating high school.
+        He's been promoted twice and now supervises a team of 8. He went back to
+        school for IT because he's tired of physical labor and sees tech as the
+        future. He's worried his warehouse experience won't translate.
+      prior_experience:
+        - "6 years in warehouse/logistics"
+        - "3 years as supervisor (team of 8)"
+        - "Self-taught some coding (Python basics)"
+        - "Built small projects in school"
+      career_clarity: "Targeting help desk/IT support as entry point"
+
+    psychographics:
+      motivations:
+        - "Better work-life balance"
+        - "Higher earning potential"
+        - "Use his brain more than his body"
+        - "Build a sustainable career for long term"
+      fears:
+        - "Being seen as 'too old' for entry-level tech"
+        - "Competing against younger candidates with internships"
+        - "Taking a pay cut to switch careers"
+        - "Not being technical enough"
+      frustrations:
+        - "Hard to study after 8-hour shifts"
+        - "No tech internship experience"
+        - "Worried his real skills aren't recognized"
+        - "LinkedIn feels intimidating"
+      goals:
+        - "Land IT support role within 4 months"
+        - "Match current salary (~$48K) or accept small cut for growth"
+        - "Get foot in door at growing company"
+
+    learning_context:
+      available_time: "4-6 hours/week"
+      preferred_time: "Early mornings before work, lunch breaks"
+      device_preference: "Laptop at home, phone during breaks"
+      learning_style: "Practical, wants actionable steps"
+      attention_span: "Can focus for 20-30 minutes"
+      environment: "Home office setup"
+
+    barriers:
+      - "Limited time due to full-time job"
+      - "Ageism concerns (feels 'old' at 28)"
+      - "No tech industry network"
+      - "Resume shows progression but in 'wrong' field"
+      - "Can't afford unpaid internship"
+
+    needs_from_course:
+      must_have:
+        - "How to translate warehouse leadership to tech"
+        - "Resume framing for career change"
+        - "Salary negotiation (can't take huge cut)"
+        - "Efficient job search strategies (limited time)"
+      nice_to_have:
+        - "IT-specific interview tips"
+        - "How to network into tech"
+        - "Certifications vs. experience debate"
+
+    quotes:
+      - "I've managed people and solved problems for years — that should count"
+      - "Will they even look at me when I'm competing with 22-year-olds?"
+      - "I don't have time to apply to 100 jobs — I need quality over quantity"
+      - "I know I can do this job, I just need someone to give me a chance"
+
+    success_metrics:
+      - "Resume clearly shows transferable leadership skills"
+      - "Understands how to position career change story"
+      - "Lands interviews at 2+ tech companies"
+      - "Negotiates offer without significant pay cut"
+
+  # ===========================================================================
+  # PERSONA 3: THE ANXIOUS ACHIEVER
+  # ===========================================================================
+
+  - id: persona-003
+    name: "Jordan"
+    archetype: "The Paralyzed Perfectionist"
+    tagline: "I need to get this right — there's no room for mistakes"
+
+    demographics:
+      age: 22
+      gender: Non-binary
+      location: "Urban"
+      education: "Associate degree in Graphic Design (graduating with honors)"
+      work_status: "Part-time campus job (library, 15 hrs/week)"
+      living_situation: "Campus housing, moving home after graduation"
+      first_generation: false
+
+    background:
+      story: |
+        Jordan is a high achiever academically (3.8 GPA) but freezes when it comes
+        to job searching. They've won design awards but haven't applied to a single
+        job because nothing feels "ready." Their portfolio isn't "perfect" yet.
+        Their parents expect them to get a job immediately after graduation and
+        the pressure is overwhelming.
+      prior_experience:
+        - "Strong portfolio from school projects"
+        - "Won 2 student design competitions"
+        - "Campus library job (2 years)"
+        - "Freelance logo for friend's business (1)"
+      career_clarity: "Graphic design or UI/UX — but unsure what's realistic"
+
+    psychographics:
+      motivations:
+        - "Live up to their potential"
+        - "Make parents' investment worthwhile"
+        - "Do meaningful creative work"
+        - "Prove they made the right career choice"
+      fears:
+        - "Being rejected and confirming they're not good enough"
+        - "Applying 'wrong' and ruining their chances"
+        - "Interview questions they can't answer perfectly"
+        - "Their portfolio isn't good enough yet"
+      frustrations:
+        - "Overthinks everything, can't take action"
+        - "Compares themselves to designers on Instagram"
+        - "Parents don't understand creative job search"
+        - "Anxiety spikes when thinking about networking"
+      goals:
+        - "Actually start applying (currently at zero applications)"
+        - "Land a design role within 6 months"
+        - "Find a supportive team environment"
+
+    learning_context:
+      available_time: "8-10 hours/week (more time, uses it to worry)"
+      preferred_time: "Late night (can't sleep anyway)"
+      device_preference: "Laptop (designer, values visual quality)"
+      learning_style: "Needs structure and permission to be imperfect"
+      attention_span: "Variable — great when engaged, drifts when anxious"
+      environment: "Dorm room, good setup"
+
+    barriers:
+      - "Perfectionism paralysis (severe)"
+      - "Anxiety about rejection"
+      - "Compares to unrealistic standards (senior designers on social media)"
+      - "No action despite lots of preparation"
+      - "Parents adding pressure"
+
+    needs_from_course:
+      must_have:
+        - "Permission to apply before feeling 'ready'"
+        - "Mindset content on perfectionism"
+        - "Breaking the first application barrier"
+        - "What 'good enough' actually looks like"
+        - "Rejection normalization"
+      nice_to_have:
+        - "Portfolio review tips"
+        - "Design-specific job search"
+        - "How to handle creative interviews"
+
+    quotes:
+      - "What if I apply and they see I'm not actually good?"
+      - "I'll apply once I finish that one more portfolio piece..."
+      - "Everyone else's work looks so much better than mine"
+      - "I've researched job searching for months but haven't applied to anything"
+
+    success_metrics:
+      - "Submits first 5 applications (breaking the ice)"
+      - "Recognizes that rejection is normal, not personal"
+      - "Completes course without perfectionism stalling"
+      - "Develops sustainable job search routine"
+
+# =============================================================================
+# PERSONA SUMMARY
+# =============================================================================
+
+summary:
+  total_personas: 3
+
+  key_segments:
+    - segment: "First-Generation Students"
+      represented_by: "Maya"
+      percentage_of_audience: "~50%"
+      primary_need: "Professional navigation guidance"
+
+    - segment: "Career Changers"
+      represented_by: "Marcus"
+      percentage_of_audience: "~30%"
+      primary_need: "Experience translation and efficiency"
+
+    - segment: "Anxious Achievers"
+      represented_by: "Jordan"
+      percentage_of_audience: "~20%"
+      primary_need: "Mindset shift and action initiation"
+
+  universal_characteristics:
+    - "Time-constrained (working, studying, or both)"
+    - "Limited or no professional network"
+    - "Some level of imposter syndrome"
+    - "Need practical, step-by-step guidance"
+    - "Prefer video content with examples"
+    - "Mobile and desktop access required"
+
+  shared_barriers:
+    - "Limited professional experience"
+    - "Networking anxiety"
+    - "Resume confidence"
+    - "Interview preparation"
+    - "Not knowing 'unwritten rules'"
+
+  design_implications:
+    - "Short, focused video lessons (10-15 min max)"
+    - "Mobile-responsive worksheets and tools"
+    - "Scripts and templates for everything scary"
+    - "Frequent confidence/mindset content"
+    - "Clear 'what to do next' after each lesson"
+    - "Normalize imperfection and rejection"

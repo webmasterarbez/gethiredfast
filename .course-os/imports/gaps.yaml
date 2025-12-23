@@ -1,0 +1,380 @@
+# Course OS - Gap Analysis
+# Course: Get Hired Fast for Community College Students
+# Phase 1: Source Import
+# Generated: 2025-12-22
+
+# =============================================================================
+# CRITICAL GAPS - Must Address for 2025 Relevance
+# =============================================================================
+
+critical_gaps:
+
+  - id: gap-001
+    title: "AI Tools for Job Search"
+    category: technology
+    priority: critical
+    current_coverage: none
+    description: |
+      No content on using AI assistants (ChatGPT, Claude) for resume writing,
+      cover letters, interview prep, company research, or salary negotiation.
+    impact: |
+      Students without AI literacy will be at significant disadvantage.
+      AI tools can dramatically speed up job search tasks.
+    recommended_content:
+      - "Using AI to Write Your Resume (Without Sounding Like a Robot)"
+      - "ChatGPT Prompts for Job Seekers"
+      - "AI-Powered Company Research"
+      - "Practice Interviews with AI"
+    estimated_videos: 4-6
+    research_needed:
+      - Best AI tools for students (free options)
+      - AI prompt templates for job search
+      - Ethical use guidelines
+
+  - id: gap-002
+    title: "AI Video Interview Preparation"
+    category: interviews
+    priority: critical
+    current_coverage: minimal
+    description: |
+      Original course covers video interviews (Zoom) but not AI-powered
+      interview platforms like HireVue, Pymetrics, or Spark Hire that
+      analyze facial expressions, word choice, and voice patterns.
+    impact: |
+      Many employers, especially for entry-level, use AI screening.
+      Students may fail these without understanding what AI measures.
+    recommended_content:
+      - "AI Interviews Explained: What They're Actually Measuring"
+      - "How to Beat the AI Interview (HireVue, Pymetrics)"
+      - "One-Way Video Interview Tips"
+    estimated_videos: 3
+    research_needed:
+      - How HireVue algorithms work
+      - What AI interview tools measure
+      - Practice tools available
+
+  - id: gap-003
+    title: "AI Impact on Career Choices"
+    category: career-exploration
+    priority: critical
+    current_coverage: none
+    description: |
+      No content addressing AI's impact on job market - which roles are
+      growing, shrinking, or transforming due to AI automation.
+    impact: |
+      Students may invest in careers with declining prospects or miss
+      emerging opportunities in AI-adjacent roles.
+    recommended_content:
+      - "Is AI Taking Your Job? (The Real Truth for New Grads)"
+      - "Jobs That Are Growing Because of AI"
+      - "Skills Robots Can't Replace"
+      - "How to AI-Proof Your Career"
+    estimated_videos: 3-4
+    research_needed:
+      - WEF Future of Jobs Report
+      - Entry-level jobs at risk vs growing
+      - AI-proof skill sets
+
+  - id: gap-004
+    title: "Modern ATS/AI Screening Strategies"
+    category: applications
+    priority: critical
+    current_coverage: basic
+    description: |
+      Original course covers ATS basics but doesn't address modern
+      AI-powered screening that goes beyond keyword matching.
+    impact: |
+      Students may optimize for old ATS while failing new AI assessments.
+    recommended_content:
+      - Update existing ATS content with 2025 strategies
+      - "AI Resume Screening: What's Changed"
+      - "Using Jobscan and Other ATS Checkers"
+    estimated_videos: 2
+    research_needed:
+      - How modern AI screening differs from keyword ATS
+      - Free tools for ATS testing
+
+# =============================================================================
+# HIGH PRIORITY GAPS - Important for Target Audience
+# =============================================================================
+
+high_gaps:
+
+  - id: gap-005
+    title: "Internship-Specific Content"
+    category: career-exploration
+    priority: high
+    current_coverage: none
+    description: |
+      No dedicated content for finding and landing internships,
+      which is often the first step for community college students.
+    impact: |
+      Students miss critical pathway to full-time employment.
+      Internship search differs from job search.
+    recommended_content:
+      - "How to Find Internships at Community College"
+      - "Paid vs. Unpaid: What You Need to Know"
+      - "No Internship? Here Are Alternatives"
+      - "Turning Part-Time Work Into Career Experience"
+    estimated_videos: 3-4
+    research_needed:
+      - Internship platforms for CC students
+      - Virtual internship options
+      - Alternative experience builders
+
+  - id: gap-006
+    title: "First-Generation Student Support"
+    category: mindset-support
+    priority: high
+    current_coverage: minimal
+    description: |
+      Original course doesn't specifically address challenges faced by
+      first-generation college students who lack family career guidance.
+    impact: |
+      50% of CC students are first-gen. They lack professional network
+      and family guidance on navigating career world.
+    recommended_content:
+      - "First-Gen? Your Guide to the Career World"
+      - "Building a Network When Your Family Can't Help"
+      - "Professional Norms No One Taught You"
+    estimated_videos: 2-3
+    research_needed:
+      - First-gen student career challenges
+      - Resources and support organizations
+      - Success stories from first-gen professionals
+
+  - id: gap-007
+    title: "Limited Experience Framing"
+    category: resume-brand
+    priority: high
+    current_coverage: partial
+    description: |
+      Content exists on transferable skills but needs stronger framing
+      for students with only part-time jobs and school projects.
+    impact: |
+      Students feel they have "nothing to put on resume" when they
+      actually have valuable experiences to translate.
+    recommended_content:
+      - "You Have More Experience Than You Think"
+      - "Turn Class Projects Into Resume Gold"
+      - "Your Part-Time Job Skills Matter (Here's How)"
+    estimated_videos: 3
+    adaptation_needed:
+      - Reframe existing transferable skills content
+      - Add student-specific examples
+      - Include school project templates
+
+  - id: gap-008
+    title: "Modern Job Platforms"
+    category: job-search
+    priority: high
+    current_coverage: outdated
+    description: |
+      Original course mentions Facebook but misses Handshake (primary CC
+      platform), Discord communities, TikTok career content, and modern tools.
+    impact: |
+      Students may miss primary platforms used for entry-level hiring.
+    recommended_content:
+      - "Handshake 101: Your College's Job Board"
+      - "Finding Jobs Through TikTok and Discord"
+      - "Beyond LinkedIn: Where Gen Z Finds Jobs"
+    estimated_videos: 2-3
+    research_needed:
+      - How students actually find jobs (2025)
+      - Discord career communities
+      - TikTok job search strategies
+
+# =============================================================================
+# MEDIUM PRIORITY GAPS - Nice to Have
+# =============================================================================
+
+medium_gaps:
+
+  - id: gap-009
+    title: "Pay Transparency Law Updates"
+    category: negotiation
+    priority: medium
+    current_coverage: outdated
+    description: |
+      2024-2025 pay transparency laws in many states now require salary
+      ranges in job postings. Original content doesn't address this.
+    impact: |
+      Students can now use posted ranges strategically in negotiation.
+    recommended_content:
+      - Add note to salary research section
+      - "Using Posted Salary Ranges to Your Advantage"
+    estimated_videos: 1
+    research_needed:
+      - Current state pay transparency laws
+      - How to use salary bands strategically
+
+  - id: gap-010
+    title: "Remote/Hybrid Job Search"
+    category: job-search
+    priority: medium
+    current_coverage: minimal
+    description: |
+      Limited content on remote work despite it being normalized
+      post-pandemic, especially for entry-level customer service,
+      data entry, and admin roles.
+    impact: |
+      Students may not know how to find or evaluate remote opportunities.
+    recommended_content:
+      - "Remote Jobs for New Grads: Where to Look"
+      - "Is Remote Work Right for You?"
+    estimated_videos: 2
+    research_needed:
+      - Entry-level remote job categories
+      - Remote job boards and strategies
+
+  - id: gap-011
+    title: "Gig Economy / Side Hustles"
+    category: career-options
+    priority: medium
+    current_coverage: basic
+    description: |
+      Brief mention of "being your own boss" but not enough on gig
+      economy platforms that many students use for flexible income.
+    impact: |
+      Students may not see gig work as stepping stone or portfolio builder.
+    recommended_content:
+      - "Side Hustles That Build Your Resume"
+      - "Gig Economy 101: Pros, Cons, and Strategies"
+    estimated_videos: 1-2
+
+# =============================================================================
+# CONTENT ADAPTATION NEEDED (Not New, Just Reframe)
+# =============================================================================
+
+adaptations_needed:
+
+  - id: adapt-001
+    title: "Student-Friendly Language Throughout"
+    description: |
+      Existing videos use professional language. Need student-friendly
+      alternatives in titles, descriptions, and onboarding.
+    source: src-008 (Video Topic Mapping)
+    examples:
+      - "Career exploration" → "WTF Should I Do With My Life?"
+      - "Networking strategies" → "I Don't Know Anyone"
+      - "Salary negotiation" → "Can I Actually Ask For More?"
+
+  - id: adapt-002
+    title: "Age-Appropriate Examples"
+    description: |
+      Many examples assume mid-career experience. Need student-relevant
+      examples throughout existing content.
+    videos_affected:
+      - Transferable skills
+      - STAR stories
+      - Interview answers
+      - Salary research
+
+  - id: adapt-003
+    title: "Entry-Level Salary Context"
+    description: |
+      Negotiation content focused on significant raises. Entry-level
+      students need to understand what IS negotiable (often not base salary).
+    videos_affected:
+      - Week 5 negotiation videos
+      - Offer evaluation videos
+
+  - id: adapt-004
+    title: "Confidence Building Emphasis"
+    description: |
+      Mindset content exists but needs stronger emphasis for students
+      with imposter syndrome about entering professional world.
+    videos_affected:
+      - Week 1 barrier videos
+      - Week 6 mindset videos
+
+# =============================================================================
+# STRENGTHS TO LEVERAGE (No Gaps Here)
+# =============================================================================
+
+existing_strengths:
+
+  - area: "Interview Preparation"
+    videos: 32
+    assessment: "Most comprehensive anywhere - major competitive advantage"
+    action: "Preserve and promote"
+
+  - area: "Salary Negotiation"
+    videos: 13
+    assessment: "Unique depth - competitors don't touch this"
+    action: "Adapt framing for entry-level but keep content"
+
+  - area: "Mindset & Barriers"
+    videos: 16
+    assessment: "Addresses real psychological struggles - unique value"
+    action: "Preserve and emphasize for student audience"
+
+  - area: "Networking Scripts"
+    videos: 10
+    assessment: "Scripts reduce anxiety - perfect for inexperienced networkers"
+    action: "Preserve - may need student-specific additions"
+
+  - area: "Accountability System"
+    tool: "Daily Action Tracker"
+    assessment: "Unique - no competitor has this built-in"
+    action: "Preserve and possibly gamify for students"
+
+# =============================================================================
+# RESEARCH NEEDED FOR PHASE 2
+# =============================================================================
+
+research_topics:
+
+  - topic: "AI tools for job seekers (2025)"
+    priority: high
+    questions:
+      - What free AI tools work best for students?
+      - What are the ethical considerations?
+      - How do employers view AI-assisted applications?
+
+  - topic: "Entry-level job market 2025"
+    priority: high
+    questions:
+      - What entry-level roles are growing fastest?
+      - What skills are employers seeking from new grads?
+      - What are typical entry-level salaries by field?
+
+  - topic: "Community college student job search behavior"
+    priority: high
+    questions:
+      - How do CC students actually search for jobs?
+      - What platforms do they use?
+      - What are their biggest struggles?
+
+  - topic: "AI interview platforms"
+    priority: medium
+    questions:
+      - Which companies use HireVue for entry-level?
+      - What do AI interviews actually measure?
+      - How can students practice?
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+  critical_gaps: 4
+  high_gaps: 4
+  medium_gaps: 3
+  adaptations_needed: 4
+  estimated_new_videos: 20-25
+  estimated_adaptations: 15-20 videos need reframing
+
+  top_priorities:
+    1: "AI tools for job search"
+    2: "AI video interview prep"
+    3: "Limited experience framing"
+    4: "Modern platforms (Handshake, etc.)"
+    5: "AI career impact awareness"
+
+  timeline_recommendation: |
+    Phase 2 (Research) should focus on:
+    1. AI tools landscape for students
+    2. Entry-level job market 2025
+    3. Community college student personas
+    4. Competitor analysis for new content areas

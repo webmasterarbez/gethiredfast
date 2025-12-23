@@ -1,0 +1,221 @@
+# Course OS - Research Specification
+# Course: Get Hired Fast for Community College Students
+# Phase 2: Deep Topic Research
+# Generated: 2025-12-22
+
+# =============================================================================
+# RESEARCH OVERVIEW
+# =============================================================================
+
+research:
+  completed: 2025-12-22
+  scope:
+    primary_topic: "Career readiness and job search for community college students"
+    expertise_level: "Beginner-Intermediate"
+    focus_areas:
+      - "AI tools for job search (2025)"
+      - "Student-specific job search challenges"
+      - "First-generation student support"
+      - "Modern platforms (Handshake, TikTok)"
+    exclusions: []  # No exclusions - broad research
+
+# =============================================================================
+# KEY FINDINGS SUMMARY
+# =============================================================================
+
+key_findings:
+
+  market_conditions:
+    - "Entry-level hiring down 44% from 2022 peak"
+    - "Underemployment at 41.8% (highest since 2020)"
+    - "Average job search: 6.4 months before graduation"
+    - "College degree advantage narrowing"
+
+  ai_landscape:
+    - "77% of job seekers using AI tools"
+    - "AI skills command 28% salary premium ($18K/year)"
+    - "70% of companies using AI for hiring by 2025"
+    - "AI job postings up 109% year-over-year"
+
+  networking_reality:
+    - "70% of jobs filled through networking"
+    - "80% of jobs never publicly posted"
+    - "Informational interviews increase success by 45%"
+
+  student_challenges:
+    - "35% of first-gen students never use career services"
+    - "Imposter syndrome affects 70% of people"
+    - "46% of Gen Z secured jobs through TikTok"
+    - "84% of 2025 grads did internships"
+
+  negotiation:
+    - "84% of employers willing to increase offers"
+    - "Only 38% of grads negotiate"
+    - "Only 10% of offers ever withdrawn for negotiating"
+
+# =============================================================================
+# CONCEPTS MAPPED
+# =============================================================================
+
+concepts_summary:
+  total_concepts: 25
+  critical_concepts:
+    - hidden-job-market
+    - networking
+    - resume
+    - ats-optimization
+    - star-method
+    - ai-video-interviews
+
+  learning_paths:
+    - "Resume Mastery"
+    - "Interview Excellence"
+    - "Network Building"
+    - "Offer Negotiation"
+    - "AI-Era Job Search"
+
+# =============================================================================
+# MISCONCEPTIONS IDENTIFIED
+# =============================================================================
+
+misconceptions_summary:
+  total: 21
+  most_damaging:
+    - "Job boards are the best way to find a job"
+    - "Fancy resume designs stand out"
+    - "Don't apply unless meeting 100% of requirements"
+    - "Networking is fake and manipulative"
+    - "Entry-level jobs don't allow negotiation"
+    - "Everyone else knows what they're doing except me"
+
+# =============================================================================
+# GAPS ADDRESSED
+# =============================================================================
+
+gaps_addressed:
+
+  critical:
+    - id: gap-001
+      title: "AI Tools for Job Search"
+      status: researched
+      recommended_videos: 3-4
+
+    - id: gap-002
+      title: "AI Video Interview Preparation"
+      status: researched
+      recommended_videos: 2-3
+
+    - id: gap-003
+      title: "AI Impact on Career Choices"
+      status: researched
+      recommended_videos: 2-3
+
+    - id: gap-004
+      title: "Modern ATS/AI Screening"
+      status: researched
+      recommended_videos: 1-2
+
+  high:
+    - id: gap-005
+      title: "Internship-Specific Content"
+      status: researched
+      recommended_videos: 2-3
+
+    - id: gap-006
+      title: "First-Generation Student Support"
+      status: researched
+      recommended_videos: 2-3
+
+    - id: gap-007
+      title: "Limited Experience Framing"
+      status: researched
+      recommended_videos: 2-3
+
+    - id: gap-008
+      title: "Modern Job Platforms"
+      status: researched
+      recommended_videos: 2-3
+
+  medium:
+    - id: gap-009
+      title: "Pay Transparency Laws"
+      status: partial
+
+    - id: gap-010
+      title: "Remote/Hybrid Job Search"
+      status: partial
+
+    - id: gap-011
+      title: "Gig Economy/Side Hustles"
+      status: partial
+
+# =============================================================================
+# CONTENT RECOMMENDATIONS
+# =============================================================================
+
+content_recommendations:
+
+  new_videos_needed:
+    total: 18-24
+
+    by_category:
+      ai_tools: 3-4
+      ai_interviews: 2-3
+      ai_career_impact: 2-3
+      ats_updates: 1-2
+      first_gen_support: 2-3
+      limited_experience: 2-3
+      internships: 2-3
+      modern_platforms: 2-3
+
+  existing_videos_to_update: 10-15
+
+  existing_videos_to_preserve: 100+
+
+  new_resources_needed:
+    - "AI Prompt Templates for Job Seekers"
+    - "Handshake Quick Start Guide"
+    - "First-Gen Student Success Guide"
+    - "STAR Story Builder Worksheet"
+    - "ATS Checklist (2025 Edition)"
+
+# =============================================================================
+# SOURCES USED
+# =============================================================================
+
+sources:
+  primary:
+    - "Federal Reserve Bank of New York - College Labor Market"
+    - "NACE - National Association of Colleges and Employers"
+    - "SHRM - Society for Human Resource Management"
+    - "LinkedIn - Labor Market Research"
+    - "Handshake - Network Trends Reports"
+
+  secondary:
+    - "World Economic Forum - Future of Jobs Report 2025"
+    - "Inside Higher Ed - First-Gen Research"
+    - "Zety - Gen Z Career Trends"
+    - "MIT Career Advising - Interview Resources"
+    - "HireVue - AI Interview Documentation"
+
+# =============================================================================
+# RESEARCH OUTPUTS
+# =============================================================================
+
+outputs:
+  pass_1_landscape: ".course-os/research/pass-1-landscape.md"
+  pass_2_deepdive: ".course-os/research/pass-2-deepdive.md"
+  pass_3_gaps: ".course-os/research/pass-3-gaps.md"
+  synthesis: ".course-os/research/synthesis.md"
+  knowledge_map: ".course-os/research/knowledge-map.yaml"
+  misconceptions: ".course-os/research/misconceptions.yaml"
+
+# =============================================================================
+# PHASE 3 RECOMMENDATIONS
+# =============================================================================
+
+next_phase_focus:
+  - "Deep dive on community college student personas"
+  - "Competitor analysis for new content areas"
+  - "Validate positioning strategy"
+  - "Define target audience segments"

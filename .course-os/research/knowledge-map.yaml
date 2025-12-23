@@ -1,0 +1,554 @@
+# Course OS - Knowledge Map
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+# =============================================================================
+# CORE CONCEPTS
+# =============================================================================
+
+concepts:
+
+  # ---------------------------------------------------------------------------
+  # JOB SEARCH FUNDAMENTALS
+  # ---------------------------------------------------------------------------
+
+  - id: hidden-job-market
+    name: "Hidden Job Market"
+    definition: |
+      The 80% of jobs that are never publicly posted and are filled
+      through networking, referrals, and internal promotions.
+    importance: critical
+    prerequisites: []
+    relates_to:
+      - networking
+      - referrals
+    teaching_notes: |
+      Students often don't believe this statistic. Use data and
+      examples to make it real. This is the "why" behind networking.
+
+  - id: networking
+    name: "Professional Networking"
+    definition: |
+      Building and maintaining relationships with professionals
+      who can provide advice, referrals, and job opportunities.
+    importance: critical
+    prerequisites:
+      - personal-brand
+    relates_to:
+      - hidden-job-market
+      - informational-interviews
+      - referrals
+    sub_concepts:
+      - informational-interviews
+      - linkedin-networking
+      - warm-introductions
+      - follow-up
+    teaching_notes: |
+      Many students are terrified of networking. Scripts and
+      templates reduce anxiety significantly.
+
+  - id: informational-interviews
+    name: "Informational Interviews"
+    definition: |
+      15-30 minute conversations with professionals to learn
+      about their career path and industry, not to ask for jobs.
+    importance: high
+    prerequisites:
+      - networking
+    relates_to:
+      - hidden-job-market
+    teaching_notes: |
+      Provide exact scripts for requesting and conducting.
+      70% of jobs come through networking; this is the gateway.
+
+  - id: personal-brand
+    name: "Personal Brand"
+    definition: |
+      The unique combination of skills, experiences, and personality
+      that you present to employers — your professional identity.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - resume
+      - linkedin-profile
+      - elevator-pitch
+    sub_concepts:
+      - elevator-pitch
+      - unique-value-proposition
+    teaching_notes: |
+      Students struggle to identify what makes them unique.
+      Use exercises to help them discover their strengths.
+
+  # ---------------------------------------------------------------------------
+  # RESUME & APPLICATIONS
+  # ---------------------------------------------------------------------------
+
+  - id: resume
+    name: "Resume"
+    definition: |
+      A one-page document summarizing your education, experience,
+      skills, and achievements for potential employers.
+    importance: critical
+    prerequisites:
+      - personal-brand
+      - transferable-skills
+    relates_to:
+      - ats-optimization
+      - ai-resume-tools
+    sub_concepts:
+      - bullet-points
+      - quantified-achievements
+      - action-verbs
+      - resume-formats
+    teaching_notes: |
+      Students with limited experience need help seeing their
+      work, projects, and activities as valuable experience.
+
+  - id: ats-optimization
+    name: "ATS (Applicant Tracking System) Optimization"
+    definition: |
+      Formatting and keyword-optimizing resumes to pass through
+      automated screening systems before human review.
+    importance: critical
+    prerequisites:
+      - resume
+    relates_to:
+      - ai-resume-tools
+      - keywords
+    teaching_notes: |
+      97.8% of Fortune 500 use ATS. 75%+ of resumes rejected
+      before human review. This is essential, not optional.
+
+  - id: keywords
+    name: "Resume Keywords"
+    definition: |
+      Industry-specific terms, skills, and qualifications that
+      ATS and AI systems scan for when screening resumes.
+    importance: high
+    prerequisites:
+      - resume
+      - ats-optimization
+    relates_to:
+      - job-description-analysis
+    teaching_notes: |
+      Teach students to mirror exact language from job postings.
+      Tools like Jobscan can help score match rate.
+
+  - id: cover-letter
+    name: "Cover Letter"
+    definition: |
+      A one-page letter accompanying a resume that explains
+      why you're interested in and qualified for a specific role.
+    importance: medium
+    prerequisites:
+      - resume
+      - personal-brand
+    relates_to:
+      - ai-resume-tools
+    teaching_notes: |
+      Not always required, but when requested, can differentiate.
+      AI can help draft but personalization is essential.
+
+  # ---------------------------------------------------------------------------
+  # INTERVIEW SKILLS
+  # ---------------------------------------------------------------------------
+
+  - id: star-method
+    name: "STAR Method"
+    definition: |
+      A structured approach to answering behavioral interview questions:
+      Situation (20%), Task (10%), Action (60%), Result (10%).
+    importance: critical
+    prerequisites: []
+    relates_to:
+      - behavioral-interviews
+      - storytelling
+    teaching_notes: |
+      Gold standard for behavioral interviews. Students should
+      prepare 3-5 STAR stories covering different competencies.
+
+  - id: behavioral-interviews
+    name: "Behavioral Interviews"
+    definition: |
+      Interviews focused on past behavior as a predictor of future
+      performance, using "Tell me about a time..." questions.
+    importance: critical
+    prerequisites:
+      - star-method
+    relates_to:
+      - interview-preparation
+    teaching_notes: |
+      Most common interview format. Practice with real examples
+      from class projects, part-time jobs, or volunteer work.
+
+  - id: ai-video-interviews
+    name: "AI Video Interviews"
+    definition: |
+      One-way video interviews (HireVue, Pymetrics) where AI analyzes
+      communication, body language, and content for screening.
+    importance: critical
+    prerequisites:
+      - star-method
+      - interview-preparation
+    relates_to:
+      - interview-preparation
+    teaching_notes: |
+      70% of companies using AI for hiring by 2025. Students must
+      understand what AI measures and how to prepare technically.
+
+  - id: interview-preparation
+    name: "Interview Preparation"
+    definition: |
+      The process of researching the company, preparing answers,
+      practicing delivery, and organizing logistics before interviews.
+    importance: critical
+    prerequisites:
+      - star-method
+      - company-research
+    sub_concepts:
+      - company-research
+      - common-questions
+      - questions-to-ask
+      - follow-up
+    teaching_notes: |
+      Original course has 32 videos — most comprehensive anywhere.
+      This is a competitive advantage.
+
+  # ---------------------------------------------------------------------------
+  # NEGOTIATION & OFFERS
+  # ---------------------------------------------------------------------------
+
+  - id: salary-negotiation
+    name: "Salary Negotiation"
+    definition: |
+      The process of discussing and agreeing upon compensation
+      and benefits with a potential employer after receiving an offer.
+    importance: high
+    prerequisites:
+      - salary-research
+      - total-compensation
+    relates_to:
+      - offer-evaluation
+    teaching_notes: |
+      84% of employers willing to increase offers; only 38% of
+      grads negotiate. Entry-level may focus on non-salary items.
+
+  - id: salary-research
+    name: "Salary Research"
+    definition: |
+      Gathering data on market rates for positions to inform
+      salary expectations and negotiation strategy.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - salary-negotiation
+      - total-compensation
+    teaching_notes: |
+      Use Glassdoor, LinkedIn, Levels.fyi, and pay transparency
+      data in job postings. AI can help synthesize data.
+
+  - id: total-compensation
+    name: "Total Compensation"
+    definition: |
+      The complete value of an offer including salary, benefits,
+      bonuses, equity, PTO, and other perks.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - salary-negotiation
+      - offer-evaluation
+    teaching_notes: |
+      Entry-level students often focus only on base salary.
+      Teach them to evaluate full picture.
+
+  - id: offer-evaluation
+    name: "Offer Evaluation"
+    definition: |
+      Systematically comparing job offers across multiple factors
+      including compensation, culture, growth, and alignment.
+    importance: high
+    prerequisites:
+      - total-compensation
+    relates_to:
+      - salary-negotiation
+    teaching_notes: |
+      Original course has scorecard for comparing offers.
+      Very valuable for students with multiple options.
+
+  # ---------------------------------------------------------------------------
+  # AI & TECHNOLOGY
+  # ---------------------------------------------------------------------------
+
+  - id: ai-resume-tools
+    name: "AI Resume Tools"
+    definition: |
+      AI-powered tools (ChatGPT, Teal, Rezi) that help write,
+      edit, and optimize resumes and cover letters.
+    importance: critical
+    prerequisites: []
+    relates_to:
+      - resume
+      - ats-optimization
+    teaching_notes: |
+      77% of job seekers using AI. Teach effective prompts and
+      caution against AI-sounding output. Always edit.
+
+  - id: ai-career-impact
+    name: "AI Career Impact"
+    definition: |
+      How artificial intelligence is changing the job market,
+      automating roles, and creating new opportunities.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - ai-resume-tools
+      - ai-video-interviews
+    teaching_notes: |
+      Balance realism (some jobs at risk) with opportunity
+      (AI skills = 28% salary premium). Focus on adaptation.
+
+  - id: ai-skills
+    name: "AI Skills"
+    definition: |
+      Competencies in using AI tools effectively, including
+      prompt engineering, output evaluation, and ethical use.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - ai-resume-tools
+      - ai-career-impact
+    teaching_notes: |
+      Job postings requiring AI skills up 109% 2024-2025.
+      Basic AI literacy is now expected, not optional.
+
+  # ---------------------------------------------------------------------------
+  # PLATFORMS & TOOLS
+  # ---------------------------------------------------------------------------
+
+  - id: linkedin-profile
+    name: "LinkedIn Profile"
+    definition: |
+      A professional online profile used for networking, job
+      searching, and being found by recruiters.
+    importance: critical
+    prerequisites:
+      - personal-brand
+    relates_to:
+      - networking
+      - linkedin-networking
+    teaching_notes: |
+      Complete profiles get 40x more opportunities. Teach
+      2025 algorithm (comments > likes, first 90 min critical).
+
+  - id: handshake
+    name: "Handshake Platform"
+    definition: |
+      The primary job board and career platform used by colleges
+      for connecting students with employers.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - job-boards
+    teaching_notes: |
+      15M+ job seekers. Complete profiles get 5x more recruiter
+      contact. Primary platform for CC students.
+
+  - id: job-boards
+    name: "Job Boards"
+    definition: |
+      Websites where employers post job openings and candidates
+      can search and apply (Indeed, LinkedIn, Handshake, etc.).
+    importance: medium
+    prerequisites: []
+    relates_to:
+      - handshake
+      - linkedin-profile
+    teaching_notes: |
+      Important but less effective than networking. Teach
+      optimization but emphasize networking priority.
+
+  # ---------------------------------------------------------------------------
+  # MINDSET & SUPPORT
+  # ---------------------------------------------------------------------------
+
+  - id: imposter-syndrome
+    name: "Imposter Syndrome"
+    definition: |
+      The persistent feeling of self-doubt and fraudulence despite
+      evidence of competence and success.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - confidence-building
+      - first-gen-challenges
+    teaching_notes: |
+      70% of people experience it. Especially acute for first-gen
+      students. Normalize it and teach coping strategies.
+
+  - id: confidence-building
+    name: "Confidence Building"
+    definition: |
+      Strategies for developing professional self-assurance,
+      including preparation, practice, and mindset work.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - imposter-syndrome
+      - mindset
+    teaching_notes: |
+      Cat Breet's mindset content is unique competitive advantage.
+      Preserve and emphasize for student audience.
+
+  - id: first-gen-challenges
+    name: "First-Generation Student Challenges"
+    definition: |
+      Unique barriers faced by first-gen college students including
+      limited networks, lack of professional guidance, and imposter syndrome.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - imposter-syndrome
+      - networking
+    teaching_notes: |
+      50% of CC students are first-gen. 70% of jobs through
+      networking creates structural disadvantage. Address directly.
+
+  # ---------------------------------------------------------------------------
+  # EXPERIENCE & SKILLS
+  # ---------------------------------------------------------------------------
+
+  - id: transferable-skills
+    name: "Transferable Skills"
+    definition: |
+      Skills developed in one context (school, jobs, activities)
+      that apply to professional roles (communication, teamwork, etc.).
+    importance: critical
+    prerequisites: []
+    relates_to:
+      - resume
+      - limited-experience
+    teaching_notes: |
+      Students often don't recognize their skills. Use exercises
+      to extract value from part-time jobs and projects.
+
+  - id: limited-experience
+    name: "Limited Experience Framing"
+    definition: |
+      Strategies for presenting student activities, projects, and
+      part-time work as relevant professional experience.
+    importance: high
+    prerequisites:
+      - transferable-skills
+    relates_to:
+      - resume
+      - star-method
+    teaching_notes: |
+      "Think of student as a job." Class projects, volunteering,
+      clubs all count. Help students see their value.
+
+  - id: internships
+    name: "Internships"
+    definition: |
+      Short-term work experiences providing hands-on learning
+      and professional exposure in a career field.
+    importance: high
+    prerequisites: []
+    relates_to:
+      - limited-experience
+    teaching_notes: |
+      84% of 2025 grads did internships. Those with internships
+      earn $15K more on average. Critical for CC students.
+
+# =============================================================================
+# CONCEPT RELATIONSHIPS
+# =============================================================================
+
+relationships:
+
+  - from: hidden-job-market
+    to: networking
+    type: requires
+    strength: strong
+    description: "Accessing hidden jobs requires networking"
+
+  - from: networking
+    to: informational-interviews
+    type: includes
+    strength: strong
+    description: "Informational interviews are core networking tactic"
+
+  - from: resume
+    to: ats-optimization
+    type: requires
+    strength: strong
+    description: "Modern resumes must be ATS-optimized"
+
+  - from: star-method
+    to: behavioral-interviews
+    type: enables
+    strength: strong
+    description: "STAR method is how to answer behavioral questions"
+
+  - from: imposter-syndrome
+    to: first-gen-challenges
+    type: amplified_by
+    strength: strong
+    description: "First-gen status intensifies imposter syndrome"
+
+  - from: ai-resume-tools
+    to: resume
+    type: enhances
+    strength: moderate
+    description: "AI tools can improve resume writing efficiency"
+
+  - from: ai-skills
+    to: ai-career-impact
+    type: mitigates
+    strength: strong
+    description: "AI skills help adapt to AI-driven job market changes"
+
+# =============================================================================
+# LEARNING PATHS
+# =============================================================================
+
+learning_paths:
+
+  - name: "Resume Mastery"
+    concepts:
+      - personal-brand
+      - transferable-skills
+      - resume
+      - keywords
+      - ats-optimization
+      - ai-resume-tools
+
+  - name: "Interview Excellence"
+    concepts:
+      - star-method
+      - behavioral-interviews
+      - interview-preparation
+      - ai-video-interviews
+      - company-research
+
+  - name: "Network Building"
+    concepts:
+      - hidden-job-market
+      - networking
+      - informational-interviews
+      - linkedin-profile
+      - first-gen-challenges
+
+  - name: "Offer Negotiation"
+    concepts:
+      - salary-research
+      - total-compensation
+      - salary-negotiation
+      - offer-evaluation
+
+  - name: "AI-Era Job Search"
+    concepts:
+      - ai-career-impact
+      - ai-skills
+      - ai-resume-tools
+      - ai-video-interviews
+      - ats-optimization

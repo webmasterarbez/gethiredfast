@@ -1,0 +1,402 @@
+# Course OS - Common Misconceptions
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+# =============================================================================
+# JOB SEARCH MISCONCEPTIONS
+# =============================================================================
+
+job_search:
+
+  - id: misc-001
+    misconception: "I should apply to as many jobs as possible"
+    truth: |
+      Quality beats quantity. Tailored applications to fewer, well-matched
+      jobs yield better results than mass applications.
+    evidence: |
+      Despite applying to 10 jobs on average (up from 6), Class of 2025
+      received fewer offers than 2024. Targeted applications work better.
+    teaching_approach: |
+      Explain the 80/20 rule: 80% of effort on 20% of best-fit jobs.
+      Teach job description analysis and tailoring.
+    related_concepts:
+      - ats-optimization
+      - keywords
+      - hidden-job-market
+
+  - id: misc-002
+    misconception: "Job boards are the best way to find a job"
+    truth: |
+      70% of jobs are filled through networking. Only 20% of jobs are
+      ever posted publicly. Online applications are least effective channel.
+    evidence: |
+      LinkedIn survey data on networking success rates; referral
+      candidates hired 55% faster with higher retention.
+    teaching_approach: |
+      Lead with hidden job market statistics. Use Cat Breet's networking
+      content to show HOW to network effectively.
+    related_concepts:
+      - hidden-job-market
+      - networking
+      - informational-interviews
+
+  - id: misc-003
+    misconception: "I need experience to get experience (Catch-22)"
+    truth: |
+      Students have more experience than they realize. Class projects,
+      part-time jobs, volunteering, and activities all count.
+    evidence: |
+      Skills-based hiring means demonstrated abilities matter more than
+      formal work history. Reframing student activities works.
+    teaching_approach: |
+      Use exercises to extract transferable skills from existing
+      activities. Shift mindset: "Student IS a job."
+    related_concepts:
+      - transferable-skills
+      - limited-experience
+      - resume
+
+  - id: misc-004
+    misconception: "My GPA is what matters most"
+    truth: |
+      Internships, projects, and demonstrated skills matter more than
+      GPA in most fields. Experience trumps grades.
+    evidence: |
+      Students with internships earn $15K more on average than those
+      without. Skills-based hiring prioritizes portfolios over transcripts.
+    teaching_approach: |
+      If GPA is strong (3.5+), include it. If not, focus energy on
+      building experience and skills to highlight instead.
+    related_concepts:
+      - internships
+      - limited-experience
+      - transferable-skills
+
+# =============================================================================
+# RESUME MISCONCEPTIONS
+# =============================================================================
+
+resume:
+
+  - id: misc-005
+    misconception: "I need a fancy resume design to stand out"
+    truth: |
+      Simple, clean formatting works best. Fancy designs often fail ATS
+      screening, preventing human review entirely.
+    evidence: |
+      97.8% of Fortune 500 use ATS. 75%+ of resumes rejected before
+      human review. Tables, graphics, and columns cause parsing failures.
+    teaching_approach: |
+      Show examples of ATS failures. Teach simple formatting that
+      passes machines AND looks professional to humans.
+    related_concepts:
+      - ats-optimization
+      - resume
+
+  - id: misc-006
+    misconception: "I should put everything I've ever done on my resume"
+    truth: |
+      Tailor your resume to each job. Only include relevant experience
+      and skills that match what the employer is seeking.
+    evidence: |
+      Tailored resumes score higher on ATS match rates. Recruiters
+      spend only 6 seconds scanning; irrelevant content wastes time.
+    teaching_approach: |
+      Teach master resume concept (everything) vs. tailored resume
+      (customized for each application).
+    related_concepts:
+      - resume
+      - keywords
+      - ats-optimization
+
+  - id: misc-007
+    misconception: "AI can write my entire resume for me"
+    truth: |
+      AI is a tool, not a replacement. AI-generated content without
+      editing sounds generic and recruiters can detect it.
+    evidence: |
+      "Recruiters are catching on to AI phrasing." AI sometimes makes up
+      numbers. Human editing and personalization are essential.
+    teaching_approach: |
+      Teach AI as brainstorming tool. Always edit output. Fact-check
+      any numbers. Add personal voice and specific details.
+    related_concepts:
+      - ai-resume-tools
+      - resume
+
+# =============================================================================
+# INTERVIEW MISCONCEPTIONS
+# =============================================================================
+
+interviews:
+
+  - id: misc-008
+    misconception: "I should memorize perfect answers to interview questions"
+    truth: |
+      Memorized answers sound robotic. Prepare key points and stories,
+      but deliver naturally in the moment.
+    evidence: |
+      MIT Career Advising recommends "bulleted outlines" not scripts.
+      Authentic delivery builds rapport; memorization sounds rehearsed.
+    teaching_approach: |
+      Teach STAR framework for structure. Practice stories multiple
+      times but never word-for-word memorization.
+    related_concepts:
+      - star-method
+      - behavioral-interviews
+      - interview-preparation
+
+  - id: misc-009
+    misconception: "If I don't meet every requirement, I shouldn't apply"
+    truth: |
+      Job postings describe ideal candidates, not minimum requirements.
+      If you meet 60-70% of qualifications, apply anyway.
+    evidence: |
+      Men apply at 60% match; women often wait for 100%. The "perfect"
+      candidate rarely exists. Transferable skills can fill gaps.
+    teaching_approach: |
+      Teach students to evaluate "required" vs "preferred" qualifications.
+      Address imposter syndrome that drives self-selection.
+    related_concepts:
+      - imposter-syndrome
+      - confidence-building
+      - limited-experience
+
+  - id: misc-010
+    misconception: "I can trick the AI interview system"
+    truth: |
+      There's no course that will help you game AI assessments. Focus
+      on genuine preparation and authentic presentation.
+    evidence: |
+      HireVue explicitly states no gaming possible. AI measures genuine
+      communication quality, not tricks.
+    teaching_approach: |
+      Focus on solid preparation: STAR method, clear speaking, positive
+      energy. Technical setup matters. Practice with platform's tools.
+    related_concepts:
+      - ai-video-interviews
+      - interview-preparation
+
+# =============================================================================
+# NETWORKING MISCONCEPTIONS
+# =============================================================================
+
+networking:
+
+  - id: misc-011
+    misconception: "Networking is fake and manipulative"
+    truth: |
+      Authentic networking is about building genuine relationships and
+      helping each other, not transactional manipulation.
+    evidence: |
+      Informational interviews increase response rates by 45%. Most
+      professionals enjoy helping students and new grads.
+    teaching_approach: |
+      Reframe networking as relationship building. Use "give first"
+      mindset. Focus on genuine curiosity about others' paths.
+    related_concepts:
+      - networking
+      - informational-interviews
+
+  - id: misc-012
+    misconception: "I don't know anyone useful for networking"
+    truth: |
+      Everyone has a network to start with: family, friends, professors,
+      classmates, past coworkers, neighbors, etc.
+    evidence: |
+      "First 50" exercise uncovers existing connections. LinkedIn
+      2nd-degree connections expand reach significantly.
+    teaching_approach: |
+      Start with existing relationships. Teach how to ask for
+      introductions. Use LinkedIn to find 2nd-degree connections.
+    related_concepts:
+      - networking
+      - first-gen-challenges
+      - linkedin-profile
+
+  - id: misc-013
+    misconception: "Networking only works for extroverts"
+    truth: |
+      Introverts have natural advantages: better listening (37%),
+      preference for depth over breadth, thoughtful engagement.
+    evidence: |
+      Research shows introverts get 42% more valuable connections from
+      smaller events. One-on-one follow-up yields 44% higher relationship value.
+    teaching_approach: |
+      Teach introvert-friendly strategies: small gatherings, online
+      networking, content creation, one-on-one coffee chats.
+    related_concepts:
+      - networking
+      - informational-interviews
+      - linkedin-networking
+
+# =============================================================================
+# SALARY & NEGOTIATION MISCONCEPTIONS
+# =============================================================================
+
+negotiation:
+
+  - id: misc-014
+    misconception: "Entry-level jobs don't allow negotiation"
+    truth: |
+      84% of employers are willing to increase initial offers. Only 10%
+      ever withdraw an offer for negotiating. It's expected.
+    evidence: |
+      Only 38% of grads negotiate. Those who do can increase offers
+      by up to 10%. Even 5% compounds over career.
+    teaching_approach: |
+      Normalize negotiation. Teach what IS negotiable at entry level
+      (start date, PTO, remote days, tuition reimbursement).
+    related_concepts:
+      - salary-negotiation
+      - total-compensation
+
+  - id: misc-015
+    misconception: "I should accept the first offer immediately"
+    truth: |
+      Taking time to evaluate is expected and professional. Ask for
+      2-3 days to review the full offer and compensation package.
+    evidence: |
+      Employers expect some negotiation. Rushing to accept leaves
+      money on the table and shows lack of strategic thinking.
+    teaching_approach: |
+      Teach how to ask for time professionally. Provide scripts.
+      Explain total compensation evaluation beyond base salary.
+    related_concepts:
+      - offer-evaluation
+      - salary-negotiation
+      - total-compensation
+
+# =============================================================================
+# AI & TECHNOLOGY MISCONCEPTIONS
+# =============================================================================
+
+ai_technology:
+
+  - id: misc-016
+    misconception: "AI is going to take all the jobs"
+    truth: |
+      AI is changing jobs, not eliminating all of them. Some roles
+      shrink, others grow, many transform. Human skills remain critical.
+    evidence: |
+      AI skills command 28% salary premium. Human skills (creativity,
+      emotional intelligence, judgment) can't be automated.
+    teaching_approach: |
+      Balanced perspective: acknowledge disruption, focus on adaptation.
+      Teach AI literacy as career insurance.
+    related_concepts:
+      - ai-career-impact
+      - ai-skills
+      - transferable-skills
+
+  - id: misc-017
+    misconception: "I don't need to learn AI tools"
+    truth: |
+      77% of job seekers already use AI. AI literacy is now an
+      expectation, not a bonus. Those without it are disadvantaged.
+    evidence: |
+      Job postings requiring AI skills up 109% in one year. AI-savvy
+      candidates land interviews 3x faster with proper prompting.
+    teaching_approach: |
+      Make AI tools accessible and practical. Start with basics:
+      ChatGPT for brainstorming, Jobscan for ATS. Build from there.
+    related_concepts:
+      - ai-resume-tools
+      - ai-skills
+      - ai-career-impact
+
+  - id: misc-018
+    misconception: "LinkedIn is only for older professionals"
+    truth: |
+      72% of recruiters use LinkedIn actively. Complete profiles get
+      40x more opportunities. Essential for all job seekers.
+    evidence: |
+      LinkedIn has 1.1B members. All-Star profiles get 40x more
+      opportunities. #OpenToWork badge increases visibility 20%.
+    teaching_approach: |
+      Teach LinkedIn optimization for students specifically.
+      Address algorithm changes (comments > likes, first 90 min critical).
+    related_concepts:
+      - linkedin-profile
+      - linkedin-networking
+
+# =============================================================================
+# MINDSET MISCONCEPTIONS
+# =============================================================================
+
+mindset:
+
+  - id: misc-019
+    misconception: "Everyone else knows what they're doing except me"
+    truth: |
+      70% of people experience imposter syndrome. Most professionals
+      were once uncertain beginners. This is a universal experience.
+    evidence: |
+      Research on imposter syndrome prevalence. First-gen students
+      especially affected but it's widespread across all backgrounds.
+    teaching_approach: |
+      Normalize imposter syndrome. Teach coping strategies (win journal,
+      talking about it, permission to be "in progress").
+    related_concepts:
+      - imposter-syndrome
+      - confidence-building
+      - first-gen-challenges
+
+  - id: misc-020
+    misconception: "If I get rejected, I must not be good enough"
+    truth: |
+      Rejection is normal and expected in job searching. It's often
+      about fit, timing, or factors beyond your control.
+    evidence: |
+      Average job search requires many applications. Hiring decisions
+      involve many variables. One rejection means nothing about worth.
+    teaching_approach: |
+      Normalize rejection. Teach to focus on what's controllable
+      (activity, preparation, outreach) not outcomes.
+    related_concepts:
+      - confidence-building
+      - imposter-syndrome
+
+  - id: misc-021
+    misconception: "Asking questions makes me look stupid"
+    truth: |
+      Asking questions shows curiosity and engagement. Employers value
+      candidates who seek to understand, not those who pretend to know.
+    evidence: |
+      "Curiosity builds confidence." Asking questions in interviews
+      is expected and shows genuine interest.
+    teaching_approach: |
+      Reframe questions as professional strength. Teach good questions
+      to ask in interviews and informational conversations.
+    related_concepts:
+      - interview-preparation
+      - informational-interviews
+      - confidence-building
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+  total_misconceptions: 21
+  categories:
+    job_search: 4
+    resume: 3
+    interviews: 3
+    networking: 3
+    negotiation: 2
+    ai_technology: 3
+    mindset: 3
+
+  most_damaging:
+    - misc-002  # Job boards best way (misses hidden market)
+    - misc-005  # Fancy resume design (fails ATS)
+    - misc-009  # Don't apply unless 100% match (self-selection)
+    - misc-011  # Networking is fake (avoids best channel)
+    - misc-014  # Can't negotiate entry-level (leaves money)
+    - misc-019  # Everyone else knows what they're doing (imposter)
+
+  teaching_note: |
+    Address misconceptions early in relevant modules. Use data and
+    evidence to counter beliefs. Acknowledge that these misconceptions
+    are common and understandable, not signs of ignorance.

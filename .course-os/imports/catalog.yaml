@@ -1,0 +1,319 @@
+# Course OS - Source Catalog
+# Course: Get Hired Fast for Community College Students
+# Phase 1: Source Import
+# Generated: 2025-12-22
+
+sources:
+  # =============================================================================
+  # EXISTING COURSE CONTENT
+  # =============================================================================
+
+  - id: src-001
+    title: "Get Hired Faster & Easier - Original Course"
+    type: existing-course
+    format: video-curriculum
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/course/get-hired-faster-easier-course.md"
+    priority: critical
+    status: imported
+    description: |
+      Complete 6-week video curriculum with 145 professional videos.
+      Created by career coach Cat Breet with 22+ years recruiting experience.
+    key_content:
+      - 145 professional videos
+      - 6-week structure (Welcome + Weeks 1-6)
+      - 20+ downloadable worksheets and tools
+      - Daily Action Tracker accountability system
+    structure:
+      week_0: Welcome & orientation (5 videos)
+      week_1: "Isolate Your Target - Mindset & foundations (22 videos)"
+      week_2: "Stand Out & Tell Your Story - Resume, LinkedIn, branding (27 videos)"
+      week_3: "Find Jobs & Get Past Gatekeepers - Networking, applications (20 videos)"
+      week_4: "Interview Success - Comprehensive interview prep (32 videos)"
+      week_5: "Money Talk - Salary research & negotiation (13 videos)"
+      week_6: "Break Through Barriers - Discrimination, mindset (16 videos)"
+    unique_content:
+      - 32 interview preparation videos (most comprehensive)
+      - 13 salary negotiation videos (unique depth)
+      - 6 ageism/discrimination videos (rarely covered elsewhere)
+      - Inner critic and mindset content throughout
+    video_host: Gumlet
+    testimonials:
+      - "3.5 weeks vs 6-7 months job search"
+      - "$16,000 raise + extra vacation week"
+      - "2 weeks, 6 interviews, 3 job offers"
+    relevance_score: 100
+
+  # =============================================================================
+  # COURSE REDESIGN DOCUMENTATION
+  # =============================================================================
+
+  - id: src-002
+    title: "Career Success Course Redesign 2025-2026"
+    type: planning-document
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/course-redesign-2025-2026.md"
+    priority: critical
+    status: imported
+    description: |
+      Comprehensive redesign specification for modernizing the course
+      for the AI-era job market with three audience tracks.
+    key_content:
+      - Gap analysis of existing course
+      - Three audience track designs
+      - AI integration strategy
+      - Learning outcomes with Bloom's taxonomy
+      - Assessment strategy with Kirkpatrick evaluation
+    audience_tracks:
+      - name: "Career Launchpad"
+        target: "Community College Students"
+        duration: "5 weeks"
+        focus: "First job, limited experience, building confidence"
+      - name: "Career Catalyst"
+        target: "Mid-Career Professionals"
+        duration: "6 weeks"
+        focus: "Advancement, transitions, AI adaptation"
+      - name: "Tech Career Navigator"
+        target: "Technology Professionals"
+        duration: "5 weeks"
+        focus: "Tech interviews, compensation, market navigation"
+    critical_gaps_identified:
+      - AI integration for job search tools
+      - AI screening and ATS strategies
+      - Remote/hybrid work content
+      - AI skills premium guidance
+      - HireVue/AI video interview prep
+      - Algorithmic bias awareness
+      - Modern platforms (Discord, TikTok)
+      - Pay transparency law updates
+    relevance_score: 100
+
+  # =============================================================================
+  # MARKET & AUDIENCE RESEARCH
+  # =============================================================================
+
+  - id: src-003
+    title: "Community College Career Services Overview"
+    type: research
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/community-college-career-services-overview.md"
+    priority: high
+    status: imported
+    description: |
+      Comprehensive overview of career services functions, standards,
+      technology platforms, and challenges in community colleges.
+    key_content:
+      - Core career services functions
+      - NACE professional standards
+      - Career readiness competencies
+      - Technology platforms (Handshake, 12Twenty, Symplicity)
+      - Assessment tools (Strong, MBTI, FOCUS 2)
+      - Budget and ROI data
+    critical_statistics:
+      student_counselor_ratio: "2,000:1"
+      students_never_use_services: "64%"
+      students_taught_little_about_jobs: "42%"
+      median_career_center_budget: "$417,595"
+    nace_competencies:
+      - Career & Self-Development
+      - Communication
+      - Critical Thinking
+      - Equity & Inclusion
+      - Leadership
+      - Professionalism
+      - Teamwork
+      - Technology
+    relevance_score: 95
+
+  - id: src-004
+    title: "Market Analysis - Career Course vs Career Services"
+    type: market-analysis
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/market-analysis-career-services.md"
+    priority: high
+    status: imported
+    description: |
+      Competitive analysis and market positioning for licensing
+      the career curriculum to community colleges.
+    key_content:
+      - Content gap analysis by topic
+      - Competitive landscape mapping
+      - Unique value proposition
+      - Target customer profiles
+      - Positioning strategy
+      - Pricing considerations
+    competitive_advantages:
+      - 145 videos vs random workshops
+      - Recruiter perspective (22+ years)
+      - Unique negotiation depth (13 videos)
+      - Barrier/mindset content (unique)
+      - Accountability system (Daily Action Tracker)
+      - Scripts and templates for every situation
+    competitors_analyzed:
+      - LinkedIn Learning
+      - Big Interview
+      - VMock/Resume Worded
+      - In-house career center content
+    relevance_score: 90
+
+  # =============================================================================
+  # SALES & BUSINESS MATERIALS
+  # =============================================================================
+
+  - id: src-005
+    title: "Get Hired Faster - Sales Sheet"
+    type: marketing
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/sales-sheet-career-services.md"
+    priority: medium
+    status: imported
+    description: |
+      B2B sales material for community college licensing,
+      highlighting value proposition and implementation options.
+    key_content:
+      - Problem statement (64% underserved)
+      - Solution overview (145 videos, 6 weeks)
+      - Unique differentiators
+      - Implementation options
+      - ROI preview
+    unique_selling_points:
+      - "55% faster job search"
+      - Reaches students who don't visit career services
+      - Frees staff for high-value coaching
+      - Content unavailable elsewhere (negotiation, barriers)
+    relevance_score: 75
+
+  - id: src-006
+    title: "ROI Calculator for Career Services"
+    type: business-case
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/roi-calculator-career-services.md"
+    priority: medium
+    status: imported
+    description: |
+      Detailed ROI calculations and value justification
+      for institutional licensing of the curriculum.
+    key_content:
+      - Student employment value formulas
+      - ROI by institution size
+      - Conservative scenario analysis
+      - Grant alignment (Perkins, WIOA)
+      - Build vs. buy comparison
+    roi_examples:
+      small_college: "237:1 ROI"
+      medium_college: "445:1 ROI"
+      conservative_5_percent: "59:1 ROI"
+    relevance_score: 60
+
+  # =============================================================================
+  # VIDEO CONTENT DOCUMENTATION
+  # =============================================================================
+
+  - id: src-007
+    title: "Complete Video Library"
+    type: content-inventory
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/video-library.md"
+    priority: critical
+    status: imported
+    description: |
+      Complete listing of all 145 videos with embed codes,
+      descriptions, timestamps, and downloadable resources.
+    key_content:
+      - 145 video entries with metadata
+      - Gumlet embed codes
+      - Video descriptions and transcripts
+      - Downloadable worksheet references
+    content_distribution:
+      interview_prep: 32
+      career_exploration: 22
+      resume_linkedin: 20
+      networking: 10
+      negotiation: 13
+      barriers_mindset: 16
+      course_structure: 12
+    video_host: Gumlet
+    total_videos: 145
+    relevance_score: 100
+
+  - id: src-008
+    title: "Video Topic Mapping - Student Language"
+    type: content-analysis
+    format: markdown
+    path: "/home/ubuntu/projects/saintpaulcareerservices/docs/plans/2025-12-21-video-topic-mapping-student-language.md"
+    priority: high
+    status: imported
+    description: |
+      Complete mapping of 145 videos to 15 trending topics
+      using language community college students actually use.
+    key_content:
+      - Student language patterns from Reddit/TikTok
+      - 15 topic categories in student voice
+      - Relevance ratings for each video
+      - Student-friendly title suggestions
+      - Content gap identification
+    topic_categories:
+      - "Is AI Coming For My Job?"
+      - "Why Isn't My Resume Working?"
+      - "How Do I Get a Job With No Experience?"
+      - "WTF Should I Do With My Life?"
+      - "I Don't Know Anyone (And Networking Feels Fake)"
+      - "Help! I Have An Interview"
+      - "What Am I Even Worth?"
+      - "Do I Really Need LinkedIn?"
+      - "Can I Actually Ask For More Money?"
+      - "How Do I Not Get Lost in the Pile?"
+      - "Am I Too Young/Old/Inexperienced?"
+      - "How Do I Get An Internship?"
+      - "What Do Employers Actually Want?"
+      - "I Keep Getting Rejected (And It Sucks)"
+      - "I'm Drowning - School, Work, Job Search"
+    relevance_distribution:
+      essential_5_star: 68
+      very_relevant_4_star: 42
+      relevant_3_star: 28
+      somewhat_relevant_2_star: 5
+      limited_1_star: 2
+    identified_gaps:
+      - AI & Future of Work (needs new content)
+      - Internship-specific content (needs new content)
+      - 2025 job market updates
+    relevance_score: 95
+
+# =============================================================================
+# SUMMARY STATISTICS
+# =============================================================================
+
+metadata:
+  total_sources: 8
+  critical_priority: 4
+  high_priority: 2
+  medium_priority: 2
+  total_videos_cataloged: 145
+
+  content_types:
+    existing_course: 1
+    planning_document: 1
+    research: 1
+    market_analysis: 1
+    marketing: 1
+    business_case: 1
+    content_inventory: 1
+    content_analysis: 1
+
+  key_statistics:
+    original_course_videos: 145
+    original_course_weeks: 6
+    target_audience: "Community College Students"
+    students_underserved: "64%"
+    job_search_improvement: "55% faster"
+
+  instructional_frameworks_referenced:
+    - ADDIE
+    - "Bloom's Taxonomy"
+    - "Gagné's 9 Events"
+    - "Kirkpatrick 4 Levels"
+    - "Merrill's First Principles"
+    - NACE Career Readiness Competencies
+
+  import_date: 2025-12-22
+  imported_by: "Course OS Phase 1"

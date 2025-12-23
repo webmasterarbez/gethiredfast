@@ -2,33 +2,72 @@
 # Generated: 2025-12-22
 
 course:
-  name: "Fast"
-  slug: "Fast"
+  name: "Get Hired Fast for Community College Students"
+  slug: "get-hired-fast-community-college"
   version: "0.1.0"
   status: "planning"  # planning | development | review | production | published
   created: 2025-12-22
   updated: 2025-12-22
 
 meta:
-  author: ""
-  organization: ""
-  contact: ""
+  author: "Cat Breet / ARBEZ Career Services"
+  organization: "Saint Paul College Career Services"
+  contact: "saintpaulcareerservices.online"
   languages:
     primary: "en"
     translations: []
 
 type:
-  format: ""  # self-paced | cohort | live | hybrid
-  category: ""  # online | corporate | academic | workshop
-  level: ""  # beginner | intermediate | advanced | all-levels
+  format: "self-paced"
+  category: "academic"
+  level: "beginner"
+  track: "Career Launchpad"  # Community College Students track
 
 duration:
-  total: ""
-  recommended_pace: ""
-  access_period: ""  # lifetime | 12-months | etc.
+  total: "5 weeks"
+  recommended_pace: "45-60 minutes per week"
+  access_period: "lifetime"
+
+audience:
+  primary: "Community college students (ages 18-30)"
+  characteristics:
+    - "Limited professional experience"
+    - "Part-time work or internship experience"
+    - "First-generation college students common"
+    - "Mobile-first, time-constrained learners"
+  motivations:
+    - "First 'real' job after graduation"
+    - "Financial independence"
+    - "Career direction and clarity"
+  barriers:
+    - "Imposter syndrome"
+    - "Thin resume"
+    - "Limited professional network"
+
+foundation:
+  existing_content:
+    videos: 145
+    weeks: 6
+    source: "Get Hired Faster & Easier by Cat Breet"
+  key_promise: "Find jobs 55% faster than average"
+  unique_value:
+    - "32 interview prep videos (most comprehensive)"
+    - "13 salary negotiation videos (unique depth)"
+    - "Mindset and barrier content"
+    - "Daily Action Tracker accountability system"
 
 phases:
-  current: 1
-  completed: []
+  current: 3
+  completed:
+    - import
+    - research
 
-tags: []
+tags:
+  - "career readiness"
+  - "job search"
+  - "community college"
+  - "entry-level"
+  - "resume"
+  - "interview prep"
+  - "networking"
+  - "salary negotiation"
