@@ -1,0 +1,447 @@
+# Course OS - Accessibility Planning
+# Course: Get Hired Fast for Community College Students
+# Phase 3: Audience & Market Discovery
+# Generated: 2025-12-22
+
+# =============================================================================
+# ACCESSIBILITY STANDARDS
+# =============================================================================
+
+standards:
+
+  primary: "WCAG 2.1 Level AA"
+  secondary: "Section 508 Compliance"
+  framework: "Universal Design for Learning (UDL)"
+
+  notes: |
+    Community colleges must comply with ADA and Section 508.
+    Designing for accessibility from the start is both ethical
+    and required for institutional licensing.
+
+# =============================================================================
+# WCAG 2.1 AA COMPLIANCE PLAN
+# =============================================================================
+
+wcag_compliance:
+
+  # ---------------------------------------------------------------------------
+  # PERCEIVABLE
+  # ---------------------------------------------------------------------------
+
+  perceivable:
+
+    - requirement: "1.1.1 Non-text Content"
+      level: "A"
+      applies_to: "Images, graphics, icons"
+      implementation:
+        - "Alt text for all images"
+        - "Decorative images marked as such"
+        - "Complex graphics have text descriptions"
+      verification: "Manual review of all visual content"
+
+    - requirement: "1.2.1 Audio-only and Video-only"
+      level: "A"
+      applies_to: "Video lessons"
+      implementation:
+        - "Transcripts for all videos"
+        - "Audio descriptions where needed"
+      verification: "Transcript exists for each video"
+
+    - requirement: "1.2.2 Captions (Prerecorded)"
+      level: "A"
+      applies_to: "All video content"
+      implementation:
+        - "Closed captions on all videos"
+        - "99%+ accuracy (professional or verified auto)"
+        - "Speaker identification when multiple speakers"
+      verification: "Caption accuracy review"
+
+    - requirement: "1.2.3 Audio Description"
+      level: "A"
+      applies_to: "Videos with visual-only content"
+      implementation:
+        - "Describe on-screen visuals in narration"
+        - "Alternative audio descriptions if needed"
+      verification: "Review for visual-dependent content"
+
+    - requirement: "1.3.1 Info and Relationships"
+      level: "A"
+      applies_to: "All content structure"
+      implementation:
+        - "Proper heading hierarchy (H1, H2, H3)"
+        - "Lists marked up as lists"
+        - "Tables have headers"
+      verification: "Automated and manual review"
+
+    - requirement: "1.4.3 Contrast (Minimum)"
+      level: "AA"
+      applies_to: "All text content"
+      implementation:
+        - "4.5:1 ratio for normal text"
+        - "3:1 ratio for large text"
+        - "Test all color combinations"
+      verification: "Contrast analyzer tool"
+
+    - requirement: "1.4.4 Resize Text"
+      level: "AA"
+      applies_to: "Platform interface"
+      implementation:
+        - "Content readable at 200% zoom"
+        - "No horizontal scrolling at 200%"
+      verification: "Browser zoom testing"
+
+  # ---------------------------------------------------------------------------
+  # OPERABLE
+  # ---------------------------------------------------------------------------
+
+  operable:
+
+    - requirement: "2.1.1 Keyboard"
+      level: "A"
+      applies_to: "All interactive elements"
+      implementation:
+        - "All functions keyboard accessible"
+        - "No keyboard traps"
+        - "Visible focus indicators"
+      verification: "Keyboard-only navigation test"
+
+    - requirement: "2.4.1 Bypass Blocks"
+      level: "A"
+      applies_to: "Platform navigation"
+      implementation:
+        - "Skip to main content link"
+        - "Skip navigation options"
+      verification: "Test skip links"
+
+    - requirement: "2.4.4 Link Purpose"
+      level: "A"
+      applies_to: "All links"
+      implementation:
+        - "Descriptive link text"
+        - "No 'click here' or 'read more'"
+      verification: "Link text review"
+
+    - requirement: "2.4.6 Headings and Labels"
+      level: "AA"
+      applies_to: "All content"
+      implementation:
+        - "Descriptive headings"
+        - "Form labels clear and associated"
+      verification: "Content structure review"
+
+  # ---------------------------------------------------------------------------
+  # UNDERSTANDABLE
+  # ---------------------------------------------------------------------------
+
+  understandable:
+
+    - requirement: "3.1.1 Language of Page"
+      level: "A"
+      applies_to: "All pages"
+      implementation:
+        - "HTML lang attribute set"
+        - "Language changes marked"
+      verification: "Code review"
+
+    - requirement: "3.2.3 Consistent Navigation"
+      level: "AA"
+      applies_to: "Platform interface"
+      implementation:
+        - "Same navigation on all pages"
+        - "Consistent location of elements"
+      verification: "Navigation audit"
+
+    - requirement: "3.3.1 Error Identification"
+      level: "A"
+      applies_to: "Forms, quizzes"
+      implementation:
+        - "Errors clearly identified"
+        - "Text descriptions of errors"
+        - "Suggestions for correction"
+      verification: "Form testing"
+
+  # ---------------------------------------------------------------------------
+  # ROBUST
+  # ---------------------------------------------------------------------------
+
+  robust:
+
+    - requirement: "4.1.1 Parsing"
+      level: "A"
+      applies_to: "All HTML"
+      implementation:
+        - "Valid HTML"
+        - "Unique IDs"
+      verification: "HTML validation"
+
+    - requirement: "4.1.2 Name, Role, Value"
+      level: "A"
+      applies_to: "Interactive elements"
+      implementation:
+        - "ARIA labels where needed"
+        - "Custom components properly labeled"
+      verification: "Screen reader testing"
+
+# =============================================================================
+# UNIVERSAL DESIGN FOR LEARNING (UDL)
+# =============================================================================
+
+udl_implementation:
+
+  # ---------------------------------------------------------------------------
+  # MULTIPLE MEANS OF ENGAGEMENT
+  # ---------------------------------------------------------------------------
+
+  engagement:
+
+    - principle: "Recruiting Interest"
+      strategies:
+        - "Relevant, student-centered examples"
+        - "Choice in order of some content"
+        - "Clear 'why this matters' for each lesson"
+      implementation:
+        - "Use student personas in examples"
+        - "Flexible learning paths where possible"
+        - "Connect content to student goals"
+
+    - principle: "Sustaining Effort"
+      strategies:
+        - "Clear goals and expectations"
+        - "Varied challenge levels"
+        - "Collaborative community (if feasible)"
+      implementation:
+        - "Learning objectives at start of each lesson"
+        - "Daily Action Tracker for goals"
+        - "Progress celebration built in"
+
+    - principle: "Self-Regulation"
+      strategies:
+        - "Develop self-assessment skills"
+        - "Reflection activities"
+        - "Coping strategies for job search stress"
+      implementation:
+        - "Mindset content throughout course"
+        - "Daily Action Tracker for self-monitoring"
+        - "Gratitude and confidence exercises"
+
+  # ---------------------------------------------------------------------------
+  # MULTIPLE MEANS OF REPRESENTATION
+  # ---------------------------------------------------------------------------
+
+  representation:
+
+    - principle: "Perception"
+      strategies:
+        - "Multiple formats for content"
+        - "Captions and transcripts"
+        - "Adjustable display options"
+      implementation:
+        - "Video + transcript for all lessons"
+        - "Downloadable PDF summaries"
+        - "Mobile-responsive design"
+
+    - principle: "Language & Symbols"
+      strategies:
+        - "Clear, plain language"
+        - "Define professional jargon"
+        - "Visual representations where helpful"
+      implementation:
+        - "Glossary of career terms"
+        - "Student-friendly language (not corporate-speak)"
+        - "Diagrams and visual aids"
+
+    - principle: "Comprehension"
+      strategies:
+        - "Activate prior knowledge"
+        - "Highlight patterns and relationships"
+        - "Guide information processing"
+      implementation:
+        - "Build on what students know"
+        - "Consistent lesson structure"
+        - "Summary and key takeaways per lesson"
+
+  # ---------------------------------------------------------------------------
+  # MULTIPLE MEANS OF ACTION & EXPRESSION
+  # ---------------------------------------------------------------------------
+
+  action_expression:
+
+    - principle: "Physical Action"
+      strategies:
+        - "Keyboard navigation"
+        - "Touch-friendly design"
+        - "Assistive technology compatible"
+      implementation:
+        - "All interactions keyboard accessible"
+        - "Large touch targets on mobile"
+        - "Screen reader compatible"
+
+    - principle: "Expression & Communication"
+      strategies:
+        - "Multiple media for assignments"
+        - "Templates and scaffolds"
+        - "Graduated support"
+      implementation:
+        - "Templates for resume, cover letter, etc."
+        - "Example answers provided"
+        - "Scripts for networking and negotiation"
+
+    - principle: "Executive Functions"
+      strategies:
+        - "Clear goal-setting support"
+        - "Planning and strategy tools"
+        - "Progress monitoring"
+      implementation:
+        - "Daily Action Tracker system"
+        - "Checklists for each week"
+        - "Progress dashboard"
+
+# =============================================================================
+# CONTENT-SPECIFIC ACCESSIBILITY
+# =============================================================================
+
+content_accessibility:
+
+  videos:
+    requirements:
+      - "Closed captions (99%+ accuracy)"
+      - "Transcripts available for download"
+      - "Video player keyboard accessible"
+      - "Playback speed control"
+      - "Full-screen option"
+    nice_to_have:
+      - "Audio descriptions track"
+      - "Sign language interpretation (high cost)"
+
+  worksheets:
+    requirements:
+      - "PDF/A format for accessibility"
+      - "Form fields properly labeled"
+      - "Readable by screen readers"
+      - "Printable version available"
+    nice_to_have:
+      - "Interactive web-based versions"
+      - "Auto-save functionality"
+
+  quizzes:
+    requirements:
+      - "Keyboard navigable"
+      - "Clear error messages"
+      - "No time pressure (or adjustable)"
+      - "Screen reader compatible"
+    nice_to_have:
+      - "Text-to-speech for questions"
+      - "Multiple attempts allowed"
+
+  platform:
+    requirements:
+      - "Mobile responsive"
+      - "Consistent navigation"
+      - "Skip to content links"
+      - "High contrast option"
+    nice_to_have:
+      - "User-adjustable font size"
+      - "Dark mode option"
+      - "Reading focus mode"
+
+# =============================================================================
+# LEARNER ACCOMMODATIONS
+# =============================================================================
+
+accommodations:
+
+  visual_impairments:
+    - "Screen reader compatible content"
+    - "Alt text for all images"
+    - "High contrast mode"
+    - "Audio descriptions for visual content"
+    - "Transcripts for all videos"
+
+  hearing_impairments:
+    - "Accurate closed captions"
+    - "Transcripts available"
+    - "Visual indicators for audio cues"
+    - "Text-based alternatives for audio content"
+
+  motor_impairments:
+    - "Keyboard navigation for all features"
+    - "No time-limited interactions"
+    - "Large click targets"
+    - "Voice input compatibility"
+
+  cognitive_considerations:
+    - "Clear, simple language"
+    - "Consistent layout and navigation"
+    - "Break content into chunks (10-15 min videos)"
+    - "Progress indicators and checklists"
+    - "Ability to pause and resume"
+    - "Summaries and key takeaways"
+
+  learning_differences:
+    - "Multiple content formats (video, text, audio)"
+    - "Self-paced with no time pressure"
+    - "Templates and scaffolding"
+    - "Clear instructions and examples"
+    - "Optional extended content for depth"
+
+# =============================================================================
+# VERIFICATION & TESTING
+# =============================================================================
+
+verification:
+
+  automated_testing:
+    tools:
+      - "WAVE (Web Accessibility Evaluation)"
+      - "axe DevTools"
+      - "Lighthouse"
+      - "Color contrast analyzers"
+    frequency: "Before each release"
+
+  manual_testing:
+    methods:
+      - "Keyboard-only navigation"
+      - "Screen reader testing (NVDA, VoiceOver)"
+      - "High contrast mode"
+      - "200% zoom testing"
+    frequency: "Each module before release"
+
+  user_testing:
+    approach:
+      - "Include users with disabilities in testing"
+      - "Gather feedback on accommodations"
+      - "Iterate based on real user experience"
+    frequency: "Beta testing phase"
+
+  documentation:
+    - "Accessibility statement on platform"
+    - "How to request accommodations"
+    - "Contact for accessibility issues"
+    - "VPAT (if required for institutional sales)"
+
+# =============================================================================
+# IMPLEMENTATION PRIORITY
+# =============================================================================
+
+implementation_priority:
+
+  must_have:
+    - "Closed captions on all videos"
+    - "Transcripts for all videos"
+    - "Keyboard navigation"
+    - "Alt text for images"
+    - "Proper heading structure"
+    - "Sufficient color contrast"
+    - "Mobile responsive design"
+
+  should_have:
+    - "Downloadable PDF summaries"
+    - "Progress tracking accessible"
+    - "Quiz accommodations"
+    - "High contrast option"
+
+  nice_to_have:
+    - "Audio descriptions"
+    - "Sign language interpretation"
+    - "User-adjustable display settings"
+    - "Multiple language captions"

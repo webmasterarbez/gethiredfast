@@ -49,13 +49,25 @@ phases:
       spec: "specs/research.yaml"
 
   discovery:
-    status: pending
-    started_at: null
-    completed_at: null
-    personas_created: 0
-    competitors_analyzed: 0
-    notes: []
+    status: completed
+    started_at: 2025-12-22
+    completed_at: 2025-12-22
+    personas_created: 3
+    competitors_analyzed: 6
+    notes:
+      - "Created 3 detailed personas: Maya (First-Gen), Marcus (Career Changer), Jordan (Anxious Achiever)"
+      - "Analyzed 3 direct competitors: Big Interview, LinkedIn Learning, Forage"
+      - "Analyzed 3 indirect competitors: Career Centers, YouTube, TikTok"
+      - "Defined unique positioning: CC-specific, recruiter perspective, negotiation depth"
+      - "Mapped complete 8-stage learner journey from awareness to post-course success"
+      - "Planned WCAG 2.1 AA and UDL accessibility compliance"
     blockers: []
+    outputs:
+      personas: "specs/personas.yaml"
+      competitors: ".course-os/research/competitors.yaml"
+      positioning: "specs/positioning.yaml"
+      learner_journey: "specs/learner-journey.yaml"
+      accessibility: "specs/accessibility.yaml"
 
   strategy:
     status: pending

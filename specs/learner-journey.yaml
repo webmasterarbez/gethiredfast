@@ -1,0 +1,482 @@
+# Course OS - Learner Journey Map
+# Course: Get Hired Fast for Community College Students
+# Phase 3: Audience & Market Discovery
+# Generated: 2025-12-22
+
+# =============================================================================
+# PRE-COURSE JOURNEY
+# =============================================================================
+
+journey:
+
+  # ---------------------------------------------------------------------------
+  # STAGE 0: AWARENESS
+  # ---------------------------------------------------------------------------
+
+  - stage: "0. Awareness"
+    phase: "pre-course"
+    duration: "Variable"
+
+    learner_state:
+      thinking:
+        - "I need to start job searching soon"
+        - "I don't know where to begin"
+        - "Maybe there's a course or resource that can help"
+      feeling:
+        - Overwhelmed
+        - Anxious
+        - Uncertain
+      doing:
+        - "Googling 'how to get a job'"
+        - "Asking friends and family for advice"
+        - "Maybe visiting career center"
+
+    touchpoints:
+      - "Career center recommendation"
+      - "Professor mention in class"
+      - "Peer referral"
+      - "Handshake or college portal"
+
+    success_criteria:
+      - "Learns course exists"
+      - "Understands basic value proposition"
+
+    potential_barriers:
+      - "Doesn't know course exists"
+      - "Assumes they can figure it out themselves"
+      - "Cost concerns (if not institution-provided)"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 1: ENROLLMENT
+  # ---------------------------------------------------------------------------
+
+  - stage: "1. Enrollment"
+    phase: "pre-course"
+    duration: "1-3 days"
+
+    learner_state:
+      thinking:
+        - "Will this actually help me?"
+        - "Do I have time for this?"
+        - "Is this worth it?"
+      feeling:
+        - Hopeful
+        - Skeptical
+        - Time-pressured
+      doing:
+        - "Reading course description"
+        - "Checking time commitment"
+        - "Looking at testimonials"
+
+    touchpoints:
+      - "Course landing page"
+      - "Enrollment form"
+      - "Welcome email"
+
+    success_criteria:
+      - "Enrolls in course"
+      - "Receives welcome email"
+      - "Accesses course platform"
+
+    potential_barriers:
+      - "Registration friction"
+      - "Unclear what they'll get"
+      - "Competing priorities"
+
+    design_actions:
+      - "Clear, simple enrollment"
+      - "Immediate welcome email with quick win"
+      - "Set expectations for time commitment"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 2: ONBOARDING
+  # ---------------------------------------------------------------------------
+
+  - stage: "2. Onboarding"
+    phase: "week-0"
+    duration: "Day 1-3"
+
+    learner_state:
+      thinking:
+        - "Where do I start?"
+        - "How does this work?"
+        - "Can I really do this?"
+      feeling:
+        - Eager but uncertain
+        - Hopeful
+        - Still some imposter syndrome
+      doing:
+        - "Watching welcome video"
+        - "Exploring course structure"
+        - "Maybe completing first activity"
+
+    touchpoints:
+      - "Welcome video from Cat"
+      - "Course overview"
+      - "First mindset exercise"
+      - "Download Daily Action Tracker"
+
+    success_criteria:
+      - "Watches welcome video"
+      - "Understands course structure"
+      - "Downloads Daily Action Tracker"
+      - "Completes 'Find Your Why' exercise"
+
+    potential_barriers:
+      - "Course feels overwhelming"
+      - "Not sure what to do first"
+      - "Life gets in the way"
+
+    design_actions:
+      - "Single clear first action"
+      - "Quick win in first 15 minutes"
+      - "Warmth and encouragement from instructor"
+      - "Show them they CAN do this"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 3: FOUNDATION (Week 1)
+  # ---------------------------------------------------------------------------
+
+  - stage: "3. Foundation Building"
+    phase: "week-1"
+    duration: "Week 1"
+    module: "Career GPS - Find Your Direction"
+
+    learner_state:
+      thinking:
+        - "What do I actually want?"
+        - "What am I good at?"
+        - "Where should I even apply?"
+      feeling:
+        - Introspective
+        - Building confidence slowly
+        - Still some anxiety
+      doing:
+        - "Self-assessment exercises"
+        - "Identifying target roles"
+        - "Mindset work"
+
+    learning_objectives:
+      - "Clarify career direction"
+      - "Identify transferable skills"
+      - "Build foundation of confidence"
+      - "Understand the hidden job market"
+
+    key_activities:
+      - "Key Skills & Achievements exercise"
+      - "Target Job Scorecard"
+      - "Find Your Champions list"
+      - "Daily Action Tracker setup"
+
+    success_criteria:
+      - "Has clear target job type(s)"
+      - "Can articulate 5+ transferable skills"
+      - "Has started Daily Action Tracker"
+      - "Identified 10+ 'champions' in network"
+
+    potential_barriers:
+      - "Can't identify skills"
+      - "Overwhelmed by self-reflection"
+      - "Imposter syndrome kicks in hard"
+
+    emotional_arc:
+      start: "Uncertain, unfocused"
+      end: "Clearer direction, growing confidence"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 4: BRAND BUILDING (Week 2)
+  # ---------------------------------------------------------------------------
+
+  - stage: "4. Brand Building"
+    phase: "week-2"
+    duration: "Week 2"
+    module: "Build Your Brand - Tell Your Story"
+
+    learner_state:
+      thinking:
+        - "How do I present myself?"
+        - "What do I put on my resume?"
+        - "Will this be good enough?"
+      feeling:
+        - Motivated
+        - Some perfectionism anxiety
+        - Starting to see their value
+      doing:
+        - "Writing resume"
+        - "Optimizing LinkedIn"
+        - "Crafting personal brand"
+
+    learning_objectives:
+      - "Create ATS-optimized resume"
+      - "Optimize LinkedIn profile"
+      - "Develop personal brand and elevator pitch"
+      - "Learn to use AI tools effectively"
+
+    key_activities:
+      - "Master resume creation"
+      - "STAR story development"
+      - "LinkedIn profile overhaul"
+      - "AI resume tool practice"
+
+    success_criteria:
+      - "Has polished, ATS-optimized resume"
+      - "LinkedIn profile complete (All-Star)"
+      - "Can deliver 30-second elevator pitch"
+      - "Knows how to use AI for tailoring"
+
+    potential_barriers:
+      - "Perfectionism paralysis on resume"
+      - "Feels like they have nothing to say"
+      - "LinkedIn feels intimidating"
+
+    emotional_arc:
+      start: "Resume anxiety, feels unqualified"
+      end: "Proud of professional materials"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 5: OPPORTUNITY FINDING (Week 3)
+  # ---------------------------------------------------------------------------
+
+  - stage: "5. Opportunity Finding"
+    phase: "week-3"
+    duration: "Week 3"
+    module: "Find Opportunities - Work Your Network"
+
+    learner_state:
+      thinking:
+        - "How do I actually find jobs?"
+        - "Networking feels scary"
+        - "What do I even say to people?"
+      feeling:
+        - Nervous about networking
+        - Ready to take action
+        - Building momentum
+      doing:
+        - "Reaching out to network"
+        - "Conducting informational interviews"
+        - "Applying strategically"
+
+    learning_objectives:
+      - "Understand hidden job market strategy"
+      - "Conduct informational interviews"
+      - "Use Handshake and job boards effectively"
+      - "Build networking habit"
+
+    key_activities:
+      - "First 50 networking list"
+      - "3+ informational interview requests"
+      - "Handshake profile optimization"
+      - "Strategic application process"
+
+    success_criteria:
+      - "Sent 10+ networking outreach messages"
+      - "Conducted 2+ informational interviews"
+      - "Applied to 5+ targeted positions"
+      - "Using Daily Action Tracker consistently"
+
+    potential_barriers:
+      - "Fear of reaching out"
+      - "Rejection on outreach attempts"
+      - "Temptation to skip networking for applications"
+
+    emotional_arc:
+      start: "Networking anxiety"
+      end: "Surprised by positive responses"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 6: INTERVIEW PREPARATION (Week 4)
+  # ---------------------------------------------------------------------------
+
+  - stage: "6. Interview Preparation"
+    phase: "week-4"
+    duration: "Week 4"
+    module: "Interview Like a Pro - Land the Offer"
+
+    learner_state:
+      thinking:
+        - "What if they ask something I can't answer?"
+        - "How do I not freeze up?"
+        - "I need to practice"
+      feeling:
+        - Interview anxiety
+        - Determined
+        - Growing confidence from preparation
+      doing:
+        - "Practicing STAR stories"
+        - "Researching companies"
+        - "Mock interview practice"
+
+    learning_objectives:
+      - "Master STAR method for behavioral interviews"
+      - "Prepare for AI video interviews (HireVue)"
+      - "Develop company research process"
+      - "Build interview confidence through practice"
+
+    key_activities:
+      - "STAR story bank (5-7 stories)"
+      - "Common questions practice"
+      - "AI video interview setup/practice"
+      - "Mock interview (even informal)"
+
+    success_criteria:
+      - "Can answer 10+ common questions confidently"
+      - "Has 5+ STAR stories ready"
+      - "Knows how to prepare for any interview"
+      - "Completed HireVue prep if relevant"
+
+    potential_barriers:
+      - "Memorizing instead of understanding"
+      - "Not actually practicing out loud"
+      - "Interview anxiety peaking"
+
+    emotional_arc:
+      start: "Fear of interviews"
+      end: "Prepared and ready"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 7: NEGOTIATION & LAUNCH (Week 5)
+  # ---------------------------------------------------------------------------
+
+  - stage: "7. Negotiation & Launch"
+    phase: "week-5"
+    duration: "Week 5"
+    module: "Launch Your Career - Negotiate & Start Strong"
+
+    learner_state:
+      thinking:
+        - "Can I actually negotiate?"
+        - "How do I compare offers?"
+        - "What's next after I start?"
+      feeling:
+        - Anticipation
+        - Some anxiety about negotiation
+        - Empowered by knowledge
+      doing:
+        - "Salary research"
+        - "Negotiation preparation"
+        - "Evaluating offers"
+
+    learning_objectives:
+      - "Research market salary rates"
+      - "Understand total compensation"
+      - "Practice negotiation conversation"
+      - "Create 90-day success plan"
+
+    key_activities:
+      - "Salary research with multiple sources"
+      - "Negotiation prep worksheet"
+      - "Offer comparison framework"
+      - "90-day career plan draft"
+
+    success_criteria:
+      - "Knows market rate for target roles"
+      - "Has negotiation script prepared"
+      - "Can evaluate total compensation"
+      - "Has 90-day success plan"
+
+    potential_barriers:
+      - "Fear of negotiating at entry level"
+      - "Assumption they can't negotiate"
+      - "Rushing to accept first offer"
+
+    emotional_arc:
+      start: "Uncertain about money talk"
+      end: "Confident they can advocate for themselves"
+
+  # ---------------------------------------------------------------------------
+  # STAGE 8: POST-COURSE SUCCESS
+  # ---------------------------------------------------------------------------
+
+  - stage: "8. Post-Course Success"
+    phase: "post-course"
+    duration: "3-6 months"
+
+    learner_state:
+      thinking:
+        - "I have the tools, now I need to execute"
+        - "This is actually working"
+        - "I got this"
+      feeling:
+        - Confident
+        - In control
+        - Proud of progress
+      doing:
+        - "Active job searching"
+        - "Interviewing"
+        - "Negotiating offers"
+        - "Starting new role"
+
+    touchpoints:
+      - "Email check-ins (optional)"
+      - "Success story submission"
+      - "Alumni community (if exists)"
+
+    success_criteria:
+      - "Lands job within 90 days"
+      - "Salary at or above target"
+      - "Feels prepared for role"
+      - "Has ongoing career development plan"
+
+    potential_barriers:
+      - "Losing momentum after course ends"
+      - "Rejection discouragement"
+      - "Life circumstances changing"
+
+# =============================================================================
+# EMOTIONAL JOURNEY SUMMARY
+# =============================================================================
+
+emotional_journey:
+
+  overall_arc:
+    start: "Overwhelmed, uncertain, imposter syndrome"
+    middle: "Building confidence through action and wins"
+    end: "Empowered, prepared, in control of career"
+
+  peak_anxiety_moments:
+    - "First networking outreach"
+    - "Resume feels inadequate"
+    - "First interview invitation"
+    - "Salary negotiation"
+
+  peak_confidence_moments:
+    - "Completing polished resume"
+    - "Positive networking response"
+    - "Successful informational interview"
+    - "Job offer received"
+
+  critical_support_needs:
+    - "Week 1: Mindset foundation (imposter syndrome)"
+    - "Week 2: Permission to be imperfect (resume)"
+    - "Week 3: Scripts reduce networking fear"
+    - "Week 4: Practice builds interview confidence"
+    - "Week 5: Data gives negotiation confidence"
+
+# =============================================================================
+# DESIGN IMPLICATIONS
+# =============================================================================
+
+design_implications:
+
+  content_structure:
+    - "Short videos (10-15 min) for time-constrained learners"
+    - "Clear 'do this next' after every lesson"
+    - "Mindset content woven throughout, not just Week 1"
+    - "Scripts and templates for every scary action"
+
+  engagement_mechanisms:
+    - "Daily Action Tracker for accountability"
+    - "Progress celebration built into system"
+    - "Email reminders for inactive learners"
+    - "Quick wins early in course"
+
+  support_structures:
+    - "FAQ for common sticking points"
+    - "Example answers and templates"
+    - "Peer community (if feasible)"
+    - "Career center integration guidance"
+
+  mobile_considerations:
+    - "Videos watchable on phone"
+    - "Worksheets fillable on mobile or printable"
+    - "Progress tracking accessible anywhere"

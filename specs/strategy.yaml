@@ -1,0 +1,237 @@
+# Course OS - Course Strategy
+# Course: Get Hired Fast for Community College Students
+# Phase 4: Course Strategy
+# Generated: 2025-12-22
+
+# =============================================================================
+# TRANSFORMATION PROMISE
+# =============================================================================
+
+transformation:
+
+  before:
+    situation: |
+      Community college students approaching graduation or job searching feel
+      overwhelmed, under-qualified, and uncertain. They don't know where to
+      start, their resumes feel empty, networking seems fake and scary, and
+      imposter syndrome makes them question whether they belong in professional
+      settings at all.
+    pain_points:
+      - "I don't know where to start"
+      - "My resume has nothing on it"
+      - "I don't know anyone who can help"
+      - "Networking feels fake and uncomfortable"
+      - "Everyone else seems to know what they're doing"
+      - "What if they find out I'm not qualified?"
+      - "I can't compete with people who have real experience"
+
+  after:
+    situation: |
+      Students have a clear action plan, polished professional materials,
+      networking confidence, and the insider knowledge to navigate the job
+      market effectively. They understand their value, can articulate their
+      story, and have the psychological resilience to handle rejection and
+      keep moving forward.
+    capabilities:
+      - "Has a targeted job search strategy (not random applications)"
+      - "Owns a polished, ATS-optimized resume"
+      - "Can network confidently with scripts and templates"
+      - "Knows how to ace interviews using the STAR method"
+      - "Understands what they're worth and can negotiate"
+      - "Has tools to manage imposter syndrome and rejection"
+      - "Tracks progress with accountability system"
+
+  promise:
+    one_sentence: |
+      Transform from overwhelmed and uncertain to confident and employed
+      by learning what actually gets you hired — straight from someone
+      who's been on the hiring side for 22 years.
+    tagline: "From Overwhelmed to Employed"
+    key_metric: "Find jobs 55% faster than average"
+
+# =============================================================================
+# UNIQUE THESIS / APPROACH
+# =============================================================================
+
+thesis:
+
+  name: "The Insider's Edge + Inner Game"
+
+  core_belief: |
+    Getting hired isn't about being the most qualified candidate — it's about
+    knowing how the hiring game actually works AND having the confidence to
+    play it. Most career advice misses one or the other. This course delivers
+    both.
+
+  two_pillars:
+
+    pillar_1:
+      name: "The Insider's Playbook"
+      description: |
+        22 years on the hiring side reveals what actually gets candidates
+        hired — the hidden job market, what resumes get thrown out and why,
+        what interviewers really want to hear, and how to negotiate without
+        losing the offer.
+      proof_points:
+        - "Recruiter perspective on every topic"
+        - "Scripts for exactly what to say"
+        - "Behind-the-scenes of hiring process"
+        - "What 80% of job seekers get wrong"
+
+    pillar_2:
+      name: "The Inner Game"
+      description: |
+        Job searching is psychologically brutal, especially for students who
+        already feel like imposters. This course addresses the mental game —
+        building confidence, managing rejection, overcoming perfectionism,
+        and maintaining momentum when things get hard.
+      proof_points:
+        - "Imposter syndrome strategies"
+        - "Rejection resilience training"
+        - "Daily Action Tracker for accountability"
+        - "Mindset exercises throughout (not just one module)"
+
+  differentiation: |
+    Competitors offer tactics OR motivation. LinkedIn Learning has 24,000
+    scattered courses. Big Interview focuses only on interviews. YouTube
+    is chaos. We offer a complete system: the insider knowledge you need
+    PLUS the psychological support to actually use it.
+
+# =============================================================================
+# COURSE VISION
+# =============================================================================
+
+vision:
+
+  mission: |
+    Empower community college students to launch their careers with confidence
+    by teaching them what actually works in job searching — from someone who's
+    hired thousands of people — while supporting them through the psychological
+    challenges that derail most job seekers.
+
+  values:
+    - value: "Practical over theoretical"
+      meaning: "Every lesson ends with 'do this next'"
+
+    - value: "Honest over polished"
+      meaning: "Tell them the truth about the job market, even when it's hard"
+
+    - value: "Supportive over preachy"
+      meaning: "Meet them where they are, don't lecture"
+
+    - value: "Action over perfection"
+      meaning: "Done is better than perfect; applied is better than watched"
+
+  success_definition: |
+    Success is not course completion — it's getting hired. Every design
+    decision should ask: "Does this help students get jobs faster?"
+
+# =============================================================================
+# PROBLEM-CENTERED STRUCTURE
+# =============================================================================
+
+structure_philosophy:
+
+  approach: "Problem-Topic Focused"
+
+  rationale: |
+    Students don't think in "weeks" — they think in problems. "How do I
+    write a resume when I have no experience?" "What do I say in a
+    networking conversation?" Organize around the problems they're
+    trying to solve, not arbitrary time units.
+
+  core_problems:
+    - problem: "WTF Should I Do With My Life?"
+      topics:
+        - "Career exploration and self-assessment"
+        - "Identifying transferable skills"
+        - "Target job identification"
+        - "AI and the future of work"
+
+    - problem: "My Resume Has Nothing On It"
+      topics:
+        - "Framing limited experience"
+        - "ATS optimization"
+        - "AI tools for resume writing"
+        - "LinkedIn profile building"
+
+    - problem: "I Don't Know Anyone"
+      topics:
+        - "Hidden job market access"
+        - "Networking without feeling fake"
+        - "Informational interviews"
+        - "Using Handshake and modern platforms"
+
+    - problem: "Help! I Have An Interview"
+      topics:
+        - "STAR method mastery"
+        - "Common question preparation"
+        - "AI video interviews (HireVue)"
+        - "Company research and follow-up"
+
+    - problem: "Can I Actually Ask For More?"
+      topics:
+        - "Salary research"
+        - "Negotiation at entry level"
+        - "Total compensation understanding"
+        - "Offer evaluation"
+
+    - problem: "I'm Not Good Enough (And Other Lies)"
+      topics:
+        - "Imposter syndrome strategies"
+        - "Rejection resilience"
+        - "Perfectionism breaking"
+        - "Confidence building"
+
+  integration_note: |
+    Mindset content should be woven throughout ALL modules, not just
+    the last one. Every problem-topic should address both the tactical
+    solution AND the psychological barrier.
+
+# =============================================================================
+# TARGET OUTCOMES
+# =============================================================================
+
+target_outcomes:
+
+  primary:
+    - "Land a job 55% faster than national average (10 weeks vs 22)"
+    - "75%+ course completion rate (vs 15% industry average)"
+    - "60%+ receive job offer within 90 days"
+
+  secondary:
+    - "NPS score of 50+"
+    - "90%+ rate materials as 'useful' or 'very useful'"
+    - "70%+ at or above target salary"
+
+  leading_indicators:
+    - "Resume completed within first 2 modules"
+    - "LinkedIn profile optimized"
+    - "10+ networking outreach attempts"
+    - "3+ informational interviews conducted"
+    - "5+ targeted job applications"
+    - "Daily Action Tracker used consistently"
+
+# =============================================================================
+# DESIGN PRINCIPLES
+# =============================================================================
+
+design_principles:
+
+  - principle: "Mobile-first, time-respectful"
+    application: "10-15 minute videos max, works on phone"
+
+  - principle: "Action over consumption"
+    application: "Every lesson has a clear deliverable or action"
+
+  - principle: "Scripts reduce fear"
+    application: "Templates for every scary conversation"
+
+  - principle: "Progress is visible"
+    application: "Daily Action Tracker and progress indicators"
+
+  - principle: "Failure is normalized"
+    application: "Rejection is expected and taught as part of process"
+
+  - principle: "Accessibility is default"
+    application: "WCAG 2.1 AA, captions, transcripts, mobile"
