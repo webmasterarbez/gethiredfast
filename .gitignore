@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large media files (track with Git LFS if needed)
+# *.mp4
+# *.mov
+# *.wav
+
+# Sensitive files
+*.env
+credentials.json
