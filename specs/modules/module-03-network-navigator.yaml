@@ -1,0 +1,433 @@
+# Course OS - Module Specification
+# Module 03: Network Navigator
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-03
+  title: "Network Navigator"
+  subtitle: "I Don't Know Anyone"
+  problem: 3
+  type: core
+  duration: "45-60 minutes"
+
+overview:
+  purpose: |
+    Teach students to access the hidden job market through networking.
+    Overcome the "I don't know anyone" belief, build a network map,
+    and conduct informational interviews.
+
+  terminal_outcome: TLO-3
+  enabling_outcomes:
+    - ELO-3.1
+    - ELO-3.2
+    - ELO-3.3
+    - ELO-3.4
+    - ELO-3.5
+
+  emotional_goal: |
+    Transform "I don't know anyone" into "I have a network and know how
+    to grow it." Make networking feel authentic, not transactional.
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.1: The Hidden Job Market
+  # ---------------------------------------------------------------------------
+
+  - id: L3.1
+    title: "The Hidden Job Market (70% of Jobs)"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Explains why networking matters with data. 70% of jobs come through
+      connections, not online applications. Sets up the rationale for
+      the module.
+
+    objectives:
+      - "Understand why 70% of jobs are filled through networking"
+      - "Know what the 'hidden job market' means"
+      - "Recognize that networking is a skill, not a personality trait"
+
+    gagne_events:
+      attention: |
+        "Here's a stat that changes everything: 70% of jobs are never
+        posted publicly. They're filled through referrals and networking.
+        If you're only applying online, you're competing for 30% of
+        opportunities."
+      objectives: |
+        Understand why networking is essential and how it works.
+      recall: |
+        Think about jobs you've heard about through friends or family.
+        That's the hidden job market in action.
+      content:
+        - The 70/30 reality of job postings
+        - Why employers prefer referrals
+        - What "networking" actually means (not schmoozing)
+        - How to network when you're an introvert
+      guidance: |
+        "Networking isn't about being fake or salesy. It's about building
+        genuine relationships where you help each other. That's it."
+      retention: |
+        "In the next lesson, you'll discover you know more people than
+        you think."
+
+    resources:
+      - name: "Hidden Job Market Infographic"
+        type: download
+        description: "Visual explanation of the 70/30 split"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.2: You Know More People Than You Think
+  # ---------------------------------------------------------------------------
+
+  - id: L3.2
+    title: "You Know More People Than You Think"
+    type: demonstration
+    duration: "12 minutes"
+    format: video + demo
+
+    description: |
+      Expands the definition of "network" beyond professional contacts.
+      Shows how to identify 50+ connections from all areas of life.
+
+    objectives:
+      - "Identify 50+ people in your existing network"
+      - "See family, friends, classmates, and acquaintances as network"
+      - "Understand weak ties are often most valuable"
+
+    gagne_events:
+      attention: |
+        "When students tell me 'I don't know anyone,' I ask them:
+        Do you have family? Friends? Classmates? A dentist? A former
+        teacher? That's your network. Let me prove it."
+      objectives: |
+        Identify at least 50 people who could be part of your network.
+      recall: |
+        Think about all the people you've interacted with in the past year.
+        Teachers, classmates, coworkers, family friends...
+      content:
+        - Expanded definition of network
+        - The network circle exercise (demo)
+        - Why "weak ties" are valuable (Granovetter research)
+        - Second-degree connections (people who know people)
+      guidance: |
+        "Your aunt's coworker might know about a job opening. Your
+        professor might know someone in your target field. Everyone
+        counts."
+      practice: |
+        Complete the network circle brainstorm (next lesson).
+      retention: |
+        "Keep adding to this list. Every new connection is a potential
+        door to opportunity."
+
+    resources:
+      - name: "Network Circle Template"
+        type: download
+        description: "Visual mapping tool for connections"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.3: Network Mapping Exercise
+  # ---------------------------------------------------------------------------
+
+  - id: L3.3
+    title: "Network Mapping Exercise"
+    type: practice
+    duration: "15 minutes"
+    format: guided activity
+
+    description: |
+      Hands-on network mapping. Students identify connections across
+      categories and prioritize for outreach.
+
+    objectives:
+      - "Complete a network map with 50+ contacts"
+      - "Categorize contacts by relationship and relevance"
+      - "Identify top 10 to reach out to first"
+
+    gagne_events:
+      attention: |
+        "Time to put names on paper. By the end of this exercise, you'll
+        have more connections than you thought possible."
+      objectives: |
+        Create a network map with at least 50 contacts.
+      recall: |
+        Review the categories from the last lesson: family, friends,
+        classmates, coworkers, community, online...
+      content:
+        - Category-by-category brainstorming
+        - Rating connections (closeness, relevance)
+        - Identifying the "ask" for each
+      guidance: |
+        "Don't filter yourself. Write down everyone you can think of.
+        You'll prioritize after."
+      practice: |
+        Fill in network map by category → Rate each connection →
+        Identify top 10 for outreach → Plan first 3 contacts
+      feedback: |
+        "If you have 50+, great. If you have 30, that's still a good
+        start. The list will grow as you network."
+      retention: |
+        "Add new people as you meet them. Your network should always
+        be growing."
+
+    resources:
+      - name: "Network Map Worksheet"
+        type: download
+        description: "Comprehensive mapping template"
+      - name: "Contact Tracker Spreadsheet"
+        type: download
+        description: "Track outreach and follow-up"
+
+    deliverables:
+      - name: "Network Map (50+ contacts)"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.4: What to Say: Networking Scripts
+  # ---------------------------------------------------------------------------
+
+  - id: L3.4
+    title: "What to Say: Networking Scripts"
+    type: demonstration
+    duration: "12 minutes"
+    format: video + templates
+
+    description: |
+      Provides exact scripts for networking outreach. Reduces fear by
+      giving students words to use.
+
+    objectives:
+      - "Write networking outreach messages (LinkedIn, email)"
+      - "Know what to say in networking conversations"
+      - "Follow up appropriately"
+
+    gagne_events:
+      attention: |
+        "The #1 reason people don't network? They don't know what to say.
+        I'm going to give you the exact words. Copy-paste ready."
+      objectives: |
+        Learn the scripts for effective networking outreach.
+      recall: |
+        Think about a time you wanted to reach out to someone but didn't
+        because you didn't know what to say. That ends today.
+      content:
+        - LinkedIn connection request template
+        - Cold email template
+        - Warm introduction request
+        - The informational interview ask
+        - Following up without being annoying
+      guidance: |
+        "Customize these templates, but don't overthink. A slightly
+        awkward message sent is better than a perfect message never sent."
+      practice: |
+        Write 3 outreach messages using the templates.
+      retention: |
+        "Send at least one message today. The fear gets smaller every
+        time you do it."
+
+    resources:
+      - name: "Networking Scripts Collection"
+        type: download
+        description: "10+ templates for every situation"
+      - name: "Follow-Up Sequence"
+        type: download
+        description: "When and how to follow up"
+
+    deliverables:
+      - name: "3 Outreach Messages Drafted"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.5: Informational Interviews That Work
+  # ---------------------------------------------------------------------------
+
+  - id: L3.5
+    title: "Informational Interviews That Work"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Teaches how to conduct informational interviews that build
+      relationships and uncover opportunities.
+
+    objectives:
+      - "Request an informational interview professionally"
+      - "Prepare questions that add value"
+      - "Follow up to build lasting relationships"
+
+    gagne_events:
+      attention: |
+        "Informational interviews are the most underused career strategy.
+        Most people won't do them because they feel awkward. That's your
+        advantage — the few who do stand out."
+      objectives: |
+        Learn to request and conduct effective informational interviews.
+      recall: |
+        Have you ever asked someone about their job or career path?
+        That's essentially an informational interview.
+      content:
+        - What an informational interview is (and isn't)
+        - How to request one (script provided)
+        - Questions to ask (and not ask)
+        - The 15-minute structure
+        - Following up for ongoing relationship
+      guidance: |
+        "Never ask for a job in an informational interview. Ask for advice.
+        Jobs often come later, organically, from the relationship."
+      retention: |
+        "Request 3 informational interviews this week. Even if only one
+        happens, that's one more than most job seekers do."
+
+    resources:
+      - name: "Informational Interview Request Template"
+        type: download
+        description: "Email/LinkedIn message to request"
+      - name: "Informational Interview Questions"
+        type: download
+        description: "20+ questions organized by goal"
+      - name: "Post-Interview Follow-Up Template"
+        type: download
+        description: "Thank you and stay-in-touch messages"
+
+    deliverables:
+      - name: "3 Informational Interview Requests Sent"
+        type: activity
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.6: Handshake & Modern Platforms
+  # ---------------------------------------------------------------------------
+
+  - id: L3.6
+    title: "Handshake & Modern Platforms"
+    type: demonstration
+    duration: "8 minutes"
+    format: video + demo
+
+    description: |
+      Platform-specific guidance for Handshake (college-specific) and
+      other job platforms CC students should use.
+
+    objectives:
+      - "Optimize Handshake profile"
+      - "Use Handshake for job search and networking"
+      - "Know which other platforms to use"
+
+    gagne_events:
+      attention: |
+        "Your college pays for Handshake. It's literally designed to
+        connect students with employers. If you're not using it, you're
+        leaving opportunities on the table."
+      objectives: |
+        Set up and optimize your Handshake profile.
+      recall: |
+        Have you logged into Handshake? If not, we're fixing that now.
+      content:
+        - Handshake walkthrough (profile, jobs, events)
+        - Why Handshake matters for CC students
+        - Other platforms to consider (Indeed, industry-specific)
+        - Platform strategy (where to spend your time)
+      guidance: |
+        "Complete your Handshake profile today. Set up job alerts for
+        your target roles. Then check it weekly."
+      retention: |
+        "Handshake + LinkedIn + 1-2 targeted job boards is enough.
+        Don't spread yourself too thin."
+
+    resources:
+      - name: "Handshake Profile Checklist"
+        type: download
+        description: "Optimization guide"
+      - name: "Platform Strategy Guide"
+        type: download
+        description: "Where to focus your job search"
+
+    deliverables:
+      - name: "Handshake Profile Complete"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 3.7: Networking Isn't Fake (Mindset)
+  # ---------------------------------------------------------------------------
+
+  - id: L3.7
+    title: "Networking Isn't Fake (Mindset)"
+    type: instruction
+    duration: "6 minutes"
+    format: video
+
+    description: |
+      Reframes networking from transactional to relational. Addresses
+      the "networking feels fake" belief common among students.
+
+    objectives:
+      - "Reframe networking as relationship building"
+      - "Understand reciprocity (give before you ask)"
+      - "Feel more comfortable with networking activities"
+
+    gagne_events:
+      attention: |
+        "If networking feels fake, you're thinking about it wrong. Real
+        networking isn't using people — it's building relationships where
+        everyone benefits. Let me explain the difference."
+      objectives: |
+        Shift your mindset from "networking is fake" to "networking is
+        relationship building."
+      recall: |
+        Think about someone who helped you in the past. How did that
+        relationship start?
+      content:
+        - The transactional vs. relational mindset
+        - Why reciprocity matters (give first)
+        - How to add value when you feel you have nothing to offer
+        - Long-term relationship thinking
+      guidance: |
+        "You always have something to offer: genuine interest, gratitude,
+        follow-through. That's more than most people give."
+      retention: |
+        "Before every networking interaction, ask: How can I help this
+        person? That one shift changes everything."
+
+    resources:
+      - name: "Networking Mindset Shift"
+        type: download
+        description: "Reframing exercises"
+
+    deliverables: []
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 7
+  total_duration: "73 minutes"
+
+  deliverables:
+    - "Network Map (50+ contacts)"
+    - "3 Outreach Messages Drafted"
+    - "3 Informational Interview Requests Sent"
+    - "Handshake Profile Complete"
+
+  mindset_integration: |
+    Lesson 3.7 directly addresses the "networking feels fake" barrier.
+    Scripts throughout the module reduce fear by providing exact words.
+    The emphasis on genuine relationship building reframes the entire
+    practice as authentic rather than transactional.
+
+  next_module: "module-04 (Interview Intel)"

@@ -1,0 +1,171 @@
+# Course OS - Module Quiz
+# Quiz: Interview Preparation
+# Module: 04 - Interview Intel
+
+quiz:
+  id: quiz-04-interview
+  title: "Interview Preparation"
+  module: module-04
+  outcomes: ["ELO-4.1", "ELO-4.2", "ELO-4.3", "ELO-4.4", "ELO-4.5"]
+  purpose: "Verify interview techniques and STAR method"
+
+  settings:
+    time_limit: 0
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+
+  questions:
+
+    - id: q1
+      question: "What does STAR stand for in the STAR method?"
+      type: multiple_choice
+      options:
+        - text: "Strategy, Tactics, Action, Results"
+          correct: false
+        - text: "Situation, Task, Action, Result"
+          correct: true
+        - text: "Story, Topic, Answer, Reflection"
+          correct: false
+        - text: "Strength, Training, Application, Review"
+          correct: false
+      explanation: "STAR stands for Situation, Task, Action, Result — a structured framework for answering behavioral interview questions."
+      bloom_level: remember
+
+    - id: q2
+      question: "What percentage of your STAR response should be dedicated to the Action portion?"
+      type: multiple_choice
+      options:
+        - text: "20-30%"
+          correct: false
+        - text: "40-50%"
+          correct: false
+        - text: "50-60%"
+          correct: true
+        - text: "70-80%"
+          correct: false
+      explanation: "The Action portion should be 50-60% of your answer. This is where you demonstrate YOUR specific contributions and skills."
+      bloom_level: remember
+
+    - id: q3
+      question: "What are the three things interviewers are evaluating?"
+      type: multiple_choice
+      options:
+        - text: "Skills, Personality, Appearance"
+          correct: false
+        - text: "Skills, Fit, Motivation"
+          correct: true
+        - text: "Experience, Education, References"
+          correct: false
+        - text: "Intelligence, Creativity, Leadership"
+          correct: false
+      explanation: "Interviewers evaluate: Can you do the job? (Skills), Will you fit? (Culture Fit), Will you stay motivated? (Motivation)"
+      bloom_level: remember
+
+    - id: q4
+      question: "How many STAR stories should you have prepared?"
+      type: multiple_choice
+      options:
+        - text: "1-2 stories"
+          correct: false
+        - text: "3-4 stories"
+          correct: false
+        - text: "5+ stories"
+          correct: true
+        - text: "10+ stories"
+          correct: false
+      explanation: "5+ stories covering different competencies (teamwork, problem-solving, leadership, etc.) gives you flexibility to answer various questions."
+      bloom_level: remember
+
+    - id: q5
+      question: "What should you do when you blank on a question in an interview?"
+      type: multiple_select
+      options:
+        - text: "Pause and take a breath"
+          correct: true
+        - text: "Ask for clarification or to repeat the question"
+          correct: true
+        - text: "Say 'I don't know' and move on"
+          correct: false
+        - text: "Bridge to a related experience you can discuss"
+          correct: true
+        - text: "Make up an answer quickly"
+          correct: false
+        - text: "Think out loud briefly"
+          correct: true
+      partial_credit: true
+      explanation: "Pause, ask for clarification, think out loud, or bridge to a related topic. These are all acceptable recovery strategies."
+      bloom_level: apply
+
+    - id: q6
+      question: "When should you send a thank-you note after an interview?"
+      type: multiple_choice
+      options:
+        - text: "Within 1 week"
+          correct: false
+        - text: "Within 48-72 hours"
+          correct: false
+        - text: "Within 24 hours"
+          correct: true
+        - text: "Only if they contact you first"
+          correct: false
+      explanation: "Send your thank-you note within 24 hours, ideally same day. This keeps you fresh in their mind during decision-making."
+      bloom_level: remember
+
+    - id: q7
+      question: "What should a thank-you note include?"
+      type: multiple_select
+      options:
+        - text: "Thanks for their time"
+          correct: true
+        - text: "Reference to something specific from the conversation"
+          correct: true
+        - text: "Salary expectations"
+          correct: false
+        - text: "Reinforcement of your interest and fit"
+          correct: true
+        - text: "Enthusiasm about next steps"
+          correct: true
+        - text: "Your entire resume again"
+          correct: false
+      partial_credit: true
+      explanation: "Thank-you notes should thank, reference the conversation, reinforce fit, and express enthusiasm — brief and genuine."
+      bloom_level: understand
+
+    - id: q8
+      question: "What percentage of candidates send thank-you notes after interviews?"
+      type: multiple_choice
+      options:
+        - text: "24%"
+          correct: true
+        - text: "50%"
+          correct: false
+        - text: "75%"
+          correct: false
+        - text: "90%"
+          correct: false
+      explanation: "Only about 24% of candidates send thank-you notes, which means you can stand out from 76% of your competition with this simple step."
+      bloom_level: remember
+
+    - id: q9
+      question: "For HireVue/video interviews, where should you look?"
+      type: multiple_choice
+      options:
+        - text: "At your own image on screen"
+          correct: false
+        - text: "At the camera lens"
+          correct: true
+        - text: "At your notes below the screen"
+          correct: false
+        - text: "Around the room naturally"
+          correct: false
+      explanation: "Look at the camera lens, not the screen. This simulates eye contact with the viewer and makes you appear more engaged."
+      bloom_level: remember
+
+    - id: q10
+      question: "True or False: The physical sensations of anxiety and excitement are almost identical."
+      type: true_false
+      correct: true
+      explanation: "Both anxiety and excitement produce fast heart rate, sweaty palms, and butterflies. Research shows that reframing 'nervous' as 'excited' improves performance."
+      bloom_level: understand

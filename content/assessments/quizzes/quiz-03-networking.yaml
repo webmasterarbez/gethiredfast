@@ -1,0 +1,136 @@
+# Course OS - Module Quiz
+# Quiz: Networking Fundamentals
+# Module: 03 - Network Navigator
+
+quiz:
+  id: quiz-03-networking
+  title: "Networking Fundamentals"
+  module: module-03
+  outcomes: ["ELO-3.1", "ELO-3.2", "ELO-3.3", "ELO-3.4", "ELO-3.5"]
+  purpose: "Confirm networking strategy understanding"
+
+  settings:
+    time_limit: 0
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+
+  questions:
+
+    - id: q1
+      question: "What percentage of jobs are never publicly posted (the 'hidden job market')?"
+      type: multiple_choice
+      options:
+        - text: "30%"
+          correct: false
+        - text: "50%"
+          correct: false
+        - text: "70%"
+          correct: true
+        - text: "90%"
+          correct: false
+      explanation: "Approximately 70% of jobs are filled through networking and internal referrals before ever being publicly posted."
+      bloom_level: remember
+
+    - id: q2
+      question: "According to research, which type of connections are most valuable for finding job opportunities?"
+      type: multiple_choice
+      options:
+        - text: "Close friends and family"
+          correct: false
+        - text: "Weak ties (acquaintances)"
+          correct: true
+        - text: "Online-only connections"
+          correct: false
+        - text: "Former bosses"
+          correct: false
+      explanation: "Research shows 'weak ties' — acquaintances rather than close friends — provide access to more diverse opportunities and information."
+      bloom_level: understand
+
+    - id: q3
+      question: "How many potential contacts should you identify in your network mapping exercise?"
+      type: multiple_choice
+      options:
+        - text: "10-20 people"
+          correct: false
+        - text: "25-35 people"
+          correct: false
+        - text: "50+ people"
+          correct: true
+        - text: "100+ people"
+          correct: false
+      explanation: "The goal is to identify 50+ potential contacts across all categories. Most people underestimate how many people they know."
+      bloom_level: remember
+
+    - id: q4
+      question: "What is the 'magic question' to ask at the end of an informational interview?"
+      type: multiple_choice
+      options:
+        - text: "Can you give me a job?"
+          correct: false
+        - text: "Who else should I talk to?"
+          correct: true
+        - text: "What's the salary range?"
+          correct: false
+        - text: "When will you hire again?"
+          correct: false
+      explanation: "'Who else should I talk to?' expands your network exponentially. Each conversation leads to 2-3 more potential connections."
+      bloom_level: remember
+
+    - id: q5
+      question: "What categories should you consider when mapping your network?"
+      type: multiple_select
+      options:
+        - text: "Former classmates and instructors"
+          correct: true
+        - text: "Family and family friends"
+          correct: true
+        - text: "Only people in your target industry"
+          correct: false
+        - text: "Service providers (hair stylist, dentist, etc.)"
+          correct: true
+        - text: "Coworkers from any job"
+          correct: true
+        - text: "Neighbors and community members"
+          correct: true
+      partial_credit: true
+      explanation: "Your network is broader than you think — include all categories. Even your dentist might know someone in your target field."
+      bloom_level: understand
+
+    - id: q6
+      question: "What is the recommended length for an informational interview?"
+      type: multiple_choice
+      options:
+        - text: "5-10 minutes"
+          correct: false
+        - text: "15-20 minutes"
+          correct: true
+        - text: "45-60 minutes"
+          correct: false
+        - text: "As long as they want to talk"
+          correct: false
+      explanation: "Request 15-20 minutes. It's respectful of their time and easier to get a 'yes.' If conversation flows, they may extend it."
+      bloom_level: remember
+
+    - id: q7
+      question: "True or False: It's inappropriate to ask someone you don't know well for a networking conversation."
+      type: true_false
+      correct: false
+      explanation: "Most professionals are willing to help others, especially when approached respectfully. The worst they can say is no."
+      bloom_level: understand
+
+    - id: q8
+      question: "What is the difference between transactional and relational networking?"
+      type: multiple_choice
+      options:
+        - text: "Transactional costs money; relational is free"
+          correct: false
+        - text: "Transactional is 'what can you do for me'; relational is mutual value over time"
+          correct: true
+        - text: "Transactional is online; relational is in-person"
+          correct: false
+        - text: "There is no difference"
+          correct: false
+      explanation: "Transactional networking is extractive ('help me now'). Relational networking builds genuine connections over time with mutual benefit."
+      bloom_level: understand

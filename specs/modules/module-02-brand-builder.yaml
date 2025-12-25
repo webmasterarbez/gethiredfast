@@ -1,0 +1,496 @@
+# Course OS - Module Specification
+# Module 02: Brand Builder
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-02
+  title: "Brand Builder"
+  subtitle: "My Resume Has Nothing On It"
+  problem: 2
+  type: core
+  duration: "60-90 minutes"
+
+overview:
+  purpose: |
+    Create polished, professional application materials including an
+    ATS-optimized resume, LinkedIn All-Star profile, and elevator pitch.
+    Students leave with tangible assets ready to use.
+
+  terminal_outcome: TLO-2
+  enabling_outcomes:
+    - ELO-2.1
+    - ELO-2.2
+    - ELO-2.3
+    - ELO-2.4
+    - ELO-2.5
+
+  emotional_goal: |
+    Transform "I have nothing to put on my resume" into "I'm proud of
+    my professional materials." Replace resume anxiety with confidence.
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.1: Resume Foundations
+  # ---------------------------------------------------------------------------
+
+  - id: L2.1
+    title: "Resume Foundations: What Recruiters Actually See"
+    type: instruction
+    duration: "12 minutes"
+    format: video
+
+    description: |
+      Insider view of how recruiters screen resumes. The 6-second scan,
+      what stands out, what gets thrown out. Sets the foundation for
+      writing an effective resume.
+
+    objectives:
+      - "Understand the recruiter's perspective (6-second scan)"
+      - "Know the elements of an effective resume layout"
+      - "Identify common mistakes that get resumes rejected"
+
+    gagne_events:
+      attention: |
+        "I've reviewed over 10,000 resumes in my career. Most of them
+        get less than 6 seconds of my attention. Here's what I'm
+        actually looking for — and what makes me throw one in the no pile."
+      objectives: |
+        Understand what recruiters look for and what to avoid on your resume.
+      recall: |
+        Have you ever judged something quickly based on first impression?
+        That's what recruiters do with resumes.
+      content:
+        - The 6-second resume scan (what recruiters look at)
+        - Resume sections and their purpose
+        - Format that works (clean, scannable, professional)
+        - Top 5 resume mistakes that kill applications
+        - Why CC students often undersell themselves
+      guidance: |
+        "Your resume isn't a complete autobiography. It's a marketing
+        document designed to get you an interview. Every line should
+        earn its place."
+      retention: |
+        "In the next lesson, you'll learn how to write bullet points
+        that actually impress recruiters."
+
+    resources:
+      - name: "Resume Template (ATS-Friendly)"
+        type: download
+        description: "Clean, scannable template ready to customize"
+      - name: "Resume Mistakes Checklist"
+        type: download
+        description: "Common errors to avoid"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.2: Writing Bullet Points That Pop
+  # ---------------------------------------------------------------------------
+
+  - id: L2.2
+    title: "Writing Bullet Points That Pop"
+    type: demonstration
+    duration: "15 minutes"
+    format: video + examples
+
+    description: |
+      Demonstrates how to write achievement-focused bullet points using
+      action verbs and quantified results. Shows before/after transformations.
+
+    objectives:
+      - "Write achievement-focused bullet points (not job descriptions)"
+      - "Use action verbs that convey impact"
+      - "Quantify results wherever possible"
+
+    gagne_events:
+      attention: |
+        "Watch this transformation: 'Responsible for customer service'
+        becomes 'Resolved 50+ customer inquiries daily with 95% satisfaction
+        rate.' Same experience, completely different impact."
+      objectives: |
+        Learn to write bullet points that showcase achievements, not just tasks.
+      recall: |
+        Look at your transferable skills list. What problems did you
+        solve? What improved because of your work?
+      content:
+        - Task vs. achievement (the critical difference)
+        - The XYZ formula (Accomplished X by doing Y, resulting in Z)
+        - Demo: transforming weak bullets into strong ones
+        - Action verb list organized by skill type
+        - How to quantify when you don't have exact numbers
+      guidance: |
+        "If your bullet starts with 'Responsible for,' rewrite it.
+        Start with what you DID and what RESULTED."
+      practice: |
+        Rewrite 3 weak bullet points using the XYZ formula.
+      retention: |
+        "Keep the action verb list handy. You'll use it every time
+        you tailor your resume for a new job."
+
+    resources:
+      - name: "Action Verb List by Skill Category"
+        type: download
+        description: "150+ verbs organized by skill type"
+      - name: "Bullet Point Transformation Examples"
+        type: download
+        description: "Before/after examples for common situations"
+      - name: "XYZ Formula Worksheet"
+        type: download
+        description: "Template for crafting achievement bullets"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.3: ATS Secrets: Getting Past the Robots
+  # ---------------------------------------------------------------------------
+
+  - id: L2.3
+    title: "ATS Secrets: Getting Past the Robots"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Explains Applicant Tracking Systems and how to optimize resumes
+      for both human readers and automated screening.
+
+    objectives:
+      - "Understand how ATS systems screen resumes"
+      - "Optimize resume format for ATS compatibility"
+      - "Use keywords strategically without keyword stuffing"
+
+    gagne_events:
+      attention: |
+        "Before your resume ever reaches a human, it goes through a
+        robot. 75% of resumes are rejected by ATS before anyone sees them.
+        Let me show you how to get through."
+      objectives: |
+        Make your resume ATS-compatible so it gets to human reviewers.
+      recall: |
+        Have you ever applied to jobs and heard nothing back? ATS
+        rejection might be why.
+      content:
+        - What ATS is and how it works
+        - Format rules (no tables, no graphics, standard fonts)
+        - Keyword strategy (pull from job descriptions)
+        - The 2-column resume myth
+        - Tools to check ATS compatibility (Jobscan, Teal)
+      guidance: |
+        "Match keywords to the job description, but make sure they're
+        genuine. If you claim a skill, you'd better be ready to
+        demonstrate it in an interview."
+      retention: |
+        "Always run your resume through an ATS checker before submitting.
+        It takes 2 minutes and can mean the difference between rejection
+        and interview."
+
+    resources:
+      - name: "ATS Checklist"
+        type: download
+        description: "Quick check before submitting any application"
+      - name: "ATS Tool Guide"
+        type: download
+        description: "How to use Jobscan and Teal"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.4: Resume Workshop
+  # ---------------------------------------------------------------------------
+
+  - id: L2.4
+    title: "Resume Workshop"
+    type: practice
+    duration: "20 minutes"
+    format: guided activity
+
+    description: |
+      Hands-on resume creation/revision using all previous concepts.
+      Students work on their actual resume with step-by-step guidance.
+
+    objectives:
+      - "Create or revise a complete, ATS-optimized resume"
+      - "Apply action verbs and achievement bullets"
+      - "Check ATS compatibility"
+
+    gagne_events:
+      attention: |
+        "Time to put it all together. You're going to walk out of this
+        lesson with a resume you can actually use."
+      objectives: |
+        Create a complete, polished, ATS-optimized resume.
+      recall: |
+        Pull up your transferable skills list and target job scorecard.
+        You'll use both.
+      content:
+        - Step-by-step resume building process
+        - Section-by-section guidance
+        - Live checklist as you work
+      guidance: |
+        "Start with your most recent or most relevant experience.
+        Don't try to perfect each section — get a complete draft first,
+        then refine."
+      practice: |
+        Complete all resume sections → Review against checklist →
+        Run through ATS checker → Make adjustments
+      feedback: |
+        "If your ATS score is 70%+, you're in good shape. Below that,
+        check your formatting and keywords."
+      retention: |
+        "Save your resume as both Word (.docx) and PDF. Different
+        employers want different formats."
+
+    resources:
+      - name: "Resume Building Checklist"
+        type: download
+        description: "Section-by-section completion guide"
+      - name: "Resume Review Rubric"
+        type: download
+        description: "Self-assessment for resume quality"
+
+    deliverables:
+      - name: "Polished, ATS-Optimized Resume"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.5: LinkedIn: Your Digital First Impression
+  # ---------------------------------------------------------------------------
+
+  - id: L2.5
+    title: "LinkedIn: Your Digital First Impression"
+    type: demonstration
+    duration: "15 minutes"
+    format: video + demo
+
+    description: |
+      Comprehensive LinkedIn profile optimization. Shows how recruiters
+      use LinkedIn and what makes a profile stand out.
+
+    objectives:
+      - "Optimize all LinkedIn profile sections"
+      - "Write a headline that attracts recruiters"
+      - "Create an About section that tells your story"
+      - "Achieve All-Star profile status"
+
+    gagne_events:
+      attention: |
+        "87% of recruiters use LinkedIn to find candidates. If your
+        profile is weak — or worse, nonexistent — you're invisible to
+        opportunities."
+      objectives: |
+        Create a LinkedIn profile that achieves All-Star status and
+        attracts recruiters.
+      recall: |
+        Have you ever looked someone up on LinkedIn before meeting them?
+        Employers do the same with you.
+      content:
+        - Why LinkedIn matters (recruiter behavior)
+        - Profile photo best practices
+        - Headline formula that works
+        - About section: your professional story
+        - Experience, education, skills sections
+        - Getting to All-Star status
+      guidance: |
+        "Your headline is prime real estate. 'Student at [College]' wastes
+        it. Try 'Aspiring Marketing Professional | Community College
+        Honors Student | Available May 2025'"
+      practice: |
+        Complete/update each section following the checklist.
+      retention: |
+        "Connect with 50+ people after optimizing. Connections boost
+        visibility in recruiter searches."
+
+    resources:
+      - name: "LinkedIn Optimization Checklist"
+        type: download
+        description: "Section-by-section guide"
+      - name: "LinkedIn Headline Examples"
+        type: download
+        description: "20+ templates for students"
+      - name: "About Section Templates"
+        type: download
+        description: "Fill-in-the-blank about sections"
+
+    deliverables:
+      - name: "LinkedIn All-Star Profile"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.6: AI Tools for Job Search
+  # ---------------------------------------------------------------------------
+
+  - id: L2.6
+    title: "AI Tools for Job Search"
+    type: demonstration
+    duration: "12 minutes"
+    format: video + demo
+
+    description: |
+      Practical demonstration of using AI tools (ChatGPT, Claude, Teal)
+      to enhance application materials while maintaining authenticity.
+
+    objectives:
+      - "Use ChatGPT/Claude to improve resume bullet points"
+      - "Use Teal or similar tools for resume tailoring"
+      - "Know the limits of AI (authenticity, verification)"
+
+    gagne_events:
+      attention: |
+        "77% of job seekers are using AI tools. If you're not, you're
+        at a disadvantage. But here's the catch: using them wrong can
+        backfire badly."
+      objectives: |
+        Learn to use AI tools effectively and ethically in your job search.
+      recall: |
+        Have you tried using ChatGPT for anything? What worked? What didn't?
+      content:
+        - AI tools available (ChatGPT, Claude, Teal, Jobscan)
+        - Demo: improving bullet points with AI
+        - Demo: tailoring resume for specific job
+        - When AI helps vs. when it hurts
+        - The authenticity test (can you back it up?)
+      guidance: |
+        "Use AI as an editor, not a writer. Start with YOUR experiences,
+        let AI help polish the language. Never claim skills or experiences
+        you don't have."
+      retention: |
+        "Bookmark these tools. You'll use them every time you tailor
+        your resume for a new application."
+
+    resources:
+      - name: "AI Prompts for Resume Writing"
+        type: download
+        description: "Copy-paste prompts for ChatGPT/Claude"
+      - name: "AI Tools Comparison"
+        type: download
+        description: "Which tool for which task"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.7: Your Elevator Pitch
+  # ---------------------------------------------------------------------------
+
+  - id: L2.7
+    title: "Your Elevator Pitch"
+    type: practice
+    duration: "10 minutes"
+    format: video + activity
+
+    description: |
+      Create a 30-second personal pitch for networking and interview
+      situations. Formula-based approach makes it accessible.
+
+    objectives:
+      - "Write a 30-second elevator pitch"
+      - "Deliver it naturally (not robotic)"
+      - "Adapt it for different contexts"
+
+    gagne_events:
+      attention: |
+        "'Tell me about yourself' is the most common interview question.
+        It's also used in networking. If you don't have a prepared
+        answer, you'll ramble. Let's fix that."
+      objectives: |
+        Create and practice a 30-second elevator pitch.
+      recall: |
+        Think about your target roles and transferable skills. What's
+        the headline?
+      content:
+        - The elevator pitch formula (Present + Past + Future)
+        - Examples for different situations
+        - How to sound natural, not rehearsed
+      guidance: |
+        "Keep it under 30 seconds. Say it out loud 10 times. Record
+        yourself once. That's how you get comfortable."
+      practice: |
+        Write pitch using formula → Say it aloud → Record and review →
+        Refine as needed
+      feedback: |
+        "If it feels awkward, that's normal. It takes practice. But
+        you'll use this in every interview and networking conversation."
+      retention: |
+        "Put your pitch at the top of your interview prep notes.
+        It's always your first answer."
+
+    resources:
+      - name: "Elevator Pitch Formula"
+        type: download
+        description: "Template and examples"
+
+    deliverables:
+      - name: "30-Second Elevator Pitch"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 2.8: Done Is Better Than Perfect (Mindset)
+  # ---------------------------------------------------------------------------
+
+  - id: L2.8
+    title: "Done Is Better Than Perfect (Mindset)"
+    type: instruction
+    duration: "6 minutes"
+    format: video
+
+    description: |
+      Addresses perfectionism paralysis around resume and application
+      materials. Permission to submit imperfect applications.
+
+    objectives:
+      - "Recognize perfectionism as a barrier"
+      - "Embrace 'good enough' for forward momentum"
+      - "Commit to submitting applications despite imperfection"
+
+    gagne_events:
+      attention: |
+        "I've seen students spend 3 weeks perfecting a resume they never
+        submit. Meanwhile, someone with a 'good enough' resume is already
+        interviewing. Perfectionism kills job searches."
+      objectives: |
+        Overcome perfectionism paralysis and commit to action.
+      recall: |
+        Have you ever not done something because it wouldn't be perfect?
+        What did that cost you?
+      content:
+        - Perfectionism as fear in disguise
+        - "Good enough" is good enough
+        - The iteration mindset (improve as you go)
+        - Why applied beats perfect
+      guidance: |
+        "Your resume doesn't need to be perfect. It needs to be sent.
+        You can always update it based on feedback."
+      retention: |
+        "This week, submit at least one application with your current
+        resume. Then update it. Don't wait for perfect."
+
+    resources: []
+    deliverables: []
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 8
+  total_duration: "80 minutes"
+
+  deliverables:
+    - "Polished, ATS-Optimized Resume"
+    - "LinkedIn All-Star Profile"
+    - "30-Second Elevator Pitch"
+
+  mindset_integration: |
+    Lesson 2.8 directly addresses perfectionism. The workshop format
+    ensures students leave with actual deliverables, building confidence
+    through completion rather than endless revision.
+
+  next_module: "module-03 (Network Navigator)"

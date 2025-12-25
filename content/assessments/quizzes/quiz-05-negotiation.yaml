@@ -1,0 +1,136 @@
+# Course OS - Module Quiz
+# Quiz: Compensation Negotiation
+# Module: 05 - Money Moves
+
+quiz:
+  id: quiz-05-negotiation
+  title: "Compensation Negotiation"
+  module: module-05
+  outcomes: ["ELO-5.1", "ELO-5.2", "ELO-5.3", "ELO-5.4"]
+  purpose: "Confirm negotiation concepts and approaches"
+
+  settings:
+    time_limit: 0
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+
+  questions:
+
+    - id: q1
+      question: "What percentage of employers say they're willing to negotiate with entry-level candidates?"
+      type: multiple_choice
+      options:
+        - text: "45%"
+          correct: false
+        - text: "65%"
+          correct: false
+        - text: "84%"
+          correct: true
+        - text: "95%"
+          correct: false
+      explanation: "84% of employers are willing to negotiate with entry-level candidates, but only 38% of new grads actually try."
+      bloom_level: remember
+
+    - id: q2
+      question: "According to the course, every $1,000 in starting salary is worth approximately how much over a 40-year career?"
+      type: multiple_choice
+      options:
+        - text: "$40,000"
+          correct: false
+        - text: "$100,000"
+          correct: false
+        - text: "$500,000+"
+          correct: true
+        - text: "$1,000,000"
+          correct: false
+      explanation: "Due to compounding (raises, bonuses, and future salary anchoring), $1,000 in starting salary is worth $500,000+ over a career."
+      bloom_level: remember
+
+    - id: q3
+      question: "What should you do immediately when an employer makes you a salary offer?"
+      type: multiple_choice
+      options:
+        - text: "Accept it to show enthusiasm"
+          correct: false
+        - text: "Counter-offer immediately with your target number"
+          correct: false
+        - text: "Thank them and ask for time to review"
+          correct: true
+        - text: "Say it's lower than expected"
+          correct: false
+      explanation: "Never respond immediately. Thank them, express enthusiasm, and ask for time to review. This gives you space to prepare."
+      bloom_level: understand
+
+    - id: q4
+      question: "What is the correct formula for a salary negotiation response?"
+      type: multiple_choice
+      options:
+        - text: "Demand + Justification"
+          correct: false
+        - text: "Enthusiasm + Ask"
+          correct: true
+        - text: "Counter + Threat"
+          correct: false
+        - text: "Research + Ultimatum"
+          correct: false
+      explanation: "The formula is Enthusiasm + Ask. You must express genuine interest in the role before asking for more."
+      bloom_level: remember
+
+    - id: q5
+      question: "Which sources should you use to research salary data?"
+      type: multiple_select
+      options:
+        - text: "Glassdoor"
+          correct: true
+        - text: "LinkedIn Salary Insights"
+          correct: true
+        - text: "Social media posts"
+          correct: false
+        - text: "Bureau of Labor Statistics (BLS)"
+          correct: true
+        - text: "Indeed Salary Calculator"
+          correct: true
+        - text: "What your friend makes"
+          correct: false
+      partial_credit: true
+      explanation: "Use multiple reliable sources: Glassdoor, LinkedIn, BLS, Indeed. Cross-reference 2-3 sources for accurate ranges."
+      bloom_level: remember
+
+    - id: q6
+      question: "What are the three numbers in your salary range framework?"
+      type: multiple_choice
+      options:
+        - text: "Minimum, Average, Maximum"
+          correct: false
+        - text: "Floor, Target, Stretch"
+          correct: true
+        - text: "Base, Bonus, Benefits"
+          correct: false
+        - text: "Entry, Mid, Senior"
+          correct: false
+      explanation: "Your range is: Floor (lowest you'd accept), Target (what you ask for), Stretch (best case). Never reveal your floor."
+      bloom_level: remember
+
+    - id: q7
+      question: "True or False: A $5,000 signing bonus is worth more than $5,000 more in base salary."
+      type: true_false
+      correct: false
+      explanation: "Base salary compounds forever (raises, bonuses, future salaries). A signing bonus is one-time. $5,000 in base is worth much more long-term."
+      bloom_level: understand
+
+    - id: q8
+      question: "What should you do if the employer says salary is non-negotiable?"
+      type: multiple_choice
+      options:
+        - text: "Accept the offer as-is"
+          correct: false
+        - text: "Walk away from the offer"
+          correct: false
+        - text: "Ask about other negotiable items (PTO, start date, etc.)"
+          correct: true
+        - text: "Push back three more times"
+          correct: false
+      explanation: "Pivot to other items: 'I understand salary is fixed. Would you be open to discussing additional PTO or a signing bonus?'"
+      bloom_level: apply

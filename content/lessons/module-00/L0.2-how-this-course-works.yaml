@@ -1,0 +1,179 @@
+# Lesson Blueprint - Merrill's First Principles
+# Module 00: Launchpad
+# Lesson L0.2: How This Course Works
+# Duration: 5 minutes
+
+lesson:
+  id: L0.2
+  title: "How This Course Works"
+  module: module-00
+  type: instruction
+  duration: "5 minutes"
+
+# =============================================================================
+# PROBLEM-CENTERED
+# =============================================================================
+
+problem_context: |
+  Students need to understand how to navigate this course so they can use
+  it effectively. The problem-centered structure is different from typical
+  courses — they can jump to what they need most. Without orientation,
+  they might get lost or follow the wrong path for their situation.
+
+  The real problem: "How do I use this course in a way that actually helps
+  MY specific situation?"
+
+# =============================================================================
+# ACTIVATION
+# =============================================================================
+
+activation:
+  prior_knowledge: |
+    - They've taken online courses before (often with low completion)
+    - They understand the concept of modules and lessons
+    - They know their own pain points (even if not articulated)
+    - They're familiar with self-paced learning
+
+  connection: |
+    Connect to their experience of feeling lost in other courses or not
+    knowing what to do first. "This course is different — it's organized
+    around YOUR problems, not arbitrary weeks."
+
+  analogy: |
+    Like a choose-your-own-adventure book or a GPS — you tell it where
+    you need to go, and it guides you there. The course adapts to your
+    immediate needs.
+
+# =============================================================================
+# DEMONSTRATION
+# =============================================================================
+
+demonstration:
+  key_concepts:
+    - concept: "Problem-centered structure"
+      explanation: |
+        The course is organized around 6 problems students actually face,
+        not arbitrary "Week 1, Week 2" divisions. This means students can
+        jump to what they need most.
+      example: |
+        "If you have an interview tomorrow, go straight to Module 4.
+        If your resume is the problem, start with Module 2. You're in
+        control of your path."
+
+    - concept: "The 6 core problems"
+      explanation: |
+        Quick overview of what each module solves so students can
+        identify their starting point.
+      example: |
+        Visual overview showing:
+        1. Career direction confusion
+        2. Empty resume anxiety
+        3. No network
+        4. Interview panic
+        5. Negotiation fear
+        6. Imposter syndrome
+
+    - concept: "Deliverables you'll create"
+      explanation: |
+        This isn't a "watch and forget" course — students build real
+        things they'll use in their job search.
+      example: |
+        "By the end, you'll have: a polished resume, an optimized LinkedIn,
+        5+ STAR stories, networking scripts, and a 90-day action plan.
+        Real tools, not just information."
+
+    - concept: "Daily Action Tracker"
+      explanation: |
+        The accountability system that makes this course work. Students
+        who track daily get hired faster.
+      example: |
+        "This is your secret weapon. 5 minutes a day, log what you did.
+        Students who use it consistently get hired 2x faster."
+
+  worked_examples:
+    - scenario: "Student with interview in 2 days"
+      steps:
+        - "Skip to Module 4: Interview Intel"
+        - "Watch STAR method and common questions"
+        - "Build quick story bank"
+        - "Come back to earlier modules after interview"
+      outcome: "Goes into interview prepared, then backtracks to fill gaps"
+
+    - scenario: "Student who doesn't know where to start"
+      steps:
+        - "Take Module 6 first for mindset foundation"
+        - "Then Module 1 for career direction"
+        - "Follow recommended path from there"
+      outcome: "Overcomes paralysis, builds confidence, then proceeds systematically"
+
+  non_examples:
+    - what: "Watching every video in order regardless of needs"
+      why_wrong: |
+        That's fine if you have time, but the course is designed to be
+        flexible. Students with urgent needs should address those first.
+
+    - what: "Skipping the Daily Action Tracker"
+      why_wrong: |
+        The tracker is where accountability happens. Without it, students
+        often drift and lose momentum.
+
+# =============================================================================
+# APPLICATION
+# =============================================================================
+
+application:
+  guided:
+    - activity: "Identify your starting point"
+      scaffolding: |
+        Show the 6 problems on screen. Ask: "Which one is keeping you
+        up at night? That's your starting point."
+      feedback: |
+        "If you chose more than one, that's normal. Pick the most
+        urgent or start with Module 1 if unsure."
+
+  independent:
+    - activity: "Download course map"
+      success_criteria: |
+        Student has downloaded the visual course map and identified
+        which path they'll take (recommended or custom).
+
+# =============================================================================
+# INTEGRATION
+# =============================================================================
+
+integration:
+  reflection: |
+    "Which of the 6 problems feels most urgent for you right now?
+    What would change if you solved just that one problem?"
+
+  transfer: |
+    Students use the problem-centered structure throughout their job search.
+    When a new challenge arises, they can return to the relevant module.
+
+  share: |
+    "If a friend asked what this course covers, how would you explain it?"
+
+# =============================================================================
+# INSTRUCTOR NOTES
+# =============================================================================
+
+instructor_notes:
+  tone: |
+    Clear, organized, empowering. The goal is to make the course feel
+    manageable, not overwhelming. Emphasize flexibility and control.
+
+  key_moments:
+    - "Show the 6 problems visually — make it memorable"
+    - "Demonstrate the flexibility (you're in control)"
+    - "Preview deliverables to create anticipation"
+    - "Plant the seed for Daily Action Tracker importance"
+
+  avoid:
+    - "Getting too detailed about every module"
+    - "Making it sound like more work than it is"
+    - "Rigid rules about order (emphasize flexibility)"
+
+  visual_suggestions:
+    - "Course map graphic with 6 modules"
+    - "Deliverables checklist visual"
+    - "Quick preview of Daily Action Tracker"

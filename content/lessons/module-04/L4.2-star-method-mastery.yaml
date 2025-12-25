@@ -1,0 +1,258 @@
+# Lesson Blueprint - Merrill's First Principles
+# Module 04: Interview Intel
+# Lesson L4.2: STAR Method Mastery
+# Duration: 15 minutes
+
+lesson:
+  id: L4.2
+  title: "STAR Method Mastery"
+  module: module-04
+  type: demonstration
+  duration: "15 minutes"
+
+# =============================================================================
+# PROBLEM-CENTERED
+# =============================================================================
+
+problem_context: |
+  "Tell me about a time when..." questions are the most common interview
+  format, and students consistently fail them. They ramble, give vague
+  answers, or freeze up. Without a structure, even good experiences come
+  across poorly.
+
+  The real problem: "I have experiences, but I can't communicate them
+  clearly under pressure."
+
+# =============================================================================
+# ACTIVATION
+# =============================================================================
+
+activation:
+  prior_knowledge: |
+    - They've heard of "behavioral interviews" even if they don't know details
+    - They have experiences to draw from (identified in Module 1)
+    - They know how to tell stories (everyone does, informally)
+    - They may have bombed an interview answer before
+
+  connection: |
+    "Have you ever been asked 'Tell me about yourself' and rambled for
+    5 minutes? Or been asked about a challenge and blanked? There's a
+    formula that prevents both. It's called STAR."
+
+  analogy: |
+    STAR is like a recipe for story-telling. Just like a recipe has
+    ingredients in order (flour before eggs before milk), STAR has
+    elements in order. Follow the recipe, get a good result every time.
+
+# =============================================================================
+# DEMONSTRATION
+# =============================================================================
+
+demonstration:
+  key_concepts:
+    - concept: "STAR Framework"
+      explanation: |
+        S - Situation: Set the scene (who, what, where, when)
+        T - Task: What was your specific responsibility?
+        A - Action: What did YOU do? (longest part)
+        R - Result: What happened? What was the outcome?
+      example: |
+        S: "Last semester, our marketing group project had a team member drop out 2 weeks before the deadline."
+        T: "As project lead, I needed to redistribute the work and keep us on track."
+        A: "I held an emergency meeting, reassigned tasks based on strengths, created a compressed timeline, and took on extra research myself."
+        R: "We delivered on time and received the highest grade in the class. Professor used our project as an example for future students."
+
+    - concept: "Action is the star of STAR"
+      explanation: |
+        The most common mistake is spending too much time on Situation/Task
+        and not enough on Action. Interviewers want to hear what YOU did,
+        specifically. The Action section should be 50-60% of your answer.
+      example: |
+        Weak Action: "I helped the team."
+        Strong Action: "I organized daily check-ins, created a shared tracking document, personally took on the competitor analysis section, and coordinated with the professor to confirm our adjusted scope."
+
+    - concept: "Quantified Results"
+      explanation: |
+        Results should be specific and quantified when possible. Numbers,
+        percentages, or concrete outcomes. If you can't quantify, describe
+        the qualitative impact.
+      example: |
+        Weak: "It worked out well"
+        Strong: "We finished 2 days early, scored 98/100, and the client implemented 3 of our 5 recommendations"
+
+    - concept: "The 2-minute rule"
+      explanation: |
+        A STAR answer should be 1.5-2.5 minutes. Shorter feels incomplete.
+        Longer loses attention. Practice until you hit this range naturally.
+      example: |
+        - Situation/Task: 30 seconds
+        - Action: 60-90 seconds
+        - Result: 30 seconds
+
+  worked_examples:
+    - scenario: "Teamwork question: 'Tell me about a time you worked on a team'"
+      steps:
+        - "S: 'In my retail job, our store was preparing for Black Friday — our biggest sales day.'"
+        - "T: 'I was responsible for coordinating the team's break schedule and floor coverage.'"
+        - "A: 'I created a visual schedule, communicated changes via group text, covered for teammates who needed flexibility, and handled escalated customer issues so others could focus.'"
+        - "R: 'We hit 120% of our sales goal with zero coverage gaps. Manager recognized our section as best-performing in the store.'"
+      outcome: |
+        Specific, action-focused, quantified result. Demonstrates teamwork,
+        coordination, and impact.
+
+    - scenario: "Problem-solving: 'Tell me about a challenge you overcame'"
+      steps:
+        - "S: 'My family had a financial emergency and I had to increase my work hours while maintaining my grades.'"
+        - "T: 'I needed to work 30+ hours while taking 15 credits and passing all classes.'"
+        - "A: 'I negotiated a flexible schedule with my manager, used time-blocking to protect study hours, formed a study group for my hardest class, and communicated with professors about my situation.'"
+        - "R: 'I maintained my GPA, got promoted at work, and learned time management skills I use to this day.'"
+      outcome: |
+        Shows resilience, problem-solving, communication — without oversharing
+        personal details. Ends on growth.
+
+    - scenario: "Conflict: 'Tell me about a disagreement with a colleague'"
+      steps:
+        - "S: 'In a group project, one team member wasn't contributing equally.'"
+        - "T: 'As one of the active members, I needed to address it without damaging the team dynamic.'"
+        - "A: 'I had a private conversation, used "I" statements, asked about their situation, discovered they were overwhelmed in another class, and we reassigned tasks to play to strengths.'"
+        - "R: 'They delivered their new portion well, we finished with an A, and they thanked me for the conversation. We're still friends.'"
+      outcome: |
+        Shows emotional intelligence, conflict resolution, and positive outcome.
+
+  non_examples:
+    - what: "Too much Situation, not enough Action"
+      why_wrong: |
+        "So there was this project, and the professor assigned groups, and
+        our group had five people, and one person never showed up to
+        meetings..." — 90 seconds in and we haven't heard what YOU did.
+
+    - what: "Vague Action: 'We worked together'"
+      why_wrong: |
+        "We" doesn't tell the interviewer what YOU did. They're hiring
+        YOU, not your team. Be specific about YOUR contribution.
+
+    - what: "No Result or weak result"
+      why_wrong: |
+        "And then the project was done" isn't a result. What HAPPENED?
+        What was the grade, the outcome, the impact, the learning?
+
+    - what: "Over-sharing personal details"
+      why_wrong: |
+        "My parents were getting divorced and my brother was sick..."
+        — Too personal. Keep it professional and focused on your actions.
+
+# =============================================================================
+# APPLICATION
+# =============================================================================
+
+application:
+  guided:
+    - activity: "Build one STAR story together"
+      scaffolding: |
+        Cat provides a prompt ("Tell me about a time you helped a customer").
+        Students fill in each STAR component for their own experience.
+        Cat shares example alongside.
+      feedback: |
+        "Read your Action section. Count how many specific things YOU did.
+        If it's less than 3, expand. If it's more than 6, tighten."
+
+    - activity: "Time your answer"
+      scaffolding: |
+        Set a timer. Students practice their STAR story out loud, aiming
+        for 2 minutes.
+      feedback: |
+        "Under 90 seconds? Add more Action detail. Over 3 minutes? Cut
+        Situation setup. The sweet spot is 2 minutes."
+
+  independent:
+    - activity: "Complete STAR Story Bank (5+ stories)"
+      success_criteria: |
+        5+ STAR stories covering different competencies:
+        - Teamwork
+        - Problem-solving
+        - Leadership/initiative
+        - Overcoming a challenge
+        - Customer/stakeholder interaction
+        Each story follows STAR format with quantified results.
+
+# =============================================================================
+# INTEGRATION
+# =============================================================================
+
+integration:
+  reflection: |
+    "Which story surprised you with how good it sounds? Sometimes our
+    most ordinary experiences become impressive when structured well."
+
+  transfer: |
+    These 5+ stories become a reusable toolkit. Multiple interview questions
+    can be answered with the same story, slightly adapted. One strong story
+    can answer 10 different questions.
+
+  share: |
+    "Practice your stories with a friend. Have them ask common questions
+    and you respond with STAR. Their feedback helps you refine."
+
+# =============================================================================
+# RESOURCES
+# =============================================================================
+
+resources:
+  downloads:
+    - name: "STAR Story Bank Worksheet"
+      description: "Template for 5+ stories"
+      format: pdf
+
+    - name: "STAR Method Template"
+      description: "Fill-in-the-blank story builder"
+      format: pdf
+
+    - name: "Competency Question Bank"
+      description: "50+ questions mapped to competencies"
+      format: pdf
+
+    - name: "STAR Examples for Students"
+      description: "10+ complete examples from student experiences"
+      format: pdf
+
+# =============================================================================
+# INSTRUCTOR NOTES
+# =============================================================================
+
+instructor_notes:
+  tone: |
+    Teaching and coaching. This is a skill that requires practice. Be
+    encouraging when stories are weak — they'll get better with structure.
+    Make STAR feel like a safety net, not a restriction.
+
+  key_moments:
+    - "The framework introduction (visual, memorable)"
+    - "Action is the STAR of STAR (emphasize loudly)"
+    - "Live example walkthrough"
+    - "2-minute timing guideline"
+
+  avoid:
+    - "Making it seem like you need extraordinary experiences"
+    - "Memorizing scripts (it's a structure, not a script)"
+    - "Moving on before students try it themselves"
+
+  visual_suggestions:
+    - "STAR as a graphic (persistent on screen)"
+    - "Pie chart showing time allocation (50-60% action)"
+    - "Example story with S/T/A/R labeled"
+    - "Timer on screen during practice"
+
+# =============================================================================
+# DELIVERABLE
+# =============================================================================
+
+deliverable:
+  name: "STAR Story Bank (5+ stories)"
+  type: artifact
+  required: true
+  success_criteria:
+    - "5+ complete STAR stories"
+    - "Each covers a different competency"
+    - "Action section is the longest"
+    - "Results are quantified where possible"
+    - "Each story is 1.5-2.5 minutes when spoken"

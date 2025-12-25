@@ -1,0 +1,501 @@
+# Course OS - Production Checklist Template
+# Course: Get Hired Fast for Community College Students
+# Use this template for each lesson's production tracking
+
+# =============================================================================
+# TEMPLATE - Copy for each lesson
+# =============================================================================
+
+production_checklist_template:
+
+  lesson:
+    id: "L0.0"
+    title: "Lesson Title"
+    module: "Module Name"
+    script_file: "content/scripts/module-XX/filename.md"
+
+  # ---------------------------------------------------------------------------
+  # PRE-PRODUCTION
+  # ---------------------------------------------------------------------------
+
+  pre_production:
+
+    script_review:
+      - task: "Script reviewed by presenter"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Script approved by course owner"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Timing verified (word count / speaking pace)"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    graphics_preparation:
+      - task: "Graphics list extracted from script"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Graphics designed and approved"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Graphics exported in correct format"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    shot_list:
+      - task: "Shot list created from template"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Shot list reviewed and approved"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    screencast_prep:
+      - task: "Screencast sections identified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Demo environment prepared (clean desktop, apps ready)"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Demo steps rehearsed"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    logistics:
+      - task: "Recording date scheduled"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Studio/location booked"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Equipment checklist verified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Teleprompter loaded with script"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+  # ---------------------------------------------------------------------------
+  # PRODUCTION
+  # ---------------------------------------------------------------------------
+
+  production:
+
+    video_recording:
+      - task: "Talking head segments recorded"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Multiple takes captured"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Audio levels verified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Lighting consistent throughout"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    screencast_recording:
+      - task: "Screencast segments recorded"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Cursor visible and highlighted"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Voiceover synced with actions"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    audio_capture:
+      - task: "Clean audio captured"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Room tone recorded"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Backup audio available"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    quality_check_onset:
+      - task: "Playback reviewed on set"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Retakes captured as needed"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+  # ---------------------------------------------------------------------------
+  # POST-PRODUCTION
+  # ---------------------------------------------------------------------------
+
+  post_production:
+
+    video_editing:
+      - task: "Best takes selected"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Rough cut assembled"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Graphics inserted"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Transitions added"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Lower thirds applied"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Color correction applied"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    audio_editing:
+      - task: "Audio cleaned and normalized"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Background music added"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Sound effects added"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Audio levels balanced"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    captions:
+      - task: "Auto-captions generated"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Captions manually reviewed and corrected"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Timing synchronized"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "SRT and VTT files exported"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    transcript:
+      - task: "Full transcript created"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Visual descriptions added"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Transcript formatted (MD and PDF)"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    export:
+      - task: "Master file exported (ProRes/DNxHR)"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Web version exported (H.264/MP4)"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "File naming convention followed"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+  # ---------------------------------------------------------------------------
+  # QUALITY ASSURANCE
+  # ---------------------------------------------------------------------------
+
+  quality_assurance:
+
+    content_review:
+      - task: "Content accuracy verified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Pacing and flow assessed"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "No dead air or awkward pauses"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    technical_review:
+      - task: "Video quality acceptable"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Audio clear throughout"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Graphics display correctly"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "No encoding artifacts"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    accessibility_review:
+      - task: "Captions 99% accurate"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Captions synchronized"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Transcript complete"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Color contrast verified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    approval:
+      - task: "Presenter sign-off"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Course owner final approval"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+  # ---------------------------------------------------------------------------
+  # PLATFORM UPLOAD
+  # ---------------------------------------------------------------------------
+
+  platform_upload:
+
+    video:
+      - task: "Video uploaded to platform"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Captions uploaded"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Video settings configured"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    content:
+      - task: "Lesson text/description added"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Resources attached"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Links verified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+    testing:
+      - task: "Playback tested on platform"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Captions display correctly"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+      - task: "Mobile playback verified"
+        status: pending
+        assignee: ""
+        due_date: ""
+        notes: ""
+
+  # ---------------------------------------------------------------------------
+  # COMPLETION
+  # ---------------------------------------------------------------------------
+
+  completion:
+    all_tasks_complete: false
+    completion_date: ""
+    final_video_url: ""
+    production_notes: ""
+
+# =============================================================================
+# STATUS OPTIONS
+# =============================================================================
+
+status_options:
+  - pending      # Not started
+  - in_progress  # Currently being worked on
+  - blocked      # Waiting on dependency
+  - review       # Awaiting review/approval
+  - complete     # Done

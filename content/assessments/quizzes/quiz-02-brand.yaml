@@ -1,0 +1,166 @@
+# Course OS - Module Quiz
+# Quiz: Personal Branding Essentials
+# Module: 02 - Brand Builder
+
+quiz:
+  id: quiz-02-brand
+  title: "Personal Branding Essentials"
+  module: module-02
+  outcomes: ["ELO-2.1", "ELO-2.2", "ELO-2.3", "ELO-2.4", "ELO-2.5"]
+  purpose: "Verify resume and LinkedIn best practices"
+
+  settings:
+    time_limit: 0
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+
+  questions:
+
+    - id: q1
+      question: "How long does a recruiter typically spend on their first look at a resume?"
+      type: multiple_choice
+      options:
+        - text: "30 seconds"
+          correct: false
+        - text: "6-7 seconds"
+          correct: true
+        - text: "2 minutes"
+          correct: false
+        - text: "5 minutes"
+          correct: false
+      explanation: "Recruiters spend an average of 6-7 seconds on the first scan of a resume. This is why format and top-third content matter so much."
+      bloom_level: remember
+
+    - id: q2
+      question: "What is the XYZ formula for resume bullet points?"
+      type: multiple_choice
+      options:
+        - text: "X task, Y skills, Z experience"
+          correct: false
+        - text: "Accomplished X by doing Y, resulting in Z"
+          correct: true
+        - text: "eXperience, Your role, Zero errors"
+          correct: false
+        - text: "X years, Y jobs, Z references"
+          correct: false
+      explanation: "The XYZ formula is: Accomplished [X] by doing [Y], resulting in [Z]. This shows achievement, method, and impact."
+      bloom_level: remember
+
+    - id: q3
+      question: "What percentage of resumes are rejected by ATS (Applicant Tracking Systems) before a human sees them?"
+      type: multiple_choice
+      options:
+        - text: "25%"
+          correct: false
+        - text: "50%"
+          correct: false
+        - text: "75%"
+          correct: true
+        - text: "90%"
+          correct: false
+      explanation: "Approximately 75% of resumes are filtered out by ATS before reaching human recruiters, which is why optimization matters."
+      bloom_level: remember
+
+    - id: q4
+      question: "Which resume format elements can cause ATS problems?"
+      type: multiple_select
+      options:
+        - text: "Tables and columns"
+          correct: true
+        - text: "Headers and footers"
+          correct: true
+        - text: "Standard section headings"
+          correct: false
+        - text: "Graphics and images"
+          correct: true
+        - text: "Fancy fonts"
+          correct: true
+        - text: "Bullet points"
+          correct: false
+      partial_credit: true
+      explanation: "ATS often struggle with: tables, columns, headers/footers, graphics, images, and unusual fonts. Stick to simple, clean formatting."
+      bloom_level: understand
+
+    - id: q5
+      question: "What LinkedIn profile status should you aim for?"
+      type: multiple_choice
+      options:
+        - text: "Basic"
+          correct: false
+        - text: "Intermediate"
+          correct: false
+        - text: "All-Star"
+          correct: true
+        - text: "Premium"
+          correct: false
+      explanation: "All-Star status means your profile is complete and optimized. All-Star profiles appear in 40x more searches."
+      bloom_level: remember
+
+    - id: q6
+      question: "What should the first line of your LinkedIn headline contain?"
+      type: multiple_choice
+      options:
+        - text: "Your current employer name"
+          correct: false
+        - text: "Your target role or value proposition"
+          correct: true
+        - text: "Your degree and GPA"
+          correct: false
+        - text: "Open to work"
+          correct: false
+      explanation: "Your headline should lead with your target role or value proposition. This is what appears in search results and makes recruiters click."
+      bloom_level: understand
+
+    - id: q7
+      question: "What percentage of recruiters use LinkedIn to find candidates?"
+      type: multiple_choice
+      options:
+        - text: "45%"
+          correct: false
+        - text: "67%"
+          correct: false
+        - text: "87%"
+          correct: true
+        - text: "95%"
+          correct: false
+      explanation: "87% of recruiters use LinkedIn to find candidates, making it the most important professional social platform."
+      bloom_level: remember
+
+    - id: q8
+      question: "What is the recommended approach to using AI tools for resume writing?"
+      type: multiple_choice
+      options:
+        - text: "Let AI write your entire resume from scratch"
+          correct: false
+        - text: "Never use AI — it's cheating"
+          correct: false
+        - text: "Use AI as an editor to improve your own content"
+          correct: true
+        - text: "Use AI only for cover letters, not resumes"
+          correct: false
+      explanation: "The best approach is 'AI as editor, not writer.' You provide the content; AI helps refine, improve, and optimize it."
+      bloom_level: understand
+
+    - id: q9
+      question: "What are the three parts of the elevator pitch formula?"
+      type: multiple_choice
+      options:
+        - text: "Introduction, body, conclusion"
+          correct: false
+        - text: "Present, Past, Future"
+          correct: true
+        - text: "Problem, Solution, Call-to-action"
+          correct: false
+        - text: "Hook, Story, Ask"
+          correct: false
+      explanation: "The elevator pitch formula is: Present (what you do now), Past (relevant experience), Future (what you're looking for)."
+      bloom_level: remember
+
+    - id: q10
+      question: "True or False: Your resume should be 100% perfect before you start applying to jobs."
+      type: true_false
+      correct: false
+      explanation: "'Done is better than perfect.' A good resume submitted is infinitely better than a perfect resume never sent. You can improve as you go."
+      bloom_level: understand

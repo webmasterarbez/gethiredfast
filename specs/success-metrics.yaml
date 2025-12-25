@@ -1,0 +1,341 @@
+# Course OS - Success Metrics
+# Course: Get Hired Fast for Community College Students
+# Phase 4: Course Strategy
+# Framework: Kirkpatrick's 4 Levels of Evaluation
+# Generated: 2025-12-22
+
+# =============================================================================
+# KIRKPATRICK LEVEL 1: REACTION
+# "Did learners enjoy the course? Did they find it valuable?"
+# =============================================================================
+
+level_1_reaction:
+
+  description: |
+    Measures learner satisfaction and perceived value. Collected during
+    and immediately after course completion.
+
+  metrics:
+
+    - id: L1-01
+      name: "Course Satisfaction Score"
+      measure: "Survey rating (1-5 scale)"
+      target: "4.2+ average"
+      collection: "End of each problem area + final survey"
+      questions:
+        - "This section was useful for my job search"
+        - "The content was practical and actionable"
+        - "I feel more confident about this topic"
+
+    - id: L1-02
+      name: "Net Promoter Score (NPS)"
+      measure: "NPS calculation (-100 to +100)"
+      target: "50+"
+      collection: "Final survey"
+      question: "How likely are you to recommend this course to a friend? (0-10)"
+
+    - id: L1-03
+      name: "Engagement Rate"
+      measure: "% of enrolled students who start course"
+      target: "85%+"
+      collection: "Platform analytics"
+
+    - id: L1-04
+      name: "Content Quality Rating"
+      measure: "Survey rating (1-5 scale)"
+      target: "4.0+ average"
+      collection: "Per-video ratings"
+      questions:
+        - "The video length was appropriate"
+        - "The instructor was engaging"
+        - "The examples were relevant to my situation"
+
+    - id: L1-05
+      name: "Material Usefulness"
+      measure: "% rating templates/worksheets as useful"
+      target: "90%+"
+      collection: "End of course survey"
+
+  collection_methods:
+    - "In-course micro-surveys (1-2 questions per section)"
+    - "End of course comprehensive survey"
+    - "Platform analytics (engagement, completion, video watch time)"
+
+# =============================================================================
+# KIRKPATRICK LEVEL 2: LEARNING
+# "Did learners acquire the intended knowledge and skills?"
+# =============================================================================
+
+level_2_learning:
+
+  description: |
+    Measures actual learning and skill acquisition. Assessed through
+    deliverable completion and quality, not traditional tests.
+
+  metrics:
+
+    - id: L2-01
+      name: "Course Completion Rate"
+      measure: "% completing all 6 problem areas"
+      target: "75%+"
+      benchmark: "Industry average for self-paced: ~15%"
+      collection: "Platform analytics"
+
+    - id: L2-02
+      name: "Deliverable Completion"
+      measure: "% completing key deliverables"
+      target: "90%+ for core deliverables"
+      deliverables:
+        critical:
+          - "Resume created/updated"
+          - "LinkedIn profile optimized"
+          - "STAR story bank (5+ stories)"
+        important:
+          - "Network map completed"
+          - "Salary research worksheet"
+          - "Daily Action Tracker started"
+
+    - id: L2-03
+      name: "Resume Quality"
+      measure: "ATS optimization score"
+      target: "75%+ pass ATS simulation"
+      collection: "Self-reported Jobscan/Teal score or sampling"
+
+    - id: L2-04
+      name: "LinkedIn Profile Status"
+      measure: "% achieving All-Star status"
+      target: "70%+"
+      collection: "Self-reported"
+
+    - id: L2-05
+      name: "STAR Story Readiness"
+      measure: "% with 5+ prepared STAR stories"
+      target: "80%+"
+      collection: "Self-reported or portfolio submission"
+
+    - id: L2-06
+      name: "Knowledge Check Scores"
+      measure: "Quiz scores on key concepts"
+      target: "80%+ average"
+      collection: "Optional concept-check quizzes"
+      topics:
+        - "ATS optimization basics"
+        - "Hidden job market understanding"
+        - "Negotiation principles"
+
+  assessment_philosophy: |
+    This course assesses learning through DOING, not testing. The primary
+    evidence of learning is the portfolio of deliverables students create.
+    Knowledge checks are optional and formative, not summative.
+
+# =============================================================================
+# KIRKPATRICK LEVEL 3: BEHAVIOR
+# "Are learners applying what they learned?"
+# =============================================================================
+
+level_3_behavior:
+
+  description: |
+    Measures behavior change in actual job search activities. The most
+    important level for this course — did they DO the things we taught?
+
+  metrics:
+
+    - id: L3-01
+      name: "Daily Action Tracker Usage"
+      measure: "% using tracker for 2+ weeks"
+      target: "60%+"
+      collection: "Self-reported or tracker data"
+
+    - id: L3-02
+      name: "Networking Activity"
+      measure: "Average networking outreach messages sent"
+      target: "10+ messages within 30 days"
+      collection: "Self-reported via follow-up survey"
+
+    - id: L3-03
+      name: "Informational Interviews"
+      measure: "Average informational interviews conducted"
+      target: "3+ within 60 days"
+      collection: "Self-reported"
+
+    - id: L3-04
+      name: "Strategic Applications"
+      measure: "Applications with tailored resumes"
+      target: "5+ targeted applications within 30 days"
+      collection: "Self-reported"
+
+    - id: L3-05
+      name: "Interview Performance"
+      measure: "Self-rated interview confidence (1-10)"
+      target: "7+ average (post-course)"
+      baseline: "Measure pre-course and compare"
+      collection: "Pre/post survey"
+
+    - id: L3-06
+      name: "Negotiation Attempts"
+      measure: "% who attempt salary negotiation when given offer"
+      target: "50%+"
+      collection: "Follow-up survey at 90 days"
+      benchmark: "National average: 38% of grads negotiate"
+
+  leading_indicators:
+    description: |
+      Early signals that predict Level 3 success. Track these during
+      the course to identify students at risk of not applying learning.
+    indicators:
+      - "Resume completed within first 2 problem areas"
+      - "First networking message sent within 2 weeks"
+      - "Daily Action Tracker active for 5+ consecutive days"
+
+# =============================================================================
+# KIRKPATRICK LEVEL 4: RESULTS
+# "Did the training achieve business/personal outcomes?"
+# =============================================================================
+
+level_4_results:
+
+  description: |
+    Measures ultimate outcomes: employment success. This is the metric
+    that matters most — did students get hired?
+
+  primary_metrics:
+
+    - id: L4-01
+      name: "Time to Employment"
+      measure: "Average weeks from course start to job offer"
+      target: "10 weeks or less"
+      benchmark: "National average: 22 weeks"
+      promise: "55% faster than average"
+      collection: "Follow-up survey at 30/60/90 days"
+
+    - id: L4-02
+      name: "Employment Rate"
+      measure: "% employed within 90 days of completion"
+      target: "60%+"
+      collection: "Follow-up survey"
+
+    - id: L4-03
+      name: "Interview Rate"
+      measure: "% receiving interview invitations"
+      target: "75%+ get 2+ interviews within 60 days"
+      collection: "Follow-up survey"
+
+  secondary_metrics:
+
+    - id: L4-04
+      name: "Salary Satisfaction"
+      measure: "% at or above target salary"
+      target: "70%+"
+      collection: "Follow-up survey"
+
+    - id: L4-05
+      name: "Negotiation Success"
+      measure: "% who negotiated and received improvement"
+      target: "60% of those who negotiated"
+      collection: "Follow-up survey"
+
+    - id: L4-06
+      name: "Job Satisfaction"
+      measure: "Rating of job fit (1-10)"
+      target: "7+ average"
+      collection: "90-day follow-up"
+
+    - id: L4-07
+      name: "Career Confidence"
+      measure: "Self-rated career confidence (1-10)"
+      target: "8+ average (post-employment)"
+      collection: "90-day follow-up"
+
+  institutional_metrics:
+    description: |
+      For colleges licensing the course, additional metrics matter.
+    metrics:
+      - id: L4-I1
+        name: "Student Reach"
+        measure: "% of students accessing career content"
+        target: "3x current career center visit rate"
+        rationale: "Only 36% visit career center; goal is to reach the other 64%"
+
+      - id: L4-I2
+        name: "Career Center Efficiency"
+        measure: "Reduction in basic how-to questions"
+        target: "20% reduction in appointment volume for basic topics"
+        rationale: "Course handles basics, freeing counselors for complex cases"
+
+# =============================================================================
+# MEASUREMENT TIMELINE
+# =============================================================================
+
+measurement_timeline:
+
+  during_course:
+    - "L1: Micro-surveys after each problem area"
+    - "L2: Deliverable completion tracking"
+    - "L3: Daily Action Tracker engagement"
+
+  end_of_course:
+    - "L1: Comprehensive satisfaction survey"
+    - "L2: Portfolio review / deliverable checklist"
+    - "L3: Behavior intention survey"
+
+  30_days_post:
+    - "L3: First follow-up (activity levels)"
+    - "L4: Initial employment status check"
+
+  60_days_post:
+    - "L3: Second follow-up (interview activity)"
+    - "L4: Employment progress"
+
+  90_days_post:
+    - "L4: Final outcome survey"
+    - "L4: Success story collection"
+
+# =============================================================================
+# DATA COLLECTION METHODS
+# =============================================================================
+
+data_collection:
+
+  automated:
+    - "Platform analytics (completion, engagement, video watch time)"
+    - "Daily Action Tracker data (if integrated)"
+    - "Quiz/assessment scores"
+
+  survey_based:
+    - "In-course micro-surveys (minimal friction)"
+    - "End-of-course satisfaction survey"
+    - "30/60/90 day follow-up surveys"
+
+  optional_incentives:
+    - "Entry into drawing for completing follow-up surveys"
+    - "Access to bonus content for participation"
+
+  privacy:
+    - "All data anonymized for aggregate reporting"
+    - "Individual data used only for personalized support"
+    - "Compliance with FERPA for institutional implementations"
+
+# =============================================================================
+# SUCCESS THRESHOLDS
+# =============================================================================
+
+success_thresholds:
+
+  minimum_viable:
+    L1_satisfaction: 3.5
+    L2_completion: 50%
+    L3_activity: 40%
+    L4_employment_90day: 40%
+
+  target:
+    L1_satisfaction: 4.2
+    L2_completion: 75%
+    L3_activity: 60%
+    L4_employment_90day: 60%
+
+  stretch:
+    L1_satisfaction: 4.5
+    L2_completion: 85%
+    L3_activity: 75%
+    L4_employment_90day: 75%

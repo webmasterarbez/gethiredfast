@@ -1,0 +1,312 @@
+# Course OS - Learning Outcomes
+# Course: Get Hired Fast for Community College Students
+# Phase 4: Course Strategy
+# Generated: 2025-12-22
+# Framework: Bloom's Taxonomy (Revised)
+
+# =============================================================================
+# TERMINAL LEARNING OUTCOMES
+# =============================================================================
+
+terminal_outcomes:
+
+  - id: TLO-1
+    statement: "Learners will be able to execute a targeted job search strategy that leads to employment 55% faster than average."
+    blooms_level: Apply
+    problem_area: "Career Direction"
+    assessment: "Portfolio review: documented strategy with target roles, companies, and action plan"
+    success_indicator: "Has clear, written job search strategy with 5+ target companies"
+
+  - id: TLO-2
+    statement: "Learners will be able to create professional application materials (resume, LinkedIn) that pass ATS screening and attract recruiters."
+    blooms_level: Create
+    problem_area: "Personal Brand"
+    assessment: "Portfolio submission of resume and LinkedIn profile"
+    success_indicator: "Resume passes ATS simulation; LinkedIn achieves All-Star status"
+
+  - id: TLO-3
+    statement: "Learners will be able to build and leverage a professional network to access the hidden job market."
+    blooms_level: Apply
+    problem_area: "Networking"
+    assessment: "Activity log showing networking outreach and informational interviews"
+    success_indicator: "Conducted 3+ informational interviews; sent 10+ networking messages"
+
+  - id: TLO-4
+    statement: "Learners will be able to perform confidently in interviews using structured response techniques."
+    blooms_level: Apply
+    problem_area: "Interviewing"
+    assessment: "STAR story bank submission; self-recorded mock interview"
+    success_indicator: "Has 5+ prepared STAR stories; can answer common questions fluently"
+
+  - id: TLO-5
+    statement: "Learners will be able to evaluate job offers and negotiate compensation effectively."
+    blooms_level: Evaluate
+    problem_area: "Negotiation"
+    assessment: "Salary research worksheet; negotiation script preparation"
+    success_indicator: "Knows market rate; has prepared negotiation talking points"
+
+  - id: TLO-6
+    statement: "Learners will be able to manage job search psychology including imposter syndrome, rejection, and motivation."
+    blooms_level: Apply
+    problem_area: "Mindset"
+    assessment: "Reflection journal; Daily Action Tracker usage"
+    success_indicator: "Uses strategies when facing setbacks; maintains consistent activity"
+
+# =============================================================================
+# ENABLING LEARNING OUTCOMES BY PROBLEM AREA
+# =============================================================================
+
+enabling_outcomes:
+
+  # ---------------------------------------------------------------------------
+  # PROBLEM 1: Career Direction ("WTF Should I Do With My Life?")
+  # ---------------------------------------------------------------------------
+
+  career_direction:
+
+    - id: ELO-1.1
+      statement: "Learners will be able to identify their core values, interests, and work style preferences."
+      blooms_level: Analyze
+      assessment: "Self-assessment completion"
+      lesson_link: "Career Exploration"
+
+    - id: ELO-1.2
+      statement: "Learners will be able to translate academic and life experiences into transferable skills."
+      blooms_level: Analyze
+      assessment: "Transferable skills inventory"
+      lesson_link: "Skills Translation"
+
+    - id: ELO-1.3
+      statement: "Learners will be able to select 2-3 target job types based on skills, interests, and market demand."
+      blooms_level: Evaluate
+      assessment: "Target Job Scorecard completion"
+      lesson_link: "Target Identification"
+
+    - id: ELO-1.4
+      statement: "Learners will be able to explain how AI is changing their target industry and prepare accordingly."
+      blooms_level: Understand
+      assessment: "Industry AI impact analysis"
+      lesson_link: "AI and the Future of Work"
+
+  # ---------------------------------------------------------------------------
+  # PROBLEM 2: Personal Brand ("My Resume Has Nothing On It")
+  # ---------------------------------------------------------------------------
+
+  personal_brand:
+
+    - id: ELO-2.1
+      statement: "Learners will be able to write achievement-focused bullet points using action verbs and quantified results."
+      blooms_level: Create
+      assessment: "Resume bullet point submissions"
+      lesson_link: "Resume Writing"
+
+    - id: ELO-2.2
+      statement: "Learners will be able to optimize a resume for ATS keyword scanning while maintaining readability."
+      blooms_level: Apply
+      assessment: "ATS score check (Jobscan or similar)"
+      lesson_link: "ATS Optimization"
+
+    - id: ELO-2.3
+      statement: "Learners will be able to create a LinkedIn profile that achieves All-Star status and attracts recruiters."
+      blooms_level: Create
+      assessment: "LinkedIn profile review"
+      lesson_link: "LinkedIn Mastery"
+
+    - id: ELO-2.4
+      statement: "Learners will be able to use AI tools (ChatGPT, Claude, Teal) to enhance application materials while maintaining authenticity."
+      blooms_level: Apply
+      assessment: "AI-assisted resume tailoring exercise"
+      lesson_link: "AI Tools for Job Search"
+
+    - id: ELO-2.5
+      statement: "Learners will be able to deliver a 30-second elevator pitch that communicates their value proposition."
+      blooms_level: Apply
+      assessment: "Recorded elevator pitch"
+      lesson_link: "Personal Branding"
+
+  # ---------------------------------------------------------------------------
+  # PROBLEM 3: Networking ("I Don't Know Anyone")
+  # ---------------------------------------------------------------------------
+
+  networking:
+
+    - id: ELO-3.1
+      statement: "Learners will be able to explain why 70% of jobs come through networking and how the hidden job market works."
+      blooms_level: Understand
+      assessment: "Concept check quiz"
+      lesson_link: "Hidden Job Market"
+
+    - id: ELO-3.2
+      statement: "Learners will be able to identify 50+ potential contacts in their existing network."
+      blooms_level: Analyze
+      assessment: "Network mapping exercise"
+      lesson_link: "Network Mapping"
+
+    - id: ELO-3.3
+      statement: "Learners will be able to write effective outreach messages using proven templates."
+      blooms_level: Apply
+      assessment: "Outreach message drafts"
+      lesson_link: "Networking Scripts"
+
+    - id: ELO-3.4
+      statement: "Learners will be able to conduct informational interviews that build relationships and uncover opportunities."
+      blooms_level: Apply
+      assessment: "Informational interview reflection"
+      lesson_link: "Informational Interviews"
+
+    - id: ELO-3.5
+      statement: "Learners will be able to use Handshake and LinkedIn strategically for job discovery and applications."
+      blooms_level: Apply
+      assessment: "Platform profile completion"
+      lesson_link: "Modern Job Platforms"
+
+  # ---------------------------------------------------------------------------
+  # PROBLEM 4: Interviewing ("Help! I Have An Interview")
+  # ---------------------------------------------------------------------------
+
+  interviewing:
+
+    - id: ELO-4.1
+      statement: "Learners will be able to structure responses using the STAR method for behavioral questions."
+      blooms_level: Apply
+      assessment: "STAR story bank (5+ stories)"
+      lesson_link: "STAR Method Mastery"
+
+    - id: ELO-4.2
+      statement: "Learners will be able to answer the top 10 most common interview questions confidently."
+      blooms_level: Apply
+      assessment: "Practice question responses"
+      lesson_link: "Common Questions"
+
+    - id: ELO-4.3
+      statement: "Learners will be able to prepare for AI video interviews (HireVue) including technical and presentation aspects."
+      blooms_level: Apply
+      assessment: "HireVue practice recording"
+      lesson_link: "AI Video Interviews"
+
+    - id: ELO-4.4
+      statement: "Learners will be able to research companies effectively to ask informed questions and demonstrate fit."
+      blooms_level: Apply
+      assessment: "Company research worksheet"
+      lesson_link: "Company Research"
+
+    - id: ELO-4.5
+      statement: "Learners will be able to write professional thank-you notes within 24 hours of interviews."
+      blooms_level: Apply
+      assessment: "Thank-you note template"
+      lesson_link: "Interview Follow-Up"
+
+  # ---------------------------------------------------------------------------
+  # PROBLEM 5: Negotiation ("Can I Actually Ask For More?")
+  # ---------------------------------------------------------------------------
+
+  negotiation:
+
+    - id: ELO-5.1
+      statement: "Learners will be able to research market salary rates using multiple sources (Glassdoor, LinkedIn, BLS)."
+      blooms_level: Apply
+      assessment: "Salary research worksheet"
+      lesson_link: "Salary Research"
+
+    - id: ELO-5.2
+      statement: "Learners will be able to calculate total compensation including benefits, PTO, and growth potential."
+      blooms_level: Analyze
+      assessment: "Offer comparison worksheet"
+      lesson_link: "Total Compensation"
+
+    - id: ELO-5.3
+      statement: "Learners will be able to execute a salary negotiation conversation using proven scripts."
+      blooms_level: Apply
+      assessment: "Negotiation script preparation"
+      lesson_link: "Negotiation Tactics"
+
+    - id: ELO-5.4
+      statement: "Learners will be able to evaluate multiple job offers using a structured decision framework."
+      blooms_level: Evaluate
+      assessment: "Offer evaluation matrix"
+      lesson_link: "Offer Evaluation"
+
+  # ---------------------------------------------------------------------------
+  # PROBLEM 6: Mindset ("I'm Not Good Enough")
+  # ---------------------------------------------------------------------------
+
+  mindset:
+
+    - id: ELO-6.1
+      statement: "Learners will be able to recognize and reframe imposter syndrome thoughts."
+      blooms_level: Analyze
+      assessment: "Thought reframing exercise"
+      lesson_link: "Imposter Syndrome"
+
+    - id: ELO-6.2
+      statement: "Learners will be able to apply rejection resilience strategies to maintain job search momentum."
+      blooms_level: Apply
+      assessment: "Rejection reflection journal"
+      lesson_link: "Rejection Resilience"
+
+    - id: ELO-6.3
+      statement: "Learners will be able to break perfectionism paralysis using 'good enough' action strategies."
+      blooms_level: Apply
+      assessment: "First draft submission (imperfect)"
+      lesson_link: "Beating Perfectionism"
+
+    - id: ELO-6.4
+      statement: "Learners will be able to maintain consistent job search activity using the Daily Action Tracker."
+      blooms_level: Apply
+      assessment: "Daily Action Tracker log"
+      lesson_link: "Accountability System"
+
+# =============================================================================
+# BLOOM'S TAXONOMY DISTRIBUTION
+# =============================================================================
+
+blooms_distribution:
+  summary: |
+    The learning outcomes are intentionally weighted toward Apply (skill execution)
+    and Create (producing deliverables) because this is a skills-based course
+    where learners must DO, not just know.
+
+  breakdown:
+    Remember: 0
+    Understand: 2
+    Apply: 18
+    Analyze: 4
+    Evaluate: 3
+    Create: 3
+
+  rationale: |
+    - Heavy Apply focus: Job searching is a skill requiring practice
+    - Create outcomes: Learners leave with tangible deliverables (resume, LinkedIn, etc.)
+    - Evaluate outcomes: Offer evaluation and decision-making require judgment
+    - Minimal Remember/Understand: Information without application is useless
+
+# =============================================================================
+# OUTCOME-TO-ASSESSMENT MAPPING
+# =============================================================================
+
+assessment_alignment:
+  note: |
+    Each outcome has a defined assessment method. The course uses portfolio-based
+    assessment rather than knowledge testing, because job search success is
+    measured by what you produce and do, not what you know.
+
+  assessment_types:
+    - type: "Portfolio artifacts"
+      examples: "Resume, LinkedIn profile, STAR stories, outreach messages"
+      outcomes: "TLO-2, TLO-3, TLO-4"
+
+    - type: "Activity logs"
+      examples: "Daily Action Tracker, networking log, application tracker"
+      outcomes: "TLO-1, TLO-3, TLO-6"
+
+    - type: "Worksheets"
+      examples: "Salary research, offer evaluation, target job scorecard"
+      outcomes: "TLO-1, TLO-5"
+
+    - type: "Reflections"
+      examples: "Informational interview debrief, rejection journal"
+      outcomes: "TLO-3, TLO-6"
+
+    - type: "Recordings"
+      examples: "Elevator pitch, mock interview, HireVue practice"
+      outcomes: "TLO-4"

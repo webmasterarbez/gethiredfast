@@ -1,0 +1,482 @@
+# Course OS - Module Production Tracker
+# Course: Get Hired Fast for Community College Students
+# Track production progress across all modules
+
+# =============================================================================
+# PRODUCTION OVERVIEW
+# =============================================================================
+
+overview:
+  total_lessons: 44
+  total_graphics: 727
+  total_screencasts: 17
+  estimated_production_weeks: 8-10
+
+# =============================================================================
+# MODULE 0: LAUNCHPAD
+# =============================================================================
+
+module_00:
+  name: "Launchpad"
+  lessons: 3
+  estimated_hours: 0.25
+  status: pending
+
+  lessons:
+    - id: "L0.1"
+      title: "Welcome to Your Career Transformation"
+      duration: "5 min"
+      script: "content/scripts/module-00/L0.1-welcome.md"
+      status: pending
+      graphics_count: 8
+      screencast: false
+
+    - id: "L0.2"
+      title: "Course Orientation"
+      duration: "5 min"
+      script: "content/scripts/module-00/L0.2-course-orientation.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L0.3"
+      title: "Setting Up Your Daily Action Tracker"
+      duration: "5 min"
+      script: "content/scripts/module-00/L0.3-action-tracker-setup.md"
+      status: pending
+      graphics_count: 15
+      screencast: true
+
+# =============================================================================
+# MODULE 1: CAREER GPS
+# =============================================================================
+
+module_01:
+  name: "Career GPS"
+  lessons: 5
+  estimated_hours: 0.83
+  status: pending
+
+  lessons:
+    - id: "L1.1"
+      title: "Finding Your Career Direction"
+      duration: "12 min"
+      script: "content/scripts/module-01/L1.1-career-direction.md"
+      status: pending
+      graphics_count: 15
+      screencast: false
+
+    - id: "L1.2"
+      title: "Discovering Your Transferable Skills"
+      duration: "10 min"
+      script: "content/scripts/module-01/L1.2-transferable-skills.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L1.3"
+      title: "The Target Job Scorecard"
+      duration: "12 min"
+      script: "content/scripts/module-01/L1.3-target-scorecard.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L1.4"
+      title: "AI and the Future of Your Career"
+      duration: "8 min"
+      script: "content/scripts/module-01/L1.4-ai-future.md"
+      status: pending
+      graphics_count: 10
+      screencast: false
+
+    - id: "L1.5"
+      title: "You Belong Here"
+      duration: "8 min"
+      script: "content/scripts/module-01/L1.5-you-belong-here.md"
+      status: pending
+      graphics_count: 8
+      screencast: false
+
+# =============================================================================
+# MODULE 2: BRAND BUILDER
+# =============================================================================
+
+module_02:
+  name: "Brand Builder"
+  lessons: 8
+  estimated_hours: 1.42
+  status: pending
+
+  lessons:
+    - id: "L2.1"
+      title: "Resume Foundations"
+      duration: "10 min"
+      script: "content/scripts/module-02/L2.1-resume-foundations.md"
+      status: pending
+      graphics_count: 18
+      screencast: false
+
+    - id: "L2.2"
+      title: "Writing Bullet Points That Get Interviews"
+      duration: "12 min"
+      script: "content/scripts/module-02/L2.2-bullet-points.md"
+      status: pending
+      graphics_count: 20
+      screencast: false
+
+    - id: "L2.3"
+      title: "Beating the ATS"
+      duration: "10 min"
+      script: "content/scripts/module-02/L2.3-beating-ats.md"
+      status: pending
+      graphics_count: 15
+      screencast: true
+
+    - id: "L2.4"
+      title: "Resume Workshop"
+      duration: "15 min"
+      script: "content/scripts/module-02/L2.4-resume-workshop.md"
+      status: pending
+      graphics_count: 12
+      screencast: true
+
+    - id: "L2.5"
+      title: "LinkedIn That Gets Found"
+      duration: "12 min"
+      script: "content/scripts/module-02/L2.5-linkedin.md"
+      status: pending
+      graphics_count: 18
+      screencast: true
+
+    - id: "L2.6"
+      title: "AI Resume Tools"
+      duration: "8 min"
+      script: "content/scripts/module-02/L2.6-ai-tools.md"
+      status: pending
+      graphics_count: 12
+      screencast: true
+
+    - id: "L2.7"
+      title: "Your Elevator Pitch"
+      duration: "10 min"
+      script: "content/scripts/module-02/L2.7-elevator-pitch.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L2.8"
+      title: "Done Is Better Than Perfect"
+      duration: "8 min"
+      script: "content/scripts/module-02/L2.8-done-better-perfect.md"
+      status: pending
+      graphics_count: 10
+      screencast: false
+
+# =============================================================================
+# MODULE 3: NETWORK NAVIGATOR
+# =============================================================================
+
+module_03:
+  name: "Network Navigator"
+  lessons: 7
+  estimated_hours: 0.92
+  status: pending
+
+  lessons:
+    - id: "L3.1"
+      title: "The Hidden Job Market"
+      duration: "8 min"
+      script: "content/scripts/module-03/L3.1-hidden-job-market.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L3.2"
+      title: "Your Network Is Bigger Than You Think"
+      duration: "8 min"
+      script: "content/scripts/module-03/L3.2-network-bigger.md"
+      status: pending
+      graphics_count: 10
+      screencast: false
+
+    - id: "L3.3"
+      title: "Building Your Network Map"
+      duration: "10 min"
+      script: "content/scripts/module-03/L3.3-network-map.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L3.4"
+      title: "Outreach Scripts That Work"
+      duration: "10 min"
+      script: "content/scripts/module-03/L3.4-outreach-scripts.md"
+      status: pending
+      graphics_count: 16
+      screencast: false
+
+    - id: "L3.5"
+      title: "The Informational Interview"
+      duration: "10 min"
+      script: "content/scripts/module-03/L3.5-informational-interview.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L3.6"
+      title: "Strategic Platform Presence"
+      duration: "8 min"
+      script: "content/scripts/module-03/L3.6-platform-presence.md"
+      status: pending
+      graphics_count: 10
+      screencast: true
+
+    - id: "L3.7"
+      title: "Authentic Networking"
+      duration: "8 min"
+      script: "content/scripts/module-03/L3.7-authentic-networking.md"
+      status: pending
+      graphics_count: 8
+      screencast: false
+
+# =============================================================================
+# MODULE 4: INTERVIEW INTEL
+# =============================================================================
+
+module_04:
+  name: "Interview Intel"
+  lessons: 8
+  estimated_hours: 1.5
+  status: pending
+
+  lessons:
+    - id: "L4.1"
+      title: "Inside the Interviewer's Mind"
+      duration: "10 min"
+      script: "content/scripts/module-04/L4.1-interviewers-mind.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L4.2"
+      title: "The STAR Method Mastered"
+      duration: "12 min"
+      script: "content/scripts/module-04/L4.2-star-method.md"
+      status: pending
+      graphics_count: 18
+      screencast: false
+
+    - id: "L4.3"
+      title: "Building Your Story Bank"
+      duration: "10 min"
+      script: "content/scripts/module-04/L4.3-story-bank.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L4.4"
+      title: "Top 10 Interview Questions"
+      duration: "15 min"
+      script: "content/scripts/module-04/L4.4-top-10-questions.md"
+      status: pending
+      graphics_count: 22
+      screencast: false
+
+    - id: "L4.5"
+      title: "Mastering AI and Video Interviews"
+      duration: "12 min"
+      script: "content/scripts/module-04/L4.5-ai-video-interviews.md"
+      status: pending
+      graphics_count: 16
+      screencast: true
+
+    - id: "L4.6"
+      title: "Research That Impresses"
+      duration: "10 min"
+      script: "content/scripts/module-04/L4.6-research-impresses.md"
+      status: pending
+      graphics_count: 12
+      screencast: true
+
+    - id: "L4.7"
+      title: "The Thank-You Advantage"
+      duration: "8 min"
+      script: "content/scripts/module-04/L4.7-thank-you.md"
+      status: pending
+      graphics_count: 10
+      screencast: false
+
+    - id: "L4.8"
+      title: "Interview Anxiety to Interview Energy"
+      duration: "10 min"
+      script: "content/scripts/module-04/L4.8-interview-anxiety.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+# =============================================================================
+# MODULE 5: MONEY MOVES
+# =============================================================================
+
+module_05:
+  name: "Money Moves"
+  lessons: 6
+  estimated_hours: 0.92
+  status: pending
+
+  lessons:
+    - id: "L5.1"
+      title: "Yes, You Can Negotiate"
+      duration: "10 min"
+      script: "content/scripts/module-05/L5.1-yes-you-can-negotiate.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L5.2"
+      title: "Know Your Worth"
+      duration: "10 min"
+      script: "content/scripts/module-05/L5.2-know-your-worth.md"
+      status: pending
+      graphics_count: 12
+      screencast: true
+
+    - id: "L5.3"
+      title: "Total Compensation"
+      duration: "10 min"
+      script: "content/scripts/module-05/L5.3-total-compensation.md"
+      status: pending
+      graphics_count: 16
+      screencast: false
+
+    - id: "L5.4"
+      title: "The Negotiation Conversation"
+      duration: "12 min"
+      script: "content/scripts/module-05/L5.4-negotiation-conversation.md"
+      status: pending
+      graphics_count: 18
+      screencast: false
+
+    - id: "L5.5"
+      title: "Evaluating Offers"
+      duration: "10 min"
+      script: "content/scripts/module-05/L5.5-evaluating-offers.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L5.6"
+      title: "You Deserve to Be Paid Well"
+      duration: "8 min"
+      script: "content/scripts/module-05/L5.6-you-deserve-to-be-paid-well.md"
+      status: pending
+      graphics_count: 10
+      screencast: false
+
+# =============================================================================
+# MODULE 6: INNER GAME
+# =============================================================================
+
+module_06:
+  name: "Inner Game"
+  lessons: 5
+  estimated_hours: 0.75
+  status: pending
+
+  lessons:
+    - id: "L6.1"
+      title: "Understanding Imposter Syndrome"
+      duration: "10 min"
+      script: "content/scripts/module-06/L6.1-imposter-syndrome.md"
+      status: pending
+      graphics_count: 14
+      screencast: false
+
+    - id: "L6.2"
+      title: "Reframing Your Inner Critic"
+      duration: "10 min"
+      script: "content/scripts/module-06/L6.2-reframing-inner-critic.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L6.3"
+      title: "Rejection Resilience"
+      duration: "8 min"
+      script: "content/scripts/module-06/L6.3-rejection-resilience.md"
+      status: pending
+      graphics_count: 10
+      screencast: false
+
+    - id: "L6.4"
+      title: "Breaking the Perfectionism Trap"
+      duration: "8 min"
+      script: "content/scripts/module-06/L6.4-breaking-perfectionism.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+    - id: "L6.5"
+      title: "Daily Action Tracker Mastery"
+      duration: "10 min"
+      script: "content/scripts/module-06/L6.5-daily-action-tracker-mastery.md"
+      status: pending
+      graphics_count: 14
+      screencast: true
+
+# =============================================================================
+# MODULE 7: LAUNCH SEQUENCE
+# =============================================================================
+
+module_07:
+  name: "Launch Sequence"
+  lessons: 2
+  estimated_hours: 0.42
+  status: pending
+
+  lessons:
+    - id: "L7.1"
+      title: "Your 90-Day Action Plan"
+      duration: "15 min"
+      script: "content/scripts/module-07/L7.1-90-day-action-plan.md"
+      status: pending
+      graphics_count: 18
+      screencast: false
+
+    - id: "L7.2"
+      title: "Celebrate Your Progress"
+      duration: "10 min"
+      script: "content/scripts/module-07/L7.2-celebrate-your-progress.md"
+      status: pending
+      graphics_count: 12
+      screencast: false
+
+# =============================================================================
+# SUMMARY STATISTICS
+# =============================================================================
+
+summary:
+  modules:
+    total: 8
+    complete: 0
+    in_progress: 0
+    pending: 8
+
+  lessons:
+    total: 44
+    complete: 0
+    in_progress: 0
+    pending: 44
+
+  graphics:
+    total: 727
+    complete: 0
+    pending: 727
+
+  screencasts:
+    total: 17
+    complete: 0
+    pending: 17
+
+  overall_progress: 0%

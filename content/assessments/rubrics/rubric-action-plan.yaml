@@ -1,0 +1,154 @@
+# Course OS - Assessment Rubric
+# Rubric: 90-Day Action Plan
+# Portfolio Component
+
+rubric:
+  id: rubric-action-plan
+  title: "90-Day Action Plan Rubric"
+  type: checklist_plus_quality
+  portfolio_item: "portfolio-90day"
+  outcomes: ["TLO-1"]
+
+  # ---------------------------------------------------------------------------
+  # REQUIRED CRITERIA
+  # ---------------------------------------------------------------------------
+
+  required:
+
+    structure:
+      name: "Plan Structure"
+      criteria:
+        - "Plan covers all 90 days"
+        - "Divided into three phases (Days 1-30, 31-60, 61-90)"
+        - "Each phase has specific goals"
+        - "Each phase has measurable activities"
+
+    phase_1:
+      name: "Phase 1: Foundation (Days 1-30)"
+      criteria:
+        - "Materials finalization tasks listed"
+        - "Weekly application targets set"
+        - "Networking outreach plan included"
+        - "Daily Action Tracker commitment"
+
+    phase_2:
+      name: "Phase 2: Momentum (Days 31-60)"
+      criteria:
+        - "Interview preparation activities"
+        - "Application continuation plan"
+        - "Networking follow-up strategy"
+        - "Review and adjustment checkpoint"
+
+    phase_3:
+      name: "Phase 3: Closing (Days 61-90)"
+      criteria:
+        - "Offer preparation activities"
+        - "Negotiation preparation"
+        - "Decision framework ready"
+        - "Pipeline maintenance"
+
+    immediate_action:
+      name: "First Actions Defined"
+      criteria:
+        - "First 3 actions for Day 1 specified"
+        - "Actions are specific and actionable"
+
+  # ---------------------------------------------------------------------------
+  # QUALITY CRITERIA
+  # ---------------------------------------------------------------------------
+
+  quality_criteria:
+
+    - name: "Specificity"
+      weight: 35
+      description: "Plan has specific, measurable targets"
+      levels:
+        4: |
+          Exemplary: All targets are specific numbers. "Apply to 10 jobs
+          per week" not "apply to jobs." Weekly checkpoints defined.
+          Clear metrics for success.
+        3: |
+          Proficient: Most targets are specific. Some vague areas but
+          generally measurable.
+        2: |
+          Developing: Mix of specific and vague targets. Hard to measure
+          progress in some areas.
+        1: |
+          Beginning: Mostly vague goals. "Apply more" or "network better"
+          without specifics.
+
+    - name: "Realism"
+      weight: 30
+      description: "Plan is achievable given student's situation"
+      levels:
+        4: |
+          Exemplary: Targets account for work/school schedule. Sustainable
+          pace. Not too ambitious or too conservative. Student can explain
+          why targets are realistic.
+        3: |
+          Proficient: Generally realistic. Minor adjustments might be needed.
+          Most activities are sustainable.
+        2: |
+          Developing: Some targets unrealistic or too conservative. May
+          need significant adjustment.
+        1: |
+          Beginning: Wildly ambitious or so conservative it won't produce
+          results. Doesn't account for real constraints.
+
+    - name: "Comprehensiveness"
+      weight: 20
+      description: "Plan covers all key job search activities"
+      levels:
+        4: |
+          Exemplary: Includes applications, networking, follow-up, skill
+          building, and mental health. Addresses multiple channels. Has
+          contingency for setbacks.
+        3: |
+          Proficient: Covers main activities. Most channels addressed.
+          Minor gaps.
+        2: |
+          Developing: Focuses on one or two activities. Missing key areas.
+          No backup plan.
+        1: |
+          Beginning: Only covers applications or only covers networking.
+          Major gaps in strategy.
+
+    - name: "Integration"
+      weight: 15
+      description: "Uses course deliverables and tools"
+      levels:
+        4: |
+          Exemplary: Plan explicitly references and uses: Daily Action
+          Tracker, resume, LinkedIn, STAR stories, network map, research
+          templates. Course tools integrated into workflow.
+        3: |
+          Proficient: Most course tools referenced. Clear intention to use
+          deliverables created.
+        2: |
+          Developing: Some course tools mentioned but integration unclear.
+          May rely on outside tools instead.
+        1: |
+          Beginning: Doesn't reference course deliverables. Seems disconnected
+          from course learning.
+
+  # ---------------------------------------------------------------------------
+  # PASSING REQUIREMENTS
+  # ---------------------------------------------------------------------------
+
+  passing:
+    required_criteria: "All required criteria must be met"
+    quality_minimum: 70
+    revision_allowed: true
+    revision_message: |
+      Your plan shows good thinking but needs more specificity in the areas
+      noted. A plan you can actually follow requires clear targets.
+
+  # ---------------------------------------------------------------------------
+  # FEEDBACK TEMPLATE
+  # ---------------------------------------------------------------------------
+
+  feedback_template:
+    strengths: "What's strong about this plan..."
+    specificity_needs: "Make these items more specific..."
+    sustainability_check: "Consider adjusting these targets..."
+    first_week_focus: "Your first week should prioritize..."

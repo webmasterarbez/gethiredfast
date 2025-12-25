@@ -1,0 +1,91 @@
+# Course OS - Assessment Rubric
+# Rubric: Network Map
+# Portfolio Component
+
+rubric:
+  id: rubric-network-map
+  title: "Network Map Rubric"
+  type: checklist
+  portfolio_item: "portfolio-network"
+  outcomes: ["TLO-3", "ELO-3.2"]
+
+  # ---------------------------------------------------------------------------
+  # REQUIRED CRITERIA
+  # ---------------------------------------------------------------------------
+
+  required:
+
+    quantity:
+      name: "Contact Count"
+      criteria:
+        - "Minimum 50 contacts identified"
+        - "Contacts spread across multiple categories"
+
+    categories_covered:
+      name: "Category Diversity"
+      criteria:
+        - "Family & family friends (5+ contacts)"
+        - "Friends & acquaintances (10+ contacts)"
+        - "Classmates & instructors (10+ contacts)"
+        - "Current/former coworkers (5+ contacts)"
+        - "Service providers & community (5+ contacts)"
+        - "Online connections (5+ contacts)"
+        - "Alumni or professional groups (if applicable)"
+
+    contact_details:
+      name: "Contact Information"
+      criteria:
+        - "Each contact has a name"
+        - "Each contact has connection method (email, LinkedIn, phone)"
+        - "Each contact is categorized by type"
+
+    prioritization:
+      name: "Outreach Prioritization"
+      criteria:
+        - "At least 10 contacts marked as 'priority' for outreach"
+        - "Reason for priority noted (industry connection, warm relationship, etc.)"
+
+  # ---------------------------------------------------------------------------
+  # QUALITY INDICATORS
+  # ---------------------------------------------------------------------------
+
+  quality_indicators:
+
+    strong_map:
+      description: "Signs of a strong network map"
+      indicators:
+        - "75+ contacts identified"
+        - "Contacts in or connected to target industry"
+        - "Mix of strong ties (close relationships) and weak ties (acquaintances)"
+        - "Notes on how to approach each priority contact"
+        - "Second-degree connections identified (people your contacts know)"
+
+    needs_expansion:
+      description: "Signs the map needs more work"
+      indicators:
+        - "Fewer than 50 contacts"
+        - "All contacts in one or two categories"
+        - "No contacts in or near target industry"
+        - "Missing contact information for most people"
+        - "No prioritization for outreach"
+
+  # ---------------------------------------------------------------------------
+  # PASSING REQUIREMENTS
+  # ---------------------------------------------------------------------------
+
+  passing:
+    required_criteria: "All required criteria must be met"
+    minimum_contacts: 50
+    minimum_categories: 5
+    minimum_priorities: 10
+    revision_allowed: true
+
+  # ---------------------------------------------------------------------------
+  # FEEDBACK TEMPLATE
+  # ---------------------------------------------------------------------------
+
+  feedback_template:
+    strengths: "Your network map shows..."
+    gaps: "Categories that could use more contacts..."
+    next_steps: "To activate this network, start by reaching out to..."
+    expansion_ideas: "Consider adding contacts from..."

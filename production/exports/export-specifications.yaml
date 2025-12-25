@@ -1,0 +1,494 @@
+# Course OS - Platform Export Specifications
+# Course: Get Hired Fast for Community College Students
+# Phase 10: Production Package
+
+# =============================================================================
+# EXPORT OVERVIEW
+# =============================================================================
+
+overview:
+  course: "Get Hired Fast for Community College Students"
+  version: "1.0"
+  export_date: 2025-12-23
+  supported_formats:
+    - universal
+    - teachable
+    - thinkific
+    - canvas
+    - scorm
+    - xapi
+
+# =============================================================================
+# UNIVERSAL EXPORT (Default)
+# =============================================================================
+
+universal:
+
+  description: |
+    Platform-agnostic format using Markdown and YAML files.
+    Can be imported into any LMS with manual configuration.
+
+  structure:
+    course_info: "course.yaml"
+    modules: "modules/*.yaml"
+    lessons: "lessons/*.md"
+    quizzes: "quizzes/*.yaml"
+    resources: "resources/"
+
+  content_mapping:
+    lesson_content: "Markdown with embedded media references"
+    video_references: "URL or file path placeholders"
+    quiz_format: "YAML with questions, answers, explanations"
+    resources: "Downloadable files with metadata"
+
+  sample_lesson_structure:
+    frontmatter:
+      - title
+      - module
+      - duration
+      - objectives
+      - video_url
+    body:
+      - transcript_content
+      - key_takeaways
+      - resources
+      - next_lesson
+
+# =============================================================================
+# TEACHABLE EXPORT
+# =============================================================================
+
+teachable:
+
+  description: |
+    Optimized for Teachable platform import.
+    Teachable uses a course > section > lecture hierarchy.
+
+  mapping:
+    course: "Get Hired Fast for Community College Students"
+    sections: "Modules (8)"
+    lectures: "Lessons (44)"
+
+  content_types:
+    video_lectures:
+      type: "Video"
+      hosting: "Upload or embed"
+      captions: "SRT upload"
+
+    text_lectures:
+      type: "Text"
+      format: "Rich text or HTML"
+      use_for: "Supplementary content, resources"
+
+    quizzes:
+      type: "Quiz"
+      question_types:
+        - multiple_choice
+        - true_false
+      passing_grade: 70
+      retakes: unlimited
+
+    downloads:
+      type: "File"
+      formats: ["PDF", "DOCX", "XLSX"]
+      use_for: "Templates, worksheets, guides"
+
+  structure:
+    - section: "Module 0: Launchpad"
+      lectures:
+        - "L0.1 Welcome to Your Career Transformation"
+        - "L0.2 Course Orientation"
+        - "L0.3 Setting Up Your Action Tracker"
+
+    - section: "Module 1: Career GPS"
+      lectures:
+        - "L1.1 Finding Your Career Direction"
+        - "L1.2 Discovering Your Transferable Skills"
+        - "L1.3 The Target Job Scorecard"
+        - "L1.4 AI and the Future of Your Career"
+        - "L1.5 You Belong Here"
+
+    - section: "Module 2: Brand Builder"
+      lectures:
+        - "L2.1 Resume Foundations"
+        - "L2.2 Writing Bullet Points That Get Interviews"
+        - "L2.3 Beating the ATS"
+        - "L2.4 Resume Workshop"
+        - "L2.5 LinkedIn That Gets Found"
+        - "L2.6 AI Resume Tools"
+        - "L2.7 Your Elevator Pitch"
+        - "L2.8 Done Is Better Than Perfect"
+        - "Quiz: Personal Brand Check"
+
+    - section: "Module 3: Network Navigator"
+      lectures:
+        - "L3.1 The Hidden Job Market"
+        - "L3.2 Your Network Is Bigger Than You Think"
+        - "L3.3 Building Your Network Map"
+        - "L3.4 Outreach Scripts That Work"
+        - "L3.5 The Informational Interview"
+        - "L3.6 Strategic Platform Presence"
+        - "L3.7 Authentic Networking"
+        - "Quiz: Networking Knowledge Check"
+
+    - section: "Module 4: Interview Intel"
+      lectures:
+        - "L4.1 Inside the Interviewer's Mind"
+        - "L4.2 The STAR Method Mastered"
+        - "L4.3 Building Your Story Bank"
+        - "L4.4 Top 10 Interview Questions"
+        - "L4.5 Mastering AI and Video Interviews"
+        - "L4.6 Research That Impresses"
+        - "L4.7 The Thank-You Advantage"
+        - "L4.8 Interview Anxiety to Interview Energy"
+        - "Quiz: Interview Readiness"
+
+    - section: "Module 5: Money Moves"
+      lectures:
+        - "L5.1 Yes You Can Negotiate"
+        - "L5.2 Know Your Worth"
+        - "L5.3 Total Compensation"
+        - "L5.4 The Negotiation Conversation"
+        - "L5.5 Evaluating Offers"
+        - "L5.6 You Deserve to Be Paid Well"
+        - "Quiz: Negotiation Knowledge"
+
+    - section: "Module 6: Inner Game"
+      lectures:
+        - "L6.1 Understanding Imposter Syndrome"
+        - "L6.2 Reframing Your Inner Critic"
+        - "L6.3 Rejection Resilience"
+        - "L6.4 Breaking the Perfectionism Trap"
+        - "L6.5 Daily Action Tracker Mastery"
+
+    - section: "Module 7: Launch Sequence"
+      lectures:
+        - "L7.1 Your 90-Day Action Plan"
+        - "L7.2 Celebrate Your Progress"
+
+  drip_settings:
+    enabled: false
+    note: "Self-paced, all content available immediately"
+
+  completion_settings:
+    certificate: true
+    certificate_text: "has successfully completed Get Hired Fast"
+
+# =============================================================================
+# THINKIFIC EXPORT
+# =============================================================================
+
+thinkific:
+
+  description: |
+    Optimized for Thinkific platform import.
+    Similar to Teachable with chapter > lesson structure.
+
+  mapping:
+    course: "Get Hired Fast for Community College Students"
+    chapters: "Modules (8)"
+    lessons: "Lessons (44)"
+
+  content_types:
+    video:
+      hosting: "Upload or embed (Wistia, YouTube, Vimeo)"
+      captions: "VTT upload"
+
+    text:
+      format: "Rich text editor"
+      supports: "Images, lists, tables"
+
+    quiz:
+      types:
+        - multiple_choice
+        - true_false
+      settings:
+        passing_grade: 70
+        show_answers: "after_submission"
+        retakes: "unlimited"
+
+    download:
+      formats: ["PDF", "DOCX", "XLSX"]
+
+    survey:
+      use_for: "Module feedback, course completion"
+
+  community_features:
+    discussion: "Enable per-module discussions"
+    comments: "Enable on lessons"
+
+  progress_tracking:
+    completion_requirement: "Video watched 90%+"
+    quiz_requirement: "Pass at 70%"
+
+# =============================================================================
+# CANVAS LMS EXPORT
+# =============================================================================
+
+canvas:
+
+  description: |
+    For institutional Canvas LMS deployments.
+    Uses Canvas Common Cartridge or direct API import.
+
+  format: "Common Cartridge 1.3"
+
+  mapping:
+    course: "Course shell"
+    modules: "Canvas Modules"
+    lessons: "Pages with embedded media"
+    quizzes: "Canvas Quizzes (New Quizzes)"
+    assignments: "Portfolio submissions"
+    discussions: "Optional module discussions"
+
+  structure:
+    modules:
+      - name: "Module 0: Launchpad"
+        items:
+          - type: "Page"
+            title: "L0.1 Welcome"
+          - type: "Page"
+            title: "L0.2 Course Orientation"
+          - type: "Page"
+            title: "L0.3 Action Tracker Setup"
+
+    quizzes:
+      type: "New Quizzes"
+      settings:
+        attempts: unlimited
+        time_limit: none
+        show_correct_answers: true
+
+    assignments:
+      portfolio_items:
+        - name: "Resume Submission"
+          submission_type: "file_upload"
+          rubric: "rubric-resume"
+        - name: "LinkedIn Profile URL"
+          submission_type: "url"
+          rubric: "rubric-linkedin"
+        - name: "STAR Story Bank"
+          submission_type: "file_upload"
+          rubric: "rubric-star-stories"
+        - name: "Network Map"
+          submission_type: "file_upload"
+          rubric: "rubric-network-map"
+        - name: "90-Day Action Plan"
+          submission_type: "file_upload"
+          rubric: "rubric-action-plan"
+
+  grading:
+    scheme: "Pass/Fail"
+    passing_threshold: 70
+
+# =============================================================================
+# SCORM EXPORT
+# =============================================================================
+
+scorm:
+
+  description: |
+    SCORM 1.2 or SCORM 2004 package for enterprise LMS.
+    Self-contained zip file with all content.
+
+  versions:
+    scorm_12:
+      compatibility: "Widest LMS support"
+      tracking: "Basic (completion, score)"
+
+    scorm_2004:
+      compatibility: "Modern LMS"
+      tracking: "Advanced (objectives, interactions)"
+
+  package_structure:
+    manifest: "imsmanifest.xml"
+    content:
+      - "index.html (launcher)"
+      - "content/ (HTML pages)"
+      - "media/ (videos, images)"
+      - "scripts/ (JavaScript)"
+      - "styles/ (CSS)"
+
+  tracking_data:
+    completion_status: "completed/incomplete"
+    success_status: "passed/failed"
+    score: "0-100"
+    session_time: "ISO 8601 duration"
+    suspend_data: "Bookmark/progress state"
+
+  navigation:
+    type: "linear with free navigation"
+    prerequisites: false
+
+  sco_structure:
+    approach: "One SCO per module"
+    total_scos: 8
+
+# =============================================================================
+# xAPI (EXPERIENCE API) EXPORT
+# =============================================================================
+
+xapi:
+
+  description: |
+    xAPI/Tin Can format for Learning Record Store (LRS) tracking.
+    Modern alternative to SCORM with richer analytics.
+
+  lrs_requirements:
+    endpoint: "https://[lrs-endpoint]/data/xAPI"
+    authentication: "Basic or OAuth"
+
+  activity_types:
+    course: "http://adlnet.gov/expapi/activities/course"
+    module: "http://adlnet.gov/expapi/activities/module"
+    lesson: "http://adlnet.gov/expapi/activities/lesson"
+    video: "https://w3id.org/xapi/video/activity-type/video"
+    quiz: "http://adlnet.gov/expapi/activities/assessment"
+
+  verbs:
+    launched: "http://adlnet.gov/expapi/verbs/launched"
+    completed: "http://adlnet.gov/expapi/verbs/completed"
+    passed: "http://adlnet.gov/expapi/verbs/passed"
+    failed: "http://adlnet.gov/expapi/verbs/failed"
+    answered: "http://adlnet.gov/expapi/verbs/answered"
+    experienced: "http://adlnet.gov/expapi/verbs/experienced"
+
+  video_tracking:
+    profile: "https://w3id.org/xapi/video"
+    tracked_actions:
+      - "played"
+      - "paused"
+      - "seeked"
+      - "completed"
+    tracked_data:
+      - "progress (0-1)"
+      - "time (seconds)"
+      - "playback_rate"
+
+  sample_statement:
+    actor:
+      mbox: "mailto:student@email.com"
+      name: "Student Name"
+    verb:
+      id: "http://adlnet.gov/expapi/verbs/completed"
+      display: { "en-US": "completed" }
+    object:
+      id: "https://course/gethiredfast/module-02/lesson-01"
+      definition:
+        name: { "en-US": "Resume Foundations" }
+        type: "http://adlnet.gov/expapi/activities/lesson"
+    result:
+      completion: true
+      duration: "PT12M30S"
+
+# =============================================================================
+# EXPORT GENERATION NOTES
+# =============================================================================
+
+generation_notes:
+
+  video_handling:
+    option_1: "Upload to platform (simplest)"
+    option_2: "Host on Vimeo/Wistia, embed (best quality)"
+    option_3: "YouTube unlisted (free, limited analytics)"
+
+  quiz_conversion:
+    source: "content/assessments/quizzes/*.yaml"
+    process: "Convert YAML to platform-specific format"
+    note: "Most platforms support CSV import for quizzes"
+
+  resource_handling:
+    approach: "Upload as downloadable files"
+    formats: "PDF for templates, DOCX for editable"
+
+  caption_handling:
+    format_srt: "Teachable, most platforms"
+    format_vtt: "Thinkific, Canvas, HTML5"
+
+  manual_steps:
+    - "Create course shell on platform"
+    - "Upload videos (or embed URLs)"
+    - "Upload captions"
+    - "Copy lesson text content"
+    - "Create quizzes from specifications"
+    - "Upload downloadable resources"
+    - "Configure completion settings"
+    - "Set up certificates"
+    - "Test all content"
+
+# =============================================================================
+# PLATFORM COMPARISON
+# =============================================================================
+
+platform_comparison:
+
+  teachable:
+    pros:
+      - "Easy setup"
+      - "Good analytics"
+      - "Built-in payments"
+      - "No technical skills needed"
+    cons:
+      - "Limited quiz types"
+      - "Less customization"
+    best_for: "Quick launch, paid courses"
+
+  thinkific:
+    pros:
+      - "Free tier available"
+      - "Good community features"
+      - "More customization"
+    cons:
+      - "Learning curve"
+      - "Transaction fees on free tier"
+    best_for: "Community-focused courses"
+
+  canvas:
+    pros:
+      - "Institution-standard"
+      - "Rich assessment features"
+      - "Rubric integration"
+      - "Grade passback"
+    cons:
+      - "Requires institutional license"
+      - "Complex setup"
+    best_for: "Credit-bearing courses, institutions"
+
+  scorm:
+    pros:
+      - "Universal LMS compatibility"
+      - "Self-contained package"
+      - "Tracking standards"
+    cons:
+      - "Limited interactivity"
+      - "Dated technology"
+    best_for: "Enterprise LMS, compliance training"
+
+  xapi:
+    pros:
+      - "Rich analytics"
+      - "Modern standard"
+      - "Works offline"
+      - "Cross-platform tracking"
+    cons:
+      - "Requires LRS"
+      - "More complex setup"
+    best_for: "Analytics-focused, enterprise"
+
+# =============================================================================
+# RECOMMENDED EXPORT PATH
+# =============================================================================
+
+recommendation:
+
+  for_saint_paul_college:
+    primary: "Canvas LMS"
+    rationale: "Institutional LMS, student familiarity, grade integration"
+
+  for_public_offering:
+    primary: "Teachable"
+    rationale: "Easy launch, built-in payments, good UX"
+
+  for_maximum_flexibility:
+    primary: "Universal + SCORM"
+    rationale: "Deploy anywhere, future-proof"

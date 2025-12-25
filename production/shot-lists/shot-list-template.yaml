@@ -1,0 +1,240 @@
+# Course OS - Video Shot List Template
+# Course: Get Hired Fast for Community College Students
+# Use this template for each lesson's shot list
+
+# =============================================================================
+# TEMPLATE STRUCTURE
+# =============================================================================
+
+# Copy this template for each lesson and fill in the specifics
+
+shot_list_template:
+
+  # ---------------------------------------------------------------------------
+  # LESSON METADATA
+  # ---------------------------------------------------------------------------
+
+  lesson:
+    id: "L0.0"  # Replace with actual lesson ID
+    title: "Lesson Title"
+    module: "Module Name"
+    duration: "X minutes"
+    script_file: "content/scripts/module-XX/filename.md"
+
+  # ---------------------------------------------------------------------------
+  # PRODUCTION SETTINGS
+  # ---------------------------------------------------------------------------
+
+  settings:
+    shoot_date: ""  # Fill during production planning
+    location: "Studio A"  # Or specific location
+    presenter: "Cat Breet"
+    crew:
+      director: ""
+      camera: ""
+      audio: ""
+      teleprompter: ""
+
+  # ---------------------------------------------------------------------------
+  # SHOT SEQUENCE
+  # ---------------------------------------------------------------------------
+
+  shots:
+
+    # INTRO SEQUENCE
+    - id: 1
+      section: "Intro"
+      type: "title_card"
+      duration: "0:03"
+      description: "Module/lesson title animation"
+      graphics: "Lesson title graphic"
+      audio: "Intro music sting"
+      notes: "Standard intro template"
+
+    # HOOK
+    - id: 2
+      section: "Hook"
+      type: "talking_head"
+      duration: "0:30"
+      description: "Cat delivers hook to camera"
+      framing: "Medium shot"
+      script_ref: "HOOK section"
+      graphics: null
+      audio: "Lav mic, room tone"
+      notes: "High energy, engaging opening"
+
+    # OBJECTIVES
+    - id: 3
+      section: "Objectives"
+      type: "talking_head_with_graphic"
+      duration: "0:15"
+      description: "Cat introduces objectives, graphic appears"
+      framing: "Medium shot"
+      script_ref: "OBJECTIVES section"
+      graphics: "Lesson objectives bullet list"
+      audio: "Lav mic"
+      notes: "Lower third or full screen graphic"
+
+    # CONTENT SECTIONS (repeat as needed)
+    - id: 4
+      section: "Section 1"
+      type: "talking_head"
+      duration: "2:00"
+      description: "Cat explains main concept"
+      framing: "Medium shot"
+      script_ref: "SECTION 1"
+      graphics: null
+      audio: "Lav mic"
+      notes: ""
+
+    - id: 5
+      section: "Section 1 - Graphic"
+      type: "graphic_full"
+      duration: "0:10"
+      description: "Supporting graphic for concept"
+      graphics: "[GRAPHIC NAME from script]"
+      audio: "Voiceover continues"
+      notes: "Cat's VO over graphic"
+
+    # SCREENCAST (if applicable)
+    - id: 6
+      section: "Demo"
+      type: "screencast"
+      duration: "1:30"
+      description: "Screen recording of [tool/process]"
+      script_ref: "SCREENCAST section"
+      graphics: "Cursor highlights, annotations"
+      audio: "Voiceover"
+      notes: "Pre-record, edit for pacing"
+
+    # SUMMARY
+    - id: 7
+      section: "Summary"
+      type: "talking_head_with_graphic"
+      duration: "0:30"
+      description: "Cat delivers key takeaways"
+      framing: "Medium shot"
+      script_ref: "SUMMARY section"
+      graphics: "Key takeaways checklist"
+      audio: "Lav mic"
+      notes: "Energetic wrap-up"
+
+    # CTA
+    - id: 8
+      section: "CTA"
+      type: "talking_head"
+      duration: "0:15"
+      description: "Cat delivers call to action"
+      framing: "Medium shot"
+      script_ref: "CTA section"
+      graphics: "Deliverable reminder"
+      audio: "Lav mic"
+      notes: "Direct, actionable close"
+
+    # OUTRO
+    - id: 9
+      section: "Outro"
+      type: "end_card"
+      duration: "0:05"
+      description: "Next lesson preview, course branding"
+      graphics: "End card template"
+      audio: "Outro music"
+      notes: "Standard outro template"
+
+  # ---------------------------------------------------------------------------
+  # GRAPHICS CHECKLIST
+  # ---------------------------------------------------------------------------
+
+  graphics_needed:
+    - id: "G1"
+      name: "Lesson objectives"
+      type: "bullet_list"
+      script_ref: "Line XX"
+      status: "pending"
+
+    - id: "G2"
+      name: "[Graphic name]"
+      type: "[diagram/infographic/etc]"
+      script_ref: "Line XX"
+      status: "pending"
+
+    # Add all graphics from script
+
+  # ---------------------------------------------------------------------------
+  # EQUIPMENT CHECKLIST
+  # ---------------------------------------------------------------------------
+
+  equipment:
+    camera:
+      - "Primary camera (DSLR/mirrorless)"
+      - "Tripod"
+      - "Memory cards"
+      - "Batteries"
+
+    audio:
+      - "Lavalier microphone"
+      - "Audio recorder"
+      - "Headphones for monitoring"
+
+    lighting:
+      - "Key light"
+      - "Fill light"
+      - "Background light"
+      - "Diffusers/reflectors"
+
+    teleprompter:
+      - "Teleprompter with monitor"
+      - "Script loaded"
+      - "Remote control"
+
+    screencast:
+      - "Screen recording software"
+      - "Clean desktop"
+      - "Relevant tabs/apps open"
+
+  # ---------------------------------------------------------------------------
+  # PRODUCTION NOTES
+  # ---------------------------------------------------------------------------
+
+  production_notes:
+    wardrobe: "Professional but approachable"
+    makeup: "TV-ready, reduce shine"
+    energy: "[High/Medium/Calm] - from script tone notes"
+    special_instructions: ""
+
+# =============================================================================
+# SHOT TYPE REFERENCE
+# =============================================================================
+
+shot_types:
+
+  talking_head:
+    description: "Presenter speaking directly to camera"
+    framing: "Medium shot (head and shoulders)"
+    eye_line: "Direct to camera/teleprompter"
+
+  talking_head_with_graphic:
+    description: "Presenter with graphic overlay"
+    framing: "Medium shot, may need safe zone for graphic"
+    graphic_position: "Lower third or side panel"
+
+  graphic_full:
+    description: "Full-screen graphic"
+    audio: "Voiceover only (no presenter visible)"
+
+  screencast:
+    description: "Screen recording"
+    capture: "1920x1080, clean desktop"
+    cursor: "Highlighted, visible clicks"
+
+  b_roll:
+    description: "Supplementary footage"
+    use: "Visual variety, illustrate concepts"
+
+  title_card:
+    description: "Animated title/intro"
+    duration: "3-5 seconds"
+
+  end_card:
+    description: "Outro with next steps"
+    duration: "5-8 seconds"

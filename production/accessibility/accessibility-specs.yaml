@@ -1,0 +1,434 @@
+# Course OS - Accessibility Specifications
+# Course: Get Hired Fast for Community College Students
+# Phase 9: Media Production Planning
+
+# =============================================================================
+# ACCESSIBILITY OVERVIEW
+# =============================================================================
+
+overview:
+  compliance_target: "WCAG 2.1 AA"
+  framework: "Universal Design for Learning (UDL)"
+  total_videos: 44
+  total_graphics: 727
+
+# =============================================================================
+# WCAG 2.1 AA COMPLIANCE
+# =============================================================================
+
+wcag_compliance:
+
+  perceivable:
+
+    text_alternatives:
+      requirement: "All non-text content has text alternatives"
+      implementation:
+        - "Alt text for all graphics and images"
+        - "Transcripts for all video content"
+        - "Audio descriptions for visual-only content"
+
+    captions:
+      requirement: "Synchronized captions for all video content"
+      specifications:
+        accuracy: "99% or higher"
+        timing: "Synchronized within 1 second of audio"
+        speaker_identification: "Required when multiple speakers"
+        sound_descriptions: "[music playing], [applause], etc."
+        format: "SRT and VTT files"
+        style:
+          font: "Sans-serif (Arial, Helvetica)"
+          size: "Minimum 22px"
+          color: "White on dark background"
+          position: "Bottom center, avoid overlapping visuals"
+
+    audio_descriptions:
+      requirement: "Describe important visual information"
+      when_needed:
+        - "Visual-only demonstrations"
+        - "Graphics with complex information"
+        - "On-screen text not read aloud"
+      implementation: "Extended audio or separate audio description track"
+
+    contrast:
+      requirement: "Minimum 4.5:1 for normal text, 3:1 for large text"
+      verification: "Use contrast checker for all graphics"
+
+  operable:
+
+    keyboard_navigation:
+      requirement: "All functionality available via keyboard"
+      implementation:
+        - "Video player keyboard controls"
+        - "Quiz navigation without mouse"
+        - "Skip links for long content"
+
+    timing:
+      requirement: "No time limits that prevent completion"
+      implementation:
+        - "Quizzes have no time limits"
+        - "Videos pausable and rewindable"
+        - "Self-paced learning model"
+
+    seizure_prevention:
+      requirement: "No content flashes more than 3 times per second"
+      verification: "Review all animated graphics"
+
+  understandable:
+
+    reading_level:
+      target: "8th-10th grade reading level"
+      verification: "Flesch-Kincaid readability test"
+      scripts: "Written in conversational language"
+
+    consistent_navigation:
+      requirement: "Consistent UI patterns throughout"
+      implementation:
+        - "Same video player for all lessons"
+        - "Consistent quiz format"
+        - "Predictable navigation structure"
+
+    error_prevention:
+      requirement: "Quizzes allow review before submission"
+      implementation:
+        - "Review answers before final submission"
+        - "Clear feedback on incorrect answers"
+        - "Unlimited quiz retakes"
+
+  robust:
+
+    compatibility:
+      requirement: "Content works with assistive technologies"
+      testing:
+        - "Screen reader compatibility (NVDA, JAWS, VoiceOver)"
+        - "Keyboard-only navigation"
+        - "Browser zoom to 200%"
+
+# =============================================================================
+# UNIVERSAL DESIGN FOR LEARNING (UDL)
+# =============================================================================
+
+udl_implementation:
+
+  multiple_means_of_engagement:
+    principle: "Provide options for recruiting interest"
+    implementation:
+      - "Real-world relevance emphasized in every lesson"
+      - "Student choice in deliverable customization"
+      - "Immediate application through activities"
+      - "Progress tracking through Daily Action Tracker"
+      - "Celebration of milestones"
+
+  multiple_means_of_representation:
+    principle: "Provide options for perception and comprehension"
+    implementation:
+      - "Video with captions (visual + auditory)"
+      - "Transcripts available (text alternative)"
+      - "Key concepts as graphics (visual learners)"
+      - "Screencasts for demonstrations (step-by-step)"
+      - "Templates and checklists (structured support)"
+      - "Examples across different industries"
+
+  multiple_means_of_action_expression:
+    principle: "Provide options for physical action and expression"
+    implementation:
+      - "Multiple deliverable formats accepted"
+      - "Keyboard navigation for all interactions"
+      - "Self-paced with no time pressure"
+      - "Practice activities with immediate feedback"
+      - "Portfolio approach (not timed tests)"
+
+# =============================================================================
+# CAPTION SPECIFICATIONS
+# =============================================================================
+
+captions:
+
+  standards:
+    format: "SRT (SubRip) and VTT (WebVTT)"
+    encoding: "UTF-8"
+    line_length: "32-42 characters maximum"
+    lines_per_caption: "1-2 lines maximum"
+    duration: "1-6 seconds per caption"
+    reading_speed: "150-180 words per minute"
+
+  style_guide:
+    speaker_changes: "[Cat:] or speaker name in brackets"
+    music: "[upbeat music] or [music fades]"
+    sounds: "[applause], [typing sounds], [notification ding]"
+    emphasis: "CAPS for shouting, italics for emphasis"
+    pauses: "... for significant pauses"
+    numbers: "Spell out 1-10, numerals for larger"
+
+  quality_requirements:
+    - "Human review of all auto-generated captions"
+    - "99% accuracy minimum"
+    - "Correct grammar and punctuation"
+    - "Proper synchronization"
+    - "Speaker identification when needed"
+
+  file_naming: "[module]-[lesson]-captions.[srt|vtt]"
+
+# =============================================================================
+# TRANSCRIPT SPECIFICATIONS
+# =============================================================================
+
+transcripts:
+
+  format: "Markdown (.md) and PDF"
+
+  content_requirements:
+    - "Complete verbatim transcript"
+    - "Speaker identification"
+    - "Description of significant visuals"
+    - "Timestamps at section breaks"
+    - "Links to referenced resources"
+
+  structure:
+    header: "Lesson title, duration, date"
+    sections: "Match script sections with headers"
+    visuals: "[VISUAL: description of graphic/demo]"
+    resources: "Links listed at end"
+
+  file_naming: "[module]-[lesson]-transcript.[md|pdf]"
+
+# =============================================================================
+# ALT TEXT SPECIFICATIONS
+# =============================================================================
+
+alt_text:
+
+  principles:
+    - "Convey the purpose, not just appearance"
+    - "Be concise but complete"
+    - "Skip 'image of' or 'graphic of'"
+    - "Include text that appears in graphic"
+    - "Describe data, not just 'chart'"
+
+  by_graphic_type:
+
+    framework_diagrams:
+      approach: "Describe the framework structure and key points"
+      example: "STAR method diagram showing four connected boxes: Situation (15%), Task (10%), Action (50-60%), Result (15-20%)"
+
+    statistics:
+      approach: "State the number and its meaning"
+      example: "Statistic: 84% of employers are willing to negotiate salary"
+
+    checklists:
+      approach: "List the items or summarize the checklist purpose"
+      example: "Resume formatting checklist with 8 items including consistent fonts, clear section headers, and single-page format"
+
+    before_after:
+      approach: "Describe both states and the transformation"
+      example: "Before and after resume bullet: 'Responsible for sales' becomes 'Increased regional sales 23% by implementing customer follow-up system'"
+
+    process_flows:
+      approach: "Describe the steps in sequence"
+      example: "Five-step negotiation process: Research, Prepare, Listen, Counter, Confirm"
+
+    screenshots:
+      approach: "Describe what the screen shows and key elements"
+      example: "LinkedIn profile page showing the About section with cursor positioned to edit"
+
+  decorative_images:
+    approach: "Empty alt text (alt='') for purely decorative images"
+    examples: "Background patterns, divider lines, brand elements"
+
+# =============================================================================
+# AUDIO DESCRIPTION SPECIFICATIONS
+# =============================================================================
+
+audio_descriptions:
+
+  when_required:
+    - "Important visual information not covered by narration"
+    - "Screencast actions that need verbal explanation"
+    - "Graphics with complex data"
+    - "Demonstrations where visual context matters"
+
+  approach:
+    primary: "Integrated descriptions (script includes visual descriptions)"
+    secondary: "Extended audio description track (if integrated insufficient)"
+
+  script_integration:
+    requirement: "Scripts should describe key visuals in narration"
+    example: "Instead of 'as you can see here' → 'The chart shows three columns'"
+
+  timing:
+    - "Describe during natural pauses"
+    - "Don't talk over important dialogue"
+    - "Prioritize essential information"
+
+# =============================================================================
+# COLOR AND CONTRAST
+# =============================================================================
+
+color_contrast:
+
+  text_contrast:
+    normal_text: "4.5:1 minimum"
+    large_text: "3:1 minimum (18pt+ or 14pt+ bold)"
+    verification_tools:
+      - "WebAIM Contrast Checker"
+      - "Colour Contrast Analyser"
+
+  brand_color_accessibility:
+    primary_navy: "#003366"
+    on_white: "Passes AA (8.9:1)"
+    usage: "Headings, emphasis"
+
+    secondary_orange: "#FF6B35"
+    on_white: "Passes large text (3.1:1)"
+    usage: "Accents only, not body text"
+
+    text_primary: "#1F2937"
+    on_white: "Passes AAA (14.7:1)"
+    usage: "Body text"
+
+  color_independence:
+    requirement: "Don't use color alone to convey information"
+    implementation:
+      - "Icons or text labels with color indicators"
+      - "Patterns in addition to colors in charts"
+      - "Checkmarks + green, X + red"
+
+# =============================================================================
+# ACCESSIBLE DOCUMENT FORMATS
+# =============================================================================
+
+documents:
+
+  templates_and_downloads:
+    formats:
+      - "Google Docs (accessible, screen reader friendly)"
+      - "Microsoft Word (.docx with accessibility features)"
+      - "PDF/UA (accessible PDF)"
+
+    requirements:
+      - "Proper heading structure (H1, H2, H3)"
+      - "Alt text for images"
+      - "Reading order defined"
+      - "Form fields labeled"
+      - "Link text descriptive"
+
+  naming: "[deliverable]-template-accessible.[format]"
+
+# =============================================================================
+# PLATFORM REQUIREMENTS
+# =============================================================================
+
+platform_accessibility:
+
+  video_player:
+    requirements:
+      - "Keyboard accessible controls"
+      - "Caption toggle"
+      - "Playback speed control"
+      - "Volume control"
+      - "Full-screen option"
+      - "Progress bar with keyboard access"
+
+  quiz_interface:
+    requirements:
+      - "Keyboard navigation"
+      - "Screen reader compatible"
+      - "Clear focus indicators"
+      - "Error messages associated with fields"
+      - "No time limits"
+
+  navigation:
+    requirements:
+      - "Skip to main content link"
+      - "Consistent navigation"
+      - "Breadcrumbs for location"
+      - "Clear focus states"
+
+# =============================================================================
+# TESTING CHECKLIST
+# =============================================================================
+
+testing_checklist:
+
+  automated_testing:
+    tools:
+      - "WAVE Web Accessibility Evaluator"
+      - "axe DevTools"
+      - "Lighthouse accessibility audit"
+    frequency: "Before each phase completion"
+
+  manual_testing:
+    keyboard_only:
+      - "Navigate entire course without mouse"
+      - "Access all video controls"
+      - "Complete all quizzes"
+      - "Download all resources"
+
+    screen_reader:
+      - "Test with NVDA (Windows)"
+      - "Test with VoiceOver (Mac/iOS)"
+      - "Verify alt text reads correctly"
+      - "Confirm form labels work"
+
+    visual:
+      - "Zoom to 200%, verify readability"
+      - "Check color contrast"
+      - "Verify captions readable"
+
+  user_testing:
+    - "Include users with disabilities in beta testing"
+    - "Gather feedback on accessibility features"
+    - "Address identified barriers"
+
+# =============================================================================
+# DELIVERABLES CHECKLIST
+# =============================================================================
+
+deliverables:
+
+  per_video:
+    - "Captions (SRT and VTT)"
+    - "Full transcript (MD and PDF)"
+    - "Audio description (if needed)"
+
+  per_graphic:
+    - "Alt text documented"
+    - "High contrast verified"
+
+  per_document:
+    - "Accessible format available"
+    - "Heading structure correct"
+    - "Links descriptive"
+
+  platform:
+    - "Accessibility statement"
+    - "Contact for accessibility issues"
+    - "Alternative format request process"
+
+# =============================================================================
+# PRODUCTION TIMELINE
+# =============================================================================
+
+production_timeline:
+
+  during_scripting:
+    - "Integrate visual descriptions into scripts"
+    - "Write at appropriate reading level"
+
+  during_graphic_design:
+    - "Verify color contrast"
+    - "Document alt text for each graphic"
+
+  during_video_production:
+    - "Record clear audio"
+    - "Ensure captions can be generated"
+
+  post_production:
+    - "Generate and review captions"
+    - "Create transcripts"
+    - "Add audio descriptions where needed"
+    - "Test with assistive technologies"
+
+  quality_assurance:
+    - "Automated accessibility audit"
+    - "Manual testing checklist"
+    - "User testing with diverse abilities"

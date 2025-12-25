@@ -1,0 +1,221 @@
+# Lesson Blueprint - Merrill's First Principles
+# Module 00: Launchpad
+# Lesson L0.3: Set Up Your Daily Action Tracker
+# Duration: 10 minutes
+
+lesson:
+  id: L0.3
+  title: "Set Up Your Daily Action Tracker"
+  module: module-00
+  type: practice
+  duration: "10 minutes"
+
+# =============================================================================
+# PROBLEM-CENTERED
+# =============================================================================
+
+problem_context: |
+  Job searching is a marathon that most people run like a sprint — then quit.
+  The #1 reason job searches fail isn't lack of skills or experience — it's
+  loss of momentum. Students start strong, get discouraged, and stop taking
+  consistent action.
+
+  The real problem: "How do I stay consistent when motivation fades and
+  rejection piles up?"
+
+# =============================================================================
+# ACTIVATION
+# =============================================================================
+
+activation:
+  prior_knowledge: |
+    - They've likely started job searches before and lost momentum
+    - They understand habit tracking concepts (fitness, studying, etc.)
+    - They've experienced the "motivation fade" phenomenon
+    - They know accountability helps but don't have systems
+
+  connection: |
+    "Have you ever started something with great energy, then slowly drifted
+    away? Job searching is especially prone to this. Let me show you how
+    to prevent that."
+
+  analogy: |
+    Like a step counter or calorie tracker — you can't improve what you
+    don't measure. The Daily Action Tracker makes your job search visible
+    so you can see what's working and stay consistent.
+
+# =============================================================================
+# DEMONSTRATION
+# =============================================================================
+
+demonstration:
+  key_concepts:
+    - concept: "Consistency beats intensity"
+      explanation: |
+        One action per day for 30 days beats 30 actions in one day followed
+        by burnout. The tracker is designed for sustainable, daily action.
+      example: |
+        "Even on your worst day, log one action. Read a job posting.
+        Update one resume line. Send one LinkedIn connection. That counts.
+        The streak matters more than the size of the action."
+
+    - concept: "Activity visibility"
+      explanation: |
+        When you track activities, you can see patterns. What actions lead
+        to interviews? What's not working? Data beats guessing.
+      example: |
+        "After 2 weeks, you'll see: 'I sent 15 networking messages and got
+        5 responses. I applied to 10 jobs and got 0 callbacks.' Now you
+        know networking is working better than cold applications."
+
+    - concept: "Win celebration"
+      explanation: |
+        The tracker includes a place to celebrate wins — even small ones.
+        This builds positive momentum and reinforces action.
+      example: |
+        "Got a response to a networking message? That's a win. Finished your
+        resume draft? Win. Had a coffee chat? Big win. Log them all."
+
+  worked_examples:
+    - scenario: "Setting up the tracker"
+      steps:
+        - "Download the Google Sheets or Excel version"
+        - "Make a copy (Google) or save to your device (Excel)"
+        - "Enter today's date"
+        - "Log your first action: 'Watched course introduction'"
+        - "That's it — you've started"
+      outcome: "Student has a functioning tracker with first entry logged"
+
+    - scenario: "Daily tracker routine (what it looks like)"
+      steps:
+        - "Morning: Open tracker, review yesterday's actions"
+        - "Set intention: 'Today I will...' (1-3 actions)"
+        - "Evening: Log what you actually did"
+        - "Note any wins or insights"
+        - "Close out (2-3 minutes total)"
+      outcome: "Sustainable daily habit that takes minimal time"
+
+  non_examples:
+    - what: "Only logging when you do 'big' things"
+      why_wrong: |
+        Small actions compound. If you only log big things, you'll feel
+        like you're not making progress when you are.
+
+    - what: "Using the tracker to beat yourself up"
+      why_wrong: |
+        The tracker is for awareness, not judgment. A day with one small
+        action is infinitely better than zero days tracked.
+
+    - what: "Waiting until you have 'time' to set it up"
+      why_wrong: |
+        It takes 2 minutes. The delay is resistance, not reality.
+
+# =============================================================================
+# APPLICATION
+# =============================================================================
+
+application:
+  guided:
+    - activity: "Download and set up tracker together"
+      scaffolding: |
+        Walk through each step on screen. Students follow along in real time.
+        Pause for them to complete each step before moving on.
+      feedback: |
+        "If you're following along, you should now see your first entry.
+        Congratulations — you've just done more than 80% of job seekers."
+
+    - activity: "Log first entry"
+      scaffolding: |
+        Show exactly where to enter the first action.
+        Provide the text: "Watched Get Hired Fast introduction"
+      feedback: |
+        "You've taken your first tracked action. That's not nothing — that's
+        the start of a habit that changes everything."
+
+  independent:
+    - activity: "Commit to 7 days of tracking"
+      success_criteria: |
+        Student makes a mental (or written) commitment to log at least
+        one action daily for the next 7 days. Ideally posts the tracker
+        somewhere visible.
+
+# =============================================================================
+# INTEGRATION
+# =============================================================================
+
+integration:
+  reflection: |
+    "What time of day works best for you to log your actions?
+    Morning intention-setting or evening reflection? Choose one and
+    commit to it."
+
+  transfer: |
+    The tracker becomes the backbone of the entire job search. Students
+    will reference it throughout the course and continue using it after
+    completion until they're hired.
+
+  share: |
+    "Want accountability? Text a friend: 'I'm tracking my job search daily
+    for the next 30 days. Check in with me next week.'"
+
+# =============================================================================
+# RESOURCES
+# =============================================================================
+
+resources:
+  downloads:
+    - name: "Daily Action Tracker (Google Sheets)"
+      description: "Cloud-based, accessible anywhere"
+      format: google_sheets
+
+    - name: "Daily Action Tracker (Excel)"
+      description: "For offline use"
+      format: xlsx
+
+    - name: "Tracker Quick Start Guide"
+      description: "One-page setup instructions"
+      format: pdf
+
+  optional:
+    - name: "Tracker Template for Notion"
+      description: "For Notion users"
+
+# =============================================================================
+# INSTRUCTOR NOTES
+# =============================================================================
+
+instructor_notes:
+  tone: |
+    Encouraging but firm on the importance. This isn't optional — it's
+    the system that makes everything else work. Get them to actually do
+    it, not just understand it.
+
+  key_moments:
+    - "Acknowledge the 'this seems simple' objection"
+    - "Make them actually download during the lesson"
+    - "First entry logged before lesson ends"
+    - "Commitment to 7 days (achievable milestone)"
+
+  avoid:
+    - "Making it seem complicated"
+    - "Over-explaining the scoring system"
+    - "Letting them 'do it later' — do it NOW"
+
+  visual_suggestions:
+    - "Screen share of actual tracker"
+    - "Demo of entering an action"
+    - "Example of 7-day filled tracker"
+    - "Win celebration section highlight"
+
+# =============================================================================
+# DELIVERABLE
+# =============================================================================
+
+deliverable:
+  name: "Daily Action Tracker Set Up"
+  type: artifact
+  required: true
+  success_criteria:
+    - "Tracker downloaded"
+    - "First entry logged"
+    - "Accessible on student's device"

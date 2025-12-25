@@ -1,0 +1,477 @@
+# Course OS - Media Production Inventory
+# Course: Get Hired Fast for Community College Students
+# Phase 9: Media Production Planning
+# Generated: 2025-12-23
+
+# =============================================================================
+# PRODUCTION OVERVIEW
+# =============================================================================
+
+overview:
+  course: "Get Hired Fast for Community College Students"
+  total_lessons: 44
+  total_video_duration: "5-7 hours"
+  primary_format: "Direct-to-camera with supporting graphics"
+
+  production_style:
+    presenter: "Cat Breet (on-camera host)"
+    setting: "Professional but approachable studio setting"
+    tone: "Conversational, supportive, direct"
+    branding: "Saint Paul College Career Services"
+
+# =============================================================================
+# MEDIA COUNTS BY TYPE
+# =============================================================================
+
+media_counts:
+
+  video:
+    talking_head_segments: 726
+    screencast_segments: 17
+    total_videos: 44
+    estimated_raw_footage: "12-15 hours"
+
+  graphics:
+    total_graphics_needed: 727
+    by_type:
+      lesson_objectives: 44
+      key_takeaways: 44
+      frameworks_diagrams: 85
+      examples_templates: 120
+      statistics_callouts: 45
+      checklists: 35
+      step_by_step: 50
+      before_after: 15
+      comparison_tables: 20
+      navigation_cues: 50
+      deliverable_reminders: 44
+      misc_supporting: 175
+
+  audio:
+    background_music_tracks: 3
+    intro_outro_music: 1
+    transition_sounds: 2
+
+# =============================================================================
+# VIDEO SPECIFICATIONS
+# =============================================================================
+
+video_specs:
+
+  technical:
+    resolution: "1920x1080 (1080p)"
+    frame_rate: "30 fps"
+    aspect_ratio: "16:9"
+    codec: "H.264"
+    bitrate: "10-15 Mbps"
+
+  camera:
+    type: "Primary: DSLR or mirrorless"
+    backup: "Secondary angle or webcam for screencasts"
+    framing: "Medium shot, head and shoulders"
+    eye_line: "Direct to camera (teleprompter recommended)"
+
+  lighting:
+    style: "Three-point lighting"
+    key_light: "Soft, positioned 45° from camera"
+    fill_light: "Softer, opposite side"
+    background: "Subtle separation light"
+    mood: "Bright, professional, approachable"
+
+  audio:
+    primary: "Lavalier microphone"
+    backup: "Shotgun or boom mic"
+    sample_rate: "48kHz"
+    bit_depth: "24-bit"
+    room: "Treated for minimal echo"
+
+  set_design:
+    background: "Clean, professional, minimal distractions"
+    colors: "Neutral tones, accent color matching brand"
+    props: "Minimal — maybe laptop, notepad for authenticity"
+    depth: "Some background depth preferred over flat wall"
+
+# =============================================================================
+# GRAPHICS SPECIFICATIONS
+# =============================================================================
+
+graphics_specs:
+
+  brand_guidelines:
+    primary_color: "#003366"  # Navy (adjust to SPC brand)
+    secondary_color: "#FF6B35"  # Accent orange
+    background: "#FFFFFF or #F5F5F5"
+    text_color: "#333333"
+    font_headings: "Montserrat Bold"
+    font_body: "Open Sans"
+
+  dimensions:
+    full_screen: "1920x1080"
+    lower_third: "1920x200"
+    side_panel: "600x1080"
+    thumbnail: "1280x720"
+
+  graphic_types:
+
+    lesson_objectives:
+      count: 44
+      template: "Bullet list with icons"
+      position: "Full screen or lower 2/3"
+      duration: "5-10 seconds"
+      animation: "Fade in, staggered bullets"
+
+    key_takeaways:
+      count: 44
+      template: "Checkmark list"
+      position: "Full screen"
+      duration: "10-15 seconds"
+      animation: "Fade in, staggered items"
+
+    framework_diagrams:
+      count: 85
+      style: "Clean, minimal, icon-based"
+      examples:
+        - "STAR Method breakdown"
+        - "XYZ Formula"
+        - "Present + Past + Future"
+        - "Enthusiasm + Ask"
+
+    statistics_callouts:
+      count: 45
+      style: "Large number with supporting text"
+      animation: "Number count-up"
+      examples:
+        - "84% of employers negotiate"
+        - "70% hidden job market"
+        - "6-7 second resume scan"
+
+    checklists:
+      count: 35
+      style: "Checkbox list with items"
+      animation: "Items appear sequentially"
+
+    before_after:
+      count: 15
+      style: "Side-by-side comparison"
+      use: "Resume bullets, LinkedIn sections"
+
+    step_by_step:
+      count: 50
+      style: "Numbered sequence"
+      animation: "Progress through steps"
+
+# =============================================================================
+# MODULE-BY-MODULE MEDIA BREAKDOWN
+# =============================================================================
+
+module_media:
+
+  module-00:
+    name: "Launchpad"
+    lessons: 3
+    total_duration: "25 minutes"
+    video_type: "Mixed (talking head + screencast)"
+    graphics_count: 35
+    screencast_segments: 3
+    key_graphics:
+      - "Course problem framework (6 problems)"
+      - "Daily Action Tracker walkthrough"
+      - "Module navigation guide"
+      - "Course structure overview"
+    special_requirements:
+      - "Screen recording of Daily Action Tracker"
+      - "Course platform navigation demo"
+
+  module-01:
+    name: "Career GPS"
+    lessons: 5
+    total_duration: "50 minutes"
+    video_type: "Primarily talking head"
+    graphics_count: 65
+    screencast_segments: 1
+    key_graphics:
+      - "3 factors diagram (interests, skills, market)"
+      - "Transferable skills categories"
+      - "Target Job Scorecard template"
+      - "AI impact infographic"
+      - "Imposter syndrome statistics"
+    special_requirements:
+      - "Job board search demo (screencast)"
+
+  module-02:
+    name: "Brand Builder"
+    lessons: 8
+    total_duration: "75 minutes"
+    video_type: "Mixed (talking head + demos)"
+    graphics_count: 130
+    screencast_segments: 4
+    key_graphics:
+      - "6-second scan heatmap"
+      - "XYZ formula breakdown"
+      - "Before/after resume bullets (15 examples)"
+      - "ATS formatting dos/don'ts"
+      - "LinkedIn All-Star checklist"
+      - "Elevator pitch formula"
+    special_requirements:
+      - "Resume editing demo (screencast)"
+      - "LinkedIn profile walkthrough (screencast)"
+      - "ATS simulation demo"
+      - "AI tool demo (ChatGPT/Teal)"
+
+  module-03:
+    name: "Network Navigator"
+    lessons: 7
+    total_duration: "55 minutes"
+    video_type: "Primarily talking head"
+    graphics_count: 85
+    screencast_segments: 2
+    key_graphics:
+      - "70% hidden job market statistic"
+      - "Network mapping categories"
+      - "Weak ties diagram"
+      - "Outreach message templates"
+      - "Informational interview structure"
+      - "Platform comparison (Handshake, LinkedIn, Indeed)"
+    special_requirements:
+      - "LinkedIn connection demo (screencast)"
+      - "Handshake platform walkthrough (screencast)"
+
+  module-04:
+    name: "Interview Intel"
+    lessons: 8
+    total_duration: "80 minutes"
+    video_type: "Mixed (talking head + demos)"
+    graphics_count: 150
+    screencast_segments: 3
+    key_graphics:
+      - "Three evaluation criteria"
+      - "STAR method breakdown"
+      - "Time allocation diagram (S-T-A-R percentages)"
+      - "Top 10 questions frameworks"
+      - "Video interview setup checklist"
+      - "Research routine timeline"
+      - "Thank-you note template"
+      - "Anxiety vs excitement comparison"
+    special_requirements:
+      - "Mock STAR story delivery (demo)"
+      - "Video interview setup demo"
+      - "Company research walkthrough (screencast)"
+
+  module-05:
+    name: "Money Moves"
+    lessons: 6
+    total_duration: "60 minutes"
+    video_type: "Mixed (talking head + demos)"
+    graphics_count: 95
+    screencast_segments: 2
+    key_graphics:
+      - "84% negotiation statistic"
+      - "Compound salary growth diagram"
+      - "Total compensation components"
+      - "Salary research sources"
+      - "Floor/Target/Stretch range"
+      - "Negotiation scripts"
+      - "Offer comparison matrix"
+    special_requirements:
+      - "Glassdoor salary research demo (screencast)"
+      - "Offer comparison calculation demo"
+
+  module-06:
+    name: "Inner Game"
+    lessons: 5
+    total_duration: "45 minutes"
+    video_type: "Primarily talking head"
+    graphics_count: 75
+    screencast_segments: 1
+    key_graphics:
+      - "70% imposter syndrome statistic"
+      - "5 imposter types"
+      - "Reframe card template"
+      - "24-hour rejection rule"
+      - "Perfectionism vs action"
+      - "Daily Action Tracker deep dive"
+    special_requirements:
+      - "Daily Action Tracker usage demo (screencast)"
+      - "Warm, supportive visual tone for this module"
+
+  module-07:
+    name: "Launch Sequence"
+    lessons: 2
+    total_duration: "20 minutes"
+    video_type: "Talking head + celebration"
+    graphics_count: 45
+    screencast_segments: 1
+    key_graphics:
+      - "90-day plan phases diagram"
+      - "Weekly minimums table"
+      - "Milestone checkpoints timeline"
+      - "Complete toolkit inventory"
+      - "Course completion celebration"
+    special_requirements:
+      - "90-day plan template walkthrough"
+      - "Celebratory tone for final lesson"
+      - "Inspirational closing visuals"
+
+# =============================================================================
+# SCREENCAST REQUIREMENTS
+# =============================================================================
+
+screencasts:
+
+  total_segments: 17
+
+  requirements:
+    resolution: "1920x1080"
+    frame_rate: "30 fps"
+    cursor: "Highlighted, slightly enlarged"
+    clicks: "Visual click indicator"
+    zoom: "Use zoom for important elements"
+    annotations: "Highlight boxes, arrows as needed"
+
+  software_needed:
+    - "Screen recording software (Camtasia, OBS, ScreenFlow)"
+    - "Google Chrome (for web demos)"
+    - "Microsoft Word or Google Docs (for resume demo)"
+    - "LinkedIn account (for profile demo)"
+    - "Handshake account (for platform demo)"
+    - "Glassdoor access (for salary research)"
+    - "Daily Action Tracker template"
+
+  segments_by_module:
+    module-00:
+      - "Daily Action Tracker setup and walkthrough"
+      - "Course platform navigation"
+      - "Google Sheets/Excel tracker setup"
+    module-01:
+      - "Job board search demonstration"
+    module-02:
+      - "Resume editing in Word/Docs"
+      - "LinkedIn profile optimization"
+      - "ATS simulation tool demo"
+      - "ChatGPT/Claude resume assistance"
+    module-03:
+      - "LinkedIn connection request process"
+      - "Handshake platform overview"
+    module-04:
+      - "Company research walkthrough"
+      - "Video interview setup check"
+      - "HireVue practice recording"
+    module-05:
+      - "Glassdoor/LinkedIn salary research"
+      - "Offer comparison spreadsheet"
+    module-06:
+      - "Daily Action Tracker deep dive"
+    module-07:
+      - "90-day plan template walkthrough"
+
+# =============================================================================
+# THUMBNAIL REQUIREMENTS
+# =============================================================================
+
+thumbnails:
+
+  count: 44
+  dimensions: "1280x720"
+
+  style:
+    - "Cat's face visible (builds connection)"
+    - "Bold text overlay (lesson topic)"
+    - "Consistent brand colors"
+    - "High contrast for visibility at small sizes"
+    - "Module color coding"
+
+  module_colors:
+    module-00: "#6B7280"  # Gray - Launchpad
+    module-01: "#3B82F6"  # Blue - Career GPS
+    module-02: "#10B981"  # Green - Brand Builder
+    module-03: "#F59E0B"  # Amber - Network Navigator
+    module-04: "#EF4444"  # Red - Interview Intel
+    module-05: "#8B5CF6"  # Purple - Money Moves
+    module-06: "#EC4899"  # Pink - Inner Game
+    module-07: "#14B8A6"  # Teal - Launch Sequence
+
+# =============================================================================
+# INTRO/OUTRO REQUIREMENTS
+# =============================================================================
+
+intro_outro:
+
+  course_intro:
+    duration: "5-10 seconds"
+    elements:
+      - "Course logo/title"
+      - "Saint Paul College branding"
+      - "Brief animation"
+      - "Music swell"
+
+  lesson_intro:
+    duration: "3-5 seconds"
+    elements:
+      - "Module name"
+      - "Lesson title"
+      - "Module color accent"
+
+  lesson_outro:
+    duration: "5-8 seconds"
+    elements:
+      - "Key takeaway reminder"
+      - "Next lesson preview"
+      - "CTA (complete deliverable, move to next)"
+
+  course_outro:
+    duration: "10-15 seconds"
+    elements:
+      - "Congratulations message"
+      - "Certificate mention"
+      - "Success story CTA"
+      - "Saint Paul College branding"
+
+# =============================================================================
+# B-ROLL REQUIREMENTS
+# =============================================================================
+
+b_roll:
+
+  style: "Minimal — course is talking head focused"
+
+  suggested_shots:
+    - "Student working on laptop (diverse representation)"
+    - "Professional handshake"
+    - "Interview setting"
+    - "Office environment"
+    - "Campus shots (Saint Paul College)"
+    - "Celebration/success moments"
+
+  usage: "Sparingly, for visual breaks in longer segments"
+  source: "Stock footage or custom filmed"
+
+# =============================================================================
+# PRODUCTION TIMELINE ESTIMATE
+# =============================================================================
+
+timeline_estimate:
+
+  pre_production:
+    graphics_creation: "2-3 weeks"
+    script_finalization: "1 week"
+    set_preparation: "2-3 days"
+    presenter_prep: "1 week (script review, practice)"
+
+  production:
+    video_shooting: "5-7 days"
+    screencast_recording: "2-3 days"
+    b_roll_collection: "1-2 days"
+
+  post_production:
+    video_editing: "3-4 weeks"
+    graphics_integration: "1-2 weeks"
+    audio_mixing: "1 week"
+    quality_review: "1 week"
+    revisions: "1-2 weeks"
+
+  total_estimate: "10-14 weeks"
+
+  notes:
+    - "Timeline assumes dedicated production resources"
+    - "Can be compressed with larger team"
+    - "Graphics can be created in parallel with shooting"

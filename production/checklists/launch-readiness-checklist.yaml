@@ -1,0 +1,717 @@
+# Course OS - Launch Readiness Checklist
+# Course: Get Hired Fast for Community College Students
+# Final checklist before course goes live
+
+# =============================================================================
+# LAUNCH READINESS OVERVIEW
+# =============================================================================
+
+overview:
+  course: "Get Hired Fast for Community College Students"
+  target_launch: "Q1 2025"
+  checklist_version: "1.0"
+  last_updated: 2025-12-23
+
+# =============================================================================
+# CONTENT READINESS
+# =============================================================================
+
+content_readiness:
+
+  videos:
+    - task: "All 44 video lessons recorded"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "All videos edited and approved"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "All videos exported in correct format"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Video quality verified (1080p, clear audio)"
+      status: pending
+      owner: ""
+      notes: ""
+
+  captions:
+    - task: "Captions generated for all 44 videos"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Captions manually reviewed and corrected"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Caption timing verified"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "SRT and VTT files prepared"
+      status: pending
+      owner: ""
+      notes: ""
+
+  transcripts:
+    - task: "Full transcripts created for all lessons"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Transcripts include visual descriptions"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Transcripts formatted (MD and PDF)"
+      status: pending
+      owner: ""
+      notes: ""
+
+  graphics:
+    - task: "All 727 graphics created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Graphics reviewed for brand consistency"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Alt text documented for all graphics"
+      status: pending
+      owner: ""
+      notes: ""
+
+  downloadable_resources:
+    - task: "Daily Action Tracker template finalized"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Resume template created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Network Map template created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "STAR Story worksheet created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "90-Day Action Plan template created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Offer Evaluation Matrix created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "All templates accessible (PDF + editable)"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# PLATFORM SETUP
+# =============================================================================
+
+platform_setup:
+
+  course_structure:
+    - task: "Course shell created on platform"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "All 8 modules created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "All 44 lessons created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Module and lesson order verified"
+      status: pending
+      owner: ""
+      notes: ""
+
+  video_upload:
+    - task: "All videos uploaded"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Captions attached to all videos"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Video playback tested on all browsers"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Video playback tested on mobile"
+      status: pending
+      owner: ""
+      notes: ""
+
+  quizzes:
+    - task: "Quiz 0 (Orientation) created and tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz 1 (Career) created and tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz 2 (Brand) created and tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz 3 (Networking) created and tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz 4 (Interview) created and tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz 5 (Negotiation) created and tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz settings configured (unlimited retakes)"
+      status: pending
+      owner: ""
+      notes: ""
+
+  assignments:
+    - task: "Resume submission assignment created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "LinkedIn submission assignment created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "STAR Stories submission assignment created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Network Map submission assignment created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "90-Day Plan submission assignment created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Rubrics attached to all assignments"
+      status: pending
+      owner: ""
+      notes: ""
+
+  resources:
+    - task: "All downloadable files uploaded"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Resource links verified"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "External links tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# ACCESSIBILITY VERIFICATION
+# =============================================================================
+
+accessibility:
+
+  wcag_compliance:
+    - task: "Color contrast verified (4.5:1 minimum)"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "All images have alt text"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Keyboard navigation tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Screen reader tested (NVDA/VoiceOver)"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Browser zoom to 200% tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+  captions_accessibility:
+    - task: "Captions readable (font, size, color)"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Captions don't overlap important visuals"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Caption toggle works correctly"
+      status: pending
+      owner: ""
+      notes: ""
+
+  documents:
+    - task: "All PDFs are accessible (tagged)"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Documents have proper heading structure"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# USER EXPERIENCE TESTING
+# =============================================================================
+
+user_experience:
+
+  navigation:
+    - task: "Course navigation intuitive"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Progress tracking works correctly"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Next/Previous lesson buttons work"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Module completion indicators work"
+      status: pending
+      owner: ""
+      notes: ""
+
+  functionality:
+    - task: "Video player controls work"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz submission works"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Assignment submission works"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "File downloads work"
+      status: pending
+      owner: ""
+      notes: ""
+
+  performance:
+    - task: "Page load times acceptable (<3 seconds)"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Video buffering acceptable"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Mobile experience smooth"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# BETA TESTING
+# =============================================================================
+
+beta_testing:
+
+  recruitment:
+    - task: "5-10 beta testers recruited"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Beta testers represent target personas"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Beta testing instructions provided"
+      status: pending
+      owner: ""
+      notes: ""
+
+  execution:
+    - task: "Beta testers complete full course"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Beta feedback collected"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Critical issues identified"
+      status: pending
+      owner: ""
+      notes: ""
+
+  fixes:
+    - task: "Critical issues resolved"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "High-priority feedback addressed"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Final review after fixes"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# ADMINISTRATIVE SETUP
+# =============================================================================
+
+administrative:
+
+  access_control:
+    - task: "Enrollment process configured"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Student access permissions set"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Instructor/admin access configured"
+      status: pending
+      owner: ""
+      notes: ""
+
+  certificates:
+    - task: "Completion certificate designed"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Certificate trigger configured"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Certificate tested"
+      status: pending
+      owner: ""
+      notes: ""
+
+  notifications:
+    - task: "Welcome email configured"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Completion email configured"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Reminder emails configured (if applicable)"
+      status: pending
+      owner: ""
+      notes: ""
+
+  analytics:
+    - task: "Progress tracking enabled"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Completion metrics configured"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Quiz score tracking enabled"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# SUPPORT SETUP
+# =============================================================================
+
+support:
+
+  documentation:
+    - task: "Course FAQ created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Technical support contact provided"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Accessibility statement published"
+      status: pending
+      owner: ""
+      notes: ""
+
+  feedback_channels:
+    - task: "Module feedback surveys enabled"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Course completion survey enabled"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Issue reporting mechanism available"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# MARKETING READINESS (if public offering)
+# =============================================================================
+
+marketing:
+
+  materials:
+    - task: "Course description written"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Learning outcomes listed"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Course preview video created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Course thumbnail designed"
+      status: pending
+      owner: ""
+      notes: ""
+
+  landing_page:
+    - task: "Landing page created"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Value proposition clear"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Enrollment CTA working"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# FINAL SIGN-OFF
+# =============================================================================
+
+final_signoff:
+
+  stakeholder_approval:
+    - task: "Course owner final review complete"
+      status: pending
+      owner: ""
+      date: ""
+      notes: ""
+
+    - task: "Presenter (Cat Breet) approval"
+      status: pending
+      owner: ""
+      date: ""
+      notes: ""
+
+    - task: "Accessibility reviewer approval"
+      status: pending
+      owner: ""
+      date: ""
+      notes: ""
+
+    - task: "Technical reviewer approval"
+      status: pending
+      owner: ""
+      date: ""
+      notes: ""
+
+  launch_decision:
+    - task: "All critical items complete"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Launch date confirmed"
+      status: pending
+      owner: ""
+      date: ""
+      notes: ""
+
+    - task: "Rollback plan documented"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "LAUNCH APPROVED"
+      status: pending
+      owner: ""
+      date: ""
+      notes: ""
+
+# =============================================================================
+# POST-LAUNCH (First 30 Days)
+# =============================================================================
+
+post_launch:
+
+  monitoring:
+    - task: "Monitor daily enrollment"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Monitor completion rates"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Review student feedback daily"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Address technical issues within 24 hours"
+      status: pending
+      owner: ""
+      notes: ""
+
+  week_1_review:
+    - task: "Review first week analytics"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Identify drop-off points"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Address urgent feedback"
+      status: pending
+      owner: ""
+      notes: ""
+
+  day_30_review:
+    - task: "Analyze 30-day metrics"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Review completion data"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Plan iteration based on data"
+      status: pending
+      owner: ""
+      notes: ""
+
+    - task: "Send 30-day follow-up survey"
+      status: pending
+      owner: ""
+      notes: ""
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+summary:
+  total_items: 127
+  completed: 0
+  pending: 127
+  blocked: 0
+  ready_for_launch: false

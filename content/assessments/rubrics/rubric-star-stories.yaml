@@ -1,0 +1,154 @@
+# Course OS - Assessment Rubric
+# Rubric: STAR Story Bank
+# Portfolio Component
+
+rubric:
+  id: rubric-star-stories
+  title: "STAR Story Bank Rubric"
+  type: checklist_plus_quality
+  portfolio_item: "portfolio-star"
+  outcomes: ["TLO-4", "ELO-4.1"]
+
+  # ---------------------------------------------------------------------------
+  # REQUIRED CRITERIA (Must have all to pass)
+  # ---------------------------------------------------------------------------
+
+  required:
+
+    quantity:
+      name: "Story Count"
+      criteria:
+        - "Minimum 5 complete STAR stories"
+        - "Stories cover at least 3 different competency areas"
+
+    structure:
+      name: "STAR Structure Present"
+      criteria:
+        - "Each story has clear Situation"
+        - "Each story has clear Task"
+        - "Each story has detailed Action (specific steps YOU took)"
+        - "Each story has quantified or specific Result"
+
+    competency_coverage:
+      name: "Competency Diversity"
+      criteria:
+        - "At least one story demonstrates teamwork/collaboration"
+        - "At least one story demonstrates problem-solving"
+        - "At least one story demonstrates leadership or initiative"
+        - "At least one story demonstrates communication"
+        - "At least one story demonstrates overcoming a challenge"
+
+  # ---------------------------------------------------------------------------
+  # QUALITY CRITERIA (Scored 1-4)
+  # ---------------------------------------------------------------------------
+
+  quality_criteria:
+
+    - name: "Action Depth"
+      weight: 35
+      description: "Detailed, specific actions taken by the candidate"
+      levels:
+        4: |
+          Exemplary: Action section is 50-60% of story. Includes specific
+          steps taken. Uses strong action verbs. Clearly YOUR contribution.
+          Demonstrates transferable skills explicitly.
+        3: |
+          Proficient: Action section is substantial. Good detail on steps.
+          Clear individual contribution. Skills demonstrated.
+        2: |
+          Developing: Action section present but brief or vague. Team
+          actions mixed with individual. Skills implied but not explicit.
+        1: |
+          Beginning: Action section minimal or missing. Unclear what YOU
+          did vs. what happened. Generic descriptions.
+
+    - name: "Result Impact"
+      weight: 30
+      description: "Quantified, specific, meaningful results"
+      levels:
+        4: |
+          Exemplary: Results are quantified with numbers/percentages.
+          Clear business impact. Specific and verifiable. Shows both
+          immediate outcome and longer-term impact.
+        3: |
+          Proficient: Results are specific. Some quantification. Clear
+          positive outcome. Impact is evident.
+        2: |
+          Developing: Results stated but vague ("it went well"). Limited
+          quantification. Impact unclear.
+        1: |
+          Beginning: Results missing or generic. No quantification.
+          Outcome unclear.
+
+    - name: "Relevance & Versatility"
+      weight: 20
+      description: "Stories applicable to target roles"
+      levels:
+        4: |
+          Exemplary: All stories demonstrate skills relevant to target roles.
+          Stories can be adapted for multiple question types. Clear connection
+          to job requirements.
+        3: |
+          Proficient: Most stories relevant to target roles. Good versatility.
+          Connections to job requirements present.
+        2: |
+          Developing: Some stories relevant but others seem disconnected
+          from target roles. Limited versatility.
+        1: |
+          Beginning: Stories don't clearly relate to target roles or
+          professional context.
+
+    - name: "Clarity & Conciseness"
+      weight: 15
+      description: "Stories are clear and appropriate length"
+      levels:
+        4: |
+          Exemplary: Each story can be told in 60-90 seconds. Clear narrative
+          flow. No unnecessary details. Easy to follow.
+        3: |
+          Proficient: Stories are mostly concise. Good flow. Minor tangents
+          or redundancy.
+        2: |
+          Developing: Stories are too long or too short. Some confusing
+          elements. Flow could be improved.
+        1: |
+          Beginning: Stories are rambling, confusing, or so brief they
+          lack substance.
+
+  # ---------------------------------------------------------------------------
+  # STORY QUALITY CHECKLIST
+  # ---------------------------------------------------------------------------
+
+  story_checklist:
+    for_each_story:
+      - "Situation: When and where? Context is clear?"
+      - "Task: What were YOU responsible for?"
+      - "Action: What specific steps did YOU take?"
+      - "Action: Are there 3-5 specific actions listed?"
+      - "Action: Do actions show transferable skills?"
+      - "Result: What was the outcome?"
+      - "Result: Is it quantified or specific?"
+      - "Overall: Can this be told in 60-90 seconds?"
+      - "Overall: Is it relevant to target roles?"
+
+  # ---------------------------------------------------------------------------
+  # PASSING REQUIREMENTS
+  # ---------------------------------------------------------------------------
+
+  passing:
+    required_criteria: "All required criteria must be met"
+    quality_minimum: 70
+    minimum_stories: 5
+    revision_allowed: true
+    revision_message: |
+      Your STAR stories show good potential but need development in the
+      areas noted below. Focus especially on the Action and Result sections.
+
+  # ---------------------------------------------------------------------------
+  # FEEDBACK TEMPLATE
+  # ---------------------------------------------------------------------------
+
+  feedback_template:
+    strongest_story: "Your strongest story is... because..."
+    improvement_focus: "To strengthen your stories, focus on..."
+    practice_suggestion: "Practice these stories by..."

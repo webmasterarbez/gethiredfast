@@ -1,0 +1,161 @@
+# Course OS - Assessment Rubric
+# Rubric: LinkedIn Profile
+# Portfolio Component
+
+rubric:
+  id: rubric-linkedin
+  title: "LinkedIn Profile Rubric"
+  type: checklist_plus_quality
+  portfolio_item: "portfolio-linkedin"
+  outcomes: ["TLO-2", "ELO-2.3"]
+
+  # ---------------------------------------------------------------------------
+  # REQUIRED CRITERIA (Must have all to pass)
+  # ---------------------------------------------------------------------------
+
+  required:
+
+    profile_basics:
+      name: "Profile Completeness"
+      criteria:
+        - "Professional headshot (clear face, appropriate attire)"
+        - "Custom headline (not default job title)"
+        - "About section completed (minimum 3 sentences)"
+        - "Current location listed"
+        - "Industry selected"
+        - "Profile URL customized"
+
+    experience_section:
+      name: "Experience Section"
+      criteria:
+        - "At least 2 positions listed"
+        - "Each position has description (not blank)"
+        - "Company names and dates included"
+        - "Descriptions include achievements, not just duties"
+
+    education_section:
+      name: "Education Section"
+      criteria:
+        - "Current/recent school listed"
+        - "Degree/program specified"
+        - "Expected graduation date included"
+
+    skills_section:
+      name: "Skills & Endorsements"
+      criteria:
+        - "At least 5 skills listed"
+        - "Skills aligned with target roles"
+        - "Top 3 skills pinned/prioritized"
+
+  # ---------------------------------------------------------------------------
+  # QUALITY CRITERIA (Scored 1-4)
+  # ---------------------------------------------------------------------------
+
+  quality_criteria:
+
+    - name: "Headline Effectiveness"
+      weight: 25
+      description: "Communicates value and target role clearly"
+      levels:
+        4: |
+          Exemplary: Headline clearly states target role or value proposition.
+          Includes keywords recruiters search for. Compelling and specific.
+          Example: "Marketing Coordinator | Social Media Strategy | Data-Driven Campaigns"
+        3: |
+          Proficient: Headline indicates target role. Some keywords included.
+          Clear but could be more compelling.
+        2: |
+          Developing: Headline is vague or generic. Missing keywords.
+          Doesn't clearly communicate target.
+        1: |
+          Beginning: Default headline (just job title) or missing. No
+          indication of what you're seeking.
+
+    - name: "About Section Impact"
+      weight: 30
+      description: "Tells your professional story compellingly"
+      levels:
+        4: |
+          Exemplary: Engaging opening hook. Clear narrative of who you are,
+          what you bring, and what you're seeking. Includes keywords naturally.
+          Shows personality while remaining professional.
+        3: |
+          Proficient: Solid summary of background and goals. Some keywords.
+          Professional tone. Could be more engaging.
+        2: |
+          Developing: Basic summary but generic. Missing key information
+          about goals or value. Reads like resume copy.
+        1: |
+          Beginning: Missing, very brief, or copied directly from resume
+          without adaptation.
+
+    - name: "Experience Descriptions"
+      weight: 25
+      description: "Achievement-focused with transferable skills"
+      levels:
+        4: |
+          Exemplary: All positions show achievements, not just duties.
+          Quantified results where possible. Skills clearly demonstrated.
+          Reads differently than resume (more narrative).
+        3: |
+          Proficient: Most positions highlight achievements. Some
+          quantification. Clear skills demonstration.
+        2: |
+          Developing: Mix of achievements and duties. Limited quantification.
+          Skills implied but not explicit.
+        1: |
+          Beginning: Only duties listed. No achievements or metrics.
+          Copy-paste from resume.
+
+    - name: "Professional Photo Quality"
+      weight: 20
+      description: "Appropriate professional headshot"
+      levels:
+        4: |
+          Exemplary: Clear, high-quality headshot. Appropriate professional
+          attire. Neutral or professional background. Friendly, approachable
+          expression. Face takes up ~60% of frame.
+        3: |
+          Proficient: Good quality photo. Professional appearance. Minor
+          issues with lighting or background.
+        2: |
+          Developing: Photo present but quality issues (blurry, too far,
+          distracting background) or casual attire.
+        1: |
+          Beginning: No photo, inappropriate photo (party shot, sunglasses,
+          group photo cropped), or very low quality.
+
+  # ---------------------------------------------------------------------------
+  # BONUS CRITERIA (Not required but strengthens profile)
+  # ---------------------------------------------------------------------------
+
+  bonus_criteria:
+    - "Background banner customized"
+    - "Featured section with projects or content"
+    - "50+ connections"
+    - "Received endorsements for skills"
+    - "Has given or received recommendations"
+    - "Open to Work badge (if appropriate)"
+    - "Creator mode enabled with topics"
+
+  # ---------------------------------------------------------------------------
+  # PASSING REQUIREMENTS
+  # ---------------------------------------------------------------------------
+
+  passing:
+    required_criteria: "All required criteria must be met"
+    quality_minimum: 70
+    all_star_target: |
+      Aim for LinkedIn "All-Star" status, which requires: photo, headline,
+      summary, current position, education, skills (3+), industry, location,
+      and 50+ connections.
+    revision_allowed: true
+
+  # ---------------------------------------------------------------------------
+  # FEEDBACK TEMPLATE
+  # ---------------------------------------------------------------------------
+
+  feedback_template:
+    strengths: "What's working well in your profile..."
+    improvements: "To strengthen your LinkedIn presence..."
+    quick_wins: "Easy improvements you can make today..."

@@ -57,11 +57,14 @@ foundation:
     - "Daily Action Tracker accountability system"
 
 phases:
-  current: 4
+  current: 7
   completed:
     - import
     - research
     - discovery
+    - strategy
+    - architecture
+    - content
 
 tags:
   - "career readiness"

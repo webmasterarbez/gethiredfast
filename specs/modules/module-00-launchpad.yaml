@@ -1,0 +1,187 @@
+# Course OS - Module Specification
+# Module 00: Launchpad
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-00
+  title: "Launchpad"
+  subtitle: "Your 15-Minute Quick Start"
+  type: onboarding
+  duration: "15-20 minutes"
+
+overview:
+  purpose: |
+    Welcome and orient new students. Set expectations, introduce the
+    Daily Action Tracker, and deliver the first quick win. Students
+    leave knowing exactly how the course works and feeling confident
+    they can succeed.
+
+  emotional_goal: |
+    Transform initial overwhelm into clarity and motivation.
+    "I can do this. I've already started."
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 0.1: Welcome from Cat
+  # ---------------------------------------------------------------------------
+
+  - id: L0.1
+    title: "Welcome from Cat"
+    type: instruction
+    duration: "5 minutes"
+    format: video
+
+    description: |
+      Personal welcome from Cat Breet establishing credibility, empathy,
+      and the course promise. Humanizes the instructor and builds trust.
+
+    objectives:
+      - "Feel welcomed and understood"
+      - "Trust the instructor's expertise (22 years recruiting)"
+      - "Believe the promise: find jobs 55% faster"
+
+    gagne_events:
+      attention: |
+        "I've been on the hiring side for 22 years. I've seen thousands
+        of resumes. And I'm going to tell you something most career
+        advice won't: getting hired isn't about being the most qualified.
+        It's about knowing how the game actually works."
+      objectives: |
+        By the end of this course, you'll have everything you need to
+        land a job faster than you thought possible — and feel confident
+        doing it.
+      content:
+        - Cat's background and credibility
+        - Why this course exists (for CC students specifically)
+        - The promise: 55% faster to employment
+        - "I've got your back"
+      guidance: |
+        "This course is different. No fluff, no theory — just what actually
+        works. And I'm going to be real with you, even when it's hard."
+      retention: |
+        "By the time we're done, you'll know more about job searching than
+        most people learn in years of trial and error."
+
+    resources: []
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 0.2: How This Course Works
+  # ---------------------------------------------------------------------------
+
+  - id: L0.2
+    title: "How This Course Works"
+    type: instruction
+    duration: "5 minutes"
+    format: video
+
+    description: |
+      Course orientation explaining the problem-centered structure, flexible
+      paths, and what students will create. Sets expectations for time and
+      engagement.
+
+    objectives:
+      - "Understand the 6 problem areas and what each covers"
+      - "Know they can tackle problems in any order"
+      - "Understand time commitment (5-7 hours total)"
+      - "See the deliverables they'll create"
+
+    gagne_events:
+      attention: |
+        "This isn't a 'sit back and watch videos' course. You're going
+        to build things. Real things you'll use to get hired."
+      objectives: |
+        By the end of this lesson, you'll know exactly how to navigate
+        this course and what you'll have when you're done.
+      recall: |
+        Think about what's stressing you most about job searching right now.
+      content:
+        - The 6 problem areas (overview)
+        - "Pick your path" — flexibility to start anywhere
+        - What you'll create (resume, LinkedIn, STAR stories, etc.)
+        - Time commitment (45-90 min per problem area)
+        - Daily Action Tracker introduction
+      guidance: |
+        "If you have an interview tomorrow, go straight to Module 4.
+        If you're paralyzed and don't know where to start, try Module 6
+        first. The course works for YOU."
+      retention: |
+        Quick overview graphic of the 6 modules and key deliverables.
+
+    resources:
+      - name: "Course Map (PDF)"
+        type: download
+        description: "Visual overview of all modules and deliverables"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 0.3: Set Up Your Daily Action Tracker
+  # ---------------------------------------------------------------------------
+
+  - id: L0.3
+    title: "Set Up Your Daily Action Tracker"
+    type: practice
+    duration: "10 minutes"
+    format: video + activity
+
+    description: |
+      Introduces the Daily Action Tracker and guides students through
+      setup. First quick win — they've already taken action.
+
+    objectives:
+      - "Download and set up the Daily Action Tracker"
+      - "Log their first entry (watching this video)"
+      - "Understand how the tracker builds accountability"
+
+    gagne_events:
+      attention: |
+        "The students who get hired fastest have one thing in common:
+        they take action every single day. This tracker is how you'll
+        do that."
+      objectives: |
+        Set up your Daily Action Tracker and log your first entry.
+      recall: |
+        "Have you ever started a job search, gotten discouraged, and
+        stopped? This tool prevents that."
+      content:
+        - What the Daily Action Tracker is
+        - How to use it (demo)
+        - Why daily action beats sporadic effort
+        - The scoring system (optional gamification)
+      guidance: |
+        "Don't overthink this. Just download it and log that you watched
+        this video. That's it. You've already started."
+      practice: |
+        Download tracker → Open it → Log first entry → Screenshot success
+      feedback: |
+        "You did it! You've already done more than most job seekers do.
+        One action, one step, every day. That's the secret."
+      retention: |
+        "Tomorrow, log one more action. It could be as simple as reading
+        a job posting. The habit is what matters."
+
+    resources:
+      - name: "Daily Action Tracker (Google Sheets)"
+        type: download
+        description: "Make a copy and start tracking"
+      - name: "Daily Action Tracker (Excel)"
+        type: download
+        description: "Download for offline use"
+      - name: "Quick Start Guide"
+        type: download
+        description: "One-page tracker instructions"
+
+    deliverables:
+      - name: "Daily Action Tracker Set Up"
+        type: artifact
+        required: true
+      - name: "First Entry Logged"
+        type: activity
+        required: true

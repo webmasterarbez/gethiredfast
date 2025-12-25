@@ -1,0 +1,422 @@
+# Course OS - Feedback Surveys
+# Course: Get Hired Fast for Community College Students
+# Kirkpatrick Level 1 (Reaction) and Level 4 (Results)
+
+# =============================================================================
+# MODULE COMPLETION SURVEY (LEVEL 1)
+# =============================================================================
+
+module_completion_survey:
+
+  title: "Module Feedback"
+  timing: "After each module"
+  estimated_time: "2 minutes"
+
+  questions:
+
+    - id: mc-1
+      type: rating
+      question: "How useful was this module for your job search?"
+      scale:
+        1: "Not useful at all"
+        2: "Slightly useful"
+        3: "Moderately useful"
+        4: "Very useful"
+        5: "Extremely useful"
+      required: true
+
+    - id: mc-2
+      type: rating
+      question: "How confident do you feel about this topic now compared to before?"
+      scale:
+        1: "Much less confident"
+        2: "Slightly less confident"
+        3: "About the same"
+        4: "More confident"
+        5: "Much more confident"
+      required: true
+
+    - id: mc-3
+      type: open_text
+      question: "What was the most valuable thing you learned in this module?"
+      max_length: 500
+      required: true
+
+    - id: mc-4
+      type: open_text
+      question: "What would you improve about this module?"
+      max_length: 500
+      required: false
+
+    - id: mc-5
+      type: rating
+      question: "How engaging were the videos?"
+      scale:
+        1: "Very boring"
+        2: "Somewhat boring"
+        3: "Neutral"
+        4: "Engaging"
+        5: "Very engaging"
+      required: true
+
+# =============================================================================
+# COURSE COMPLETION SURVEY (LEVEL 1)
+# =============================================================================
+
+course_completion_survey:
+
+  title: "Course Completion Feedback"
+  timing: "After completing all modules"
+  estimated_time: "5 minutes"
+
+  questions:
+
+    - id: cc-1
+      type: nps
+      question: "How likely are you to recommend this course to a friend or classmate?"
+      scale: 0-10
+      required: true
+
+    - id: cc-2
+      type: rating
+      question: "Overall, how satisfied are you with this course?"
+      scale:
+        1: "Very dissatisfied"
+        2: "Somewhat dissatisfied"
+        3: "Neutral"
+        4: "Satisfied"
+        5: "Very satisfied"
+      required: true
+
+    - id: cc-3
+      type: rating
+      question: "How prepared do you feel for your job search after this course?"
+      scale:
+        1: "Not prepared at all"
+        2: "Slightly prepared"
+        3: "Moderately prepared"
+        4: "Well prepared"
+        5: "Very well prepared"
+      required: true
+
+    - id: cc-4
+      type: multiple_choice
+      question: "Did the course meet your expectations?"
+      options:
+        - "Exceeded expectations"
+        - "Met expectations"
+        - "Partially met expectations"
+        - "Did not meet expectations"
+      required: true
+
+    - id: cc-5
+      type: ranking
+      question: "Rank the modules from most to least valuable for you:"
+      items:
+        - "Career GPS"
+        - "Brand Builder"
+        - "Network Navigator"
+        - "Interview Intel"
+        - "Money Moves"
+        - "Inner Game"
+      required: true
+
+    - id: cc-6
+      type: open_text
+      question: "What was the single most valuable thing you gained from this course?"
+      max_length: 500
+      required: true
+
+    - id: cc-7
+      type: open_text
+      question: "What would you add or change about this course?"
+      max_length: 500
+      required: false
+
+    - id: cc-8
+      type: multiple_select
+      question: "Which deliverables do you feel most prepared to use?"
+      options:
+        - "Resume"
+        - "LinkedIn profile"
+        - "STAR stories"
+        - "Network map"
+        - "Elevator pitch"
+        - "Negotiation scripts"
+        - "90-Day Action Plan"
+        - "Daily Action Tracker"
+      required: true
+
+# =============================================================================
+# 30-DAY FOLLOW-UP SURVEY (LEVEL 4)
+# =============================================================================
+
+follow_up_30_day:
+
+  title: "30-Day Follow-Up"
+  timing: "30 days after course completion"
+  estimated_time: "3 minutes"
+
+  questions:
+
+    - id: f30-1
+      type: multiple_choice
+      question: "Have you actively started your job search since completing the course?"
+      options:
+        - "Yes, actively searching"
+        - "Yes, but just started"
+        - "Not yet, but planning to"
+        - "No, circumstances changed"
+      required: true
+
+    - id: f30-2
+      type: number
+      question: "Approximately how many jobs have you applied to in the past 30 days?"
+      min: 0
+      max: 500
+      required: true
+
+    - id: f30-3
+      type: number
+      question: "How many interviews have you had?"
+      min: 0
+      max: 100
+      required: true
+
+    - id: f30-4
+      type: multiple_choice
+      question: "Have you received any job offers?"
+      options:
+        - "Yes, and I accepted one"
+        - "Yes, but I declined/am deciding"
+        - "Not yet"
+      required: true
+
+    - id: f30-5
+      type: multiple_select
+      question: "Which course tools are you using regularly?"
+      options:
+        - "Daily Action Tracker"
+        - "Resume (tailored versions)"
+        - "LinkedIn profile"
+        - "STAR stories"
+        - "Networking outreach templates"
+        - "Negotiation scripts"
+        - "Company research template"
+        - "None of the above"
+      required: true
+
+    - id: f30-6
+      type: open_text
+      question: "What's working well in your job search?"
+      max_length: 500
+      required: false
+
+    - id: f30-7
+      type: open_text
+      question: "What challenges are you facing?"
+      max_length: 500
+      required: false
+
+# =============================================================================
+# 60-DAY FOLLOW-UP SURVEY (LEVEL 4)
+# =============================================================================
+
+follow_up_60_day:
+
+  title: "60-Day Follow-Up"
+  timing: "60 days after course completion"
+  estimated_time: "3 minutes"
+
+  questions:
+
+    - id: f60-1
+      type: multiple_choice
+      question: "What is your current employment status?"
+      options:
+        - "Employed full-time (new job)"
+        - "Employed part-time (new job)"
+        - "Actively interviewing"
+        - "Actively searching (no interviews yet)"
+        - "Paused job search"
+        - "Other"
+      required: true
+
+    - id: f60-2
+      type: number
+      question: "Total job applications since starting the course:"
+      min: 0
+      max: 500
+      required: true
+
+    - id: f60-3
+      type: number
+      question: "Total interviews since starting the course:"
+      min: 0
+      max: 100
+      required: true
+
+    - id: f60-4
+      type: number
+      question: "Total job offers received:"
+      min: 0
+      max: 50
+      required: true
+
+    - id: f60-5
+      type: open_text
+      question: "What from the course helped most in your search?"
+      max_length: 500
+      required: false
+
+    - id: f60-6
+      type: open_text
+      question: "What additional support would help you now?"
+      max_length: 500
+      required: false
+
+# =============================================================================
+# 90-DAY FOLLOW-UP SURVEY (LEVEL 4)
+# =============================================================================
+
+follow_up_90_day:
+
+  title: "90-Day Follow-Up"
+  timing: "90 days after course completion"
+  estimated_time: "4 minutes"
+
+  questions:
+
+    - id: f90-1
+      type: multiple_choice
+      question: "What is your current employment status?"
+      options:
+        - "Employed full-time in a new role"
+        - "Employed part-time in a new role"
+        - "Received offer, starting soon"
+        - "Still actively searching"
+        - "Changed career direction"
+        - "Paused search for other reasons"
+      required: true
+
+    - id: f90-2
+      type: conditional
+      condition: "if f90-1 = employed or received offer"
+      question: "How long did it take from starting your search to receiving your offer?"
+      type: multiple_choice
+      options:
+        - "Less than 30 days"
+        - "30-60 days"
+        - "60-90 days"
+        - "More than 90 days"
+      required: true
+
+    - id: f90-3
+      type: conditional
+      condition: "if f90-1 = employed or received offer"
+      question: "What is your starting salary? (Optional - helps us track outcomes)"
+      type: salary_range
+      ranges:
+        - "Under $30,000"
+        - "$30,000-$40,000"
+        - "$40,000-$50,000"
+        - "$50,000-$60,000"
+        - "$60,000-$70,000"
+        - "Over $70,000"
+        - "Prefer not to say"
+      required: false
+
+    - id: f90-4
+      type: conditional
+      condition: "if f90-1 = employed or received offer"
+      question: "Did you negotiate your offer?"
+      type: multiple_choice
+      options:
+        - "Yes, and got a better offer"
+        - "Yes, but they didn't budge"
+        - "No, I accepted as-is"
+        - "No, wasn't comfortable negotiating"
+      required: true
+
+    - id: f90-5
+      type: open_text
+      question: "What would you tell someone just starting this course?"
+      max_length: 500
+      required: false
+
+    - id: f90-6
+      type: multiple_choice
+      question: "Would you be willing to share your success story for our testimonials?"
+      options:
+        - "Yes, please contact me"
+        - "Maybe, depends on details"
+        - "No, prefer to stay anonymous"
+      required: true
+
+    - id: f90-7
+      type: open_text
+      question: "Share your success story (optional but appreciated!):"
+      max_length: 1000
+      required: false
+
+# =============================================================================
+# SUCCESS STORY COLLECTION
+# =============================================================================
+
+success_story:
+
+  title: "Share Your Success"
+  timing: "Anytime after landing a job"
+  estimated_time: "5 minutes"
+
+  fields:
+    - name: "full_name"
+      type: text
+      required: true
+      public: false
+
+    - name: "email"
+      type: email
+      required: true
+      public: false
+
+    - name: "job_title"
+      type: text
+      required: true
+      public: true
+
+    - name: "company"
+      type: text
+      required: false
+      public: true
+
+    - name: "time_to_offer"
+      type: select
+      options: ["Under 30 days", "1-2 months", "2-3 months", "3-6 months"]
+      required: true
+      public: true
+
+    - name: "story"
+      type: textarea
+      prompt: "Tell us about your job search journey and how the course helped:"
+      max_length: 1500
+      required: true
+      public: true
+
+    - name: "advice"
+      type: textarea
+      prompt: "What advice would you give to someone just starting?"
+      max_length: 500
+      required: false
+      public: true
+
+    - name: "photo"
+      type: file
+      accept: "image/*"
+      required: false
+      public: true
+
+    - name: "consent"
+      type: checkbox
+      text: "I consent to having my story shared on the course website/materials"
+      required: true

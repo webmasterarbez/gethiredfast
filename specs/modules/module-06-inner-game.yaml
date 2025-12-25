@@ -1,0 +1,339 @@
+# Course OS - Module Specification
+# Module 06: Inner Game
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-06
+  title: "Inner Game"
+  subtitle: "I'm Not Good Enough (And Other Lies)"
+  problem: 6
+  type: core
+  duration: "30-45 minutes"
+
+overview:
+  purpose: |
+    Address the psychological barriers to job search success. Imposter
+    syndrome, rejection resilience, perfectionism, and maintaining
+    momentum. This module can be accessed anytime and serves as both
+    introduction and ongoing support.
+
+  terminal_outcome: TLO-6
+  enabling_outcomes:
+    - ELO-6.1
+    - ELO-6.2
+    - ELO-6.3
+    - ELO-6.4
+
+  emotional_goal: |
+    Transform "I'm not good enough" into "I have strategies for when
+    doubt hits." Build psychological resilience for the job search marathon.
+
+  access_pattern: |
+    Unlike other modules, this one is designed for repeat access. Students
+    should return here whenever they need a mindset boost.
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 6.1: Imposter Syndrome: You're Not Alone
+  # ---------------------------------------------------------------------------
+
+  - id: L6.1
+    title: "Imposter Syndrome: You're Not Alone"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Normalizes imposter syndrome and explains why it's especially common
+      among community college students and first-gen professionals.
+
+    objectives:
+      - "Understand what imposter syndrome is"
+      - "Recognize imposter thoughts when they occur"
+      - "Know that high achievers commonly experience it"
+
+    gagne_events:
+      attention: |
+        "70% of people experience imposter syndrome at some point. Maya
+        Angelou, Albert Einstein, Michelle Obama — all admitted to feeling
+        like frauds. If they felt it, maybe it's not a sign that you're
+        actually a fraud. Maybe it's just... normal."
+      objectives: |
+        Understand imposter syndrome and recognize when it's affecting you.
+      recall: |
+        Think about a time you felt like you didn't belong or would
+        be "found out." That's imposter syndrome.
+      content:
+        - What imposter syndrome is (and isn't)
+        - The 5 types of imposter patterns
+        - Why CC students and first-gen experience it more
+        - Famous people who've admitted to imposter feelings
+        - The imposter-competence gap
+      guidance: |
+        "Imposter syndrome is often a sign you're growing. If you feel
+        comfortable everywhere, you're probably not challenging yourself."
+      retention: |
+        "In the next lesson, you'll learn to talk back to the inner critic."
+
+    resources:
+      - name: "Imposter Syndrome Types Quiz"
+        type: download
+        description: "Identify your imposter pattern"
+      - name: "Famous Imposters"
+        type: download
+        description: "Quotes from successful 'impostors'"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 6.2: Reframing the Inner Critic
+  # ---------------------------------------------------------------------------
+
+  - id: L6.2
+    title: "Reframing the Inner Critic"
+    type: practice
+    duration: "12 minutes"
+    format: video + activity
+
+    description: |
+      Practical techniques for recognizing and reframing imposter thoughts.
+      Creates personal reframe cards for ongoing use.
+
+    objectives:
+      - "Identify personal imposter triggers"
+      - "Apply cognitive reframing techniques"
+      - "Create personal reframe cards"
+
+    gagne_events:
+      attention: |
+        "'I'm not qualified.' 'They'll find out I'm faking.' 'Everyone
+        else knows what they're doing.' Sound familiar? These are lies
+        your brain tells you. Let's learn to talk back."
+      objectives: |
+        Learn to recognize and reframe imposter thoughts.
+      recall: |
+        What does your inner critic typically say? Write down the
+        first thing that comes to mind.
+      content:
+        - Common imposter thoughts
+        - The cognitive reframe technique
+        - Evidence-based countering
+        - Demo: reframing "I'm not qualified"
+        - Creating personal reframe cards
+      guidance: |
+        "The thought 'I'm not qualified' becomes 'I have X, Y, Z skills
+        that are relevant, and I'm learning the rest.' Facts beat feelings."
+      practice: |
+        Identify 3 imposter thoughts → Write reframe for each →
+        Create reframe cards to keep
+      feedback: |
+        "If a reframe doesn't feel true, adjust it. It should be
+        believable, not just positive."
+      retention: |
+        "Put these cards where you'll see them. Phone wallpaper, bathroom
+        mirror, wherever the doubt hits."
+
+    resources:
+      - name: "Reframe Card Template"
+        type: download
+        description: "Printable or digital cards"
+      - name: "Common Reframes"
+        type: download
+        description: "Pre-written reframes for common thoughts"
+
+    deliverables:
+      - name: "Imposter Syndrome Reframe Cards"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 6.3: Rejection Resilience
+  # ---------------------------------------------------------------------------
+
+  - id: L6.3
+    title: "Rejection Resilience"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Prepares students for the reality of rejection and builds strategies
+      for maintaining momentum when things don't go well.
+
+    objectives:
+      - "Expect rejection as part of the process"
+      - "Apply strategies for bouncing back"
+      - "Separate rejection from self-worth"
+
+    gagne_events:
+      attention: |
+        "The average job seeker applies to 100+ jobs to get one offer.
+        That's 99+ rejections. If you're not prepared for that, rejection
+        will crush you. Let's get you ready."
+      objectives: |
+        Build resilience for handling rejection during job search.
+      recall: |
+        Think about a rejection you've experienced. How did it feel?
+        How did you recover?
+      content:
+        - The reality of job search numbers (it's normal)
+        - Why rejection isn't personal (most of the time)
+        - The 24-hour rule (feel it, then move on)
+        - Rejection as redirection
+        - Learning from rejection (when to ask for feedback)
+      guidance: |
+        "Every 'no' is one step closer to 'yes.' It's a numbers game.
+        The more you apply, the more you'll get rejected — and the more
+        you'll get hired."
+      retention: |
+        "When rejection hits, give yourself 24 hours to feel it. Then
+        log an action in your tracker and keep moving."
+
+    resources:
+      - name: "Rejection Recovery Plan"
+        type: download
+        description: "Steps for bouncing back"
+      - name: "Rejection Reframe Cards"
+        type: download
+        description: "Thoughts for tough moments"
+
+    deliverables:
+      - name: "Rejection Resilience Plan"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 6.4: Breaking Perfectionism Paralysis
+  # ---------------------------------------------------------------------------
+
+  - id: L6.4
+    title: "Breaking Perfectionism Paralysis"
+    type: instruction
+    duration: "8 minutes"
+    format: video
+
+    description: |
+      Addresses perfectionism that stops action. The "good enough"
+      mindset and strategies for doing despite not feeling ready.
+
+    objectives:
+      - "Recognize perfectionism as a barrier"
+      - "Apply 'good enough' strategies"
+      - "Take action despite not feeling ready"
+
+    gagne_events:
+      attention: |
+        "Perfectionism isn't about doing things well. It's about fear
+        of not being enough. And it stops more job searches than
+        anything else. Let's break the pattern."
+      objectives: |
+        Overcome perfectionism paralysis and take imperfect action.
+      recall: |
+        What have you delayed because it wasn't 'ready' or 'perfect'?
+      content:
+        - Perfectionism as fear
+        - The 80% rule (good enough is good enough)
+        - "Done is better than perfect"
+        - Iteration vs. perfection
+        - The first draft mindset
+      guidance: |
+        "You can always improve after you start. But you can never
+        improve what you haven't begun."
+      retention: |
+        "This week, send one application you don't feel 'ready' for.
+        Just to prove you can."
+
+    resources:
+      - name: "Perfectionism Breaker Checklist"
+        type: download
+        description: "When to send, even if imperfect"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 6.5: Daily Action Tracker Mastery
+  # ---------------------------------------------------------------------------
+
+  - id: L6.5
+    title: "Your Daily Action Tracker Mastery"
+    type: demonstration
+    duration: "8 minutes"
+    format: video + demo
+
+    description: |
+      Deep dive into using the Daily Action Tracker for accountability
+      and momentum. The system that keeps students on track when
+      motivation fades.
+
+    objectives:
+      - "Use the Daily Action Tracker consistently"
+      - "Analyze what's working and what isn't"
+      - "Celebrate wins to build momentum"
+
+    gagne_events:
+      attention: |
+        "Motivation is unreliable. It comes and goes. But habits and
+        systems? Those are reliable. The Daily Action Tracker is your
+        system for days when you don't feel like job searching."
+      objectives: |
+        Master the Daily Action Tracker for consistent job search momentum.
+      recall: |
+        Have you been using your tracker? What's been the challenge?
+      content:
+        - Daily Action Tracker deep dive
+        - The minimum viable day (what counts as action)
+        - Tracking what works (optimization)
+        - Celebrating wins (why it matters)
+        - The streak effect
+      guidance: |
+        "Even on your worst day, log one action. Read a job posting.
+        That counts. The streak matters more than the intensity."
+      practice: |
+        Review your tracker data → Identify patterns →
+        Plan your minimum viable day
+      retention: |
+        "Commit to 30 days of daily tracking. After that, it's a habit."
+
+    resources:
+      - name: "Daily Action Tracker Tips"
+        type: download
+        description: "Advanced usage guide"
+      - name: "30-Day Commitment Card"
+        type: download
+        description: "Visible commitment reminder"
+
+    deliverables:
+      - name: "30-Day Action Commitment"
+        type: activity
+        required: true
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 5
+  total_duration: "48 minutes"
+
+  deliverables:
+    - "Imposter Syndrome Reframe Cards"
+    - "Rejection Resilience Plan"
+    - "30-Day Action Commitment"
+
+  mindset_integration: |
+    This entire module IS mindset content. However, mindset elements
+    are also woven throughout every other module. This serves as both
+    the introduction to psychological skills AND a reference students
+    return to when struggling.
+
+  access_pattern: |
+    Students are encouraged to revisit this module anytime they feel
+    stuck, discouraged, or paralyzed. It's designed for multiple viewings.
+
+  next_module: "module-07 (Launch Sequence)"

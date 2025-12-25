@@ -1,0 +1,784 @@
+# Course OS - Activities & Exercises Catalog
+# Course: Get Hired Fast for Community College Students
+# Phase 6: Content Design
+
+activities:
+  description: |
+    All exercises, activities, and practice assignments organized by module.
+    Each activity is designed for self-paced completion with clear success
+    criteria.
+
+# =============================================================================
+# MODULE 00: LAUNCHPAD
+# =============================================================================
+
+module_00:
+
+  - id: ACT-0.1
+    name: "Daily Action Tracker Setup"
+    type: setup
+    duration: "10 minutes"
+    lesson_link: L0.3
+
+    instructions: |
+      1. Download the Daily Action Tracker (Google Sheets or Excel)
+      2. Make a copy (Sheets) or save locally (Excel)
+      3. Enter today's date in the first row
+      4. Log your first action: "Started Get Hired Fast course"
+      5. Bookmark or save to home screen for easy access
+
+    success_criteria:
+      - "Tracker downloaded and accessible"
+      - "First entry logged with date"
+      - "Committed to 7 consecutive days of tracking"
+
+    deliverable: "Daily Action Tracker Set Up"
+
+# =============================================================================
+# MODULE 01: CAREER GPS
+# =============================================================================
+
+module_01:
+
+  - id: ACT-1.1
+    name: "Values & Interests Self-Assessment"
+    type: reflection
+    duration: "15 minutes"
+    lesson_link: L1.1
+
+    instructions: |
+      Answer these questions thoughtfully:
+
+      INTERESTS:
+      1. What topics could you read about for hours?
+      2. What problems do you find yourself wanting to solve?
+      3. When do you lose track of time?
+
+      VALUES:
+      4. What matters most to you in a workplace? (flexibility, stability, growth, purpose, money, team)
+      5. What kind of work environment drains you?
+      6. What would you do if money weren't a concern?
+
+      WORK STYLE:
+      7. Do you prefer working alone or with others?
+      8. Do you like variety or routine?
+      9. Do you prefer leading, supporting, or independent work?
+
+    success_criteria:
+      - "All 9 questions answered honestly"
+      - "Patterns identified across answers"
+      - "Top 3 values clarified"
+
+    deliverable: "Completed Self-Assessment"
+
+  - id: ACT-1.2
+    name: "Transferable Skills Inventory"
+    type: exercise
+    duration: "20 minutes"
+    lesson_link: L1.2
+
+    instructions: |
+      STEP 1: Brainstorm all experiences (15 categories)
+      - Part-time jobs
+      - Internships
+      - Work-study positions
+      - Volunteer work
+      - Class projects
+      - Student organizations
+      - Sports/clubs
+      - Family responsibilities
+      - Caregiving
+      - Personal projects
+      - Self-taught skills
+      - Hobbies
+      - Travel experiences
+      - Community involvement
+      - Religious/cultural activities
+
+      STEP 2: For each experience, identify skills used
+      Use the skill categories checklist provided
+
+      STEP 3: Translate to professional language
+      "Babysat" → "Supervised and coordinated care for..."
+
+      STEP 4: Rank top 10 skills you want to highlight
+
+    success_criteria:
+      - "At least 5 experiences documented"
+      - "10+ distinct skills identified"
+      - "Skills translated to professional language"
+      - "Top 10 skills ranked"
+
+    deliverable: "Transferable Skills Inventory (10+ skills)"
+
+  - id: ACT-1.3
+    name: "Target Job Scorecard"
+    type: research + decision
+    duration: "25 minutes"
+    lesson_link: L1.3
+
+    instructions: |
+      STEP 1: Research 3-5 potential job titles
+      - Use Indeed, LinkedIn, Handshake
+      - Read 3+ job descriptions for each
+      - Note common requirements and responsibilities
+
+      STEP 2: Score each job (1-5) on these factors:
+      - Interest: How excited are you about this work?
+      - Skills Match: How many required skills do you have?
+      - Market Demand: How many openings exist in your area?
+      - Growth Potential: What's the career path from here?
+      - Compensation: Does the salary range meet your needs?
+      - Values Alignment: Does this work align with what matters to you?
+
+      STEP 3: Total scores and rank
+      STEP 4: Select top 2-3 targets
+
+    success_criteria:
+      - "3-5 jobs researched with job descriptions reviewed"
+      - "All factors scored"
+      - "2-3 target jobs selected"
+      - "Clear rationale for choices"
+
+    deliverable: "Target Job Scorecard (2-3 roles)"
+
+  - id: ACT-1.4
+    name: "Champion List"
+    type: brainstorm
+    duration: "10 minutes"
+    lesson_link: L1.2
+
+    instructions: |
+      List everyone who could potentially help your job search:
+
+      PERSONAL CONNECTIONS:
+      - Family members and their employers
+      - Friends and their parents
+      - Neighbors
+      - Former classmates
+      - Religious/community connections
+
+      PROFESSIONAL CONNECTIONS:
+      - Current and former coworkers
+      - Current and former managers
+      - Professors and instructors
+      - Academic advisors
+      - Career center staff
+
+      EXPANDED NETWORK:
+      - LinkedIn connections
+      - Alumni from your school
+      - People you've interacted with online
+      - Anyone who knows your target industry
+
+      Goal: At least 10 names to start (aim for 50+)
+
+    success_criteria:
+      - "10+ names listed minimum"
+      - "Multiple categories represented"
+      - "Top 5 prioritized for first outreach"
+
+    deliverable: "Champion List (10+ people)"
+
+# =============================================================================
+# MODULE 02: BRAND BUILDER
+# =============================================================================
+
+module_02:
+
+  - id: ACT-2.1
+    name: "Resume Bullet Point Practice"
+    type: writing
+    duration: "20 minutes"
+    lesson_link: L2.2
+
+    instructions: |
+      Using the XYZ formula (Accomplished X by doing Y, resulting in Z):
+
+      STEP 1: Select 5 experiences from your skills inventory
+
+      STEP 2: For each, write a draft bullet starting with an action verb
+
+      STEP 3: Add the method (how you did it)
+
+      STEP 4: Add the result (quantify when possible)
+
+      STEP 5: Check each bullet:
+      - Does it start with an action verb? (not "Responsible for")
+      - Does it describe an achievement (not a duty)?
+      - Does it include at least one number?
+      - Is it specific enough to be believable?
+
+    success_criteria:
+      - "5 bullet points written"
+      - "Each starts with action verb"
+      - "Each includes quantification"
+      - "Weak phrases eliminated"
+
+    deliverable: "5 Achievement Bullets"
+
+  - id: ACT-2.2
+    name: "Full Resume Draft"
+    type: creation
+    duration: "45 minutes"
+    lesson_link: L2.4
+
+    instructions: |
+      Using the ATS-friendly template:
+
+      CONTACT SECTION:
+      - Name (larger font)
+      - Phone, email, LinkedIn URL
+      - City, State (full address not needed)
+
+      EDUCATION:
+      - School name, expected graduation date
+      - Degree/major
+      - Relevant coursework (if applicable)
+      - GPA (if 3.0+)
+
+      EXPERIENCE (most space):
+      - Each position: Job Title | Company | Dates
+      - 3-5 bullet points per position using XYZ format
+      - Most recent first
+
+      SKILLS:
+      - Technical skills
+      - Languages
+      - Certifications
+
+      STEP: Run through ATS checker (Jobscan free or Teal)
+
+    success_criteria:
+      - "All sections completed"
+      - "Achievement-focused bullets"
+      - "ATS score 70%+ (for a generic role)"
+      - "One page length"
+      - "Clean, readable format"
+
+    deliverable: "ATS-Optimized Resume"
+
+  - id: ACT-2.3
+    name: "LinkedIn Profile Optimization"
+    type: creation
+    duration: "30 minutes"
+    lesson_link: L2.5
+
+    instructions: |
+      Complete each section:
+
+      PHOTO:
+      - Professional headshot (shoulders up)
+      - Plain background, good lighting
+      - Smiling, approachable expression
+
+      HEADLINE (most important):
+      - Not just "Student at [School]"
+      - Format: [Aspiration] | [Unique value] | [Availability]
+      - Example: "Aspiring Marketing Professional | Dean's List Student | Available May 2025"
+
+      ABOUT (3 paragraphs):
+      - Para 1: Who you are and what you're looking for
+      - Para 2: What you bring (key skills and experiences)
+      - Para 3: Call to action + how to reach you
+
+      EXPERIENCE:
+      - Mirror your resume
+      - Can be slightly longer with more context
+
+      EDUCATION:
+      - Include activities, honors, relevant courses
+
+      SKILLS:
+      - Add 10+ skills
+      - Prioritize those relevant to target roles
+
+    success_criteria:
+      - "Professional photo uploaded"
+      - "Custom headline (not default)"
+      - "About section complete (3 paragraphs)"
+      - "All experience added"
+      - "10+ skills listed"
+      - "All-Star status achieved"
+
+    deliverable: "LinkedIn All-Star Profile"
+
+  - id: ACT-2.4
+    name: "Elevator Pitch Writing"
+    type: writing + practice
+    duration: "15 minutes"
+    lesson_link: L2.7
+
+    instructions: |
+      Use the Present-Past-Future formula:
+
+      PRESENT (10 seconds):
+      "I'm a [year] [major] student at [school], and I'm passionate about [area]."
+
+      PAST (10 seconds):
+      "I've developed skills in [X, Y, Z] through my experience at [job/project]."
+
+      FUTURE (10 seconds):
+      "I'm looking for opportunities in [target area] where I can [contribution]."
+
+      STEP 1: Write each section
+      STEP 2: Combine into flowing paragraph
+      STEP 3: Time yourself — should be 25-30 seconds
+      STEP 4: Practice out loud 10 times
+      STEP 5: Record yourself once and review
+
+    success_criteria:
+      - "Complete pitch written"
+      - "25-30 seconds when spoken"
+      - "Flows naturally"
+      - "Practiced out loud 10+ times"
+
+    deliverable: "30-Second Elevator Pitch"
+
+# =============================================================================
+# MODULE 03: NETWORK NAVIGATOR
+# =============================================================================
+
+module_03:
+
+  - id: ACT-3.1
+    name: "Network Mapping"
+    type: brainstorm
+    duration: "20 minutes"
+    lesson_link: L3.3
+
+    instructions: |
+      Create a comprehensive network map:
+
+      INNER CIRCLE (know well):
+      - Family members
+      - Close friends
+      - Roommates, neighbors
+
+      PROFESSIONAL CONTACTS:
+      - Current/former coworkers
+      - Managers and supervisors
+      - Mentors
+
+      ACADEMIC CONNECTIONS:
+      - Professors (especially in major)
+      - Academic advisors
+      - Career center staff
+      - Classmates
+
+      COMMUNITY:
+      - Religious/cultural organization members
+      - Volunteer organizations
+      - Sports/club members
+      - Neighbors
+
+      EXPANDED (2nd degree):
+      - People your inner circle knows
+      - LinkedIn connections
+      - Alumni from your school
+
+      For each person, note:
+      - Name
+      - How you know them
+      - Industry/role (if known)
+      - Last contact date
+      - Potential value (advice? referral? introduction?)
+
+    success_criteria:
+      - "50+ contacts identified"
+      - "Multiple categories represented"
+      - "Top 10 prioritized for outreach"
+      - "Relationship strength noted"
+
+    deliverable: "Network Map (50+ contacts)"
+
+  - id: ACT-3.2
+    name: "Outreach Message Drafting"
+    type: writing
+    duration: "15 minutes"
+    lesson_link: L3.4
+
+    instructions: |
+      Write 3 outreach messages using these templates:
+
+      MESSAGE 1 - Warm reconnection:
+      "Hi [Name], I hope you're doing well! I'm reaching out because
+      [reason — e.g., you work in marketing and I'm exploring that field].
+      Would you have 15 minutes for a quick call or coffee? I'd love to
+      hear about your experience at [company]. No pressure — I know you're
+      busy. Thanks for considering it!"
+
+      MESSAGE 2 - LinkedIn connection request:
+      "[Name], I'm a [major] student at [school] interested in [field].
+      I noticed your background in [area] and would love to connect and
+      learn from your experience. Thanks for considering!"
+
+      MESSAGE 3 - Informational interview request:
+      "Hi [Name], I found your profile while researching [industry] and
+      was impressed by your path from [X] to [Y]. I'm a community college
+      student exploring this field. Would you have 15-20 minutes for a
+      quick conversation about your career journey? I'd be grateful for
+      any insights. Happy to work around your schedule."
+
+    success_criteria:
+      - "3 messages drafted"
+      - "Personalized (not generic)"
+      - "Clear ask included"
+      - "Professional but warm tone"
+      - "Under 100 words each"
+
+    deliverable: "3 Outreach Messages Drafted"
+
+  - id: ACT-3.3
+    name: "Send 3 Outreach Messages"
+    type: action
+    duration: "10 minutes"
+    lesson_link: L3.4
+
+    instructions: |
+      STEP 1: Select 3 people from your network map
+      - Mix of "easy" (warm contacts) and "stretch" (new connections)
+
+      STEP 2: Personalize your template messages for each
+
+      STEP 3: Send the messages (LinkedIn, email, or text)
+
+      STEP 4: Log in Daily Action Tracker
+
+      STEP 5: Set reminder to follow up in 5-7 days if no response
+
+    success_criteria:
+      - "3 messages sent (not just drafted)"
+      - "Logged in tracker"
+      - "Follow-up reminders set"
+
+    deliverable: "3 Outreach Messages Sent"
+
+# =============================================================================
+# MODULE 04: INTERVIEW INTEL
+# =============================================================================
+
+module_04:
+
+  - id: ACT-4.1
+    name: "STAR Story Bank"
+    type: writing
+    duration: "45 minutes"
+    lesson_link: L4.3
+
+    instructions: |
+      Write 5+ STAR stories covering these competency areas:
+
+      1. TEAMWORK
+      - Working with others, collaboration, conflict resolution
+
+      2. PROBLEM-SOLVING
+      - Overcoming challenges, analytical thinking, creativity
+
+      3. LEADERSHIP/INITIATIVE
+      - Taking charge, stepping up, going above and beyond
+
+      4. CUSTOMER/STAKEHOLDER SERVICE
+      - Helping others, resolving complaints, building relationships
+
+      5. ADAPTABILITY
+      - Handling change, learning quickly, flexibility
+
+      For each story:
+      - Situation (20-30 seconds)
+      - Task (10-15 seconds)
+      - Action (60-90 seconds) ← MOST DETAIL HERE
+      - Result (20-30 seconds)
+
+      Practice each out loud and time yourself (target: 2 minutes)
+
+    success_criteria:
+      - "5+ complete STAR stories"
+      - "Each covers different competency"
+      - "Action is longest section"
+      - "Results quantified where possible"
+      - "Each is ~2 minutes spoken"
+
+    deliverable: "STAR Story Bank (5+ stories)"
+
+  - id: ACT-4.2
+    name: "Common Questions Practice"
+    type: practice
+    duration: "30 minutes"
+    lesson_link: L4.4
+
+    instructions: |
+      Prepare framework answers for these 10 questions:
+
+      1. Tell me about yourself.
+      2. Why are you interested in this role/company?
+      3. What's your greatest strength?
+      4. What's your greatest weakness?
+      5. Where do you see yourself in 5 years?
+      6. Why should we hire you?
+      7. Tell me about a challenge you overcame. (STAR)
+      8. Describe a time you worked on a team. (STAR)
+      9. How do you handle stress/pressure?
+      10. What questions do you have for us?
+
+      For each:
+      - Write key talking points (not a script)
+      - Practice out loud 3 times
+      - Record yourself once
+
+    success_criteria:
+      - "Talking points for all 10 questions"
+      - "STAR stories linked to behavioral questions"
+      - "Practiced out loud"
+      - "3+ thoughtful questions to ask interviewers"
+
+    deliverable: "Interview Answer Frameworks"
+
+  - id: ACT-4.3
+    name: "Company Research Template"
+    type: research
+    duration: "15 minutes"
+    lesson_link: L4.6
+
+    instructions: |
+      For a target company, research and document:
+
+      COMPANY BASICS:
+      - What does the company do?
+      - How big is it? (employees, revenue, locations)
+      - Who are the main competitors?
+
+      RECENT NEWS:
+      - Any recent press releases or news articles?
+      - New products, expansions, leadership changes?
+      - Awards or recognition?
+
+      CULTURE & VALUES:
+      - What are their stated values?
+      - What do Glassdoor reviews say?
+      - What's their social media presence like?
+
+      THE ROLE:
+      - What are the main responsibilities?
+      - What skills are emphasized?
+      - What would success look like?
+
+      YOUR CONNECTION:
+      - Why does this company interest YOU specifically?
+      - What can you contribute?
+      - What questions do you have?
+
+    success_criteria:
+      - "All sections researched"
+      - "Specific facts noted (not generic)"
+      - "3+ thoughtful questions prepared"
+      - "Personal connection identified"
+
+    deliverable: "Company Research Template"
+
+# =============================================================================
+# MODULE 05: MONEY MOVES
+# =============================================================================
+
+module_05:
+
+  - id: ACT-5.1
+    name: "Salary Research Worksheet"
+    type: research
+    duration: "20 minutes"
+    lesson_link: L5.2
+
+    instructions: |
+      For each target role, research salary data:
+
+      SOURCES TO CHECK:
+      - Glassdoor (salary search)
+      - LinkedIn Salary
+      - Indeed Salaries
+      - Bureau of Labor Statistics (BLS)
+      - Levels.fyi (for tech)
+      - Payscale
+
+      FOR EACH SOURCE, NOTE:
+      - Median salary
+      - Range (low to high)
+      - Location adjustments
+      - Experience level adjustments
+
+      THEN CALCULATE:
+      - Your minimum (wouldn't accept less)
+      - Your target (ideal, realistic)
+      - Your stretch (if everything goes perfectly)
+
+    success_criteria:
+      - "3+ sources consulted"
+      - "Data for target role(s) documented"
+      - "Location adjusted"
+      - "Min/target/stretch range defined"
+
+    deliverable: "Salary Research Worksheet"
+
+  - id: ACT-5.2
+    name: "Negotiation Script Preparation"
+    type: writing
+    duration: "15 minutes"
+    lesson_link: L5.4
+
+    instructions: |
+      Prepare your negotiation script:
+
+      WHEN OFFER IS MADE:
+      "Thank you so much for this offer! I'm really excited about the
+      opportunity to [specific reason]. Can I take [time period] to review
+      the full details and get back to you?"
+
+      THE ASK (after reviewing):
+      "I'm very excited about this role and want to make this work. Based
+      on my research and the value I'll bring, I was hoping for a salary
+      closer to [target number]. Is there flexibility in the offer?"
+
+      IF THEY SAY NO TO SALARY:
+      "I understand. Are there other areas we could discuss — like [signing
+      bonus / extra PTO / remote flexibility / professional development
+      budget / earlier review date]?"
+
+      ACCEPTING:
+      "Thank you for working with me on this. I'm excited to accept and
+      look forward to starting on [date]."
+
+    success_criteria:
+      - "All scripts written"
+      - "Target number determined from research"
+      - "Alternatives identified"
+      - "Practiced out loud"
+
+    deliverable: "Negotiation Script"
+
+# =============================================================================
+# MODULE 06: INNER GAME
+# =============================================================================
+
+module_06:
+
+  - id: ACT-6.1
+    name: "Imposter Syndrome Reframe Cards"
+    type: reflection + creation
+    duration: "15 minutes"
+    lesson_link: L6.2
+
+    instructions: |
+      Identify your top 3 imposter thoughts and create reframes:
+
+      THOUGHT 1: [Your imposter thought]
+      Example: "I'm not qualified enough for real jobs."
+
+      REFRAME 1: [Evidence-based counter]
+      Example: "I have X skills, Y experience, and Z accomplishments. I'm
+      building qualifications every day. Many successful people started
+      where I am."
+
+      Repeat for thoughts 2 and 3.
+
+      CREATE CARDS:
+      - Write imposter thought on front
+      - Write reframe on back
+      - Keep accessible (phone notes, physical cards)
+
+    success_criteria:
+      - "3 imposter thoughts identified"
+      - "3 evidence-based reframes written"
+      - "Cards created (digital or physical)"
+      - "Accessible for quick reference"
+
+    deliverable: "Imposter Syndrome Reframe Cards"
+
+  - id: ACT-6.2
+    name: "30-Day Action Commitment"
+    type: commitment
+    duration: "5 minutes"
+    lesson_link: L6.5
+
+    instructions: |
+      Write your commitment:
+
+      "For the next 30 days, I commit to:
+
+      1. Logging at least ONE action in my Daily Action Tracker every day
+      2. Celebrating at least ONE win per week (no matter how small)
+      3. Reviewing my reframe cards when imposter syndrome hits
+      4. [Your personal commitment]
+
+      My start date: [Date]
+      My end date: [Date + 30 days]
+
+      My accountability partner (optional): [Name]"
+
+      Sign and date. Post somewhere visible.
+
+    success_criteria:
+      - "Commitment written and signed"
+      - "Dates set"
+      - "Posted somewhere visible"
+      - "Accountability partner identified (optional)"
+
+    deliverable: "30-Day Action Commitment"
+
+# =============================================================================
+# MODULE 07: LAUNCH SEQUENCE
+# =============================================================================
+
+module_07:
+
+  - id: ACT-7.1
+    name: "90-Day Action Plan"
+    type: planning
+    duration: "25 minutes"
+    lesson_link: L7.1
+
+    instructions: |
+      Create your personalized 90-day job search plan:
+
+      PHASE 1: DAYS 1-30 (Foundation & Outreach)
+      Weekly targets:
+      - Applications submitted: [number]
+      - Networking messages sent: [number]
+      - Informational interviews requested: [number]
+      - Daily tracker usage: [every day]
+
+      Milestones:
+      - Resume finalized and tailored for 3 target roles
+      - LinkedIn All-Star status achieved
+      - 10+ networking outreach messages sent
+      - 3+ informational interviews scheduled
+
+      PHASE 2: DAYS 31-60 (Momentum & Interviews)
+      Weekly targets:
+      - Applications submitted: [number]
+      - Follow-ups sent: [number]
+      - Interview prep sessions: [number]
+
+      Milestones:
+      - 20+ applications submitted
+      - 5+ informational interviews completed
+      - Interview invitations received
+      - STAR stories polished through practice
+
+      PHASE 3: DAYS 61-90 (Interviews & Offers)
+      Weekly targets:
+      - Interview prep: [hours]
+      - Applications: [number]
+      - Follow-ups: [number]
+
+      Milestones:
+      - Multiple interviews completed
+      - Thank-you notes sent same day
+      - Salary research complete for likely offers
+      - Negotiation script ready
+
+    success_criteria:
+      - "All 3 phases planned"
+      - "Weekly targets set and realistic"
+      - "Milestones defined"
+      - "First 3 actions for tomorrow identified"
+
+    deliverable: "90-Day Job Search Action Plan"

@@ -1,0 +1,307 @@
+# Course OS - Audio Specifications
+# Course: Get Hired Fast for Community College Students
+# Phase 9: Media Production Planning
+
+# =============================================================================
+# AUDIO OVERVIEW
+# =============================================================================
+
+overview:
+  total_videos: 44
+  estimated_audio_hours: 7.5
+  primary_audio: "Presenter voiceover (Cat Breet)"
+  secondary_audio: "Music and sound effects"
+
+# =============================================================================
+# VOICEOVER SPECIFICATIONS
+# =============================================================================
+
+voiceover:
+
+  presenter:
+    name: "Cat Breet"
+    style: "Warm, encouraging, professional but approachable"
+    pacing: "Conversational (~150 words/minute)"
+
+  recording_specs:
+    format: "WAV (uncompressed for editing)"
+    sample_rate: "48kHz"
+    bit_depth: "24-bit"
+    channels: "Mono"
+
+  quality_standards:
+    noise_floor: "-60dB or lower"
+    peak_level: "-6dB to -3dB"
+    rms_level: "-18dB to -12dB"
+    no_clipping: true
+    no_plosives: true
+    consistent_room_tone: true
+
+  equipment_requirements:
+    microphone: "Condenser or dynamic broadcast mic"
+    interface: "USB or XLR audio interface"
+    environment: "Treated room or portable booth"
+    pop_filter: "Required"
+    mic_stand: "Boom or desk mount"
+    headphones: "Closed-back monitoring"
+
+  delivery_guidelines:
+    - "Speak directly to the student (use 'you' consistently)"
+    - "Vary energy level per script tone notes"
+    - "Pause between sections for editing flexibility"
+    - "Record room tone (10 seconds) at each session start"
+    - "Record pickup takes immediately after mistakes"
+
+# =============================================================================
+# MUSIC SPECIFICATIONS
+# =============================================================================
+
+music:
+
+  licensing:
+    type: "Royalty-free or licensed for educational use"
+    sources:
+      - "Epidemic Sound"
+      - "Artlist"
+      - "Musicbed"
+      - "YouTube Audio Library (free option)"
+    rights: "Must include commercial/educational licensing"
+
+  intro_music:
+    usage: "Course intro, module intros"
+    duration: "5-8 seconds"
+    style: "Upbeat, motivational, modern"
+    mood: "Energetic, hopeful, professional"
+    fade: "Quick fade under voiceover"
+
+  outro_music:
+    usage: "Lesson endings, course completion"
+    duration: "5-10 seconds"
+    style: "Resolving, satisfying"
+    mood: "Accomplished, forward-looking"
+    fade: "Fade in under final words, fade out"
+
+  background_music:
+    usage: "Under graphics, transitions, light moments"
+    volume: "-20dB to -25dB under voice"
+    style: "Ambient, unobtrusive"
+    avoid: "Lyrics, distracting melodies, intense beats"
+
+  emotional_cues:
+    motivational:
+      usage: "Success stories, encouragement moments"
+      style: "Inspiring, building"
+      examples: "Module completions, breakthrough moments"
+
+    reflective:
+      usage: "Imposter syndrome content, rejection resilience"
+      style: "Gentle, supportive"
+      examples: "Module 6 emotional content"
+
+    energetic:
+      usage: "Action-oriented content, calls to action"
+      style: "Upbeat, driving"
+      examples: "Daily Action Tracker, launch sequences"
+
+# =============================================================================
+# SOUND EFFECTS
+# =============================================================================
+
+sound_effects:
+
+  licensing:
+    type: "Royalty-free"
+    sources:
+      - "Epidemic Sound"
+      - "Freesound.org"
+      - "Adobe Stock Audio"
+
+  ui_sounds:
+    - name: "Notification/ding"
+      usage: "Key point emphasis"
+      style: "Clean, modern"
+      duration: "0.5-1 second"
+
+    - name: "Whoosh/transition"
+      usage: "Scene transitions, graphic reveals"
+      style: "Subtle, professional"
+      duration: "0.5-1 second"
+
+    - name: "Click/tap"
+      usage: "Checkbox animations, button clicks"
+      style: "Satisfying, tactile"
+      duration: "0.2-0.5 seconds"
+
+  emphasis_sounds:
+    - name: "Success/achievement"
+      usage: "Completing deliverables, checkmarks"
+      style: "Positive, rewarding"
+      examples: "Quiz completion, checklist completion"
+
+    - name: "Statistic reveal"
+      usage: "Number count-up animations"
+      style: "Building anticipation"
+      examples: "84% stat, 70% stat reveals"
+
+  avoid:
+    - "Cartoonish or comedic sounds"
+    - "Loud or jarring effects"
+    - "Overuse (less is more)"
+    - "Generic stock sounds that feel dated"
+
+# =============================================================================
+# MIXING SPECIFICATIONS
+# =============================================================================
+
+mixing:
+
+  levels:
+    voiceover: "-6dB to -3dB peak"
+    background_music: "-20dB to -25dB"
+    sound_effects: "-12dB to -8dB"
+
+  processing:
+    voiceover:
+      - "Light compression (3:1 ratio)"
+      - "High-pass filter at 80Hz"
+      - "De-essing if needed"
+      - "Light EQ boost at 3-5kHz for clarity"
+
+    music:
+      - "Sidechain compression ducking under voice"
+      - "Low-pass filter for background use"
+
+    master:
+      - "Limiting to -1dB true peak"
+      - "Target loudness: -16 LUFS (streaming standard)"
+
+  transitions:
+    fade_duration: "0.5-1 second"
+    crossfade: "Use for seamless music transitions"
+    hard_cuts: "Only for intentional emphasis"
+
+# =============================================================================
+# DELIVERY FORMATS
+# =============================================================================
+
+delivery:
+
+  master_files:
+    format: "WAV"
+    sample_rate: "48kHz"
+    bit_depth: "24-bit"
+    naming: "[module]-[lesson]-master.wav"
+
+  web_delivery:
+    format: "AAC or MP3"
+    bitrate: "256kbps or higher"
+    sample_rate: "48kHz"
+    naming: "[module]-[lesson]-web.m4a"
+
+  accessibility:
+    format: "MP3"
+    bitrate: "128kbps"
+    usage: "Audio-only versions, transcripts"
+
+# =============================================================================
+# AUDIO BY MODULE
+# =============================================================================
+
+audio_by_module:
+
+  module-00:
+    lessons: 3
+    estimated_duration: "15 minutes"
+    music_needs: "Intro theme, welcoming background"
+    special_notes: "Set energetic, encouraging tone"
+
+  module-01:
+    lessons: 6
+    estimated_duration: "50 minutes"
+    music_needs: "Exploratory, reflective"
+    special_notes: "Balance energy for self-discovery content"
+
+  module-02:
+    lessons: 8
+    estimated_duration: "85 minutes"
+    music_needs: "Practical, focused"
+    special_notes: "Screencast sections need subtle background"
+
+  module-03:
+    lessons: 6
+    estimated_duration: "55 minutes"
+    music_needs: "Social, encouraging"
+    special_notes: "Build confidence for networking content"
+
+  module-04:
+    lessons: 10
+    estimated_duration: "90 minutes"
+    music_needs: "Confident, professional"
+    special_notes: "Practice sections benefit from subtle support"
+
+  module-05:
+    lessons: 6
+    estimated_duration: "55 minutes"
+    music_needs: "Empowering, professional"
+    special_notes: "Build confidence for money conversations"
+
+  module-06:
+    lessons: 5
+    estimated_duration: "45 minutes"
+    music_needs: "Supportive, gentle, then building"
+    special_notes: "Emotional content requires careful music choices"
+
+  module-07:
+    lessons: 2
+    estimated_duration: "25 minutes"
+    music_needs: "Triumphant, forward-looking"
+    special_notes: "Celebratory tone for course completion"
+
+# =============================================================================
+# PRODUCTION TIMELINE
+# =============================================================================
+
+production_timeline:
+
+  pre_production:
+    - "Select and license music tracks"
+    - "Source sound effects library"
+    - "Set up recording environment"
+    - "Test and calibrate equipment"
+
+  recording:
+    - "Record in module batches"
+    - "Allow 2x script duration for recording time"
+    - "Review takes same day"
+    - "Re-record pickups as needed"
+
+  post_production:
+    - "Clean and edit voiceover"
+    - "Mix with music and effects"
+    - "Quality check all levels"
+    - "Export in all required formats"
+
+# =============================================================================
+# QUALITY CHECKLIST
+# =============================================================================
+
+quality_checklist:
+  recording:
+    - "No background noise or hum"
+    - "Consistent room tone throughout"
+    - "No mouth clicks or plosives"
+    - "Natural pacing and emphasis"
+    - "Energy matches script tone notes"
+
+  mixing:
+    - "Voice clearly audible over music"
+    - "Music doesn't distract from content"
+    - "Sound effects enhance, don't distract"
+    - "Consistent levels across all lessons"
+    - "Smooth transitions"
+
+  delivery:
+    - "All formats exported correctly"
+    - "File naming convention followed"
+    - "Metadata included where applicable"
+    - "Backup copies stored"

@@ -1,0 +1,291 @@
+# Course OS - Examples Collection
+# Resume Bullet Point Transformations
+# Course: Get Hired Fast for Community College Students
+# Phase 6: Content Design
+
+examples:
+  title: "Resume Bullet Point Transformations"
+  description: |
+    Before/after examples showing how to transform weak resume bullet
+    points into achievement-focused statements. All examples use experiences
+    common to community college students.
+
+# =============================================================================
+# RETAIL/CUSTOMER SERVICE TRANSFORMATIONS
+# =============================================================================
+
+retail_service:
+
+  - id: ex-001
+    role: "Cashier"
+    before: "Responsible for operating cash register"
+    after: "Processed $8,000+ in daily transactions with 99.5% accuracy, selected to train 4 new hires on POS system and company policies"
+    transformation_notes:
+      - "Added specific dollar amount"
+      - "Added accuracy metric"
+      - "Showed recognition (selected to train)"
+      - "Quantified training (4 new hires)"
+    skills_demonstrated:
+      - "Accuracy and attention to detail"
+      - "Financial responsibility"
+      - "Training and mentorship"
+      - "Trusted by management"
+
+  - id: ex-002
+    role: "Retail Sales Associate"
+    before: "Helped customers find products"
+    after: "Provided personalized product recommendations to 40+ customers per shift, contributing to 15% increase in accessory sales during holiday season"
+    transformation_notes:
+      - "Quantified customer interactions"
+      - "Linked to business outcome (sales increase)"
+      - "Specified timeframe (holiday season)"
+    skills_demonstrated:
+      - "Customer service"
+      - "Sales ability"
+      - "Product knowledge"
+      - "High-volume performance"
+
+  - id: ex-003
+    role: "Server/Waitstaff"
+    before: "Took orders and served food"
+    after: "Managed 6-8 tables simultaneously during peak hours, maintaining 4.8/5 customer satisfaction rating and consistently earning top tip percentage among staff"
+    transformation_notes:
+      - "Quantified table management"
+      - "Added satisfaction metric"
+      - "Showed relative performance (top percentage)"
+    skills_demonstrated:
+      - "Multitasking under pressure"
+      - "Customer satisfaction focus"
+      - "Time management"
+      - "Competitive performance"
+
+  - id: ex-004
+    role: "Fast Food Team Member"
+    before: "Made food and cleaned restaurant"
+    after: "Prepared 100+ orders per shift maintaining food safety standards, promoted to shift lead within 6 months for reliability and team coordination skills"
+    transformation_notes:
+      - "Quantified order volume"
+      - "Mentioned standards compliance"
+      - "Showed promotion/recognition"
+      - "Specified timeline"
+    skills_demonstrated:
+      - "High-volume production"
+      - "Quality and safety compliance"
+      - "Reliability"
+      - "Leadership potential"
+
+# =============================================================================
+# SCHOOL PROJECT TRANSFORMATIONS
+# =============================================================================
+
+school_projects:
+
+  - id: ex-005
+    project: "Marketing Class Project"
+    before: "Worked on group marketing project"
+    after: "Led competitive analysis for marketing strategy project, presenting findings to client who implemented 3 of 5 recommendations, resulting in 20% increase in social media engagement"
+    transformation_notes:
+      - "Specified role (led competitive analysis)"
+      - "Added client interaction"
+      - "Quantified adoption (3 of 5 recommendations)"
+      - "Showed real-world impact"
+    skills_demonstrated:
+      - "Research and analysis"
+      - "Client presentation"
+      - "Strategic thinking"
+      - "Real-world impact"
+
+  - id: ex-006
+    project: "Group Presentation"
+    before: "Participated in group presentation"
+    after: "Coordinated 4-person team to deliver 30-minute presentation on sustainable business practices, received highest grade in class and selected for department showcase"
+    transformation_notes:
+      - "Quantified team size and duration"
+      - "Added topic specificity"
+      - "Included recognition (highest grade, showcase)"
+    skills_demonstrated:
+      - "Team coordination"
+      - "Presentation skills"
+      - "Subject matter expertise"
+      - "Academic excellence"
+
+  - id: ex-007
+    project: "Research Paper"
+    before: "Wrote research paper for English class"
+    after: "Authored 15-page research paper analyzing economic impacts of minimum wage policies, synthesizing 20+ academic sources and presenting findings to 40-person class"
+    transformation_notes:
+      - "Quantified length and sources"
+      - "Specified topic"
+      - "Added presentation component"
+      - "Quantified audience"
+    skills_demonstrated:
+      - "Research and writing"
+      - "Critical analysis"
+      - "Source synthesis"
+      - "Public speaking"
+
+# =============================================================================
+# VOLUNTEER/COMMUNITY TRANSFORMATIONS
+# =============================================================================
+
+volunteer:
+
+  - id: ex-008
+    role: "Food Bank Volunteer"
+    before: "Volunteered at food bank"
+    after: "Sorted and distributed food to 200+ families weekly, coordinated 10-person volunteer team, and redesigned inventory tracking system reducing waste by 25%"
+    transformation_notes:
+      - "Quantified impact (200+ families)"
+      - "Showed coordination role"
+      - "Added process improvement"
+      - "Quantified improvement (25%)"
+    skills_demonstrated:
+      - "Community service"
+      - "Team coordination"
+      - "Process improvement"
+      - "Inventory management"
+
+  - id: ex-009
+    role: "Tutoring"
+    before: "Tutored students"
+    after: "Tutored 8 middle school students in math and science, developing personalized study plans that improved average test scores by 15 points over one semester"
+    transformation_notes:
+      - "Quantified student count"
+      - "Specified subjects"
+      - "Showed personalization"
+      - "Quantified outcome improvement"
+    skills_demonstrated:
+      - "Teaching and mentoring"
+      - "Personalization"
+      - "Subject expertise"
+      - "Measurable impact"
+
+  - id: ex-010
+    role: "Event Organizer"
+    before: "Helped organize community event"
+    after: "Co-organized community fundraiser attracting 300+ attendees, coordinated 15 volunteers, and raised $5,000 for local youth program — exceeding goal by 25%"
+    transformation_notes:
+      - "Quantified attendance"
+      - "Showed team coordination"
+      - "Added fundraising amount"
+      - "Showed goal exceeded"
+    skills_demonstrated:
+      - "Event planning"
+      - "Volunteer coordination"
+      - "Fundraising"
+      - "Goal achievement"
+
+# =============================================================================
+# FAMILY/PERSONAL RESPONSIBILITY TRANSFORMATIONS
+# =============================================================================
+
+personal:
+
+  - id: ex-011
+    responsibility: "Household Manager"
+    before: "Helped around the house"
+    after: "Managed household budget of $2,000/month while balancing full-time studies, reducing grocery expenses 20% through meal planning and strategic shopping"
+    transformation_notes:
+      - "Quantified budget"
+      - "Added context (full-time studies)"
+      - "Showed specific strategy"
+      - "Quantified savings"
+    skills_demonstrated:
+      - "Budget management"
+      - "Time management"
+      - "Strategic thinking"
+      - "Resourcefulness"
+
+  - id: ex-012
+    responsibility: "Sibling Care"
+    before: "Watched younger siblings"
+    after: "Supervised and mentored two younger siblings (ages 8 and 12) after school, helping with homework and coordinating activities while parents worked — for 4+ years"
+    transformation_notes:
+      - "Specified ages and number"
+      - "Added tutoring component"
+      - "Showed long-term commitment"
+      - "Added context (parents working)"
+    skills_demonstrated:
+      - "Responsibility and reliability"
+      - "Mentoring"
+      - "Schedule coordination"
+      - "Long-term commitment"
+
+  - id: ex-013
+    responsibility: "Bilingual Communication"
+    before: "Helped family with translation"
+    after: "Served as family liaison for medical appointments, banking, and school meetings, translating complex documents and advocating for family members in English-language settings"
+    transformation_notes:
+      - "Specified types of translation"
+      - "Showed professional contexts"
+      - "Added advocacy role"
+      - "Highlighted bilingual skill"
+    skills_demonstrated:
+      - "Bilingual communication"
+      - "Professional interpretation"
+      - "Advocacy"
+      - "Cultural bridge-building"
+
+# =============================================================================
+# INTERNSHIP/WORK STUDY TRANSFORMATIONS
+# =============================================================================
+
+internships:
+
+  - id: ex-014
+    role: "Office Assistant (Work Study)"
+    before: "Answered phones and filed papers"
+    after: "Managed front desk operations for department of 25 staff, implementing digital filing system that reduced document retrieval time by 40% and greeting 50+ visitors weekly"
+    transformation_notes:
+      - "Quantified department size"
+      - "Added process improvement"
+      - "Quantified improvement and visitors"
+    skills_demonstrated:
+      - "Office administration"
+      - "Process improvement"
+      - "Technology implementation"
+      - "Customer service"
+
+  - id: ex-015
+    role: "Research Assistant"
+    before: "Helped professor with research"
+    after: "Collected and analyzed survey data from 150+ participants for faculty research project, contributing to peer-reviewed publication and presenting findings at undergraduate symposium"
+    transformation_notes:
+      - "Quantified participant count"
+      - "Added publication mention"
+      - "Included presentation"
+      - "Showed high-level contribution"
+    skills_demonstrated:
+      - "Research methodology"
+      - "Data analysis"
+      - "Academic contribution"
+      - "Presentation skills"
+
+# =============================================================================
+# COMMON WEAK PHRASES TO AVOID
+# =============================================================================
+
+phrases_to_avoid:
+  - phrase: "Responsible for..."
+    why: "Describes job duties, not achievements"
+    alternative: "Start with action verb + quantified accomplishment"
+
+  - phrase: "Helped with..."
+    why: "Vague, passive, minimizing"
+    alternative: "Specify your exact contribution and outcome"
+
+  - phrase: "Assisted in..."
+    why: "Suggests you were in the background"
+    alternative: "Claim your role with specific actions and results"
+
+  - phrase: "Duties included..."
+    why: "Reads like a job description, not a resume"
+    alternative: "Focus on achievements, not duties"
+
+  - phrase: "Was involved in..."
+    why: "Could mean anything from leading to watching"
+    alternative: "Specify your role and impact"
+
+  - phrase: "Various tasks..."
+    why: "Too vague to be meaningful"
+    alternative: "List specific, most impressive tasks with outcomes"

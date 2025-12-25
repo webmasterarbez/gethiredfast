@@ -1,0 +1,225 @@
+# Lesson Blueprint - Merrill's First Principles
+# Module 01: Career GPS
+# Lesson L1.2: Your Hidden Superpowers: Transferable Skills
+# Duration: 12 minutes
+
+lesson:
+  id: L1.2
+  title: "Your Hidden Superpowers: Transferable Skills"
+  module: module-01
+  type: demonstration
+  duration: "12 minutes"
+
+# =============================================================================
+# PROBLEM-CENTERED
+# =============================================================================
+
+problem_context: |
+  Community college students consistently undervalue their experience. They
+  say "I was just a cashier" or "I only did group projects" without realizing
+  these experiences developed real, marketable skills. This limiting belief
+  leads to weak resumes and low confidence.
+
+  The real problem: "I don't think I have any skills worth mentioning."
+
+# =============================================================================
+# ACTIVATION
+# =============================================================================
+
+activation:
+  prior_knowledge: |
+    - They've had part-time jobs, even if not "professional"
+    - They've completed school projects and assignments
+    - They've helped family, friends, or community
+    - They've learned things on their own (hobbies, interests)
+    - They know what "skills" means in general
+
+  connection: |
+    "Think about the last time someone asked you for help with something.
+    Maybe a friend needed tech support. Maybe you helped organize an event.
+    That thing you did so easily? That's a skill. You just don't see it
+    because it comes naturally to you."
+
+  analogy: |
+    Like a fish asking "What's water?" — your skills are so natural to
+    you that you don't notice them. We're going to help you see what's
+    been invisible.
+
+# =============================================================================
+# DEMONSTRATION
+# =============================================================================
+
+demonstration:
+  key_concepts:
+    - concept: "Transferable skills"
+      explanation: |
+        Skills that apply across different jobs and industries. Communication,
+        problem-solving, teamwork, organization — these matter everywhere.
+        You don't need industry-specific experience to have valuable skills.
+      example: |
+        "Managing a busy register during lunch rush taught you: multitasking,
+        customer service, working under pressure, accuracy with money, conflict
+        resolution. That's 5 skills from one 'basic' job."
+
+    - concept: "Everything counts"
+      explanation: |
+        Skills come from everywhere: jobs, school, volunteering, family
+        responsibilities, hobbies, self-teaching. None of these are "too
+        small" to matter.
+      example: |
+        "Helped your younger sibling with homework? That's tutoring,
+        patience, and communication. Organized the family reunion?
+        That's event planning, coordination, and leadership."
+
+    - concept: "Translation is the key"
+      explanation: |
+        The skill isn't different — just the language. Professional language
+        makes the same experience sound more impressive (and it IS impressive).
+      example: |
+        Before: "Helped customers find stuff"
+        After: "Provided product recommendations and personalized customer
+        service, increasing customer satisfaction"
+
+  worked_examples:
+    - scenario: "Transforming 'cashier' experience"
+      steps:
+        - "Start with the job title: Cashier at Target"
+        - "List what you actually DID: handled transactions, answered questions, stocked shelves, trained new hires"
+        - "Translate each task to a skill: cash handling accuracy, customer service, inventory management, training/mentorship"
+        - "Add impact when possible: '200+ transactions daily with 99% accuracy'"
+      outcome: |
+        "Cashier" becomes: Customer service, cash handling, attention to
+        detail, working under pressure, training others
+
+    - scenario: "Transforming 'group project' experience"
+      steps:
+        - "Start with the project: Marketing plan for local business"
+        - "List your role: researched competitors, presented findings, coordinated team schedules"
+        - "Translate to skills: market research, public speaking, team coordination, project management"
+        - "Add result: 'Presented to client who implemented 3 recommendations'"
+      outcome: |
+        "School project" becomes: Research, presentation, teamwork,
+        client interaction, real-world impact
+
+    - scenario: "Transforming 'family responsibility' experience"
+      steps:
+        - "Start with responsibility: Managed household while mom worked"
+        - "List what you did: budgeting, scheduling, sibling care, cooking"
+        - "Translate: Financial management, time management, supervision, resourcefulness"
+        - "Quantify: 'Managed household budget of $X/month'"
+      outcome: |
+        "Family stuff" becomes: Budget management, scheduling,
+        supervision, problem-solving, responsibility
+
+  non_examples:
+    - what: "Underselling: 'I was just a cashier'"
+      why_wrong: |
+        "Just" minimizes real skills. Cashiers handle money, serve customers,
+        multitask, and solve problems. That's valuable.
+
+    - what: "Overstating: 'I was basically the manager'"
+      why_wrong: |
+        Exaggeration backfires in interviews. Be honest about your role
+        while still claiming the real skills you developed.
+
+    - what: "Ignoring non-work experience"
+      why_wrong: |
+        School projects, volunteer work, and personal experiences all develop
+        skills. Limiting to "official" jobs undersells you.
+
+# =============================================================================
+# APPLICATION
+# =============================================================================
+
+application:
+  guided:
+    - activity: "Transform one experience together"
+      scaffolding: |
+        Cat walks through one common CC student experience (retail job,
+        food service, or school project) using the transformation process.
+        Students follow along with their own example.
+      feedback: |
+        "If you came up with 3+ skills from one experience, you're on track.
+        Most people have 10+ experiences to mine."
+
+  independent:
+    - activity: "Complete Transferable Skills Inventory"
+      success_criteria: |
+        Student identifies 10+ transferable skills from at least 5 different
+        experiences (jobs, school, personal). Each skill has a source
+        experience documented.
+
+# =============================================================================
+# INTEGRATION
+# =============================================================================
+
+integration:
+  reflection: |
+    "Which skill surprised you the most? The one you didn't realize you
+    had until you went through this exercise?"
+
+  transfer: |
+    These skills become the foundation for resume bullet points, interview
+    answers, and LinkedIn content. Students will reference this list
+    throughout the course.
+
+  share: |
+    "Ask someone who knows you: 'What do you think I'm good at?' Their
+    answer might reveal skills you've overlooked."
+
+# =============================================================================
+# RESOURCES
+# =============================================================================
+
+resources:
+  downloads:
+    - name: "Transferable Skills Inventory"
+      description: "Comprehensive checklist with examples"
+      format: pdf
+
+    - name: "Experience Brainstorm Worksheet"
+      description: "Prompts to uncover hidden experiences"
+      format: pdf
+
+    - name: "Skill Translation Guide"
+      description: "Before/after examples for common experiences"
+      format: pdf
+
+# =============================================================================
+# INSTRUCTOR NOTES
+# =============================================================================
+
+instructor_notes:
+  tone: |
+    Eye-opening and encouraging. The goal is an "aha" moment where students
+    realize they have more to offer than they thought. Enthusiastic about
+    their potential.
+
+  key_moments:
+    - "The 'cashier' transformation demo is the centerpiece"
+    - "Pause for students to try their own translation"
+    - "Affirm that everything counts"
+    - "Quantifying makes skills tangible"
+
+  avoid:
+    - "Making it seem like you need impressive experiences"
+    - "Rushing through the transformation process"
+    - "Focusing only on work (include school, personal)"
+
+  visual_suggestions:
+    - "Before/after split screen for transformations"
+    - "Skills emerging from common experiences (visual)"
+    - "10+ skills on screen to show the abundance"
+
+# =============================================================================
+# DELIVERABLE
+# =============================================================================
+
+deliverable:
+  name: "Transferable Skills Inventory"
+  type: artifact
+  required: true
+  success_criteria:
+    - "10+ skills identified"
+    - "Each skill linked to a source experience"
+    - "Professional language used"

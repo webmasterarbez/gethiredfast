@@ -1,0 +1,385 @@
+# Course OS - Module Specification
+# Module 05: Money Moves
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-05
+  title: "Money Moves"
+  subtitle: "Can I Actually Ask For More?"
+  problem: 5
+  type: core
+  duration: "45-60 minutes"
+
+overview:
+  purpose: |
+    Empower students to negotiate compensation confidently. Salary research,
+    total compensation understanding, negotiation tactics, and offer
+    evaluation. The most comprehensive entry-level negotiation training
+    available.
+
+  terminal_outcome: TLO-5
+  enabling_outcomes:
+    - ELO-5.1
+    - ELO-5.2
+    - ELO-5.3
+    - ELO-5.4
+
+  emotional_goal: |
+    Transform "I can't negotiate at entry level" into "I know my worth
+    and how to ask for it." Data-driven confidence replaces fear.
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 5.1: Yes, You Can Negotiate
+  # ---------------------------------------------------------------------------
+
+  - id: L5.1
+    title: "Yes, You Can Negotiate (Even Entry Level)"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Debunks the myth that entry-level candidates can't negotiate.
+      Data showing 84% of employers expect it. Sets up the mindset
+      for negotiation.
+
+    objectives:
+      - "Believe that entry-level negotiation is possible and expected"
+      - "Understand employer perspective on negotiation"
+      - "Know when and what to negotiate"
+
+    gagne_events:
+      attention: |
+        "Here's a stat that should change your life: 84% of employers
+        say they're willing to negotiate with entry-level candidates.
+        But only 38% of new grads even try. That gap? That's money
+        you're leaving on the table."
+      objectives: |
+        Believe that you can and should negotiate, even at entry level.
+      recall: |
+        Have you ever felt like asking for more wasn't "your place"?
+        Where did that belief come from?
+      content:
+        - The negotiation gap (84% willing, 38% try)
+        - Why employers expect and respect negotiation
+        - What's negotiable beyond salary
+        - When NOT to negotiate (red flags)
+        - The long-term impact of starting salary
+      guidance: |
+        "Negotiation isn't greedy. It's professional. Employers budget
+        for it. If you don't ask, you're just giving them money back."
+      retention: |
+        "Every $1,000 in starting salary is worth $500,000+ over a career
+        due to compounding. This conversation matters."
+
+    resources:
+      - name: "Negotiation Statistics Infographic"
+        type: download
+        description: "Data to boost confidence"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 5.2: Know Your Worth: Salary Research
+  # ---------------------------------------------------------------------------
+
+  - id: L5.2
+    title: "Know Your Worth: Salary Research"
+    type: demonstration
+    duration: "12 minutes"
+    format: video + demo
+
+    description: |
+      Shows how to research market salary rates using multiple sources.
+      Demo of Glassdoor, LinkedIn Salary, BLS, and other tools.
+
+    objectives:
+      - "Research salary ranges for target roles"
+      - "Account for location and experience adjustments"
+      - "Define a target salary range (not a single number)"
+
+    gagne_events:
+      attention: |
+        "You can't negotiate if you don't know what you're worth. And
+        you can't just guess. Let me show you exactly how to research
+        what your target roles actually pay."
+      objectives: |
+        Learn to research salary data and define your target range.
+      recall: |
+        Have you ever wondered what jobs actually pay? Today you'll
+        find out for your target roles.
+      content:
+        - Salary research sources (Glassdoor, LinkedIn, BLS, Levels.fyi)
+        - Demo: researching a real role
+        - Location and cost-of-living adjustments
+        - Experience level adjustments
+        - Creating your salary range (low/target/high)
+      guidance: |
+        "Never give a single number. Always give a range. Your floor
+        should be a number you'd actually accept."
+      practice: |
+        Research salary for your target roles → Note the range →
+        Adjust for your location → Define your range
+      retention: |
+        "Update this research before any negotiation. Salaries change,
+        and you need current data."
+
+    resources:
+      - name: "Salary Research Worksheet"
+        type: download
+        description: "Template for recording research"
+      - name: "Salary Research Tools Guide"
+        type: download
+        description: "Which sources for which roles"
+
+    deliverables:
+      - name: "Salary Research Worksheet Completed"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 5.3: Beyond Salary: Total Compensation
+  # ---------------------------------------------------------------------------
+
+  - id: L5.3
+    title: "Beyond Salary: Total Compensation"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Expands understanding beyond base salary to include benefits,
+      PTO, growth opportunities, and other factors. Teaches how to
+      value non-salary components.
+
+    objectives:
+      - "Understand all components of total compensation"
+      - "Value benefits and perks in dollar terms"
+      - "Identify negotiables beyond salary"
+
+    gagne_events:
+      attention: |
+        "A $50,000 salary with great benefits might be worth more than
+        $55,000 with none. But most new grads don't know how to calculate
+        that. Let me show you what total compensation really means."
+      objectives: |
+        Understand and value total compensation, not just salary.
+      recall: |
+        Have you ever thought about what health insurance or PTO
+        is actually worth in dollars?
+      content:
+        - Components of total compensation
+        - Valuing health insurance, 401k, PTO
+        - Growth and learning opportunities
+        - Work-life balance factors
+        - Remote/hybrid value calculation
+      guidance: |
+        "A $5,000 signing bonus is nice, but $5,000 more in base salary
+        compounds forever. Know the difference."
+      retention: |
+        "When comparing offers, use the total compensation worksheet.
+        The highest salary isn't always the best offer."
+
+    resources:
+      - name: "Total Compensation Calculator"
+        type: download
+        description: "Valuing all components"
+      - name: "Benefits Comparison Guide"
+        type: download
+        description: "What to compare between offers"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 5.4: The Negotiation Conversation
+  # ---------------------------------------------------------------------------
+
+  - id: L5.4
+    title: "The Negotiation Conversation"
+    type: demonstration
+    duration: "15 minutes"
+    format: video + scripts
+
+    description: |
+      Exact scripts and strategies for the negotiation conversation.
+      What to say when they make an offer, how to counter, and how
+      to handle pushback.
+
+    objectives:
+      - "Know exactly what to say when an offer is made"
+      - "Counter-offer professionally"
+      - "Handle common employer responses"
+
+    gagne_events:
+      attention: |
+        "The moment of offer is the moment of truth. What you say in
+        the next 30 seconds can be worth thousands of dollars. Here's
+        exactly what to say."
+      objectives: |
+        Learn the scripts for effective salary negotiation.
+      recall: |
+        Have you ever been caught off guard and said something you
+        regretted? We're preventing that.
+      content:
+        - The pause (never respond immediately)
+        - The enthusiasm + ask formula
+        - Counter-offer script
+        - Handling "that's our final offer"
+        - Handling "we can't go higher on salary"
+        - Negotiating non-salary items
+        - Accepting gracefully
+      guidance: |
+        "Always express enthusiasm first. They need to know you want
+        the job before you negotiate. Then ask professionally."
+      practice: |
+        Role-play the negotiation conversation using scripts.
+      retention: |
+        "Practice these scripts out loud. The first time you say them
+        shouldn't be with a real offer on the line."
+
+    resources:
+      - name: "Negotiation Scripts"
+        type: download
+        description: "Word-for-word what to say"
+      - name: "Objection Handling Guide"
+        type: download
+        description: "Responses to common pushback"
+
+    deliverables:
+      - name: "Negotiation Script Prepared"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 5.5: Evaluating Multiple Offers
+  # ---------------------------------------------------------------------------
+
+  - id: L5.5
+    title: "Evaluating Multiple Offers"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Framework for comparing multiple job offers using a structured
+      decision matrix. Goes beyond compensation to include fit,
+      growth, and values.
+
+    objectives:
+      - "Compare offers using a structured framework"
+      - "Weigh factors beyond compensation"
+      - "Make confident decisions"
+
+    gagne_events:
+      attention: |
+        "Having multiple offers is a great problem to have. But choosing
+        between them can be paralyzing. Let me give you a framework
+        that makes the decision clear."
+      objectives: |
+        Learn to evaluate and compare job offers systematically.
+      recall: |
+        Have you ever had to make a big decision and felt overwhelmed
+        by options?
+      content:
+        - The offer evaluation matrix
+        - Weighting factors by importance to you
+        - Compensation comparison
+        - Cultural fit signals
+        - Growth trajectory comparison
+        - The gut check
+      guidance: |
+        "Make the logical analysis, but trust your gut too. If something
+        feels wrong, pay attention to that."
+      retention: |
+        "When offers come, pull out this matrix. It takes emotion out
+        of the decision without ignoring your feelings."
+
+    resources:
+      - name: "Offer Evaluation Matrix"
+        type: download
+        description: "Side-by-side comparison tool"
+      - name: "Decision Framework"
+        type: download
+        description: "Questions to ask yourself"
+
+    deliverables:
+      - name: "Offer Comparison Matrix (template ready)"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 5.6: You Deserve to Be Paid Well (Mindset)
+  # ---------------------------------------------------------------------------
+
+  - id: L5.6
+    title: "You Deserve to Be Paid Well (Mindset)"
+    type: instruction
+    duration: "6 minutes"
+    format: video
+
+    description: |
+      Addresses the psychological barriers to negotiation. Imposter
+      feelings around money, fear of losing the offer, and the belief
+      that you don't deserve to ask.
+
+    objectives:
+      - "Believe you deserve to negotiate"
+      - "Overcome fear of losing the offer"
+      - "Advocate for yourself confidently"
+
+    gagne_events:
+      attention: |
+        "I know what some of you are thinking. 'But what if they take
+        back the offer? What if they think I'm greedy? Who am I to ask
+        for more?' Let's address these fears head-on."
+      objectives: |
+        Overcome the psychological barriers to negotiation.
+      recall: |
+        Where did you learn that asking for more is wrong? Was that
+        lesson serving you?
+      content:
+        - The fear of losing the offer (almost never happens)
+        - "Greedy" vs. professional advocacy
+        - First-gen and low-income student specific barriers
+        - You're negotiating for your future self
+        - The courage to ask
+      guidance: |
+        "Employers don't rescind offers because you negotiated. They
+        expect it. The worst they'll say is no — and then you decide."
+      retention: |
+        "Negotiation is self-advocacy. And you deserve to advocate
+        for yourself."
+
+    resources:
+      - name: "Negotiation Mindset Affirmations"
+        type: download
+        description: "Confidence-building reminders"
+
+    deliverables: []
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 6
+  total_duration: "63 minutes"
+
+  deliverables:
+    - "Salary Research Worksheet Completed"
+    - "Negotiation Script Prepared"
+    - "Offer Comparison Matrix (template ready)"
+
+  mindset_integration: |
+    Lesson 5.6 directly addresses fear of negotiation and imposter
+    feelings around money. The entire module builds confidence through
+    data — knowing your market worth replaces guessing with evidence.
+
+  next_module: "module-06 (Inner Game)"

@@ -1,0 +1,497 @@
+# Course OS - Module Specification
+# Module 04: Interview Intel
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-04
+  title: "Interview Intel"
+  subtitle: "Help! I Have An Interview"
+  problem: 4
+  type: core
+  duration: "60-90 minutes"
+
+overview:
+  purpose: |
+    Prepare students for any interview situation. STAR method mastery,
+    common question preparation, AI video interviews, company research,
+    and professional follow-up.
+
+  terminal_outcome: TLO-4
+  enabling_outcomes:
+    - ELO-4.1
+    - ELO-4.2
+    - ELO-4.3
+    - ELO-4.4
+    - ELO-4.5
+
+  emotional_goal: |
+    Transform interview panic into confident preparation. "I have
+    stories ready and know what to expect."
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.1: Inside the Interview
+  # ---------------------------------------------------------------------------
+
+  - id: L4.1
+    title: "Inside the Interview: What They're Really Looking For"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Insider perspective on what interviewers actually evaluate. Debunks
+      common misconceptions and sets up the right mindset for interviews.
+
+    objectives:
+      - "Understand what interviewers are actually evaluating"
+      - "Know the different types of interviews (phone, video, panel)"
+      - "Recognize the most common interview mistakes"
+
+    gagne_events:
+      attention: |
+        "After 22 years of interviewing candidates, I can tell you:
+        most people prepare for the wrong things. They memorize answers
+        instead of stories. They focus on seeming smart instead of
+        seeming human. Let me show you what actually matters."
+      objectives: |
+        Understand what interviewers look for and how to prepare accordingly.
+      recall: |
+        Think about the last time you had to make a judgment about someone
+        quickly. What mattered to you?
+      content:
+        - The 3 things interviewers evaluate (skills, fit, motivation)
+        - Types of interviews and what each tests
+        - The "would I want to work with this person?" test
+        - Top 5 interview mistakes (and how to avoid them)
+      guidance: |
+        "Technical skills get you the interview. But likability and
+        communication get you the job. Never forget that."
+      retention: |
+        "In the next lesson, you'll learn the technique that answers
+        90% of behavioral interview questions."
+
+    resources:
+      - name: "Interview Types Cheat Sheet"
+        type: download
+        description: "What to expect from each format"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.2: STAR Method Mastery
+  # ---------------------------------------------------------------------------
+
+  - id: L4.2
+    title: "STAR Method Mastery"
+    type: demonstration
+    duration: "15 minutes"
+    format: video + examples
+
+    description: |
+      Deep dive into the STAR method with multiple examples and common
+      variations. The foundation for answering behavioral questions.
+
+    objectives:
+      - "Understand and apply the STAR method"
+      - "Structure compelling stories from limited experience"
+      - "Adapt STAR for different question types"
+
+    gagne_events:
+      attention: |
+        "Tell me about a time when...' — you're going to hear this a lot.
+        And there's a formula that works every single time. It's called
+        STAR, and I'm going to make sure you master it."
+      objectives: |
+        Master the STAR method for answering behavioral interview questions.
+      recall: |
+        Think about a time you solved a problem or helped someone.
+        That's a STAR story waiting to happen.
+      content:
+        - STAR breakdown (Situation, Task, Action, Result)
+        - Demo: transforming an experience into STAR format
+        - Examples from student-relevant situations
+        - Common mistakes (too much S/T, not enough A/R)
+        - Variations (STAR-L, CAR, PAR)
+      guidance: |
+        "The 'Action' part should be the longest. That's where YOU shine.
+        Results should include impact — numbers if possible."
+      practice: |
+        Convert one experience into STAR format (next lesson continues).
+      retention: |
+        "You'll build 5+ STAR stories in the next lesson. These become
+        your interview toolkit."
+
+    resources:
+      - name: "STAR Method Template"
+        type: download
+        description: "Fill-in-the-blank story builder"
+      - name: "STAR Examples for Students"
+        type: download
+        description: "10+ complete examples"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.3: Building Your STAR Story Bank
+  # ---------------------------------------------------------------------------
+
+  - id: L4.3
+    title: "Building Your STAR Story Bank"
+    type: practice
+    duration: "20 minutes"
+    format: guided activity
+
+    description: |
+      Hands-on session to create 5+ STAR stories covering different
+      competency areas. Students leave with a story bank ready for interviews.
+
+    objectives:
+      - "Create 5+ STAR stories covering different competencies"
+      - "Practice telling stories concisely (2-3 minutes)"
+      - "Map stories to common question themes"
+
+    gagne_events:
+      attention: |
+        "Time to build your interview toolkit. By the end of this
+        session, you'll have 5+ stories ready to use. These same stories
+        can answer dozens of different questions."
+      objectives: |
+        Create a STAR story bank with at least 5 stories.
+      recall: |
+        Review your transferable skills list. Each skill likely has a
+        story behind it.
+      content:
+        - The key competency areas to cover
+        - Mapping experiences to competencies
+        - Story selection strategy
+        - Practice telling stories aloud
+      guidance: |
+        "You need stories for: teamwork, problem-solving, leadership,
+        overcoming challenges, and customer/stakeholder management.
+        5 solid stories can cover almost any question."
+      practice: |
+        Identify 5+ experiences → Write STAR format for each →
+        Practice saying aloud → Time yourself (2-3 min each)
+      feedback: |
+        "If a story takes more than 3 minutes, it's too long. Cut the
+        situation setup and expand the action."
+      retention: |
+        "Keep these stories updated. Add new ones as you have new
+        experiences."
+
+    resources:
+      - name: "STAR Story Bank Worksheet"
+        type: download
+        description: "Template for 5+ stories"
+      - name: "Competency-to-Story Mapping"
+        type: download
+        description: "Which stories answer which questions"
+
+    deliverables:
+      - name: "STAR Story Bank (5+ stories)"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.4: The Top 10 Questions
+  # ---------------------------------------------------------------------------
+
+  - id: L4.4
+    title: "The Top 10 Questions (And How to Answer)"
+    type: instruction
+    duration: "15 minutes"
+    format: video
+
+    description: |
+      Covers the 10 most common interview questions with answer frameworks.
+      Not memorized scripts, but structures students can adapt.
+
+    objectives:
+      - "Know the 10 most common interview questions"
+      - "Have a framework for answering each"
+      - "Avoid common pitfalls for each question"
+
+    gagne_events:
+      attention: |
+        "These 10 questions appear in nearly every interview. If you
+        prepare for these, you're 80% ready. Let me show you not just
+        what to say, but how to think about each one."
+      objectives: |
+        Learn frameworks for answering the 10 most common interview questions.
+      recall: |
+        Have you ever been asked "What's your greatest weakness?" and
+        blanked? That ends today.
+      content:
+        - "Tell me about yourself" (elevator pitch + motivation)
+        - "Why this role/company?" (research + genuine interest)
+        - "Greatest strength/weakness" (with examples)
+        - "Where do you see yourself in 5 years?" (growth + commitment)
+        - "Why should we hire you?" (value proposition)
+        - "Tell me about a challenge" (STAR)
+        - "Describe a time you worked in a team" (STAR)
+        - "How do you handle stress/pressure?" (STAR + strategy)
+        - "What questions do you have for us?" (prepared, thoughtful)
+        - "Salary expectations" (range based on research)
+      guidance: |
+        "Never memorize word-for-word. Memorize the structure and
+        key points. That way you sound natural, not robotic."
+      retention: |
+        "Practice these with a friend or in the mirror. The first time
+        you say an answer shouldn't be in the actual interview."
+
+    resources:
+      - name: "Top 10 Questions Answer Frameworks"
+        type: download
+        description: "Structure for each with examples"
+      - name: "Questions to Ask Interviewers"
+        type: download
+        description: "20+ thoughtful questions"
+
+    deliverables:
+      - name: "Answer Frameworks Prepared"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.5: AI Video Interviews (HireVue)
+  # ---------------------------------------------------------------------------
+
+  - id: L4.5
+    title: "AI Video Interviews (HireVue)"
+    type: demonstration
+    duration: "12 minutes"
+    format: video + demo
+
+    description: |
+      Prepares students for one-way video interviews and AI-analyzed
+      interviews. Technical setup and presentation strategies.
+
+    objectives:
+      - "Set up for video interviews (lighting, background, audio)"
+      - "Know what AI interview systems analyze"
+      - "Practice with one-way video format"
+
+    gagne_events:
+      attention: |
+        "More and more companies use AI video interviews for initial
+        screening. You record answers to prompts, and software analyzes
+        your responses. Creepy? Maybe. Common? Absolutely. Let's prepare."
+      objectives: |
+        Know how to succeed in AI and one-way video interviews.
+      recall: |
+        Have you ever been on a video call and realized your background
+        was a mess? First impressions matter even more when recorded.
+      content:
+        - What AI interviews are and who uses them
+        - Technical setup (camera, lighting, background, audio)
+        - What AI systems analyze (keywords, tone, eye contact)
+        - The one-way video format (prompts + limited time)
+        - Demo: setting up and recording a practice response
+      guidance: |
+        "Look at the camera, not the screen. It feels weird but creates
+        eye contact for the viewer. Practice until it feels natural."
+      practice: |
+        Set up your interview space → Record a practice answer →
+        Review and adjust
+      retention: |
+        "Many companies offer practice rounds. Always do them. The
+        first time you see the format shouldn't be the real thing."
+
+    resources:
+      - name: "Video Interview Setup Checklist"
+        type: download
+        description: "Technical requirements and tips"
+      - name: "HireVue Practice Guide"
+        type: download
+        description: "Common platforms and how to prepare"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.6: Research Like a Pro
+  # ---------------------------------------------------------------------------
+
+  - id: L4.6
+    title: "Research Like a Pro"
+    type: instruction
+    duration: "8 minutes"
+    format: video
+
+    description: |
+      How to research companies effectively for interviews. What to
+      find, where to find it, and how to use it.
+
+    objectives:
+      - "Know what to research before an interview"
+      - "Find company information efficiently"
+      - "Use research in interview answers"
+
+    gagne_events:
+      attention: |
+        "Nothing impresses an interviewer more than a candidate who's
+        done their homework. Nothing disappoints more than one who hasn't.
+        Let me show you exactly what to research and where to find it."
+      objectives: |
+        Know how to research companies before interviews.
+      recall: |
+        Have you ever been asked "What do you know about our company?"
+        and had nothing to say?
+      content:
+        - What to research (company, role, interviewer, industry)
+        - Where to find it (company website, LinkedIn, news, Glassdoor)
+        - The 15-minute research routine
+        - How to reference research in answers
+      guidance: |
+        "Look for recent news, company values, and the interviewer's
+        background. Mentioning something specific shows you care."
+      retention: |
+        "Do this research BEFORE every interview. Put it in the same
+        document as your prepared answers."
+
+    resources:
+      - name: "Company Research Template"
+        type: download
+        description: "What to find and where"
+      - name: "Interviewer Research Guide"
+        type: download
+        description: "How to use LinkedIn for prep"
+
+    deliverables:
+      - name: "Company Research Template"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.7: The Thank-You That Gets Remembered
+  # ---------------------------------------------------------------------------
+
+  - id: L4.7
+    title: "The Thank-You That Gets Remembered"
+    type: demonstration
+    duration: "6 minutes"
+    format: video
+
+    description: |
+      How to write thank-you notes that reinforce your candidacy and
+      leave a lasting impression.
+
+    objectives:
+      - "Write effective thank-you notes within 24 hours"
+      - "Personalize notes for each interviewer"
+      - "Use follow-up to stay top-of-mind"
+
+    gagne_events:
+      attention: |
+        "Only 24% of candidates send thank-you notes. That means if
+        you send one — a good one — you immediately stand out. And it
+        takes 5 minutes."
+      objectives: |
+        Learn to write thank-you notes that reinforce your candidacy.
+      recall: |
+        Have you ever received a thank-you note? How did it make you
+        feel about the person who sent it?
+      content:
+        - The 24-hour rule
+        - Thank-you note structure
+        - Personalizing for multiple interviewers
+        - When email vs. handwritten
+        - Following up after thank-you
+      guidance: |
+        "Reference something specific from the conversation. Shows you
+        were paying attention and care about the role."
+      retention: |
+        "Write a template now. After interviews, you'll personalize and
+        send within hours."
+
+    resources:
+      - name: "Thank-You Note Templates"
+        type: download
+        description: "Email and handwritten formats"
+      - name: "Follow-Up Sequence"
+        type: download
+        description: "When and how to check in"
+
+    deliverables:
+      - name: "Thank-You Note Template"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 4.8: Interview Anxiety Is Normal (Mindset)
+  # ---------------------------------------------------------------------------
+
+  - id: L4.8
+    title: "Interview Anxiety Is Normal (Mindset)"
+    type: instruction
+    duration: "6 minutes"
+    format: video
+
+    description: |
+      Normalizes interview anxiety and provides strategies for managing
+      it. Reframes nervousness as excitement.
+
+    objectives:
+      - "Recognize interview anxiety as normal and manageable"
+      - "Apply strategies to reduce anxiety"
+      - "Reframe nervousness as excitement"
+
+    gagne_events:
+      attention: |
+        "Everyone gets nervous before interviews. Even people who've
+        done hundreds of them. The difference is how you handle it.
+        Let me share what works."
+      objectives: |
+        Learn strategies to manage interview anxiety.
+      recall: |
+        Think about a time you were nervous but did it anyway.
+        How did you feel afterward?
+      content:
+        - Why everyone gets nervous (it's biological)
+        - The anxiety-excitement reframe
+        - Pre-interview calming techniques
+        - What to do when you blank on a question
+        - Recovery from a bad answer
+      guidance: |
+        "Nervous energy and excitement feel the same. Tell your brain
+        'I'm excited' instead of 'I'm scared.' It actually works."
+      retention: |
+        "Preparation reduces anxiety. The more you practice, the more
+        confident you'll feel."
+
+    resources:
+      - name: "Pre-Interview Calm Routine"
+        type: download
+        description: "5-minute anxiety reduction"
+      - name: "Interview Recovery Scripts"
+        type: download
+        description: "What to say when you mess up"
+
+    deliverables: []
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 8
+  total_duration: "92 minutes"
+
+  deliverables:
+    - "STAR Story Bank (5+ stories)"
+    - "Answer Frameworks Prepared"
+    - "Company Research Template"
+    - "Thank-You Note Template"
+
+  mindset_integration: |
+    Lesson 4.8 directly addresses interview anxiety. The preparation
+    emphasis throughout the module builds confidence — students know
+    they're ready. Recovery strategies reduce fear of mistakes.
+
+  next_module: "module-05 (Money Moves)"

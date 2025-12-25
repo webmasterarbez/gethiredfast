@@ -1,0 +1,498 @@
+# Course OS - Graphics Specifications
+# Course: Get Hired Fast for Community College Students
+# Phase 9: Media Production Planning
+
+# =============================================================================
+# BRAND GUIDELINES
+# =============================================================================
+
+brand:
+
+  colors:
+    primary: "#003366"      # Navy blue
+    secondary: "#FF6B35"    # Accent orange
+    success: "#10B981"      # Green (for checkmarks, success states)
+    warning: "#F59E0B"      # Amber (for caution/tips)
+    error: "#EF4444"        # Red (for mistakes/don'ts)
+    background_light: "#FFFFFF"
+    background_dark: "#F5F5F5"
+    text_primary: "#1F2937"
+    text_secondary: "#6B7280"
+
+  typography:
+    headings:
+      font: "Montserrat"
+      weight: "Bold (700)"
+      size_large: "72px"
+      size_medium: "48px"
+      size_small: "36px"
+    body:
+      font: "Open Sans"
+      weight: "Regular (400), Semibold (600)"
+      size_large: "32px"
+      size_medium: "24px"
+      size_small: "18px"
+
+  spacing:
+    margin_edge: "80px"
+    padding_internal: "40px"
+    item_spacing: "24px"
+
+# =============================================================================
+# GRAPHIC TEMPLATES
+# =============================================================================
+
+templates:
+
+  # ---------------------------------------------------------------------------
+  # LESSON OBJECTIVES
+  # ---------------------------------------------------------------------------
+
+  lesson_objectives:
+    count: 44
+    dimensions: "1920x1080"
+    layout: "Left-aligned list"
+
+    elements:
+      header:
+        text: "By the end of this lesson, you'll:"
+        font: "Montserrat Bold"
+        size: "42px"
+        color: "#1F2937"
+        position: "top-left, 80px margin"
+
+      bullets:
+        icon: "Checkmark circle"
+        icon_color: "#10B981"
+        text_font: "Open Sans"
+        text_size: "28px"
+        text_color: "#1F2937"
+        spacing: "32px between items"
+        max_items: 4
+
+    animation:
+      style: "Fade in"
+      sequence: "Header first, then bullets staggered (0.3s each)"
+      duration: "1.5s total"
+
+  # ---------------------------------------------------------------------------
+  # KEY TAKEAWAYS
+  # ---------------------------------------------------------------------------
+
+  key_takeaways:
+    count: 44
+    dimensions: "1920x1080"
+    layout: "Centered list"
+
+    elements:
+      header:
+        text: "Key Takeaways" or "Here's what you now know:"
+        font: "Montserrat Bold"
+        size: "48px"
+        color: "#003366"
+        position: "top-center"
+
+      items:
+        icon: "Checkmark"
+        icon_color: "#10B981"
+        text_font: "Open Sans Semibold"
+        text_size: "28px"
+        text_color: "#1F2937"
+        max_items: 5
+
+    animation:
+      style: "Fade in with slight upward motion"
+      sequence: "All items staggered"
+
+  # ---------------------------------------------------------------------------
+  # STATISTICS CALLOUT
+  # ---------------------------------------------------------------------------
+
+  statistic_callout:
+    count: 45
+    dimensions: "1920x1080"
+    layout: "Centered, large number"
+
+    elements:
+      number:
+        font: "Montserrat Bold"
+        size: "200px"
+        color: "#003366"
+        position: "center"
+
+      unit_or_percent:
+        font: "Montserrat Bold"
+        size: "80px"
+        color: "#FF6B35"
+        position: "after number"
+
+      label:
+        font: "Open Sans"
+        size: "36px"
+        color: "#6B7280"
+        position: "below number"
+
+    examples:
+      - number: "84"
+        unit: "%"
+        label: "of employers are willing to negotiate"
+      - number: "70"
+        unit: "%"
+        label: "of jobs are never publicly posted"
+      - number: "6"
+        unit: "sec"
+        label: "average time recruiters spend on a resume"
+
+    animation:
+      style: "Number count up from 0"
+      duration: "1.5s"
+
+  # ---------------------------------------------------------------------------
+  # FRAMEWORK DIAGRAM
+  # ---------------------------------------------------------------------------
+
+  framework_diagram:
+    count: 85
+    dimensions: "1920x1080"
+    layout: "Varies by content"
+
+    styles:
+      linear_sequence:
+        description: "Step 1 → Step 2 → Step 3"
+        arrows: "Chevron style"
+        colors: "Gradient or single color"
+
+      pie_or_percentage:
+        description: "Time/proportion breakdown"
+        style: "Donut chart or bar"
+
+      comparison:
+        description: "Side by side (Do vs Don't)"
+        layout: "Two columns"
+        do_color: "#10B981"
+        dont_color: "#EF4444"
+
+      hierarchy:
+        description: "Pyramid or layered"
+        layout: "Top to bottom"
+
+      cycle:
+        description: "Circular process"
+        layout: "Circle with arrows"
+
+    examples:
+      STAR_method:
+        type: "linear_sequence"
+        items: ["Situation", "Task", "Action", "Result"]
+        time_percentages: ["15%", "10%", "50-60%", "15-20%"]
+
+      XYZ_formula:
+        type: "linear_sequence"
+        items: ["Accomplished X", "by doing Y", "resulting in Z"]
+
+      three_factors:
+        type: "venn_or_intersection"
+        items: ["Interests", "Skills", "Market Demand"]
+
+  # ---------------------------------------------------------------------------
+  # CHECKLIST
+  # ---------------------------------------------------------------------------
+
+  checklist:
+    count: 35
+    dimensions: "1920x1080"
+    layout: "Left-aligned with checkboxes"
+
+    elements:
+      header:
+        font: "Montserrat Bold"
+        size: "42px"
+        color: "#1F2937"
+
+      items:
+        checkbox: "Square, rounded corners"
+        checkbox_color: "#003366"
+        check_color: "#10B981"
+        text_font: "Open Sans"
+        text_size: "24px"
+        max_items: 8
+
+    animation:
+      style: "Items appear, checks animate in"
+
+  # ---------------------------------------------------------------------------
+  # BEFORE/AFTER COMPARISON
+  # ---------------------------------------------------------------------------
+
+  before_after:
+    count: 15
+    dimensions: "1920x1080"
+    layout: "Two columns"
+
+    elements:
+      before:
+        header: "Before" or "❌ Don't"
+        header_color: "#EF4444"
+        background: "#FEE2E2"
+        content_box: "Left half"
+
+      after:
+        header: "After" or "✓ Do"
+        header_color: "#10B981"
+        background: "#D1FAE5"
+        content_box: "Right half"
+
+      divider:
+        style: "Vertical line or arrow"
+        color: "#6B7280"
+
+    use_cases:
+      - "Resume bullet transformations"
+      - "LinkedIn headline improvements"
+      - "Networking message rewrites"
+
+  # ---------------------------------------------------------------------------
+  # QUOTE/CALLOUT
+  # ---------------------------------------------------------------------------
+
+  quote_callout:
+    dimensions: "1920x1080"
+    layout: "Centered with quote marks"
+
+    elements:
+      quote_marks:
+        style: "Large decorative quotation marks"
+        color: "#FF6B35"
+        opacity: "30%"
+
+      text:
+        font: "Open Sans Italic"
+        size: "36px"
+        color: "#1F2937"
+        max_lines: 4
+
+      attribution:
+        font: "Open Sans"
+        size: "24px"
+        color: "#6B7280"
+
+  # ---------------------------------------------------------------------------
+  # LOWER THIRD
+  # ---------------------------------------------------------------------------
+
+  lower_third:
+    dimensions: "1920x200"
+    position: "Bottom of frame"
+
+    elements:
+      background:
+        color: "#003366"
+        opacity: "90%"
+
+      text:
+        font: "Open Sans Semibold"
+        size: "28px"
+        color: "#FFFFFF"
+
+      accent:
+        bar: "Left side accent bar"
+        color: "#FF6B35"
+
+    use_cases:
+      - "Presenter name/title"
+      - "Current topic"
+      - "Key point emphasis"
+
+  # ---------------------------------------------------------------------------
+  # END CARD
+  # ---------------------------------------------------------------------------
+
+  end_card:
+    dimensions: "1920x1080"
+    layout: "Centered"
+
+    elements:
+      next_lesson:
+        text: "Next: [Lesson Title]"
+        font: "Montserrat Bold"
+        size: "48px"
+        color: "#003366"
+
+      cta:
+        text: "Complete your [Deliverable] before moving on"
+        font: "Open Sans"
+        size: "28px"
+        color: "#6B7280"
+
+      branding:
+        logo: "Saint Paul College Career Services"
+        position: "Bottom right"
+
+# =============================================================================
+# GRAPHICS INVENTORY BY MODULE
+# =============================================================================
+
+graphics_by_module:
+
+  module-00:
+    total: 35
+    key_graphics:
+      - name: "Course welcome title"
+        type: "title_card"
+      - name: "6 problems framework"
+        type: "framework_diagram"
+      - name: "Course navigation overview"
+        type: "framework_diagram"
+      - name: "Daily Action Tracker preview"
+        type: "screenshot_styled"
+      - name: "Module thumbnails (8)"
+        type: "thumbnail"
+
+  module-01:
+    total: 65
+    key_graphics:
+      - name: "3 factors diagram"
+        type: "framework_diagram"
+      - name: "Transferable skills categories"
+        type: "checklist"
+      - name: "Target Job Scorecard"
+        type: "framework_diagram"
+      - name: "5 scoring factors"
+        type: "checklist"
+      - name: "AI impact visualization"
+        type: "infographic"
+      - name: "Imposter syndrome stats"
+        type: "statistic_callout"
+
+  module-02:
+    total: 130
+    key_graphics:
+      - name: "6-second scan heatmap"
+        type: "infographic"
+      - name: "5 resume killers"
+        type: "comparison"
+      - name: "XYZ formula"
+        type: "framework_diagram"
+      - name: "Before/after bullets (15)"
+        type: "before_after"
+      - name: "ATS dos and don'ts"
+        type: "comparison"
+      - name: "LinkedIn All-Star checklist"
+        type: "checklist"
+      - name: "Elevator pitch formula"
+        type: "framework_diagram"
+
+  module-03:
+    total: 85
+    key_graphics:
+      - name: "70% hidden job market"
+        type: "statistic_callout"
+      - name: "Weak ties diagram"
+        type: "framework_diagram"
+      - name: "Network mapping categories"
+        type: "framework_diagram"
+      - name: "Outreach templates"
+        type: "text_template"
+      - name: "Informational interview structure"
+        type: "framework_diagram"
+      - name: "Platform comparison"
+        type: "comparison"
+
+  module-04:
+    total: 150
+    key_graphics:
+      - name: "3 evaluation criteria"
+        type: "framework_diagram"
+      - name: "STAR method breakdown"
+        type: "framework_diagram"
+      - name: "Time allocation (S-T-A-R)"
+        type: "pie_or_percentage"
+      - name: "Top 10 questions (10 frameworks)"
+        type: "framework_diagram"
+      - name: "Video interview setup"
+        type: "checklist"
+      - name: "Company research routine"
+        type: "framework_diagram"
+      - name: "Thank-you note template"
+        type: "text_template"
+      - name: "Anxiety vs excitement"
+        type: "comparison"
+
+  module-05:
+    total: 95
+    key_graphics:
+      - name: "84% negotiation stat"
+        type: "statistic_callout"
+      - name: "$1,000 = $500,000 compound"
+        type: "infographic"
+      - name: "Total compensation breakdown"
+        type: "framework_diagram"
+      - name: "Salary research sources"
+        type: "checklist"
+      - name: "Floor/Target/Stretch"
+        type: "framework_diagram"
+      - name: "Enthusiasm + Ask formula"
+        type: "framework_diagram"
+      - name: "Negotiation scripts"
+        type: "text_template"
+      - name: "Offer comparison matrix"
+        type: "table"
+
+  module-06:
+    total: 75
+    key_graphics:
+      - name: "70% imposter syndrome"
+        type: "statistic_callout"
+      - name: "5 imposter types"
+        type: "framework_diagram"
+      - name: "Reframe technique"
+        type: "framework_diagram"
+      - name: "Reframe card template"
+        type: "text_template"
+      - name: "24-hour rejection rule"
+        type: "framework_diagram"
+      - name: "Minimum viable day"
+        type: "framework_diagram"
+      - name: "30-day commitment"
+        type: "callout"
+
+  module-07:
+    total: 45
+    key_graphics:
+      - name: "90-day phases diagram"
+        type: "framework_diagram"
+      - name: "Weekly minimums table"
+        type: "table"
+      - name: "Phase 1/2/3 checklists"
+        type: "checklist"
+      - name: "Milestone timeline"
+        type: "framework_diagram"
+      - name: "Complete toolkit inventory"
+        type: "checklist"
+      - name: "Celebration/completion"
+        type: "celebratory"
+
+# =============================================================================
+# DELIVERY SPECIFICATIONS
+# =============================================================================
+
+delivery:
+
+  file_formats:
+    static: "PNG (transparent where applicable)"
+    animated: "MP4 or MOV (ProRes for editing)"
+    source: "Figma/Illustrator/After Effects project files"
+
+  naming_convention: "[module]-[lesson]-[type]-[name].png"
+  example: "M02-L04-framework-xyz-formula.png"
+
+  folder_structure:
+    - "graphics/module-00/"
+    - "graphics/module-01/"
+    - "graphics/module-02/"
+    - "graphics/module-03/"
+    - "graphics/module-04/"
+    - "graphics/module-05/"
+    - "graphics/module-06/"
+    - "graphics/module-07/"
+    - "graphics/shared/" (templates, logos, icons)

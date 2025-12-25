@@ -1,0 +1,146 @@
+# Lesson Blueprint - Merrill's First Principles
+# Module 00: Launchpad
+# Lesson L0.1: Welcome from Cat
+# Duration: 5 minutes
+
+lesson:
+  id: L0.1
+  title: "Welcome from Cat"
+  module: module-00
+  type: instruction
+  duration: "5 minutes"
+
+# =============================================================================
+# PROBLEM-CENTERED
+# =============================================================================
+
+problem_context: |
+  Students are starting a job search course feeling overwhelmed, uncertain,
+  and possibly skeptical. They don't know if this course will actually help
+  or if it's just more generic career advice. They need to trust the
+  instructor and believe the promise before they'll engage.
+
+  The real problem: "Why should I believe this course will help me when
+  everything else hasn't?"
+
+# =============================================================================
+# ACTIVATION
+# =============================================================================
+
+activation:
+  prior_knowledge: |
+    - They've likely tried job searching before with limited success
+    - They've received generic career advice that didn't work
+    - They may have watched other career content that felt disconnected
+    - They understand the concept of "getting hired" even if mechanics are unclear
+
+  connection: |
+    Connect to their frustration with generic advice by acknowledging it
+    directly. "Most career advice is written by people who've never hired
+    anyone. I've been on the hiring side for 22 years."
+
+  analogy: |
+    Like having a friend who works at the restaurant and can tell you
+    what's actually good vs. what the menu says — Cat is the insider
+    who knows how hiring really works.
+
+# =============================================================================
+# DEMONSTRATION
+# =============================================================================
+
+demonstration:
+  key_concepts:
+    - concept: "Credibility through experience"
+      explanation: |
+        Cat has 22 years in recruiting, has reviewed 10,000+ resumes,
+        and has hired thousands of people. This isn't theory — it's
+        battle-tested knowledge.
+      example: |
+        "I've sat on the other side of the interview table. I know
+        what makes me say 'yes' and what makes me say 'no' — and I'm
+        going to tell you."
+
+    - concept: "The course promise"
+      explanation: |
+        Find jobs 55% faster than average. Not a vague promise but a
+        specific, measurable outcome based on proven methodology.
+      example: |
+        "The national average is 22 weeks to get hired. My students
+        average 10 weeks or less. That's not magic — it's method."
+
+    - concept: "Designed for you"
+      explanation: |
+        This course is specifically for community college students,
+        not recycled content for executives or tech workers.
+      example: |
+        "I know you're working while studying. I know your resume
+        feels thin. I know you might not have connections. This course
+        is built for exactly where you are."
+
+  worked_examples: []  # Not applicable for welcome video
+
+  non_examples:
+    - what: "Generic motivational speech with no substance"
+      why_wrong: |
+        Students are cynical about empty motivation. They need to see
+        credibility and specific value, not cheerleading.
+
+    - what: "Overwhelming them with everything they'll learn"
+      why_wrong: |
+        They're already overwhelmed. The welcome should simplify and
+        reassure, not add to their cognitive load.
+
+# =============================================================================
+# APPLICATION
+# =============================================================================
+
+application:
+  guided: []  # Not applicable for welcome video
+
+  independent:
+    - activity: "Believe the promise"
+      success_criteria: |
+        Student feels hopeful and willing to engage with the course.
+        They trust Cat and believe the promise is achievable.
+
+# =============================================================================
+# INTEGRATION
+# =============================================================================
+
+integration:
+  reflection: |
+    "What would it mean for you to find a job in 10 weeks instead of 22?
+    What would change in your life?"
+
+  transfer: |
+    This lesson transfers by setting the emotional foundation. When students
+    hit obstacles later, they remember "Cat said this was possible" and
+    "Cat has been where I want to go."
+
+  share: |
+    Not applicable — this is private commitment, not shareable content.
+
+# =============================================================================
+# INSTRUCTOR NOTES
+# =============================================================================
+
+instructor_notes:
+  tone: |
+    Warm, confident, real. Not salesy or hype-y. Cat should feel like
+    a mentor who genuinely cares, not a marketer selling a product.
+
+  key_moments:
+    - "Establish credibility early (22 years, hiring side)"
+    - "Acknowledge their struggles without dwelling"
+    - "Make the promise specific and believable"
+    - "End with 'I've got your back' energy"
+
+  avoid:
+    - "Overwhelming with course structure details"
+    - "Making it about Cat instead of about them"
+    - "Promising things will be easy (they won't)"
+
+  visual_suggestions:
+    - "Direct to camera, warm setting"
+    - "Brief B-roll of professional environments"
+    - "Text overlay of '55% faster' stat"

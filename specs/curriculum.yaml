@@ -1,0 +1,663 @@
+# Course OS - Curriculum Architecture
+# Course: Get Hired Fast for Community College Students
+# Phase 5: Curriculum Architecture
+# Generated: 2025-12-22
+
+# =============================================================================
+# CURRICULUM PHILOSOPHY
+# =============================================================================
+
+philosophy:
+
+  structure: "Problem-Centered"
+
+  rationale: |
+    This curriculum is organized around 6 core problems that job seekers face,
+    not arbitrary weekly modules. Students can enter at any problem based on
+    their immediate needs, though a recommended path exists for those starting
+    from scratch.
+
+  design_principles:
+    - "Each module solves a specific, named problem"
+    - "Every lesson ends with a clear action or deliverable"
+    - "Mindset content woven throughout, not isolated"
+    - "10-15 minute videos maximum for mobile learners"
+    - "Scripts and templates reduce activation energy"
+
+# =============================================================================
+# MODULE OVERVIEW
+# =============================================================================
+
+modules:
+
+  # ---------------------------------------------------------------------------
+  # MODULE 0: LAUNCHPAD (ONBOARDING)
+  # ---------------------------------------------------------------------------
+
+  - id: module-00
+    title: "Launchpad"
+    subtitle: "Your 15-Minute Quick Start"
+    problem: null  # Onboarding, not problem-based
+    type: onboarding
+    duration: "15-20 minutes"
+    description: |
+      Welcome and orientation. Sets expectations, introduces the Daily Action
+      Tracker, and delivers the first quick win. Students leave knowing exactly
+      how the course works and feeling they can do this.
+
+    terminal_outcome: null
+    enabling_outcomes: []
+
+    lessons:
+      - id: L0.1
+        title: "Welcome from Cat"
+        type: instruction
+        duration: "5 min"
+
+      - id: L0.2
+        title: "How This Course Works"
+        type: instruction
+        duration: "5 min"
+
+      - id: L0.3
+        title: "Set Up Your Daily Action Tracker"
+        type: practice
+        duration: "10 min"
+
+    deliverables:
+      - "Daily Action Tracker downloaded/set up"
+      - "First entry logged"
+
+    mindset_integration: |
+      Addresses initial overwhelm by showing the path is clear and manageable.
+      "You've already started. That's the hardest part."
+
+  # ---------------------------------------------------------------------------
+  # MODULE 1: CAREER GPS
+  # ---------------------------------------------------------------------------
+
+  - id: module-01
+    title: "Career GPS"
+    subtitle: "WTF Should I Do With My Life?"
+    problem: 1
+    type: core
+    duration: "45-60 minutes"
+    description: |
+      Career exploration, self-assessment, transferable skills identification,
+      and target job selection. Students leave with clarity on where to focus
+      their job search.
+
+    terminal_outcome: TLO-1
+    enabling_outcomes:
+      - ELO-1.1
+      - ELO-1.2
+      - ELO-1.3
+      - ELO-1.4
+
+    lessons:
+      - id: L1.1
+        title: "Finding Your Career Direction"
+        type: instruction
+        duration: "10 min"
+
+      - id: L1.2
+        title: "Your Hidden Superpowers: Transferable Skills"
+        type: demonstration
+        duration: "12 min"
+
+      - id: L1.3
+        title: "Target Job Scorecard"
+        type: practice
+        duration: "15 min"
+
+      - id: L1.4
+        title: "AI and the Future of Your Career"
+        type: instruction
+        duration: "10 min"
+
+      - id: L1.5
+        title: "You Belong Here (Mindset)"
+        type: instruction
+        duration: "8 min"
+
+    deliverables:
+      - "Self-assessment completed"
+      - "Transferable skills inventory (10+ skills)"
+      - "Target Job Scorecard (2-3 target roles)"
+      - "Champion list started (10+ people)"
+
+    mindset_integration: |
+      Addresses "I don't know what I want" paralysis and early imposter syndrome.
+      Normalizes uncertainty while providing structure for exploration.
+
+  # ---------------------------------------------------------------------------
+  # MODULE 2: BRAND BUILDER
+  # ---------------------------------------------------------------------------
+
+  - id: module-02
+    title: "Brand Builder"
+    subtitle: "My Resume Has Nothing On It"
+    problem: 2
+    type: core
+    duration: "60-90 minutes"
+    description: |
+      Resume writing for limited experience, ATS optimization, LinkedIn profile
+      creation, and personal branding. Students leave with polished, professional
+      application materials.
+
+    terminal_outcome: TLO-2
+    enabling_outcomes:
+      - ELO-2.1
+      - ELO-2.2
+      - ELO-2.3
+      - ELO-2.4
+      - ELO-2.5
+
+    lessons:
+      - id: L2.1
+        title: "Resume Foundations: What Recruiters Actually See"
+        type: instruction
+        duration: "12 min"
+
+      - id: L2.2
+        title: "Writing Bullet Points That Pop"
+        type: demonstration
+        duration: "15 min"
+
+      - id: L2.3
+        title: "ATS Secrets: Getting Past the Robots"
+        type: instruction
+        duration: "10 min"
+
+      - id: L2.4
+        title: "Resume Workshop"
+        type: practice
+        duration: "20 min"
+
+      - id: L2.5
+        title: "LinkedIn: Your Digital First Impression"
+        type: demonstration
+        duration: "15 min"
+
+      - id: L2.6
+        title: "AI Tools for Job Search"
+        type: demonstration
+        duration: "12 min"
+
+      - id: L2.7
+        title: "Your Elevator Pitch"
+        type: practice
+        duration: "10 min"
+
+      - id: L2.8
+        title: "Done Is Better Than Perfect (Mindset)"
+        type: instruction
+        duration: "6 min"
+
+    deliverables:
+      - "ATS-optimized resume"
+      - "LinkedIn All-Star profile"
+      - "30-second elevator pitch (written)"
+
+    mindset_integration: |
+      Addresses perfectionism paralysis on resume. Emphasizes that a "good enough"
+      resume you submit beats a perfect one you never send.
+
+  # ---------------------------------------------------------------------------
+  # MODULE 3: NETWORK NAVIGATOR
+  # ---------------------------------------------------------------------------
+
+  - id: module-03
+    title: "Network Navigator"
+    subtitle: "I Don't Know Anyone"
+    problem: 3
+    type: core
+    duration: "45-60 minutes"
+    description: |
+      Hidden job market access, network mapping, outreach scripts, informational
+      interviews, and modern platforms. Students leave with a network map and
+      sent outreach messages.
+
+    terminal_outcome: TLO-3
+    enabling_outcomes:
+      - ELO-3.1
+      - ELO-3.2
+      - ELO-3.3
+      - ELO-3.4
+      - ELO-3.5
+
+    lessons:
+      - id: L3.1
+        title: "The Hidden Job Market (70% of Jobs)"
+        type: instruction
+        duration: "10 min"
+
+      - id: L3.2
+        title: "You Know More People Than You Think"
+        type: demonstration
+        duration: "12 min"
+
+      - id: L3.3
+        title: "Network Mapping Exercise"
+        type: practice
+        duration: "15 min"
+
+      - id: L3.4
+        title: "What to Say: Networking Scripts"
+        type: demonstration
+        duration: "12 min"
+
+      - id: L3.5
+        title: "Informational Interviews That Work"
+        type: instruction
+        duration: "10 min"
+
+      - id: L3.6
+        title: "Handshake & Modern Platforms"
+        type: demonstration
+        duration: "8 min"
+
+      - id: L3.7
+        title: "Networking Isn't Fake (Mindset)"
+        type: instruction
+        duration: "6 min"
+
+    deliverables:
+      - "Network map (50+ contacts)"
+      - "3 outreach messages drafted"
+      - "3 informational interview requests sent"
+      - "Handshake profile complete"
+
+    mindset_integration: |
+      Reframes networking from "using people" to "building genuine relationships."
+      Scripts reduce fear of not knowing what to say.
+
+  # ---------------------------------------------------------------------------
+  # MODULE 4: INTERVIEW INTEL
+  # ---------------------------------------------------------------------------
+
+  - id: module-04
+    title: "Interview Intel"
+    subtitle: "Help! I Have An Interview"
+    problem: 4
+    type: core
+    duration: "60-90 minutes"
+    description: |
+      STAR method mastery, common question preparation, AI video interviews,
+      company research, and follow-up. Students leave interview-ready with
+      a story bank and answer frameworks.
+
+    terminal_outcome: TLO-4
+    enabling_outcomes:
+      - ELO-4.1
+      - ELO-4.2
+      - ELO-4.3
+      - ELO-4.4
+      - ELO-4.5
+
+    lessons:
+      - id: L4.1
+        title: "Inside the Interview: What They're Really Looking For"
+        type: instruction
+        duration: "10 min"
+
+      - id: L4.2
+        title: "STAR Method Mastery"
+        type: demonstration
+        duration: "15 min"
+
+      - id: L4.3
+        title: "Building Your STAR Story Bank"
+        type: practice
+        duration: "20 min"
+
+      - id: L4.4
+        title: "The Top 10 Questions (And How to Answer)"
+        type: instruction
+        duration: "15 min"
+
+      - id: L4.5
+        title: "AI Video Interviews (HireVue)"
+        type: demonstration
+        duration: "12 min"
+
+      - id: L4.6
+        title: "Research Like a Pro"
+        type: instruction
+        duration: "8 min"
+
+      - id: L4.7
+        title: "The Thank-You That Gets Remembered"
+        type: demonstration
+        duration: "6 min"
+
+      - id: L4.8
+        title: "Interview Anxiety Is Normal (Mindset)"
+        type: instruction
+        duration: "6 min"
+
+    deliverables:
+      - "STAR story bank (5+ stories)"
+      - "Answer frameworks for common questions"
+      - "Company research template"
+      - "Thank-you note template"
+
+    mindset_integration: |
+      Normalizes interview anxiety and reframes it as excitement. Practice
+      builds confidence — preparation is the antidote to panic.
+
+  # ---------------------------------------------------------------------------
+  # MODULE 5: MONEY MOVES
+  # ---------------------------------------------------------------------------
+
+  - id: module-05
+    title: "Money Moves"
+    subtitle: "Can I Actually Ask For More?"
+    problem: 5
+    type: core
+    duration: "45-60 minutes"
+    description: |
+      Salary research, total compensation, negotiation tactics, and offer
+      evaluation. Students leave knowing their worth and how to ask for it.
+
+    terminal_outcome: TLO-5
+    enabling_outcomes:
+      - ELO-5.1
+      - ELO-5.2
+      - ELO-5.3
+      - ELO-5.4
+
+    lessons:
+      - id: L5.1
+        title: "Yes, You Can Negotiate (Even Entry Level)"
+        type: instruction
+        duration: "10 min"
+
+      - id: L5.2
+        title: "Know Your Worth: Salary Research"
+        type: demonstration
+        duration: "12 min"
+
+      - id: L5.3
+        title: "Beyond Salary: Total Compensation"
+        type: instruction
+        duration: "10 min"
+
+      - id: L5.4
+        title: "The Negotiation Conversation"
+        type: demonstration
+        duration: "15 min"
+
+      - id: L5.5
+        title: "Evaluating Multiple Offers"
+        type: instruction
+        duration: "10 min"
+
+      - id: L5.6
+        title: "You Deserve to Be Paid Well (Mindset)"
+        type: instruction
+        duration: "6 min"
+
+    deliverables:
+      - "Salary research worksheet"
+      - "Negotiation script"
+      - "Offer comparison matrix"
+
+    mindset_integration: |
+      Addresses fear of negotiating at entry level and imposter feelings
+      around money. Data gives confidence — you're not asking, you're
+      advocating based on evidence.
+
+  # ---------------------------------------------------------------------------
+  # MODULE 6: INNER GAME
+  # ---------------------------------------------------------------------------
+
+  - id: module-06
+    title: "Inner Game"
+    subtitle: "I'm Not Good Enough (And Other Lies)"
+    problem: 6
+    type: core
+    duration: "30-45 minutes"
+    description: |
+      Imposter syndrome strategies, rejection resilience, beating perfectionism,
+      and maintaining momentum. This module can be accessed anytime and provides
+      the psychological toolkit for the entire job search.
+
+    terminal_outcome: TLO-6
+    enabling_outcomes:
+      - ELO-6.1
+      - ELO-6.2
+      - ELO-6.3
+      - ELO-6.4
+
+    lessons:
+      - id: L6.1
+        title: "Imposter Syndrome: You're Not Alone"
+        type: instruction
+        duration: "10 min"
+
+      - id: L6.2
+        title: "Reframing the Inner Critic"
+        type: practice
+        duration: "12 min"
+
+      - id: L6.3
+        title: "Rejection Resilience"
+        type: instruction
+        duration: "10 min"
+
+      - id: L6.4
+        title: "Breaking Perfectionism Paralysis"
+        type: instruction
+        duration: "8 min"
+
+      - id: L6.5
+        title: "Your Daily Action Tracker Mastery"
+        type: demonstration
+        duration: "8 min"
+
+    deliverables:
+      - "Imposter syndrome reframe cards"
+      - "Rejection resilience plan"
+      - "30-day action commitment"
+
+    mindset_integration: |
+      This IS the mindset module, but content is also woven throughout
+      all other modules. This serves as both introduction and reference.
+
+  # ---------------------------------------------------------------------------
+  # MODULE 7: LAUNCH SEQUENCE (WRAP-UP)
+  # ---------------------------------------------------------------------------
+
+  - id: module-07
+    title: "Launch Sequence"
+    subtitle: "Your 90-Day Action Plan"
+    problem: null  # Wrap-up, not problem-based
+    type: capstone
+    duration: "15-20 minutes"
+    description: |
+      Brings it all together. Students create their 90-day job search plan,
+      celebrate progress, and commit to next steps.
+
+    terminal_outcome: null
+    enabling_outcomes: []
+
+    lessons:
+      - id: L7.1
+        title: "Your 90-Day Action Plan"
+        type: practice
+        duration: "15 min"
+
+      - id: L7.2
+        title: "Celebrate Your Progress"
+        type: instruction
+        duration: "5 min"
+
+    deliverables:
+      - "90-day job search action plan"
+      - "Course completion certificate"
+
+    mindset_integration: |
+      Celebrates progress and reinforces that they now have everything
+      they need. The job is out there — go get it.
+
+# =============================================================================
+# OUTCOME MAPPING
+# =============================================================================
+
+outcome_mapping:
+
+  # Terminal Learning Outcomes
+  TLO-1: [module-01]
+  TLO-2: [module-02]
+  TLO-3: [module-03]
+  TLO-4: [module-04]
+  TLO-5: [module-05]
+  TLO-6: [module-06]
+
+  # Enabling Learning Outcomes
+  ELO-1.1: [module-01]
+  ELO-1.2: [module-01]
+  ELO-1.3: [module-01]
+  ELO-1.4: [module-01]
+
+  ELO-2.1: [module-02]
+  ELO-2.2: [module-02]
+  ELO-2.3: [module-02]
+  ELO-2.4: [module-02]
+  ELO-2.5: [module-02]
+
+  ELO-3.1: [module-03]
+  ELO-3.2: [module-03]
+  ELO-3.3: [module-03]
+  ELO-3.4: [module-03]
+  ELO-3.5: [module-03]
+
+  ELO-4.1: [module-04]
+  ELO-4.2: [module-04]
+  ELO-4.3: [module-04]
+  ELO-4.4: [module-04]
+  ELO-4.5: [module-04]
+
+  ELO-5.1: [module-05]
+  ELO-5.2: [module-05]
+  ELO-5.3: [module-05]
+  ELO-5.4: [module-05]
+
+  ELO-6.1: [module-06]
+  ELO-6.2: [module-06]
+  ELO-6.3: [module-06]
+  ELO-6.4: [module-06]
+
+# =============================================================================
+# LEARNING PATHS
+# =============================================================================
+
+learning_paths:
+
+  - id: path-recommended
+    name: "Recommended Path"
+    description: |
+      For students starting their job search from scratch. Follow modules
+      in order for comprehensive preparation.
+    modules:
+      - module-00
+      - module-01
+      - module-02
+      - module-03
+      - module-04
+      - module-05
+      - module-06
+      - module-07
+    duration: "5-7 hours"
+
+  - id: path-interview-emergency
+    name: "Interview Emergency"
+    description: |
+      Got an interview coming up? Start here, then backfill other modules.
+    modules:
+      - module-00
+      - module-04
+      - module-02
+      - module-05
+    duration: "2-3 hours"
+
+  - id: path-resume-first
+    name: "Resume First"
+    description: |
+      For students who need application materials before anything else.
+    modules:
+      - module-00
+      - module-02
+      - module-01
+      - module-03
+    duration: "2-3 hours"
+
+  - id: path-mindset-first
+    name: "Mindset First"
+    description: |
+      For students paralyzed by anxiety or imposter syndrome. Build
+      confidence before diving into tactics.
+    modules:
+      - module-00
+      - module-06
+      - module-01
+      - module-02
+    duration: "2-3 hours"
+
+  - id: path-networking-focus
+    name: "Networking Focus"
+    description: |
+      For students with materials ready but no network or leads.
+    modules:
+      - module-00
+      - module-03
+      - module-04
+      - module-05
+    duration: "2-3 hours"
+
+# =============================================================================
+# COURSE STATISTICS
+# =============================================================================
+
+statistics:
+
+  total_modules: 8
+  core_modules: 6
+  total_lessons: 44
+  total_duration: "5-7 hours"
+
+  lesson_type_breakdown:
+    instruction: 23
+    demonstration: 13
+    practice: 8
+
+  deliverables_count: 24
+
+  mindset_touchpoints: 8
+
+# =============================================================================
+# SEQUENCING VALIDATION
+# =============================================================================
+
+sequencing:
+
+  prerequisites_respected: true
+  notes:
+    - "Module 0 (Launchpad) required before all others"
+    - "Modules 1-6 can be taken in any order based on learner needs"
+    - "Module 7 (Launch Sequence) should come last"
+    - "Recommended path provides logical skill building"
+    - "Alternative paths support just-in-time learning"
+
+  cognitive_load_balanced: true
+  notes_load:
+    - "Longest modules (02, 04) have most practice time built in"
+    - "Mindset breaks integrated to prevent fatigue"
+    - "Each lesson under 15 minutes for mobile learners"
+
+  practice_follows_instruction: true
+  notes_practice:
+    - "Each module includes at least one practice lesson"
+    - "Deliverables require application, not just consumption"
+    - "Daily Action Tracker provides ongoing practice framework"

@@ -1,0 +1,457 @@
+# Course OS - Assessment Strategy
+# Course: Get Hired Fast for Community College Students
+# Phase 8: Assessment Design
+# Generated: 2025-12-23
+# Framework: Kirkpatrick's 4 Levels of Evaluation
+
+# =============================================================================
+# ASSESSMENT PHILOSOPHY
+# =============================================================================
+
+philosophy:
+  approach: "portfolio_based"
+
+  rationale: |
+    This course uses portfolio-based assessment rather than traditional testing.
+    Job search success is measured by what you PRODUCE and DO, not what you
+    know. Every assessment results in a tangible deliverable students can use
+    in their actual job search.
+
+  principles:
+    - "Assessments ARE the learning — creating deliverables teaches skills"
+    - "Every assessment produces something useful for the real job search"
+    - "Self-assessment builds metacognition and self-correction"
+    - "Low-stakes knowledge checks reinforce key concepts"
+    - "No high-stakes exams — reduce anxiety, increase action"
+
+# =============================================================================
+# KIRKPATRICK LEVELS COVERED
+# =============================================================================
+
+kirkpatrick_framework:
+
+  level_1_reaction:
+    description: "Learner satisfaction and engagement"
+    assessments:
+      - "Module completion surveys"
+      - "Course completion survey"
+      - "Net Promoter Score"
+    timing: "After each module and at course end"
+    output: "content/assessments/surveys/"
+
+  level_2_learning:
+    description: "Knowledge and skill acquisition"
+    assessments:
+      - "Module knowledge checks (quizzes)"
+      - "Self-assessments"
+      - "Portfolio artifacts"
+    timing: "During and after each module"
+    output: "content/assessments/quizzes/, content/assessments/self-assessments/"
+
+  level_3_behavior:
+    description: "Application of learning"
+    assessments:
+      - "Portfolio deliverables (resume, LinkedIn, etc.)"
+      - "Daily Action Tracker usage"
+      - "Activity logs"
+    timing: "Throughout course and during job search"
+    output: "content/assessments/projects/, content/assessments/rubrics/"
+
+  level_4_results:
+    description: "Outcomes achieved"
+    assessments:
+      - "30/60/90-day follow-up surveys"
+      - "Employment outcome tracking"
+      - "Success story collection"
+    timing: "Post-course"
+    output: "content/assessments/surveys/"
+
+# =============================================================================
+# ASSESSMENT MAP BY OUTCOME
+# =============================================================================
+
+assessment_map:
+
+  # ---------------------------------------------------------------------------
+  # TERMINAL LEARNING OUTCOMES
+  # ---------------------------------------------------------------------------
+
+  terminal_outcomes:
+
+    TLO-1:
+      outcome: "Execute a targeted job search strategy"
+      assessment_type: portfolio
+      artifacts:
+        - "Target Job Scorecard (completed)"
+        - "90-Day Action Plan"
+        - "Daily Action Tracker (30 days usage)"
+      rubric: "rubric-strategy"
+      kirkpatrick_level: 3
+
+    TLO-2:
+      outcome: "Create professional application materials"
+      assessment_type: portfolio
+      artifacts:
+        - "Resume (ATS-optimized)"
+        - "LinkedIn Profile (All-Star)"
+        - "Elevator Pitch (recorded)"
+      rubric: "rubric-brand"
+      kirkpatrick_level: 3
+
+    TLO-3:
+      outcome: "Build and leverage professional network"
+      assessment_type: activity_log
+      artifacts:
+        - "Network Map (50+ contacts)"
+        - "Networking Message Templates"
+        - "Informational Interview Log (3+ completed)"
+      rubric: "rubric-networking"
+      kirkpatrick_level: 3
+
+    TLO-4:
+      outcome: "Perform confidently in interviews"
+      assessment_type: portfolio
+      artifacts:
+        - "STAR Story Bank (5+ stories)"
+        - "Top 10 Questions Practice Log"
+        - "Mock Interview Recording (optional)"
+      rubric: "rubric-interview"
+      kirkpatrick_level: 3
+
+    TLO-5:
+      outcome: "Evaluate offers and negotiate compensation"
+      assessment_type: worksheet
+      artifacts:
+        - "Salary Research Worksheet"
+        - "Negotiation Script (personalized)"
+        - "Offer Evaluation Matrix (template ready)"
+      rubric: "rubric-negotiation"
+      kirkpatrick_level: 3
+
+    TLO-6:
+      outcome: "Manage job search psychology"
+      assessment_type: reflection
+      artifacts:
+        - "Imposter Syndrome Reframe Cards"
+        - "Rejection Resilience Plan"
+        - "Daily Action Tracker (consistency)"
+      rubric: "rubric-mindset"
+      kirkpatrick_level: 3
+
+  # ---------------------------------------------------------------------------
+  # ENABLING LEARNING OUTCOMES - BY MODULE
+  # ---------------------------------------------------------------------------
+
+  module_assessments:
+
+    module-00:
+      name: "Launchpad"
+      knowledge_check: "quiz-00-orientation"
+      deliverables:
+        - "Daily Action Tracker Setup"
+      self_assessment: "self-00-readiness"
+
+    module-01:
+      name: "Career GPS"
+      knowledge_check: "quiz-01-career"
+      deliverables:
+        - "Transferable Skills Inventory"
+        - "Target Job Scorecard"
+      self_assessment: "self-01-clarity"
+
+    module-02:
+      name: "Brand Builder"
+      knowledge_check: "quiz-02-brand"
+      deliverables:
+        - "Resume (complete)"
+        - "LinkedIn Profile (All-Star)"
+        - "Elevator Pitch (30 seconds)"
+      self_assessment: "self-02-materials"
+
+    module-03:
+      name: "Network Navigator"
+      knowledge_check: "quiz-03-networking"
+      deliverables:
+        - "Network Map"
+        - "Outreach Templates"
+        - "Informational Interview Log"
+      self_assessment: "self-03-network"
+
+    module-04:
+      name: "Interview Intel"
+      knowledge_check: "quiz-04-interview"
+      deliverables:
+        - "STAR Story Bank"
+        - "Company Research Template"
+        - "Thank-You Note Template"
+      self_assessment: "self-04-interview-ready"
+
+    module-05:
+      name: "Money Moves"
+      knowledge_check: "quiz-05-negotiation"
+      deliverables:
+        - "Salary Research Worksheet"
+        - "Negotiation Script"
+        - "Offer Evaluation Matrix"
+      self_assessment: "self-05-negotiation-ready"
+
+    module-06:
+      name: "Inner Game"
+      knowledge_check: null  # No quiz - reflective module
+      deliverables:
+        - "Reframe Cards"
+        - "Rejection Resilience Plan"
+        - "30-Day Commitment"
+      self_assessment: "self-06-mindset"
+
+    module-07:
+      name: "Launch Sequence"
+      knowledge_check: null  # No quiz - action module
+      deliverables:
+        - "90-Day Action Plan"
+      self_assessment: "self-07-launch-ready"
+
+# =============================================================================
+# QUIZ SPECIFICATIONS
+# =============================================================================
+
+quizzes:
+
+  defaults:
+    time_limit: 0  # Unlimited
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+    questions_per_quiz: 5-8
+
+  quiz_list:
+
+    - id: quiz-00-orientation
+      title: "Course Orientation Check"
+      module: "module-00"
+      outcomes: []
+      purpose: "Verify understanding of how to use the course"
+      question_count: 5
+
+    - id: quiz-01-career
+      title: "Career Direction Foundations"
+      module: "module-01"
+      outcomes: ["ELO-1.1", "ELO-1.2", "ELO-1.3", "ELO-1.4"]
+      purpose: "Confirm understanding of career strategy concepts"
+      question_count: 8
+
+    - id: quiz-02-brand
+      title: "Personal Branding Essentials"
+      module: "module-02"
+      outcomes: ["ELO-2.1", "ELO-2.2", "ELO-2.3", "ELO-2.4", "ELO-2.5"]
+      purpose: "Verify resume and LinkedIn best practices"
+      question_count: 10
+
+    - id: quiz-03-networking
+      title: "Networking Fundamentals"
+      module: "module-03"
+      outcomes: ["ELO-3.1", "ELO-3.2", "ELO-3.3", "ELO-3.4", "ELO-3.5"]
+      purpose: "Confirm networking strategy understanding"
+      question_count: 8
+
+    - id: quiz-04-interview
+      title: "Interview Preparation"
+      module: "module-04"
+      outcomes: ["ELO-4.1", "ELO-4.2", "ELO-4.3", "ELO-4.4", "ELO-4.5"]
+      purpose: "Verify interview techniques and STAR method"
+      question_count: 10
+
+    - id: quiz-05-negotiation
+      title: "Compensation Negotiation"
+      module: "module-05"
+      outcomes: ["ELO-5.1", "ELO-5.2", "ELO-5.3", "ELO-5.4"]
+      purpose: "Confirm negotiation concepts and approaches"
+      question_count: 8
+
+# =============================================================================
+# PORTFOLIO PROJECTS
+# =============================================================================
+
+portfolio_projects:
+
+  description: |
+    The course culminates in a Job Search Portfolio containing all deliverables.
+    This portfolio serves both as assessment AND as a practical toolkit for
+    the actual job search.
+
+  components:
+
+    - id: portfolio-resume
+      name: "Professional Resume"
+      module: "module-02"
+      outcomes: ["TLO-2", "ELO-2.1", "ELO-2.2"]
+      rubric: "rubric-resume"
+      format: "PDF or Word document"
+
+    - id: portfolio-linkedin
+      name: "LinkedIn Profile"
+      module: "module-02"
+      outcomes: ["TLO-2", "ELO-2.3"]
+      rubric: "rubric-linkedin"
+      format: "LinkedIn URL"
+
+    - id: portfolio-pitch
+      name: "Elevator Pitch"
+      module: "module-02"
+      outcomes: ["TLO-2", "ELO-2.5"]
+      rubric: "rubric-pitch"
+      format: "Video or audio recording (30-60 seconds)"
+
+    - id: portfolio-star
+      name: "STAR Story Bank"
+      module: "module-04"
+      outcomes: ["TLO-4", "ELO-4.1"]
+      rubric: "rubric-star-stories"
+      format: "Document with 5+ STAR stories"
+
+    - id: portfolio-network
+      name: "Network Map"
+      module: "module-03"
+      outcomes: ["TLO-3", "ELO-3.2"]
+      rubric: "rubric-network-map"
+      format: "Completed network mapping worksheet"
+
+    - id: portfolio-90day
+      name: "90-Day Action Plan"
+      module: "module-07"
+      outcomes: ["TLO-1"]
+      rubric: "rubric-action-plan"
+      format: "Completed plan template"
+
+# =============================================================================
+# SELF-ASSESSMENTS
+# =============================================================================
+
+self_assessments:
+
+  purpose: |
+    Self-assessments build metacognition — the ability to evaluate your own
+    readiness and identify gaps. These are low-stakes reflective tools.
+
+  types:
+
+    readiness_checks:
+      description: "Pre-module confidence assessment"
+      timing: "Before each module"
+      format: "5-point scale on key skills"
+
+    confidence_ratings:
+      description: "Post-module confidence assessment"
+      timing: "After each module"
+      format: "5-point scale on learning outcomes"
+
+    reflection_prompts:
+      description: "Qualitative self-evaluation"
+      timing: "Throughout course"
+      format: "Open-ended questions"
+
+# =============================================================================
+# SURVEYS
+# =============================================================================
+
+surveys:
+
+  module_completion:
+    timing: "After each module"
+    questions:
+      - "How useful was this module? (1-5)"
+      - "What was most valuable?"
+      - "What would you improve?"
+      - "How confident do you feel about this topic now? (1-5)"
+
+  course_completion:
+    timing: "After course completion"
+    questions:
+      - "Net Promoter Score (0-10)"
+      - "Did the course meet your expectations?"
+      - "What was most valuable overall?"
+      - "What would you add or change?"
+      - "How prepared do you feel for your job search? (1-5)"
+
+  follow_up_30_day:
+    timing: "30 days post-completion"
+    questions:
+      - "Have you started your job search? (Y/N)"
+      - "How many applications have you submitted?"
+      - "How many interviews have you had?"
+      - "What course tools are you using most?"
+      - "Any success stories to share?"
+
+  follow_up_60_day:
+    timing: "60 days post-completion"
+    questions:
+      - "Have you received any offers? (Y/N)"
+      - "Have you accepted a position? (Y/N)"
+      - "What helped most from the course?"
+      - "What additional support would help?"
+
+  follow_up_90_day:
+    timing: "90 days post-completion"
+    questions:
+      - "Employment status update"
+      - "If employed: starting salary (optional)"
+      - "If employed: time from first application to offer"
+      - "What would you tell a new student?"
+      - "Success story for testimonial? (Y/N)"
+
+# =============================================================================
+# COMPLETION REQUIREMENTS
+# =============================================================================
+
+completion_requirements:
+
+  certificate_earned:
+    description: "Course Completion Certificate issued when:"
+    requirements:
+      - "All module quizzes passed (70% minimum)"
+      - "All portfolio deliverables submitted"
+      - "90-Day Action Plan completed"
+      - "Course completion survey submitted"
+
+  deliverables_required:
+    - "Daily Action Tracker (set up)"
+    - "Target Job Scorecard"
+    - "Resume"
+    - "LinkedIn Profile"
+    - "STAR Story Bank (5+ stories)"
+    - "Network Map"
+    - "90-Day Action Plan"
+
+  deliverables_recommended:
+    - "Elevator Pitch Recording"
+    - "Salary Research Worksheet"
+    - "Negotiation Script"
+    - "Reframe Cards"
+    - "Mock Interview Recording"
+
+# =============================================================================
+# GRADING APPROACH
+# =============================================================================
+
+grading:
+
+  approach: "competency_based"
+
+  rationale: |
+    This course uses pass/needs-revision grading rather than letter grades.
+    The goal is learning and producing usable deliverables, not ranking students.
+
+  levels:
+    - level: "Complete"
+      description: "Meets all rubric criteria; ready to use"
+    - level: "Needs Revision"
+      description: "Some criteria not met; revise and resubmit"
+    - level: "Not Submitted"
+      description: "Deliverable not yet submitted"
+
+  feedback:
+    type: "Rubric-based with specific suggestions"
+    turnaround: "Within 48 hours for instructor-reviewed items"
+    revision_allowed: true
+    revision_attempts: "Unlimited until complete"

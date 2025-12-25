@@ -1,0 +1,95 @@
+# Course OS - Module Quiz
+# Quiz: Course Orientation Check
+# Module: 00 - Launchpad
+
+quiz:
+  id: quiz-00-orientation
+  title: "Course Orientation Check"
+  module: module-00
+  outcomes: []
+  purpose: "Verify understanding of how to use the course and its core tools"
+
+  settings:
+    time_limit: 0  # Unlimited
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+
+  questions:
+
+    - id: q1
+      question: "What is the primary accountability tool you'll use throughout this course?"
+      type: multiple_choice
+      options:
+        - text: "Weekly planner"
+          correct: false
+        - text: "Daily Action Tracker"
+          correct: true
+        - text: "Calendar app"
+          correct: false
+        - text: "To-do list"
+          correct: false
+      explanation: "The Daily Action Tracker is your main accountability system for logging job search activities and maintaining momentum."
+      bloom_level: remember
+
+    - id: q2
+      question: "This course is organized around problems, not weeks. What does this mean?"
+      type: multiple_choice
+      options:
+        - text: "You must complete each module in a specific order"
+          correct: false
+        - text: "You can tackle modules based on your most pressing job search challenge"
+          correct: true
+        - text: "The course has no structure"
+          correct: false
+        - text: "Problems are more important than solutions"
+          correct: false
+      explanation: "The problem-centered structure means you can start with whatever job search challenge is most urgent for you right now."
+      bloom_level: understand
+
+    - id: q3
+      question: "According to the course, what percentage faster do students typically get hired compared to average job seekers?"
+      type: multiple_choice
+      options:
+        - text: "25% faster"
+          correct: false
+        - text: "40% faster"
+          correct: false
+        - text: "55% faster"
+          correct: true
+        - text: "75% faster"
+          correct: false
+      explanation: "The course goal is 55% faster time-to-employment compared to average job seekers."
+      bloom_level: remember
+
+    - id: q4
+      question: "True or False: You should wait until you feel completely ready before starting to apply for jobs."
+      type: true_false
+      correct: false
+      explanation: "A core principle of this course is 'Done is better than perfect.' Taking action is more important than waiting for perfect readiness."
+      bloom_level: understand
+
+    - id: q5
+      question: "What are the 6 core problems this course addresses?"
+      type: multiple_select
+      options:
+        - text: "Career direction"
+          correct: true
+        - text: "Personal branding"
+          correct: true
+        - text: "Time management"
+          correct: false
+        - text: "Networking"
+          correct: true
+        - text: "Interviewing"
+          correct: true
+        - text: "Negotiation"
+          correct: true
+        - text: "Mindset"
+          correct: true
+        - text: "Technical skills"
+          correct: false
+      partial_credit: true
+      explanation: "The 6 core problems are: Career Direction, Personal Branding, Networking, Interviewing, Negotiation, and Mindset."
+      bloom_level: remember

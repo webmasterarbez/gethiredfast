@@ -1,0 +1,246 @@
+# Course OS - Prerequisites
+# Course: Get Hired Fast for Community College Students
+# Phase 4: Course Strategy
+# Generated: 2025-12-22
+
+# =============================================================================
+# REQUIRED PREREQUISITES
+# =============================================================================
+
+required:
+
+  - id: REQ-01
+    category: "Education Status"
+    requirement: "Currently enrolled in or recently graduated from community college"
+    rationale: |
+      Course content, examples, and tone are specifically designed for
+      community college students. While others may benefit, the course
+      assumes this context.
+    verification: "Self-reported during enrollment"
+    flexibility: |
+      Trade school students, certificate program students, and recent
+      community college graduates (within 1 year) are also appropriate.
+
+  - id: REQ-02
+    category: "Technology Access"
+    requirement: "Access to a device with internet (computer, tablet, or smartphone)"
+    rationale: |
+      Course is delivered online. All content is accessible on any device.
+    verification: "Implicit (can access course)"
+    flexibility: |
+      Course is mobile-optimized. Students can complete on phone if needed.
+
+  - id: REQ-03
+    category: "Language"
+    requirement: "English proficiency sufficient to watch videos and write professional documents"
+    rationale: |
+      Course is in English. Resume and LinkedIn creation require writing ability.
+    verification: "Self-selected"
+    flexibility: |
+      Non-native speakers welcome. AI tools taught in course can help
+      with grammar and phrasing.
+
+# =============================================================================
+# RECOMMENDED PREREQUISITES
+# =============================================================================
+
+recommended:
+
+  - id: REC-01
+    category: "Job Search Stage"
+    recommendation: "Actively job searching or planning to within 3 months"
+    rationale: |
+      Course is most effective when students can immediately apply what
+      they learn. Taking it "someday" reduces retention and impact.
+    without_this: |
+      Students not actively searching may complete course but won't see
+      immediate results. Consider encouraging them to wait until ready.
+
+  - id: REC-02
+    category: "Time Availability"
+    recommendation: "Can dedicate 1-2 hours per week for 5 weeks"
+    rationale: |
+      While self-paced, momentum matters for job search motivation.
+      Completing over 5 weeks maintains engagement.
+    without_this: |
+      Students can stretch course over longer period, but may lose
+      motivation. Daily Action Tracker helps maintain accountability.
+
+  - id: REC-03
+    category: "Existing Materials"
+    recommendation: "Has some form of resume draft (even rough)"
+    rationale: |
+      Starting from scratch takes longer. Having something to improve
+      creates faster wins.
+    without_this: |
+      Course includes resume creation from scratch, but students should
+      expect to spend more time in Problem Area 2.
+
+  - id: REC-04
+    category: "LinkedIn Account"
+    recommendation: "Has a LinkedIn account (even basic/incomplete)"
+    rationale: |
+      Course teaches LinkedIn optimization. Having an existing account
+      speeds up the process.
+    without_this: |
+      Students will need to create an account. Add 15-30 minutes to
+      LinkedIn section.
+
+# =============================================================================
+# NOT REQUIRED
+# =============================================================================
+
+not_required:
+
+  - item: "Prior work experience"
+    note: |
+      Course is specifically designed for students with limited or no
+      professional experience. Class projects, volunteer work, and
+      part-time jobs all count.
+
+  - item: "Specific major or field of study"
+    note: |
+      Course applies to all fields. Examples include variety of industries.
+
+  - item: "Technical skills"
+    note: |
+      No coding, advanced software, or technical skills required. AI tools
+      taught are beginner-friendly (ChatGPT, LinkedIn, Handshake).
+
+  - item: "Previous career education"
+    note: |
+      Course assumes no prior career readiness education. Starts from
+      fundamentals while remaining engaging for those with some background.
+
+  - item: "Knowledge of job market"
+    note: |
+      Course explains how hiring works. No assumed knowledge of ATS,
+      recruiting processes, or salary negotiation.
+
+# =============================================================================
+# DIAGNOSTIC ASSESSMENT
+# =============================================================================
+
+diagnostic:
+
+  purpose: |
+    Help students self-assess their starting point and prioritize which
+    problem areas need most attention. This is optional and for guidance
+    only — not a gate.
+
+  name: "Job Search Readiness Check"
+  duration: "5 minutes"
+  format: "Self-assessment checklist"
+
+  questions:
+
+    career_direction:
+      prompt: "Do you know what type of job you're looking for?"
+      options:
+        - label: "Yes, I have a clear target"
+          score: 3
+        - label: "I have some ideas but not sure"
+          score: 2
+        - label: "No, I have no idea where to start"
+          score: 1
+
+    resume_status:
+      prompt: "What's the status of your resume?"
+      options:
+        - label: "I have an updated, polished resume"
+          score: 3
+        - label: "I have a resume but it needs work"
+          score: 2
+        - label: "I don't have a resume or it's very outdated"
+          score: 1
+
+    linkedin_status:
+      prompt: "What's your LinkedIn profile like?"
+      options:
+        - label: "Complete profile, actively networking"
+          score: 3
+        - label: "Basic profile, not very active"
+          score: 2
+        - label: "No LinkedIn or haven't touched it"
+          score: 1
+
+    networking_comfort:
+      prompt: "How comfortable are you reaching out to professionals?"
+      options:
+        - label: "Very comfortable, do it regularly"
+          score: 3
+        - label: "Somewhat nervous but willing"
+          score: 2
+        - label: "Terrified, avoid it at all costs"
+          score: 1
+
+    interview_readiness:
+      prompt: "How prepared do you feel for interviews?"
+      options:
+        - label: "Very prepared, have stories ready"
+          score: 3
+        - label: "Somewhat prepared, could use practice"
+          score: 2
+        - label: "Not prepared at all"
+          score: 1
+
+    negotiation_knowledge:
+      prompt: "Do you know how to negotiate a job offer?"
+      options:
+        - label: "Yes, I understand the process"
+          score: 3
+        - label: "I've heard about it but don't know how"
+          score: 2
+        - label: "I didn't know you could negotiate at entry level"
+          score: 1
+
+    mindset:
+      prompt: "How confident do you feel about your job search?"
+      options:
+        - label: "Confident, I've got this"
+          score: 3
+        - label: "Anxious but motivated"
+          score: 2
+        - label: "Overwhelmed and doubting myself"
+          score: 1
+
+  interpretation:
+    high_scores: |
+      Students scoring 15+ may already have some foundations. Encourage
+      them to still complete all sections but may move faster through
+      Problem Areas 1-2.
+
+    medium_scores: |
+      Students scoring 10-14 are typical for this course. Recommend
+      following the suggested problem area sequence.
+
+    low_scores: |
+      Students scoring below 10 are ideal candidates. Emphasize that
+      the course is designed exactly for their situation. Start with
+      Problem Area 6 (Mindset) if anxiety is high.
+
+# =============================================================================
+# ONBOARDING CHECKLIST
+# =============================================================================
+
+onboarding_checklist:
+
+  before_starting:
+    - "Have access to course platform"
+    - "Have email address for communications"
+    - "Can dedicate 45-60 minutes for first session"
+
+  nice_to_have_ready:
+    - "Any existing resume (even rough draft)"
+    - "List of jobs, projects, activities from past 2 years"
+    - "LinkedIn login credentials"
+    - "Ideas of job types you might be interested in"
+
+  will_create_in_course:
+    - "Daily Action Tracker"
+    - "Target Job Scorecard"
+    - "Network map"
+    - "STAR story bank"
+    - "Polished resume"
+    - "Optimized LinkedIn"
+    - "Salary research worksheet"

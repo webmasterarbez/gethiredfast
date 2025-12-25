@@ -1,0 +1,747 @@
+# Course OS - Resources & Templates Index
+# Course: Get Hired Fast for Community College Students
+# Phase 6: Content Design
+
+resources:
+  description: |
+    All downloadable templates, scripts, and resources organized by module.
+    Each resource is designed to be immediately usable.
+
+# =============================================================================
+# MODULE 00: LAUNCHPAD
+# =============================================================================
+
+module_00:
+
+  - id: RES-0.1
+    name: "Daily Action Tracker"
+    type: spreadsheet
+    formats:
+      - google_sheets
+      - xlsx
+    description: |
+      The accountability backbone of the entire job search. Tracks daily
+      actions, celebrates wins, and shows patterns in activity.
+    contents:
+      - "Daily action log (what you did)"
+      - "Activity type categorization"
+      - "Win celebration section"
+      - "Weekly summary view"
+      - "What's working analysis"
+    usage: "Log at least one action daily for 30+ days"
+
+  - id: RES-0.2
+    name: "Course Map"
+    type: infographic
+    formats:
+      - pdf
+    description: |
+      Visual overview of all 6 problem modules and key deliverables.
+      Helps students see the full journey and choose their path.
+    contents:
+      - "6 module overview"
+      - "Key deliverables per module"
+      - "Learning path options"
+      - "Progress checkboxes"
+
+# =============================================================================
+# MODULE 01: CAREER GPS
+# =============================================================================
+
+module_01:
+
+  - id: RES-1.1
+    name: "Self-Assessment Worksheet"
+    type: fillable_pdf
+    formats:
+      - pdf
+    description: |
+      Guided reflection questions for identifying interests, values,
+      and work style preferences.
+    contents:
+      - "Interest exploration questions"
+      - "Values ranking exercise"
+      - "Work style preferences"
+      - "Pattern identification prompts"
+
+  - id: RES-1.2
+    name: "Transferable Skills Inventory"
+    type: checklist
+    formats:
+      - pdf
+      - google_docs
+    description: |
+      Comprehensive skills checklist organized by category with space
+      to document source experiences.
+    contents:
+      - "Communication skills (15+ items)"
+      - "Technical skills (15+ items)"
+      - "Interpersonal skills (15+ items)"
+      - "Analytical skills (10+ items)"
+      - "Leadership skills (10+ items)"
+      - "Space for custom skills"
+    categories:
+      - Communication
+      - Leadership
+      - Technical
+      - Analytical
+      - Interpersonal
+      - Organizational
+
+  - id: RES-1.3
+    name: "Experience Brainstorm Worksheet"
+    type: fillable_pdf
+    formats:
+      - pdf
+    description: |
+      Prompts to uncover hidden experiences across 15 categories.
+    categories:
+      - "Part-time jobs"
+      - "Internships"
+      - "Work-study"
+      - "Volunteer work"
+      - "Class projects"
+      - "Student organizations"
+      - "Sports/clubs"
+      - "Family responsibilities"
+      - "Caregiving"
+      - "Personal projects"
+      - "Self-taught skills"
+      - "Hobbies"
+      - "Travel"
+      - "Community involvement"
+      - "Religious/cultural activities"
+
+  - id: RES-1.4
+    name: "Target Job Scorecard"
+    type: matrix
+    formats:
+      - pdf
+      - google_sheets
+    description: |
+      Evaluation matrix for comparing potential job targets across
+      6 factors.
+    scoring_factors:
+      - "Interest (1-5)"
+      - "Skills Match (1-5)"
+      - "Market Demand (1-5)"
+      - "Growth Potential (1-5)"
+      - "Compensation (1-5)"
+      - "Values Alignment (1-5)"
+    includes:
+      - "Space for 5 job options"
+      - "Research notes section"
+      - "Decision rationale"
+
+  - id: RES-1.5
+    name: "AI Impact Research Guide"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      Questions and resources for evaluating how AI might affect
+      target roles.
+    contents:
+      - "Questions to research"
+      - "Where to find information"
+      - "How to position yourself"
+      - "Skills to emphasize"
+
+# =============================================================================
+# MODULE 02: BRAND BUILDER
+# =============================================================================
+
+module_02:
+
+  - id: RES-2.1
+    name: "Resume Template (ATS-Friendly)"
+    type: template
+    formats:
+      - docx
+      - google_docs
+    description: |
+      Clean, scannable resume template optimized for ATS systems.
+      Ready to customize.
+    sections:
+      - "Contact header"
+      - "Summary (optional)"
+      - "Experience"
+      - "Education"
+      - "Skills"
+    features:
+      - "Standard fonts"
+      - "No tables or graphics"
+      - "Clear section headers"
+      - "One page length"
+
+  - id: RES-2.2
+    name: "Action Verb List"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      150+ action verbs organized by skill category for resume
+      bullet points.
+    categories:
+      - "Leadership (30 verbs)"
+      - "Communication (25 verbs)"
+      - "Analysis (25 verbs)"
+      - "Technical (25 verbs)"
+      - "Creative (20 verbs)"
+      - "Service (25 verbs)"
+
+  - id: RES-2.3
+    name: "Bullet Point Transformation Examples"
+    type: examples
+    formats:
+      - pdf
+    description: |
+      20+ before/after examples showing how to transform weak
+      bullets into achievement statements.
+    includes:
+      - "Retail examples"
+      - "Food service examples"
+      - "Office work examples"
+      - "School project examples"
+      - "Volunteer examples"
+      - "Personal responsibility examples"
+
+  - id: RES-2.4
+    name: "XYZ Formula Worksheet"
+    type: fillable_pdf
+    formats:
+      - pdf
+    description: |
+      Template for crafting achievement bullets using the XYZ formula
+      (Accomplished X by doing Y, resulting in Z).
+    includes:
+      - "Formula explanation"
+      - "Fill-in-the-blank template"
+      - "Space for 10 bullets"
+      - "Quantification tips"
+
+  - id: RES-2.5
+    name: "ATS Checklist"
+    type: checklist
+    formats:
+      - pdf
+    description: |
+      Quick check before submitting any application to ensure
+      ATS compatibility.
+    checklist_items:
+      - "Standard file format (docx or pdf)"
+      - "Standard fonts (Arial, Calibri, etc.)"
+      - "No tables, columns, or graphics"
+      - "Keywords from job description included"
+      - "Standard section headers"
+      - "Contact info at top"
+      - "Dates formatted consistently"
+
+  - id: RES-2.6
+    name: "LinkedIn Optimization Checklist"
+    type: checklist
+    formats:
+      - pdf
+    description: |
+      Section-by-section guide to achieving All-Star status.
+    sections:
+      - "Photo requirements"
+      - "Headline formula"
+      - "About section template"
+      - "Experience best practices"
+      - "Education tips"
+      - "Skills recommendations"
+      - "Connections strategy"
+
+  - id: RES-2.7
+    name: "LinkedIn Headline Examples"
+    type: examples
+    formats:
+      - pdf
+    description: |
+      20+ headline templates for students.
+    examples:
+      - "Aspiring [Role] | [Achievement] | Available [Date]"
+      - "[Major] Student | [Skill] Enthusiast | Seeking [Role]"
+      - "Future [Role] | [School] Dean's List | [Relevant Interest]"
+
+  - id: RES-2.8
+    name: "About Section Templates"
+    type: templates
+    formats:
+      - pdf
+      - google_docs
+    description: |
+      Fill-in-the-blank about sections for different situations.
+    includes:
+      - "First-gen student template"
+      - "Career changer template"
+      - "Recent graduate template"
+      - "Working student template"
+
+  - id: RES-2.9
+    name: "Elevator Pitch Formula"
+    type: template
+    formats:
+      - pdf
+    description: |
+      Present-Past-Future formula with examples for different majors.
+    includes:
+      - "Formula breakdown"
+      - "Fill-in template"
+      - "5 example pitches"
+      - "Timing guide"
+
+  - id: RES-2.10
+    name: "AI Prompts for Resume Writing"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      Copy-paste prompts for ChatGPT/Claude to improve resume content.
+    prompts:
+      - "Improve this bullet point..."
+      - "Add quantification to..."
+      - "Make this more concise..."
+      - "Tailor this for [job description]..."
+      - "Suggest stronger action verbs for..."
+
+# =============================================================================
+# MODULE 03: NETWORK NAVIGATOR
+# =============================================================================
+
+module_03:
+
+  - id: RES-3.1
+    name: "Network Map Template"
+    type: worksheet
+    formats:
+      - pdf
+      - google_sheets
+    description: |
+      Visual mapping tool for identifying and organizing connections.
+    categories:
+      - "Inner circle"
+      - "Professional contacts"
+      - "Academic connections"
+      - "Community connections"
+      - "Expanded network (2nd degree)"
+    fields_per_contact:
+      - "Name"
+      - "Relationship"
+      - "Industry/role"
+      - "Last contact"
+      - "Potential value"
+      - "Priority (1-3)"
+
+  - id: RES-3.2
+    name: "Networking Scripts Collection"
+    type: templates
+    formats:
+      - pdf
+      - google_docs
+    description: |
+      10+ copy-paste templates for every networking situation.
+    scripts:
+      - "LinkedIn connection request"
+      - "Cold email to stranger"
+      - "Warm reconnection message"
+      - "Informational interview request"
+      - "Post-informational interview thank you"
+      - "Follow-up when no response"
+      - "Introduction request"
+      - "Coffee chat invitation"
+      - "Job referral request"
+      - "Staying in touch message"
+
+  - id: RES-3.3
+    name: "Informational Interview Questions"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      20+ questions for informational interviews organized by goal.
+    categories:
+      - "Career path questions (6)"
+      - "Day-to-day role questions (5)"
+      - "Industry insight questions (5)"
+      - "Advice questions (4)"
+      - "Connection questions (3)"
+    includes:
+      - "Questions to avoid"
+      - "Timing guidance"
+
+  - id: RES-3.4
+    name: "Handshake Profile Checklist"
+    type: checklist
+    formats:
+      - pdf
+    description: |
+      Section-by-section optimization guide for Handshake.
+    sections:
+      - "Profile basics"
+      - "Interests and skills"
+      - "Work preferences"
+      - "Job alerts setup"
+      - "Event engagement"
+
+  - id: RES-3.5
+    name: "Contact Tracker Spreadsheet"
+    type: spreadsheet
+    formats:
+      - google_sheets
+      - xlsx
+    description: |
+      Track outreach, responses, and follow-ups.
+    columns:
+      - "Name"
+      - "Contact type"
+      - "Date reached out"
+      - "Message sent (Y/N)"
+      - "Response received (Y/N)"
+      - "Response date"
+      - "Follow-up needed"
+      - "Follow-up date"
+      - "Outcome/notes"
+
+# =============================================================================
+# MODULE 04: INTERVIEW INTEL
+# =============================================================================
+
+module_04:
+
+  - id: RES-4.1
+    name: "STAR Story Bank Worksheet"
+    type: template
+    formats:
+      - pdf
+      - google_docs
+    description: |
+      Template for documenting 5+ STAR stories.
+    per_story_sections:
+      - "Story title/competency"
+      - "Situation (30 sec)"
+      - "Task (15 sec)"
+      - "Action (60-90 sec)"
+      - "Result (30 sec)"
+      - "Variations (questions this answers)"
+    includes:
+      - "Timing guide"
+      - "Competency mapping"
+
+  - id: RES-4.2
+    name: "STAR Method Quick Reference"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      One-page STAR method guide for quick review before interviews.
+    includes:
+      - "Framework breakdown"
+      - "Time allocation"
+      - "Common mistakes"
+      - "Quick tips"
+
+  - id: RES-4.3
+    name: "Top 10 Questions Answer Frameworks"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      Structure for answering the most common interview questions.
+    questions:
+      - "Tell me about yourself"
+      - "Why this role/company?"
+      - "Greatest strength"
+      - "Greatest weakness"
+      - "5 years from now"
+      - "Why should we hire you?"
+      - "Challenge you overcame"
+      - "Team experience"
+      - "Handling stress"
+      - "Questions for us"
+
+  - id: RES-4.4
+    name: "Questions to Ask Interviewers"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      20+ thoughtful questions organized by category.
+    categories:
+      - "Role and responsibilities (6)"
+      - "Team and culture (5)"
+      - "Growth and development (5)"
+      - "Company direction (4)"
+      - "Closing questions (3)"
+    includes:
+      - "Questions to avoid"
+      - "When to ask which"
+
+  - id: RES-4.5
+    name: "Company Research Template"
+    type: fillable_pdf
+    formats:
+      - pdf
+    description: |
+      Structured template for pre-interview company research.
+    sections:
+      - "Company basics"
+      - "Recent news"
+      - "Culture and values"
+      - "The role"
+      - "Your connection"
+      - "Questions prepared"
+
+  - id: RES-4.6
+    name: "Video Interview Setup Checklist"
+    type: checklist
+    formats:
+      - pdf
+    description: |
+      Technical requirements and presentation tips for video interviews.
+    checklist:
+      - "Camera at eye level"
+      - "Lighting from front"
+      - "Neutral background"
+      - "Audio tested"
+      - "Internet stable"
+      - "Backup plan if tech fails"
+      - "Professional attire (full outfit)"
+      - "Notes nearby but not visible"
+
+  - id: RES-4.7
+    name: "Thank-You Note Templates"
+    type: templates
+    formats:
+      - pdf
+    description: |
+      Email and handwritten thank-you note templates.
+    templates:
+      - "Standard post-interview thank you"
+      - "Thank you for panel interview"
+      - "Thank you referencing specific discussion"
+      - "Thank you after rejection (relationship building)"
+
+  - id: RES-4.8
+    name: "Pre-Interview Calm Routine"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      5-minute anxiety reduction routine for before interviews.
+    steps:
+      - "Box breathing (4-4-4-4)"
+      - "Power pose (2 min)"
+      - "Review top 3 talking points"
+      - "Positive affirmation"
+      - "One more deep breath"
+
+# =============================================================================
+# MODULE 05: MONEY MOVES
+# =============================================================================
+
+module_05:
+
+  - id: RES-5.1
+    name: "Salary Research Worksheet"
+    type: fillable_pdf
+    formats:
+      - pdf
+      - google_sheets
+    description: |
+      Template for documenting salary research across sources.
+    sources:
+      - "Glassdoor"
+      - "LinkedIn Salary"
+      - "Indeed"
+      - "BLS"
+      - "Payscale"
+      - "Levels.fyi"
+    calculations:
+      - "Minimum (floor)"
+      - "Target (realistic ideal)"
+      - "Stretch (best case)"
+
+  - id: RES-5.2
+    name: "Total Compensation Calculator"
+    type: spreadsheet
+    formats:
+      - google_sheets
+      - xlsx
+    description: |
+      Calculate and compare total value of job offers.
+    components:
+      - "Base salary"
+      - "Bonus potential"
+      - "Health insurance value"
+      - "401k match value"
+      - "PTO value"
+      - "Remote work value"
+      - "Other benefits"
+      - "Total calculated"
+
+  - id: RES-5.3
+    name: "Negotiation Scripts"
+    type: templates
+    formats:
+      - pdf
+    description: |
+      Word-for-word scripts for negotiation conversations.
+    scripts:
+      - "Receiving the offer"
+      - "Asking for time to consider"
+      - "The salary ask"
+      - "If they say no to salary"
+      - "Negotiating non-salary items"
+      - "Accepting the offer"
+      - "Declining gracefully"
+
+  - id: RES-5.4
+    name: "Offer Evaluation Matrix"
+    type: matrix
+    formats:
+      - pdf
+      - google_sheets
+    description: |
+      Side-by-side comparison of multiple offers.
+    factors:
+      - "Base salary"
+      - "Total compensation"
+      - "Role fit"
+      - "Growth opportunity"
+      - "Culture/values"
+      - "Work-life balance"
+      - "Location/commute"
+      - "Gut feeling"
+
+# =============================================================================
+# MODULE 06: INNER GAME
+# =============================================================================
+
+module_06:
+
+  - id: RES-6.1
+    name: "Imposter Syndrome Reframe Cards"
+    type: template
+    formats:
+      - pdf
+      - digital_cards
+    description: |
+      Template for creating personal reframe cards.
+    format:
+      front: "Imposter thought"
+      back: "Evidence-based reframe"
+    includes:
+      - "10 blank card templates"
+      - "5 pre-written examples"
+
+  - id: RES-6.2
+    name: "Common Reframes Guide"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      Pre-written reframes for common imposter thoughts.
+    thoughts:
+      - "I'm not qualified enough"
+      - "Everyone else knows what they're doing"
+      - "They'll find out I'm faking"
+      - "I don't deserve this opportunity"
+      - "I'm not smart enough"
+      - "I can't compete with others"
+
+  - id: RES-6.3
+    name: "Rejection Resilience Plan"
+    type: fillable_pdf
+    formats:
+      - pdf
+    description: |
+      Personal plan for bouncing back from rejection.
+    sections:
+      - "My 24-hour rule (how I'll process)"
+      - "My recovery activities"
+      - "My reframe statements"
+      - "My support people"
+      - "My next action after rejection"
+
+  - id: RES-6.4
+    name: "30-Day Commitment Card"
+    type: commitment
+    formats:
+      - pdf
+    description: |
+      Visible commitment card for daily action tracking.
+    includes:
+      - "Start/end dates"
+      - "Personal commitments"
+      - "Signature line"
+      - "Accountability partner"
+
+# =============================================================================
+# MODULE 07: LAUNCH SEQUENCE
+# =============================================================================
+
+module_07:
+
+  - id: RES-7.1
+    name: "90-Day Action Plan Template"
+    type: planner
+    formats:
+      - pdf
+      - google_docs
+    description: |
+      Structured plan with phases, targets, and milestones.
+    phases:
+      - "Days 1-30: Foundation"
+      - "Days 31-60: Momentum"
+      - "Days 61-90: Interviews"
+    per_phase:
+      - "Weekly targets"
+      - "Key milestones"
+      - "Success metrics"
+
+  - id: RES-7.2
+    name: "Weekly Action Tracker"
+    type: spreadsheet
+    formats:
+      - google_sheets
+      - xlsx
+    description: |
+      Weekly summary view to complement Daily Action Tracker.
+    includes:
+      - "Weekly targets vs. actual"
+      - "Application count"
+      - "Networking activity"
+      - "Interview activity"
+      - "What worked"
+      - "What to adjust"
+
+  - id: RES-7.3
+    name: "Keep Learning Resources"
+    type: reference
+    formats:
+      - pdf
+    description: |
+      Curated resources for continued learning after course completion.
+    categories:
+      - "Industry-specific resources"
+      - "Interview practice platforms"
+      - "Networking communities"
+      - "Career development books"
+      - "Podcasts and videos"
+
+  - id: RES-7.4
+    name: "Success Story Submission Form"
+    type: form
+    formats:
+      - google_form
+    description: |
+      Share your win! Form for submitting success stories.
+    fields:
+      - "Name (optional)"
+      - "Role landed"
+      - "Time from start to offer"
+      - "What helped most"
+      - "Advice for future students"
+      - "May we share your story?"

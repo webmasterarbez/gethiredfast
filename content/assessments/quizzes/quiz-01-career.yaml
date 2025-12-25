@@ -1,0 +1,138 @@
+# Course OS - Module Quiz
+# Quiz: Career Direction Foundations
+# Module: 01 - Career GPS
+
+quiz:
+  id: quiz-01-career
+  title: "Career Direction Foundations"
+  module: module-01
+  outcomes: ["ELO-1.1", "ELO-1.2", "ELO-1.3", "ELO-1.4"]
+  purpose: "Confirm understanding of career strategy concepts"
+
+  settings:
+    time_limit: 0
+    attempts: 3
+    passing_score: 70
+    randomize: true
+    show_answers: after_submission
+
+  questions:
+
+    - id: q1
+      question: "What are the three factors to consider when exploring career direction?"
+      type: multiple_choice
+      options:
+        - text: "Salary, benefits, and location"
+          correct: false
+        - text: "Interests, skills, and market demand"
+          correct: true
+        - text: "Education, experience, and connections"
+          correct: false
+        - text: "Passion, purpose, and prestige"
+          correct: false
+      explanation: "The three factors are: what interests you (interests), what you're good at (skills), and what the job market needs (market demand)."
+      bloom_level: remember
+
+    - id: q2
+      question: "What is a 'transferable skill'?"
+      type: multiple_choice
+      options:
+        - text: "A skill that can only be used in one specific job"
+          correct: false
+        - text: "A skill learned in one context that applies to many jobs"
+          correct: true
+        - text: "A technical certification"
+          correct: false
+        - text: "A skill you need to transfer to someone else"
+          correct: false
+      explanation: "Transferable skills are abilities gained from any experience (work, school, volunteer, life) that apply across many different jobs."
+      bloom_level: understand
+
+    - id: q3
+      question: "Why is the advice to 'follow your passion' potentially problematic?"
+      type: multiple_choice
+      options:
+        - text: "Passion doesn't exist"
+          correct: false
+        - text: "Passion alone doesn't guarantee job market demand or skill fit"
+          correct: true
+        - text: "Employers don't care about passion"
+          correct: false
+        - text: "Passion changes too often"
+          correct: false
+      explanation: "Passion is one factor, but sustainable careers also require skills and market demand. Passion without market fit leads to frustration."
+      bloom_level: understand
+
+    - id: q4
+      question: "On the Target Job Scorecard, what score range indicates a strong candidate role?"
+      type: multiple_choice
+      options:
+        - text: "10-12 points"
+          correct: false
+        - text: "12-15 points"
+          correct: false
+        - text: "15-20 points"
+          correct: true
+        - text: "20-25 points"
+          correct: false
+      explanation: "Roles scoring 15+ are strong candidates for your focus. 20+ is a great fit. Below 12 is probably not worth your focus."
+      bloom_level: remember
+
+    - id: q5
+      question: "What are the five factors scored on the Target Job Scorecard?"
+      type: multiple_select
+      options:
+        - text: "Interest"
+          correct: true
+        - text: "Skill Match"
+          correct: true
+        - text: "Salary Potential"
+          correct: false
+        - text: "Market Demand"
+          correct: true
+        - text: "Entry Accessibility"
+          correct: true
+        - text: "Growth Potential"
+          correct: true
+        - text: "Location"
+          correct: false
+      partial_credit: true
+      explanation: "The 5 factors are: Interest, Skill Match, Market Demand, Entry Accessibility, and Growth Potential."
+      bloom_level: remember
+
+    - id: q6
+      question: "True or False: AI will replace all entry-level jobs within the next 5 years."
+      type: true_false
+      correct: false
+      explanation: "AI is changing jobs, not eliminating all of them. Skills like creativity, emotional intelligence, and human connection remain valuable and are hard to automate."
+      bloom_level: understand
+
+    - id: q7
+      question: "What is the recommended number of target job types to focus on?"
+      type: multiple_choice
+      options:
+        - text: "1 specific role"
+          correct: false
+        - text: "2-3 job types"
+          correct: true
+        - text: "5-10 different roles"
+          correct: false
+        - text: "As many as possible"
+          correct: false
+      explanation: "2-3 target job types is ideal — specific enough to focus your search, broad enough to have options."
+      bloom_level: remember
+
+    - id: q8
+      question: "According to the course, imposter syndrome is often a sign of what?"
+      type: multiple_choice
+      options:
+        - text: "You're not qualified for the job"
+          correct: false
+        - text: "You need more education"
+          correct: false
+        - text: "You're growing and challenging yourself"
+          correct: true
+        - text: "You should choose a different career"
+          correct: false
+      explanation: "Imposter syndrome often appears when you're stretching beyond your comfort zone — a sign of growth, not inadequacy."
+      bloom_level: understand

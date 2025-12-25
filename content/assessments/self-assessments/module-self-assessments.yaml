@@ -1,0 +1,271 @@
+# Course OS - Self-Assessment Tools
+# Course: Get Hired Fast for Community College Students
+# Purpose: Build metacognition and identify gaps
+
+# =============================================================================
+# SELF-ASSESSMENT PHILOSOPHY
+# =============================================================================
+
+philosophy: |
+  Self-assessments help students develop metacognition — the ability to
+  evaluate their own readiness and identify where they need more work.
+  These are low-stakes reflective tools, not graded assessments.
+
+# =============================================================================
+# MODULE CONFIDENCE ASSESSMENTS
+# =============================================================================
+
+module_assessments:
+
+  # ---------------------------------------------------------------------------
+  # Module 0: Launchpad
+  # ---------------------------------------------------------------------------
+
+  self-00-readiness:
+    module: module-00
+    title: "Course Readiness Check"
+    timing: "After completing Launchpad"
+
+    confidence_ratings:
+      - statement: "I understand how the course is organized and how to navigate it"
+        scale: 1-5
+      - statement: "I have my Daily Action Tracker set up and ready to use"
+        scale: 1-5
+      - statement: "I understand what deliverables I'll create in this course"
+        scale: 1-5
+      - statement: "I'm committed to taking action, even when I don't feel ready"
+        scale: 1-5
+
+    reflection_prompts:
+      - "What's your biggest hope for what you'll get out of this course?"
+      - "What's your biggest fear or concern about the job search process?"
+      - "What module are you most eager to dive into first?"
+
+  # ---------------------------------------------------------------------------
+  # Module 1: Career GPS
+  # ---------------------------------------------------------------------------
+
+  self-01-clarity:
+    module: module-01
+    title: "Career Clarity Check"
+    timing: "After completing Career GPS"
+
+    confidence_ratings:
+      - statement: "I can articulate my top 5 transferable skills"
+        scale: 1-5
+      - statement: "I have 2-3 target job types identified"
+        scale: 1-5
+      - statement: "I understand what these roles require and where to find them"
+        scale: 1-5
+      - statement: "I feel clear about my career direction (even if not 100% certain)"
+        scale: 1-5
+
+    reflection_prompts:
+      - "What transferable skills are you most confident about?"
+      - "What's still unclear about your career direction?"
+      - "What surprised you about the Target Job Scorecard results?"
+
+  # ---------------------------------------------------------------------------
+  # Module 2: Brand Builder
+  # ---------------------------------------------------------------------------
+
+  self-02-materials:
+    module: module-02
+    title: "Materials Readiness Check"
+    timing: "After completing Brand Builder"
+
+    confidence_ratings:
+      - statement: "My resume effectively showcases my achievements, not just duties"
+        scale: 1-5
+      - statement: "My resume is ATS-optimized and free of formatting issues"
+        scale: 1-5
+      - statement: "My LinkedIn profile is complete and would attract recruiters"
+        scale: 1-5
+      - statement: "I can deliver my elevator pitch naturally in 30 seconds"
+        scale: 1-5
+      - statement: "I know how to tailor my resume for specific job postings"
+        scale: 1-5
+
+    reflection_prompts:
+      - "What's the strongest part of your resume?"
+      - "What section of your LinkedIn profile are you most proud of?"
+      - "What still feels incomplete or weak in your materials?"
+
+  # ---------------------------------------------------------------------------
+  # Module 3: Network Navigator
+  # ---------------------------------------------------------------------------
+
+  self-03-network:
+    module: module-03
+    title: "Networking Readiness Check"
+    timing: "After completing Network Navigator"
+
+    confidence_ratings:
+      - statement: "I've identified 50+ contacts in my network"
+        scale: 1-5
+      - statement: "I know how to write an effective networking outreach message"
+        scale: 1-5
+      - statement: "I feel comfortable requesting an informational interview"
+        scale: 1-5
+      - statement: "I understand the value of networking (not just applying online)"
+        scale: 1-5
+      - statement: "I have a plan to reach out to at least 5 contacts this week"
+        scale: 1-5
+
+    reflection_prompts:
+      - "Who in your network are you most excited to reach out to?"
+      - "What makes networking feel uncomfortable, if anything?"
+      - "How has your view of networking changed after this module?"
+
+  # ---------------------------------------------------------------------------
+  # Module 4: Interview Intel
+  # ---------------------------------------------------------------------------
+
+  self-04-interview-ready:
+    module: module-04
+    title: "Interview Readiness Check"
+    timing: "After completing Interview Intel"
+
+    confidence_ratings:
+      - statement: "I have 5+ STAR stories prepared and practiced"
+        scale: 1-5
+      - statement: "I can answer 'Tell me about yourself' smoothly"
+        scale: 1-5
+      - statement: "I know how to research a company before an interview"
+        scale: 1-5
+      - statement: "I'm prepared for video/HireVue-style interviews"
+        scale: 1-5
+      - statement: "I know what to do when I blank on a question"
+        scale: 1-5
+      - statement: "I have a thank-you note template ready to personalize"
+        scale: 1-5
+
+    reflection_prompts:
+      - "Which STAR story are you most confident telling?"
+      - "What type of interview question still makes you nervous?"
+      - "What's your plan for managing interview anxiety?"
+
+  # ---------------------------------------------------------------------------
+  # Module 5: Money Moves
+  # ---------------------------------------------------------------------------
+
+  self-05-negotiation-ready:
+    module: module-05
+    title: "Negotiation Readiness Check"
+    timing: "After completing Money Moves"
+
+    confidence_ratings:
+      - statement: "I know the market salary range for my target roles"
+        scale: 1-5
+      - statement: "I understand total compensation beyond just salary"
+        scale: 1-5
+      - statement: "I have negotiation scripts prepared and practiced"
+        scale: 1-5
+      - statement: "I believe I deserve to negotiate (even at entry level)"
+        scale: 1-5
+      - statement: "I know how to evaluate and compare job offers"
+        scale: 1-5
+
+    reflection_prompts:
+      - "What's your target salary range and how did you determine it?"
+      - "What non-salary items would you consider negotiating?"
+      - "What fears about negotiation do you still have?"
+
+  # ---------------------------------------------------------------------------
+  # Module 6: Inner Game
+  # ---------------------------------------------------------------------------
+
+  self-06-mindset:
+    module: module-06
+    title: "Mindset Readiness Check"
+    timing: "After completing Inner Game"
+
+    confidence_ratings:
+      - statement: "I can recognize imposter syndrome when it shows up"
+        scale: 1-5
+      - statement: "I have reframe cards or strategies for negative self-talk"
+        scale: 1-5
+      - statement: "I have a plan for handling rejection"
+        scale: 1-5
+      - statement: "I can take action even when I don't feel 'ready'"
+        scale: 1-5
+      - statement: "I'm committed to using my Daily Action Tracker consistently"
+        scale: 1-5
+
+    reflection_prompts:
+      - "What imposter thought is most common for you?"
+      - "What's your reframe for that thought?"
+      - "What will you do on days when you don't feel like job searching?"
+
+  # ---------------------------------------------------------------------------
+  # Module 7: Launch Sequence
+  # ---------------------------------------------------------------------------
+
+  self-07-launch-ready:
+    module: module-07
+    title: "Launch Readiness Check"
+    timing: "After completing Launch Sequence"
+
+    confidence_ratings:
+      - statement: "I have a complete 90-day action plan"
+        scale: 1-5
+      - statement: "I know exactly what my first 3 actions are tomorrow"
+        scale: 1-5
+      - statement: "I have all my job search materials ready"
+        scale: 1-5
+      - statement: "I feel prepared to handle the ups and downs of job searching"
+        scale: 1-5
+      - statement: "I believe I will find a job if I follow my plan"
+        scale: 1-5
+
+    reflection_prompts:
+      - "What are you most proud of accomplishing in this course?"
+      - "What do you still want to improve before diving into your search?"
+      - "What would you tell someone just starting this course?"
+
+# =============================================================================
+# OVERALL READINESS MATRIX
+# =============================================================================
+
+readiness_matrix:
+
+  description: |
+    Use this matrix to identify where you're strong and where you need
+    more work. A score of 3 or below indicates an area to revisit.
+
+  categories:
+    - name: "Career Clarity"
+      indicators:
+        - "I know my target job types"
+        - "I can list my transferable skills"
+        - "I understand the job market for my targets"
+
+    - name: "Materials Ready"
+      indicators:
+        - "My resume is polished and ATS-ready"
+        - "My LinkedIn is complete (All-Star)"
+        - "I have an elevator pitch"
+
+    - name: "Network Activated"
+      indicators:
+        - "I have 50+ contacts mapped"
+        - "I've sent networking outreach"
+        - "I've done informational interviews"
+
+    - name: "Interview Prepared"
+      indicators:
+        - "I have 5+ STAR stories"
+        - "I've practiced common questions"
+        - "I'm ready for video interviews"
+
+    - name: "Negotiation Ready"
+      indicators:
+        - "I know my salary range"
+        - "I have negotiation scripts"
+        - "I can evaluate offers"
+
+    - name: "Mindset Strong"
+      indicators:
+        - "I can manage imposter syndrome"
+        - "I have rejection resilience strategies"
+        - "I can take action despite doubt"

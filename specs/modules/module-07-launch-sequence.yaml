@@ -1,0 +1,205 @@
+# Course OS - Module Specification
+# Module 07: Launch Sequence
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-07
+  title: "Launch Sequence"
+  subtitle: "Your 90-Day Action Plan"
+  problem: null  # Wrap-up, not problem-based
+  type: capstone
+  duration: "15-20 minutes"
+
+overview:
+  purpose: |
+    Bring the entire course together. Students create their 90-day
+    job search action plan, celebrate progress, and commit to next
+    steps. Sends students off with confidence and clarity.
+
+  terminal_outcome: null
+  enabling_outcomes: []
+
+  emotional_goal: |
+    "I'm ready. I have everything I need. Now it's time to go get hired."
+    Confidence, excitement, and momentum for the next phase.
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 7.1: Your 90-Day Action Plan
+  # ---------------------------------------------------------------------------
+
+  - id: L7.1
+    title: "Your 90-Day Action Plan"
+    type: practice
+    duration: "15 minutes"
+    format: video + activity
+
+    description: |
+      Guided creation of a personalized 90-day job search plan using
+      everything learned in the course. Specific, actionable, and
+      time-bound.
+
+    objectives:
+      - "Create a 90-day action plan with specific milestones"
+      - "Integrate all course deliverables into a system"
+      - "Commit to measurable weekly actions"
+
+    gagne_events:
+      attention: |
+        "You've built the tools. You've got the skills. Now let's put
+        it all together into a plan that gets you hired in the next
+        90 days."
+      objectives: |
+        Create your personalized 90-day job search action plan.
+      recall: |
+        Review all the deliverables you've created: resume, LinkedIn,
+        STAR stories, network map, scripts, research. These are your
+        weapons.
+      content:
+        - The 90-day framework
+        - Phase 1 (Days 1-30): Foundation and outreach
+        - Phase 2 (Days 31-60): Momentum and interviews
+        - Phase 3 (Days 61-90): Negotiations and offers
+        - Weekly action minimums
+        - Milestone checkpoints
+      guidance: |
+        "Your plan should be specific. 'Apply to jobs' isn't a plan.
+        'Apply to 10 targeted jobs per week using tailored resumes'
+        is a plan."
+      practice: |
+        Complete the 90-day plan template → Set weekly targets →
+        Identify your first 3 actions for tomorrow
+      feedback: |
+        "If your plan feels overwhelming, scale it back. A sustainable
+        plan you follow beats an ambitious plan you abandon."
+      retention: |
+        "Post this plan somewhere visible. Review it weekly. Adjust
+        as you learn what works."
+
+    resources:
+      - name: "90-Day Action Plan Template"
+        type: download
+        description: "Structured plan with milestones"
+      - name: "Weekly Action Tracker"
+        type: download
+        description: "Complement to Daily Action Tracker"
+      - name: "Milestone Checkpoint Guide"
+        type: download
+        description: "What success looks like at each phase"
+
+    deliverables:
+      - name: "90-Day Job Search Action Plan"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 7.2: Celebrate Your Progress
+  # ---------------------------------------------------------------------------
+
+  - id: L7.2
+    title: "Celebrate Your Progress"
+    type: instruction
+    duration: "5 minutes"
+    format: video
+
+    description: |
+      Acknowledgment of everything accomplished. Celebration of progress.
+      Final encouragement and send-off from Cat.
+
+    objectives:
+      - "Recognize how far you've come"
+      - "Feel confident in your preparation"
+      - "Leave with motivation and momentum"
+
+    gagne_events:
+      attention: |
+        "Take a moment to look at everything you've created. Resume.
+        LinkedIn. STAR stories. Network map. Scripts. A plan. You came
+        in feeling overwhelmed. Look at you now."
+      objectives: |
+        Celebrate your progress and prepare to launch your job search.
+      recall: |
+        Remember how you felt at the start of this course? Compare
+        that to how you feel now.
+      content:
+        - Inventory of what you've built
+        - The transformation you've made
+        - What to do when you get stuck
+        - How to keep learning after the course
+        - Cat's final encouragement
+      guidance: |
+        "You are more ready than you know. The doubt will come back.
+        When it does, come back to Module 6. But know this: you have
+        everything you need."
+      retention: |
+        "The job is out there. Go get it. And when you do — send me
+        your success story. I can't wait to hear it."
+
+    resources:
+      - name: "Success Story Submission"
+        type: link
+        description: "Share your win when it happens"
+      - name: "Keep Learning Resources"
+        type: download
+        description: "What to explore next"
+
+    deliverables:
+      - name: "Course Completion Certificate"
+        type: certificate
+        required: true
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 2
+  total_duration: "20 minutes"
+
+  deliverables:
+    - "90-Day Job Search Action Plan"
+    - "Course Completion Certificate"
+
+  mindset_integration: |
+    The celebration lesson (7.2) reinforces progress and builds
+    confidence. Students leave feeling capable and motivated, not
+    just informed.
+
+  post_module: |
+    After completion, students should:
+    - Execute their 90-day plan
+    - Continue using the Daily Action Tracker
+    - Return to specific modules as needed (especially Module 6)
+    - Submit success stories when they land jobs
+
+# =============================================================================
+# COURSE COMPLETION
+# =============================================================================
+
+completion:
+
+  certificate:
+    issued_when: "All core modules completed"
+    content:
+      - Course name
+      - Student name
+      - Completion date
+      - Cat Breet signature
+
+  success_tracking:
+    30_day_survey: true
+    60_day_survey: true
+    90_day_survey: true
+    success_story_collection: true
+
+  ongoing_resources:
+    - "Access to all course materials (lifetime)"
+    - "Updated content as course evolves"
+    - "Templates and scripts remain accessible"
+    - "Daily Action Tracker continues to work"

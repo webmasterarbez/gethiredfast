@@ -1,0 +1,272 @@
+# Course OS - Course Format
+# Course: Get Hired Fast for Community College Students
+# Phase 4: Course Strategy
+# Generated: 2025-12-22
+
+# =============================================================================
+# COURSE TYPE
+# =============================================================================
+
+type:
+  format: self-paced
+  rationale: |
+    Community college students have unpredictable schedules due to work,
+    family, and class commitments. Self-paced allows them to learn when
+    they have time, which increases completion rates for this audience.
+
+  cohort_elements: false
+  live_elements: false
+
+# =============================================================================
+# PROBLEM-CENTERED STRUCTURE
+# =============================================================================
+
+structure:
+
+  philosophy: |
+    This course is organized around PROBLEMS, not arbitrary time units.
+    Students don't wake up thinking "It's Week 3!" — they think "I have
+    an interview tomorrow, what do I do?" The structure meets them where
+    they are with solutions to specific challenges.
+
+  organization: "Problem-Topic"
+
+  core_problems:
+
+    - number: 1
+      title: "WTF Should I Do With My Life?"
+      subtitle: "Finding Direction When Everything Feels Unclear"
+      description: |
+        Career exploration, self-assessment, identifying transferable skills,
+        target job identification, and understanding AI's impact on work.
+      estimated_time: "45-60 minutes"
+      deliverables:
+        - "Completed self-assessment"
+        - "Transferable skills inventory"
+        - "Target Job Scorecard"
+        - "Daily Action Tracker setup"
+
+    - number: 2
+      title: "My Resume Has Nothing On It"
+      subtitle: "Building Your Brand When Experience Feels Thin"
+      description: |
+        Framing limited experience, ATS optimization, AI tools for resume
+        writing, LinkedIn profile building, and personal branding.
+      estimated_time: "60-90 minutes"
+      deliverables:
+        - "Polished, ATS-optimized resume"
+        - "LinkedIn All-Star profile"
+        - "30-second elevator pitch"
+
+    - number: 3
+      title: "I Don't Know Anyone"
+      subtitle: "Building a Network Without Feeling Fake"
+      description: |
+        Hidden job market access, networking without discomfort,
+        informational interviews, and using modern platforms (Handshake).
+      estimated_time: "45-60 minutes"
+      deliverables:
+        - "Network map (50+ contacts)"
+        - "Outreach scripts"
+        - "3+ informational interview requests"
+
+    - number: 4
+      title: "Help! I Have An Interview"
+      subtitle: "From Panic to Prepared in Any Interview"
+      description: |
+        STAR method mastery, common question preparation, AI video
+        interviews (HireVue), company research, and follow-up.
+      estimated_time: "60-90 minutes"
+      deliverables:
+        - "STAR story bank (5+ stories)"
+        - "Answer frameworks for common questions"
+        - "Company research template"
+        - "Thank-you note template"
+
+    - number: 5
+      title: "Can I Actually Ask For More?"
+      subtitle: "Negotiation Secrets (Yes, Even at Entry Level)"
+      description: |
+        Salary research, total compensation understanding, negotiation
+        tactics, and offer evaluation framework.
+      estimated_time: "45-60 minutes"
+      deliverables:
+        - "Salary research worksheet"
+        - "Negotiation script"
+        - "Offer comparison matrix"
+
+    - number: 6
+      title: "I'm Not Good Enough (And Other Lies)"
+      subtitle: "Conquering the Mental Game of Job Search"
+      description: |
+        Imposter syndrome strategies, rejection resilience, breaking
+        perfectionism, and building confidence through action.
+      estimated_time: "30-45 minutes"
+      deliverables:
+        - "Imposter syndrome reframe cards"
+        - "Rejection resilience plan"
+        - "Action commitment"
+
+  total_estimated_time: "5-7 hours"
+
+  flexibility_note: |
+    Students can tackle problems in any order based on their immediate needs.
+    If they have an interview tomorrow, they start with Problem 4. If they're
+    paralyzed by imposter syndrome, they start with Problem 6. The structure
+    serves the learner, not the other way around.
+
+# =============================================================================
+# CONTENT DELIVERY
+# =============================================================================
+
+delivery:
+
+  primary: video
+  secondary:
+    - downloadable_worksheets
+    - scripts_and_templates
+    - checklists
+
+  video_specs:
+    max_length: "10-15 minutes"
+    style: "Direct-to-camera with supporting visuals"
+    tone: "Conversational, supportive, real talk"
+    instructor: "Cat Breet"
+
+  supporting_materials:
+    - type: "Scripts & Templates"
+      description: "Exact words to use in networking, interviews, negotiation"
+      format: "PDF download, copy-paste ready"
+
+    - type: "Worksheets"
+      description: "Interactive exercises and planning tools"
+      format: "Fillable PDF or online form"
+
+    - type: "Checklists"
+      description: "Step-by-step action guides"
+      format: "PDF download"
+
+    - type: "Daily Action Tracker"
+      description: "Accountability and progress tracking system"
+      format: "Spreadsheet or app"
+
+# =============================================================================
+# PACING
+# =============================================================================
+
+pacing:
+
+  recommended: "One problem area per week (5-7 hours total over 5 weeks)"
+  minimum: "Complete at your own pace"
+  maximum: "Lifetime access"
+
+  suggested_approach: |
+    Most students complete one problem area per week, spending about 45-90
+    minutes per section. However, the course is designed to be completed
+    faster if job searching urgently, or spread out if balancing other
+    commitments.
+
+  daily_action_tracker:
+    description: |
+      The Daily Action Tracker is the accountability backbone. Students
+      log job search activities daily, building habits and visibility
+      into what's working.
+    frequency: "Daily (5-10 minutes)"
+    components:
+      - "Activity logging"
+      - "Progress tracking"
+      - "Win celebration"
+      - "What's working analysis"
+
+# =============================================================================
+# ACCESS & SUPPORT
+# =============================================================================
+
+access:
+
+  period: "Lifetime"
+  updates: "Included (when course is updated)"
+  devices: "Desktop, tablet, mobile"
+  offline: "Video downloads available"
+
+support:
+
+  model: "Self-supported with resources"
+
+  resources:
+    - "FAQ section per problem area"
+    - "Example answers and templates"
+    - "Troubleshooting guides"
+
+  escalation:
+    note: |
+      For institutional licenses, students can be directed to their
+      college's career center for personalized support. The course
+      is designed to complement, not replace, career services.
+
+# =============================================================================
+# MOBILE OPTIMIZATION
+# =============================================================================
+
+mobile:
+
+  priority: "Mobile-first"
+  rationale: |
+    Community college students are often commuting, working, or between
+    classes. Course must work perfectly on phones.
+
+  requirements:
+    - "Videos watchable on phone (portrait-friendly)"
+    - "Worksheets fillable on mobile or printable"
+    - "Text readable without zooming"
+    - "No features requiring desktop-only software"
+
+# =============================================================================
+# ENGAGEMENT MECHANISMS
+# =============================================================================
+
+engagement:
+
+  progress_visibility:
+    - "Completion tracking per problem area"
+    - "Deliverable checklist"
+    - "Daily Action Tracker progress"
+
+  quick_wins:
+    - "First deliverable within 30 minutes (self-assessment)"
+    - "Resume draft within first 2 hours"
+    - "First networking message sent within first 3 hours"
+
+  momentum_builders:
+    - "Celebration prompts for completed deliverables"
+    - "Progress emails (for platforms that support)"
+    - "Streak tracking in Daily Action Tracker"
+
+  re-engagement:
+    - "Email reminders for inactive learners"
+    - "Easy re-entry points (pick up any problem area)"
+    - "Mindset content accessible anytime"
+
+# =============================================================================
+# COMPLETION DEFINITION
+# =============================================================================
+
+completion:
+
+  definition: |
+    A student is considered "complete" when they have finished all core
+    problem areas and produced the key deliverables. However, the real
+    measure of success is getting hired, not course completion.
+
+  requirements:
+    - "All 6 problem areas completed"
+    - "Key deliverables produced (resume, LinkedIn, STAR stories)"
+    - "Daily Action Tracker used for at least 2 weeks"
+
+  certification:
+    type: "Certificate of Completion"
+    issued: "Upon completing all requirements"
+    value: |
+      The certificate demonstrates commitment to career development,
+      but the portfolio of deliverables (resume, LinkedIn) is more
+      valuable than the certificate itself.

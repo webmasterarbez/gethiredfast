@@ -1,0 +1,326 @@
+# Course OS - Module Specification
+# Module 01: Career GPS
+# Course: Get Hired Fast for Community College Students
+# Generated: 2025-12-22
+
+module:
+  id: module-01
+  title: "Career GPS"
+  subtitle: "WTF Should I Do With My Life?"
+  problem: 1
+  type: core
+  duration: "45-60 minutes"
+
+overview:
+  purpose: |
+    Help students gain clarity on career direction through self-assessment,
+    transferable skills identification, and target job selection. Students
+    leave with a clear focus for their job search.
+
+  terminal_outcome: TLO-1
+  enabling_outcomes:
+    - ELO-1.1
+    - ELO-1.2
+    - ELO-1.3
+    - ELO-1.4
+
+  emotional_goal: |
+    Transform "I have no idea what I want" into "I know where to focus."
+    Build early confidence by discovering hidden strengths.
+
+# =============================================================================
+# LESSONS
+# =============================================================================
+
+lessons:
+
+  # ---------------------------------------------------------------------------
+  # LESSON 1.1: Finding Your Career Direction
+  # ---------------------------------------------------------------------------
+
+  - id: L1.1
+    title: "Finding Your Career Direction"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Introduction to career exploration. Debunks the myth that you need
+      to have it all figured out. Introduces the self-assessment approach.
+
+    objectives:
+      - "Recognize that uncertainty is normal (and temporary)"
+      - "Understand the difference between a job and a career direction"
+      - "Know what factors to consider in career exploration"
+
+    gagne_events:
+      attention: |
+        "Here's a secret: most people who seem like they have it all
+        figured out? They don't. They just started somewhere. That's
+        what you're going to do today."
+      objectives: |
+        By the end of this lesson, you'll have a framework for exploring
+        career options that works even when you feel completely lost.
+      recall: |
+        Think about a class, project, or activity where you lost track
+        of time because you were so engaged. That's a clue.
+      content:
+        - Why "what do you want to do?" is the wrong question
+        - The 3 factors: interests, skills, market demand
+        - How to explore without committing forever
+        - Career direction vs. first job
+      guidance: |
+        "You don't need to find your 'passion.' You need to find a
+        direction that's interesting enough to start and good enough
+        to pay the bills."
+      retention: |
+        "In the next lesson, we'll identify your hidden superpowers —
+        skills you don't even realize you have."
+
+    resources:
+      - name: "Career Exploration Worksheet"
+        type: download
+        description: "Guided self-reflection questions"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 1.2: Your Hidden Superpowers: Transferable Skills
+  # ---------------------------------------------------------------------------
+
+  - id: L1.2
+    title: "Your Hidden Superpowers: Transferable Skills"
+    type: demonstration
+    duration: "12 minutes"
+    format: video + exercise
+
+    description: |
+      Helps students identify transferable skills from all experiences —
+      not just jobs. Shows how to translate "I was a cashier" into
+      valuable professional skills.
+
+    objectives:
+      - "Identify 10+ transferable skills from any experience"
+      - "Translate everyday activities into professional language"
+      - "Recognize their own value (early imposter syndrome antidote)"
+
+    gagne_events:
+      attention: |
+        "You think you don't have experience? Let me show you something.
+        Every group project, part-time job, family responsibility, and
+        volunteer activity has given you skills employers want."
+      objectives: |
+        Identify at least 10 transferable skills from your experiences.
+      recall: |
+        Think about the last time someone asked you for help with
+        something. What skill did you use?
+      content:
+        - What transferable skills are (and why they matter)
+        - Demo: translating "cashier" into professional skills
+        - Demo: translating "group project" into collaboration evidence
+        - The skill categories employers want
+      guidance: |
+        "When in doubt, ask: what problem did I solve? That's a skill."
+      practice: |
+        Complete the Transferable Skills Inventory using the provided
+        experience brainstorm worksheet.
+      feedback: |
+        "If you found 10+ skills, you're doing great. If you found 5,
+        you're not digging deep enough — everything counts."
+      retention: |
+        "Keep this list. You'll use these skills on your resume and in
+        interview answers."
+
+    resources:
+      - name: "Transferable Skills Inventory"
+        type: download
+        description: "Comprehensive skills checklist with examples"
+      - name: "Experience Brainstorm Worksheet"
+        type: download
+        description: "Prompts to uncover hidden experiences"
+
+    deliverables:
+      - name: "Transferable Skills Inventory (10+ skills)"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 1.3: Target Job Scorecard
+  # ---------------------------------------------------------------------------
+
+  - id: L1.3
+    title: "Target Job Scorecard"
+    type: practice
+    duration: "15 minutes"
+    format: video + activity
+
+    description: |
+      Guided exercise to identify 2-3 target job types using a structured
+      scorecard that balances interests, skills, and market reality.
+
+    objectives:
+      - "Identify 2-3 target job types to focus on"
+      - "Evaluate options using a balanced scorecard"
+      - "Create a focused job search strategy (not random applications)"
+
+    gagne_events:
+      attention: |
+        "Applying to everything is a losing strategy. I've seen it
+        hundreds of times as a recruiter. The students who get hired
+        fast? They're focused."
+      objectives: |
+        Complete your Target Job Scorecard with 2-3 roles to pursue.
+      recall: |
+        Look at your transferable skills list. Which skills do you
+        actually enjoy using?
+      content:
+        - The Target Job Scorecard explained
+        - Demo: filling out a scorecard for a real role
+        - How to research job market demand
+        - Why 2-3 targets is the sweet spot
+      guidance: |
+        "Pick roles where you score at least 3/5 on most factors.
+        You don't need a perfect 5/5 — you need good enough to start."
+      practice: |
+        Research 3-5 potential roles → Score each on the scorecard →
+        Identify your top 2-3 targets.
+      feedback: |
+        "If you can't decide between two roles, that's fine. Apply
+        to both and let the market help you choose."
+      retention: |
+        "Write your target roles at the top of your Daily Action Tracker.
+        Every action should move you toward one of them."
+
+    resources:
+      - name: "Target Job Scorecard"
+        type: download
+        description: "Evaluation matrix for job options"
+      - name: "Job Market Research Guide"
+        type: download
+        description: "How to check demand for roles"
+
+    deliverables:
+      - name: "Target Job Scorecard (2-3 roles)"
+        type: artifact
+        required: true
+
+  # ---------------------------------------------------------------------------
+  # LESSON 1.4: AI and the Future of Your Career
+  # ---------------------------------------------------------------------------
+
+  - id: L1.4
+    title: "AI and the Future of Your Career"
+    type: instruction
+    duration: "10 minutes"
+    format: video
+
+    description: |
+      Realistic overview of how AI is changing the job market without
+      fearmongering. Focuses on practical implications and how to position
+      yourself for roles that will remain valuable.
+
+    objectives:
+      - "Understand which skills AI is less likely to replace"
+      - "Know how to research AI impact on target roles"
+      - "Position yourself for evolving job requirements"
+
+    gagne_events:
+      attention: |
+        "Everyone's talking about AI taking jobs. Here's what they're
+        not telling you: AI is also creating jobs and changing the skills
+        employers want. Let's talk about what that means for you."
+      objectives: |
+        Understand how AI might affect your target roles and how to
+        prepare accordingly.
+      recall: |
+        Think about your target roles. Have you seen AI mentioned in
+        any job postings?
+      content:
+        - The reality of AI in the job market (not doom, not hype)
+        - Skills AI is less likely to replace (creativity, empathy, judgment)
+        - How to research AI impact on specific roles
+        - Positioning yourself as "AI-enhanced" not "AI-replaced"
+      guidance: |
+        "The goal isn't to compete with AI. It's to become someone who
+        uses AI to be more effective. That's what employers want."
+      retention: |
+        "When you research roles, look for mentions of AI. That tells
+        you what skills to emphasize."
+
+    resources:
+      - name: "AI Impact Research Guide"
+        type: download
+        description: "Questions to evaluate roles against AI disruption"
+
+    deliverables: []
+
+  # ---------------------------------------------------------------------------
+  # LESSON 1.5: You Belong Here (Mindset)
+  # ---------------------------------------------------------------------------
+
+  - id: L1.5
+    title: "You Belong Here (Mindset)"
+    type: instruction
+    duration: "8 minutes"
+    format: video
+
+    description: |
+      Addresses early imposter syndrome specifically for CC students.
+      Reframes limited experience as fresh perspective and validates
+      their place in the professional world.
+
+    objectives:
+      - "Recognize imposter syndrome thoughts when they arise"
+      - "Understand that feeling uncertain is normal"
+      - "Begin building confidence through action"
+
+    gagne_events:
+      attention: |
+        "I know what you're thinking. 'But I'm just a community college
+        student. I don't have internships at Google. I don't have a
+        network.' I hear you. And I'm here to tell you: you belong."
+      objectives: |
+        Recognize imposter syndrome and begin building strategies to
+        work through it.
+      recall: |
+        When have you felt like you didn't belong somewhere — and then
+        realized you did?
+      content:
+        - What imposter syndrome is (and who has it: everyone)
+        - Why CC students often feel it more intensely
+        - The advantage of being "underestimated"
+        - How action builds confidence (not the other way around)
+      guidance: |
+        "You don't need to feel confident to take action. Action
+        creates confidence. That's why we're building things in this
+        course, not just watching."
+      retention: |
+        "When imposter syndrome hits, come back to this lesson. Or
+        jump to Module 6 for more tools."
+
+    resources:
+      - name: "Imposter Syndrome First Aid"
+        type: download
+        description: "Quick reference for imposter thoughts"
+
+    deliverables: []
+
+# =============================================================================
+# MODULE SUMMARY
+# =============================================================================
+
+summary:
+  total_lessons: 5
+  total_duration: "55 minutes"
+
+  deliverables:
+    - "Transferable Skills Inventory (10+ skills)"
+    - "Target Job Scorecard (2-3 roles)"
+    - "Champion List started (10+ people)"
+
+  mindset_integration: |
+    Lesson 1.5 directly addresses imposter syndrome. The entire module
+    builds confidence by revealing hidden skills and creating clarity.
+    Students discover they have more to offer than they realized.
+
+  next_module: "module-02 (Brand Builder)"

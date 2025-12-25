@@ -1,0 +1,392 @@
+# Course OS - Scope Definition
+# Course: Get Hired Fast for Community College Students
+# Phase 4: Course Strategy
+# Generated: 2025-12-22
+
+# =============================================================================
+# INCLUDED SCOPE
+# =============================================================================
+
+included:
+
+  # ---------------------------------------------------------------------------
+  # CAREER EXPLORATION & DIRECTION
+  # ---------------------------------------------------------------------------
+
+  - category: "Career Exploration"
+    topics:
+      - name: "Self-assessment and values clarification"
+        depth: "Moderate"
+        rationale: "Foundation for targeting right roles"
+
+      - name: "Identifying transferable skills"
+        depth: "Deep"
+        rationale: "Critical for students with limited 'official' experience"
+
+      - name: "Target job identification"
+        depth: "Moderate"
+        rationale: "Focused searching beats random applications"
+
+      - name: "AI and the future of work"
+        depth: "Overview"
+        rationale: "Context for making career decisions in 2025"
+
+  # ---------------------------------------------------------------------------
+  # PERSONAL BRANDING & MATERIALS
+  # ---------------------------------------------------------------------------
+
+  - category: "Resume & LinkedIn"
+    topics:
+      - name: "Resume writing for limited experience"
+        depth: "Deep"
+        rationale: "Core deliverable; primary pain point"
+
+      - name: "ATS optimization"
+        depth: "Deep"
+        rationale: "70%+ applications filtered by ATS"
+
+      - name: "LinkedIn profile optimization"
+        depth: "Moderate-Deep"
+        rationale: "Required professional presence; recruiter sourcing tool"
+
+      - name: "Personal branding / elevator pitch"
+        depth: "Moderate"
+        rationale: "Supports networking and interviews"
+
+      - name: "AI tools for job search (ChatGPT, Teal, Jobscan)"
+        depth: "Practical how-to"
+        rationale: "77% of job seekers using AI; must address"
+
+  # ---------------------------------------------------------------------------
+  # NETWORKING & JOB SEARCH
+  # ---------------------------------------------------------------------------
+
+  - category: "Networking"
+    topics:
+      - name: "Hidden job market strategy"
+        depth: "Moderate"
+        rationale: "70% of jobs through networking"
+
+      - name: "Network mapping and outreach"
+        depth: "Deep"
+        rationale: "Actionable strategy for 'I don't know anyone'"
+
+      - name: "Informational interviews"
+        depth: "Deep"
+        rationale: "Primary networking technique for students"
+
+      - name: "LinkedIn networking"
+        depth: "Moderate"
+        rationale: "Platform-specific strategies"
+
+      - name: "Handshake and college platforms"
+        depth: "Moderate"
+        rationale: "Primary platform for CC students"
+
+  # ---------------------------------------------------------------------------
+  # INTERVIEWING
+  # ---------------------------------------------------------------------------
+
+  - category: "Interviewing"
+    topics:
+      - name: "STAR method for behavioral interviews"
+        depth: "Deep"
+        rationale: "Most common interview format; teachable skill"
+
+      - name: "Common interview questions"
+        depth: "Deep"
+        rationale: "Top 10-15 questions with answer frameworks"
+
+      - name: "AI video interviews (HireVue)"
+        depth: "Moderate"
+        rationale: "Increasingly common for entry-level"
+
+      - name: "Company research"
+        depth: "Moderate"
+        rationale: "Preparation for informed interviewing"
+
+      - name: "Interview follow-up"
+        depth: "Light"
+        rationale: "Thank you notes and next steps"
+
+  # ---------------------------------------------------------------------------
+  # NEGOTIATION & OFFERS
+  # ---------------------------------------------------------------------------
+
+  - category: "Negotiation"
+    topics:
+      - name: "Salary research methods"
+        depth: "Moderate"
+        rationale: "Data-driven negotiation"
+
+      - name: "Total compensation understanding"
+        depth: "Moderate"
+        rationale: "Benefits, PTO, growth often matter more than salary"
+
+      - name: "Entry-level negotiation tactics"
+        depth: "Deep"
+        rationale: "Key differentiator; 84% of employers will negotiate"
+
+      - name: "Offer evaluation framework"
+        depth: "Moderate"
+        rationale: "Comparing multiple offers"
+
+  # ---------------------------------------------------------------------------
+  # MINDSET & PSYCHOLOGY
+  # ---------------------------------------------------------------------------
+
+  - category: "Mindset"
+    topics:
+      - name: "Imposter syndrome"
+        depth: "Moderate-Deep"
+        rationale: "Primary barrier for CC students"
+
+      - name: "Rejection resilience"
+        depth: "Moderate"
+        rationale: "Job search requires mental toughness"
+
+      - name: "Perfectionism and action"
+        depth: "Moderate"
+        rationale: "Done > Perfect; applied > waiting"
+
+      - name: "Job search momentum and accountability"
+        depth: "Deep"
+        rationale: "Daily Action Tracker as core system"
+
+# =============================================================================
+# EXCLUDED SCOPE
+# =============================================================================
+
+excluded:
+
+  # ---------------------------------------------------------------------------
+  # CAREER PLANNING (LONG-TERM)
+  # ---------------------------------------------------------------------------
+
+  - category: "Long-Term Career Planning"
+    topics:
+      - name: "5-10 year career pathing"
+        reason: |
+          Focus is on getting first/next job, not long-term planning.
+          Students need a job before they can think about career trajectory.
+
+      - name: "Graduate school planning"
+        reason: |
+          Out of scope. CC students focused on entering workforce.
+          May revisit education later but not immediate priority.
+
+      - name: "Executive/senior-level job search"
+        reason: |
+          Different strategies required. Course is for entry-level.
+
+  # ---------------------------------------------------------------------------
+  # INDUSTRY-SPECIFIC DEEP DIVES
+  # ---------------------------------------------------------------------------
+
+  - category: "Industry-Specific Content"
+    topics:
+      - name: "Healthcare credentialing"
+        reason: "Specialized; varies by state and role"
+
+      - name: "Tech coding interviews"
+        reason: "Requires separate technical preparation"
+
+      - name: "Creative portfolio development"
+        reason: "Specialized for design/creative fields"
+
+      - name: "Trade certification processes"
+        reason: "Outside scope; field-specific"
+
+    note: |
+      Course teaches transferable job search skills applicable across
+      industries. Students in specialized fields should supplement with
+      field-specific resources.
+
+  # ---------------------------------------------------------------------------
+  # ADVANCED/SPECIALIZED TOPICS
+  # ---------------------------------------------------------------------------
+
+  - category: "Advanced Topics"
+    topics:
+      - name: "Executive presence and leadership branding"
+        reason: "Not relevant for entry-level"
+
+      - name: "International job search"
+        reason: "US-focused course; international requires visa expertise"
+
+      - name: "Freelancing and self-employment"
+        reason: "Different model; course assumes traditional employment"
+
+      - name: "Entrepreneurship"
+        reason: "Different career path entirely"
+
+  # ---------------------------------------------------------------------------
+  # EMPLOYMENT LAW & HR
+  # ---------------------------------------------------------------------------
+
+  - category: "Legal/HR Topics"
+    topics:
+      - name: "Employment law deep dive"
+        reason: "Not qualified to provide legal advice"
+
+      - name: "HR policy interpretation"
+        reason: "Varies by company; too specific"
+
+      - name: "Workplace discrimination law"
+        reason: |
+          Mentioned in context (addressing ageism, etc.) but no legal advice.
+          Refer to appropriate resources.
+
+  # ---------------------------------------------------------------------------
+  # SOFT SKILLS TRAINING
+  # ---------------------------------------------------------------------------
+
+  - category: "General Soft Skills"
+    topics:
+      - name: "Time management (general)"
+        reason: "Taught only as it relates to job search"
+
+      - name: "Communication skills (comprehensive)"
+        reason: "Only job search-specific communication taught"
+
+      - name: "Conflict resolution"
+        reason: "Post-hire topic; outside scope"
+
+      - name: "Workplace etiquette"
+        reason: "Post-hire topic; could be future add-on"
+
+# =============================================================================
+# DEPTH LIMITS
+# =============================================================================
+
+depth_limits:
+
+  definition: |
+    This course prioritizes breadth over depth for most topics. The goal
+    is to make students competent enough to execute, not experts.
+    "80% effective in 20% of the time" is the design principle.
+
+  topic_depths:
+
+    - topic: "Resume Writing"
+      depth: "Comprehensive"
+      includes:
+        - "Format and structure"
+        - "Achievement-focused bullets"
+        - "ATS optimization"
+        - "Tailoring for specific jobs"
+        - "AI-assisted writing"
+      excludes:
+        - "Federal resume format"
+        - "Academic CV format"
+        - "Portfolio/creative resumes"
+
+    - topic: "LinkedIn"
+      depth: "All-Star Profile Focus"
+      includes:
+        - "All profile sections"
+        - "Headline and summary optimization"
+        - "Basic networking"
+        - "Job search features"
+      excludes:
+        - "Content creation strategy"
+        - "LinkedIn Sales Navigator"
+        - "Company page management"
+
+    - topic: "Interviewing"
+      depth: "Preparation Focused"
+      includes:
+        - "STAR method"
+        - "Common questions"
+        - "Company research"
+        - "Video interview prep"
+        - "Follow-up"
+      excludes:
+        - "Case interview prep"
+        - "Technical interview prep"
+        - "Panel interview deep dive"
+
+    - topic: "Negotiation"
+      depth: "Entry-Level Focus"
+      includes:
+        - "Salary research"
+        - "Basic negotiation script"
+        - "Total compensation"
+        - "Offer evaluation"
+      excludes:
+        - "Executive compensation packages"
+        - "Equity negotiation"
+        - "Relocation package negotiation"
+
+    - topic: "Networking"
+      depth: "Action-Oriented"
+      includes:
+        - "Mapping existing network"
+        - "Outreach templates"
+        - "Informational interviews"
+        - "Online networking basics"
+      excludes:
+        - "Event hosting"
+        - "Personal brand building (advanced)"
+        - "Thought leadership"
+
+# =============================================================================
+# BOUNDARY DECISIONS
+# =============================================================================
+
+boundary_decisions:
+
+  - decision: "Include AI tools as practical how-to, not comprehensive training"
+    rationale: |
+      AI is changing fast. Teach principles and current best practices,
+      but acknowledge tools will evolve. Focus on critical thinking about
+      AI output, not mastery of specific tools.
+
+  - decision: "Address discrimination/bias but don't provide legal advice"
+    rationale: |
+      Students face real challenges (ageism, bias). Acknowledge and provide
+      practical strategies, but refer to appropriate resources for legal matters.
+
+  - decision: "Cover negotiation for entry-level specifically"
+    rationale: |
+      General negotiation advice often doesn't apply to entry-level.
+      Tailor specifically to the constraints and opportunities of first jobs.
+
+  - decision: "Mindset content woven throughout, not standalone"
+    rationale: |
+      Psychological barriers appear at every stage. Don't isolate mindset
+      to one section — address imposter syndrome when discussing resumes,
+      rejection when discussing networking, etc.
+
+  - decision: "Focus on US job market"
+    rationale: |
+      Platform specifics (LinkedIn, Handshake), salary research tools,
+      and negotiation norms are US-centric. International students in
+      US colleges can benefit, but seeking jobs abroad is out of scope.
+
+# =============================================================================
+# VERSION SCOPE
+# =============================================================================
+
+version_scope:
+
+  current_version: "1.0"
+
+  this_version_includes:
+    - "All 6 core problem areas"
+    - "Community college focus"
+    - "2025 job market context"
+    - "AI tools integration"
+
+  future_considerations:
+    - "Industry-specific supplements"
+    - "Career changer deep dive module"
+    - "Spanish language version"
+    - "First 90 days on the job module"
+    - "Manager/advancement module"
+
+  out_of_scope_for_all_versions:
+    - "Providing jobs or job leads"
+    - "Resume writing service"
+    - "Personal career counseling"
+    - "Legal advice"

@@ -1,0 +1,137 @@
+# Course OS - Assessment Rubric
+# Rubric: Professional Resume
+# Portfolio Component
+
+rubric:
+  id: rubric-resume
+  title: "Professional Resume Rubric"
+  type: checklist_plus_quality
+  portfolio_item: "portfolio-resume"
+  outcomes: ["TLO-2", "ELO-2.1", "ELO-2.2"]
+
+  # ---------------------------------------------------------------------------
+  # REQUIRED CRITERIA (Must have all to pass)
+  # ---------------------------------------------------------------------------
+
+  required:
+
+    format_basics:
+      name: "Format & Structure"
+      criteria:
+        - "1-page length (for entry-level)"
+        - "Clean, professional font (Arial, Calibri, or similar)"
+        - "Consistent formatting throughout"
+        - "Clear section headings"
+        - "Appropriate margins (0.5-1 inch)"
+        - "Contact information at top (name, phone, email, LinkedIn)"
+
+    ats_compatibility:
+      name: "ATS Compatibility"
+      criteria:
+        - "No tables, columns, or text boxes"
+        - "No headers or footers"
+        - "No graphics, images, or icons"
+        - "Standard section headings (Experience, Education, Skills)"
+        - "File saved as .docx or .pdf (not .pages)"
+
+    content_sections:
+      name: "Required Sections Present"
+      criteria:
+        - "Education section with degree, school, graduation date"
+        - "Experience section (work, volunteer, or projects)"
+        - "Skills section with relevant keywords"
+        - "At least 3 bullet points per position"
+
+  # ---------------------------------------------------------------------------
+  # QUALITY CRITERIA (Scored 1-4)
+  # ---------------------------------------------------------------------------
+
+  quality_criteria:
+
+    - name: "Bullet Point Quality"
+      weight: 30
+      description: "Achievement-focused using XYZ formula"
+      levels:
+        4: |
+          Exemplary: All bullets follow XYZ formula. Strong action verbs.
+          Quantified results where possible. Demonstrates impact clearly.
+        3: |
+          Proficient: Most bullets show achievements. Action verbs used.
+          Some quantification. Impact is clear.
+        2: |
+          Developing: Mix of achievements and task descriptions. Some
+          action verbs. Limited quantification.
+        1: |
+          Beginning: Mostly task descriptions ("Responsible for...").
+          Weak verbs. No quantification.
+
+    - name: "Keyword Optimization"
+      weight: 25
+      description: "Includes relevant keywords from target roles"
+      levels:
+        4: |
+          Exemplary: Resume includes 10+ relevant keywords from target
+          job descriptions. Keywords integrated naturally.
+        3: |
+          Proficient: Resume includes 5-9 relevant keywords. Keywords
+          mostly integrated naturally.
+        2: |
+          Developing: Resume includes 3-4 keywords. Some keyword stuffing
+          or awkward integration.
+        1: |
+          Beginning: Few to no relevant keywords from target job descriptions.
+
+    - name: "Transferable Skills Highlight"
+      weight: 25
+      description: "Effectively translates experience to professional skills"
+      levels:
+        4: |
+          Exemplary: Clearly connects all experience to transferable skills.
+          Even non-traditional experience is framed professionally.
+        3: |
+          Proficient: Most experience connected to skills. Good framing
+          of relevant experience.
+        2: |
+          Developing: Some skills highlighted but connection to experience
+          is weak or unclear.
+        1: |
+          Beginning: Skills listed but not demonstrated through experience.
+          Experience seems irrelevant.
+
+    - name: "Professional Presentation"
+      weight: 20
+      description: "Overall professionalism and attention to detail"
+      levels:
+        4: |
+          Exemplary: Zero typos/errors. Consistent tense and style.
+          Professional email. LinkedIn URL included.
+        3: |
+          Proficient: 1-2 minor errors. Mostly consistent. Professional
+          presentation overall.
+        2: |
+          Developing: 3-4 errors. Some inconsistencies in formatting
+          or tense. Generally readable.
+        1: |
+          Beginning: Multiple errors. Inconsistent formatting. Unprofessional
+          email or missing contact info.
+
+  # ---------------------------------------------------------------------------
+  # PASSING REQUIREMENTS
+  # ---------------------------------------------------------------------------
+
+  passing:
+    required_criteria: "All required criteria must be met"
+    quality_minimum: 70  # Percentage of total quality points
+    revision_allowed: true
+    revision_message: |
+      Your resume shows good progress but needs revision in the following
+      areas before it's ready for your job search. See specific feedback below.
+
+  # ---------------------------------------------------------------------------
+  # FEEDBACK TEMPLATE
+  # ---------------------------------------------------------------------------
+
+  feedback_template:
+    strengths: "What's working well in this resume..."
+    improvements: "To strengthen this resume, focus on..."
+    next_steps: "Before resubmitting, please..."
